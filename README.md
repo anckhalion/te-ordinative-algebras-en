@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059540.svg)](https://doi.org/10.5281/zenodo.20059540)
+
 # Ordinative Algebras — Semantic Algebra (SA) and Proportional Algebra (PA)
 
 English public mirror of two distinct formal frameworks developed within the Technology of Expressions / Ordinative Sciences research programme.
