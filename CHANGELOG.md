@@ -4,6 +4,12 @@ All notable changes to this repository should be documented in this file.
 
 The format is inspired by Keep a Changelog and semantic versioning principles for documentation releases.
 
+## [1.0.1] - 2026-05-06
+
+### Notes
+- Release tag created to activate the Zenodo deposit pipeline for this repository. Future releases will be automatically deposited on Zenodo with assigned DOI.
+- No content changes from `v1.0.0`; this is a tag-only release for archival purposes.
+
 ## [1.0.0] - 2026-05-06
 
 Initial public release.
