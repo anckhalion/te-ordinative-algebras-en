@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-05-06",
+  "objects": [
+    {
+      "id": "SA-FOUNDATIONS-1.0",
+      "type": "manuscript",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "SA/SA_FULL/Semantic_Algebra_Foundations_EN.md",
+      "depends_on": []
+    },
+    {
+      "id": "SA-COMPLETE-1.0",
+      "type": "manuscript",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "SA/SA_FULL/Semantic_Algebra_Complete_Manuscript.md",
+      "depends_on": ["SA-FOUNDATIONS-1.0"]
+    },
+    {
+      "id": "SA-WHATLANGHIDES-1.1",
+      "type": "manuscript",
+      "version": "1.1",
+      "lifecycle": "canonical",
+      "file": "SA/SA_FULL/Semantic_Algebra_What_Language_Hides_UNIFIED.md",
+      "depends_on": ["SA-FOUNDATIONS-1.0"]
+    },
+    {
+      "id": "SA-BOOK-CHAPTERS-1.0",
+      "type": "corpus",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "SA/SA_BOOK/",
+      "depends_on": []
+    },
+    {
+      "id": "PA-FOUNDATIONS-1.0",
+      "type": "manuscript",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "PA/PA_FULL/Proportional_Algebra_Foundations_UNIFIED.md",
+      "depends_on": ["SA-FOUNDATIONS-1.0"]
+    },
+    {
+      "id": "PA-BOOK-CHAPTERS-1.0",
+      "type": "corpus",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "PA/PA_BOOK/",
+      "depends_on": []
+    },
+    {
+      "id": "PA-ENGINE-1.0",
+      "type": "reference-engine",
+      "version": "1.0",
+      "lifecycle": "canonical",
+      "file": "PA/pa_engine/",
+      "depends_on": ["PA-FOUNDATIONS-1.0"]
+    }
+  ]
+}
