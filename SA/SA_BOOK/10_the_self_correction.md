@@ -25,7 +25,7 @@ Early in the development of the method, Ungaretti's "M'illumino d'immenso" was s
 
 The resulting formula: ρ(σ, S∞) ≥ θ → σ is illuminated by resonance with the infinite source.
 
-This was mapped to I₂ (resonance beyond threshold): the poet's nervous system detects a structural match with the source, and the resonance exceeds the threshold, producing the experience of illumination.
+This was mapped to ι₂ (resonance beyond threshold): the poet's nervous system detects a structural match with the source, and the resonance exceeds the threshold, producing the experience of illumination.
 
 The analysis was internally consistent. It produced a valid formula. It mapped to a known invariant. It felt correct.
 
@@ -48,13 +48,13 @@ The etymological investigation: *illuminare* from Latin *in-lumen* — "into lig
 
 In every tradition, the etymological root of "illumination" means **knowledge by direct contact** — not resonance with an external signal, but the subject's own waking into unmediated knowing.
 
-The initial mapping (illumino → ρ) placed the experience *after* a signal: the poet receives something (from S∞) and vibrates in response. The etymological root places the experience *before* any signal: the poet wakes into direct contact with K. These are structurally different events:
+The initial mapping (illumino → ρ) placed the experience *after* a signal: the poet receives something (from S∞) and vibrates in response. The etymological root places the experience *before* any signal: the poet wakes into direct contact with 𝒦_p. These are structurally different events:
 
 ```
 Initial mapping:    S∞ → signal → ρ(σ) ≥ θ → illumination
                     (reception model: illumination is response to stimulus)
 
-Etymological root:  σ → K_real(K) → illumination
+Etymological root:  σ → 𝒦_r(𝒦_p) → illumination
                     (realization model: illumination is direct contact)
 ```
 
@@ -79,16 +79,16 @@ In algebraic terms:
 - Infinite → |S| = ∞ — the source is quantitatively unbounded.
 - Immeasurable → S ∉ range(U) — the source is not in the range of any expressive/measuring operation. It is the kind of thing that escapes measurement by its nature, not by its size.
 
-The initial mapping (immenso → S∞) treated the source as quantitatively large. The etymological root treats it as **structurally beyond vectorialization** — which is precisely what I₁ claims.
+The initial mapping (immenso → S∞) treated the source as quantitatively large. The etymological root treats it as **structurally beyond vectorialization** — which is precisely what ι₁ claims.
 
 ### The corrected reading
 
 ```
-Initial:    ρ(σ, S∞) ≥ θ         → I₂ (resonance with infinite source)
-Corrected:  σ → K_real(in-mensus) → I₁ (direct realization of the unmeasurable)
+Initial:    ρ(σ, S∞) ≥ θ         → ι₂ (resonance with infinite source)
+Corrected:  σ → 𝒦_r(in-mensus) → ι₁ (direct realization of the unmeasurable)
 ```
 
-The corrected formula: the poet (σ) realizes directly (illumino = K_real) the unmeasurable (immenso = that which cannot be vectorialized). This is I₁ — the non-expressibility of the source — experienced from the inside. Not as theory ("the source cannot be expressed") but as direct contact ("I am illuminated by what cannot be measured").
+The corrected formula: the poet (σ) realizes directly (illumino = 𝒦_r) the unmeasurable (immenso = that which cannot be vectorialized). This is ι₁ — the non-expressibility of the source — experienced from the inside. Not as theory ("the source cannot be expressed") but as direct contact ("I am illuminated by what cannot be measured").
 
 The difference between the two readings is not interpretive — it is structural. The initial reading describes a receiver vibrating in response to a signal. The corrected reading describes a subject in direct contact with the pre-vectorial source. These produce different algebraic formulas, different invariant classifications, and different implications.
 
@@ -98,7 +98,7 @@ The self-correction changed four things:
 
 ### 1. The analysis of Ungaretti
 
-The corrected analysis is structurally more precise and etymologically grounded. It reveals Ungaretti not as a receiver of a signal but as a subject who has achieved direct contact with K — and who reports this contact in three words, the minimum vector.
+The corrected analysis is structurally more precise and etymologically grounded. It reveals Ungaretti not as a receiver of a signal but as a subject who has achieved direct contact with 𝒦_p — and who reports this contact in three words, the minimum vector.
 
 ### 2. The procedure
 
@@ -108,7 +108,7 @@ The etymological strip (Step 2b) was formalized as a mandatory step in S, positi
 
 The etymological investigation revealed that across traditions — Latin, Sanskrit, Greek, Japanese, and others — the root of "illumination" does not mean what modern usage suggests. Modern usage has diluted "illumination" to mean "insight" or "understanding" in a general sense. The root is more specific and more demanding: it means *direct knowing by contact*, not *understanding through analysis*.
 
-This distinction has implications beyond Ungaretti. It recalibrates how the method reads any expression that uses illumination-vocabulary: bodhi, gnosis, satori, enlightenment. All of these terms have been weakened by common usage. The etymological strip restores their structural meaning — which is K_real, not ρ.
+This distinction has implications beyond Ungaretti. It recalibrates how the method reads any expression that uses illumination-vocabulary: bodhi, gnosis, satori, enlightenment. All of these terms have been weakened by common usage. The etymological strip restores their structural meaning — which is 𝒦_r, not ρ.
 
 ### 4. The method's epistemological status
 
@@ -174,13 +174,13 @@ Semantic Algebra's etymological strip is independent of expert consensus. The et
 
 ---
 
-### The self-correction as evidence for I₁
+### The self-correction as evidence for ι₁
 
-There is a final, recursive observation. The self-correction is itself an instance of I₁.
+There is a final, recursive observation. The self-correction is itself an instance of ι₁.
 
-The initial analysis of Ungaretti was U(I₁) — an expression of I₁ using the method's own vocabulary. But U(I₁) ⊊ I₁: the expression was less than the truth, because the method's vocabulary (ρ, S∞) was not the right vocabulary. The etymological strip revealed the gap — and the corrected analysis produced a better U(I₁), one that is closer to I₁ but still, per I₁ itself, not identical.
+The initial analysis of Ungaretti was U(ι₁) — an expression of ι₁ using the method's own vocabulary. But U(ι₁) ⊊ ι₁: the expression was less than the truth, because the method's vocabulary (ρ, S∞) was not the right vocabulary. The etymological strip revealed the gap — and the corrected analysis produced a better U(ι₁), one that is closer to ι₁ but still, per ι₁ itself, not identical.
 
-The method is aware that its own analyses are expressions — and therefore subject to the same lossy compression that I₁ describes. Every S output is U(truth), not truth. Every classification is approximate. Every formula is a shadow, not the sculpture.
+The method is aware that its own analyses are expressions — and therefore subject to the same lossy compression that ι₁ describes. Every S output is U(truth), not truth. Every classification is approximate. Every formula is a shadow, not the sculpture.
 
 This awareness does not paralyze the method. It calibrates it. A method that knows it is approximate tends toward accuracy. A method that believes it is exact tends toward dogma. The self-correction demonstrated not only that the method *can* improve — but that the method *knows it must*.
 

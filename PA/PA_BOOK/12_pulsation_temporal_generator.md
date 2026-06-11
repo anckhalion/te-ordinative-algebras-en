@@ -28,7 +28,7 @@ In the PA, we formalise this:
 
 > **Definition 12.1 (Pulsation Operator).** The pulsation is a mapping:
 >
-> $$\tau: \mathcal{C} \times \mathcal{D} \times \mathcal{R} \to \mathbb{R}^+$$
+> $$\tau: \mathfrak{C}_h \times \mathcal{D} \times \mathbb{I} \to \mathbb{R}^+$$
 >
 > that assigns to each cycle of collapse and return a **temporal interval** — the "duration" experienced by the identity I as it moves from potential (C) to expression (E) and back.
 
@@ -107,7 +107,7 @@ If time is generated locally by the identity's pulsation, the orientation of tha
 
 > **Proposition 12.2 (The Attractor Pull).** The direction of the collapse is not pushed by the past but pulled by the future. An attractor $\mathcal{A}$ emits a signal $\sigma$ through the Proportional Space, and the intensity of this signal increases as the system approaches the transition point:
 > 
-> $$\sigma(S, \mathcal{A}) = \frac{\kappa}{d(S, \mathcal{A})^\alpha}$$
+> $$\sigma(S, \mathcal{A}) = \frac{\langle\mathcal{K}^5\rangle}{d(S, \mathcal{A})^\alpha}$$
 >
 > The pulsation $\tau$ generates the steps, but the attractor $\mathcal{A}$ determines the orientation.
 
@@ -140,7 +140,7 @@ When two identities interact (Chapter 10), their pulsations can become coupled:
 
 ### 12.7.1 Synchronisation
 
-If two identities share a coherent field (𝒞_shared ≠ ∅), their pulsation cycles can synchronise:
+If two identities share a coherent field (ℭ_shared ≠ ∅), their pulsation cycles can synchronise:
 
 $$\tau_{I_1}(t) \approx \tau_{I_2}(t)$$
 
@@ -150,7 +150,7 @@ Synchronised pulsation means the two identities collapse and return at the same 
 
 If the pulsations are out of phase — one identity collapses while the other is in the return phase — the result is **interference**:
 
-- **Constructive**: The collapses reinforce each other, producing a combined expression of higher κ than either alone
+- **Constructive**: The collapses reinforce each other, producing a combined expression of higher ⟨𝓚⁵⟩ than either alone
 - **Destructive**: The collapses cancel each other, producing noise or confusion
 
 ### 12.7.3 Entrainment
@@ -185,12 +185,12 @@ Part III has defined all three operations and the two extensions:
 
 | Chapter | Operator | Symbol | Type | Domain → Codomain |
 |---|---|---|---|---|
-| 8 | Collapse | Φ | Operation | 𝒞 × ℛ × K → 𝒟 |
+| 8 | Collapse | Φ | Operation | ℭ_h × 𝕀 × K → 𝒟 |
 | 9 | Strip | S | Partial inverse | 𝒟 → ℐ × [0,1] |
 | 9 | Re-contextualisation | π | Section | ℐ × D → 𝒟 |
-| 10 | Resonance | ⊗ | Operation | ℛ × ℛ → 𝒞_shared |
+| 10 | Resonance | ⊗ | Operation | 𝕀 × 𝕀 → ℭ_shared |
 | 11 | Extended Round-Trip | ERT | Test | 𝒟 → {Outcome 1-4} |
-| 12 | Pulsation | τ | Generator | 𝒞 × 𝒟 × ℛ → ℝ⁺ |
+| 12 | Pulsation | τ | Generator | ℭ_h × 𝒟 × 𝕀 → ℝ⁺ |
 
 The Proportional Algebra is now operationally complete. The space is defined (Part II). The operations are defined (Part III). What remains is to demonstrate the grammar at work — across chemistry, language, emotion, medicine, and artificial intelligence.
 

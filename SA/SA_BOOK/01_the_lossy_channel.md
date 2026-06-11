@@ -103,44 +103,44 @@ The loss is not fixable because it is not a bug. It is a structural consequence 
 
 ### The coherent-decoherent transformation
 
-In the coherent domain, the insight exists as a superposition: all aspects present simultaneously, all relationships active, no serialization. This is the domain of direct knowing — what, in Chapter 4, we will call *K* (Pure Knowledge).
+In the coherent domain, the insight exists as a superposition: all aspects present simultaneously, all relationships active, no serialization. This is the domain of direct knowing — what, in Chapter 4, we will call *𝒦_p* (Pure Knowledge).
 
-In the decoherent domain, the expression exists as a sequence: one element at a time, one vector selected, all other vectors collapsed. This is the domain of communication — what we will call *U(K)*, the expression.
+In the decoherent domain, the expression exists as a sequence: one element at a time, one vector selected, all other vectors collapsed. This is the domain of communication — what we will call *U(𝒦_p)*, the expression.
 
-The transformation from K to U(K) is:
-- **One-directional**: K → U(K) is always possible (you can always attempt to express an insight). U(K) → K is not possible (you cannot reconstruct the full insight from the expression).
-- **Lossy**: U(K) ⊊ K (the expression is strictly less than the insight).
+The transformation from 𝒦_p to U(𝒦_p) is:
+- **One-directional**: 𝒦_p → U(𝒦_p) is always possible (you can always attempt to express an insight). U(𝒦_p) → 𝒦_p is not possible (you cannot reconstruct the full insight from the expression).
+- **Lossy**: U(𝒦_p) ⊊ 𝒦_p (the expression is strictly less than the insight).
 - **Non-invertible**: there is no operation U⁻¹ that takes the expression and returns the original insight.
-- **Multiple**: the same K can produce many different U(K) depending on which vector is chosen. Each is a valid projection. None is the original.
+- **Multiple**: the same 𝒦_p can produce many different U(𝒦_p) depending on which vector is chosen. Each is a valid projection. None is the original.
 
 And yet — and this is crucial — the expression *contains* the source. Not explicitly, not completely, but as inherited structure. The shadow is not the sculpture, but it was cast *by* the sculpture. The form of the shadow constains information about the form of the sculpture. Not all information. But real information.
 
-This is what makes extraction possible. Semantic Algebra does not attempt the impossible (reconstructing K from U(K)). It does something else: it strips the domain-specific vocabulary from U(K) to reveal whatever structural content survived the projection. If the structural content is a law that holds across multiple domains — an invariant — then the method has succeeded. If no structural content survives, the method has also succeeded: it has classified the expression as domain-local, or empty, or manipulative.
+This is what makes extraction possible. Semantic Algebra does not attempt the impossible (reconstructing 𝒦_p from U(𝒦_p)). It does something else: it strips the domain-specific vocabulary from U(𝒦_p) to reveal whatever structural content survived the projection. If the structural content is a law that holds across multiple domains — an invariant — then the method has succeeded. If no structural content survives, the method has also succeeded: it has classified the expression as domain-local, or empty, or manipulative.
 
 ## 1.5 The Equation
 
 We can now write the equation that governs everything in this book:
 
 ```
-U(K) = π_v(K)
+U(𝒦_p) = π_v(𝒦_p)
 ```
 
 Where:
-- **K** is Pure Knowledge — the simultaneous, pre-verbal, multi-dimensional content of the insight.
-- **U** is the Expressive Functor — the operation that transforms K into a communicable expression.
+- **𝒦_p** is Pure Knowledge — the simultaneous, pre-verbal, multi-dimensional content of the insight.
+- **U** is the Expressive Functor — the operation that transforms 𝒦_p into a communicable expression.
 - **π_v** is the Projection onto vector v — the specific direction chosen by the speaker.
-- **U(K)** is the expression — the natural language output.
+- **U(𝒦_p)** is the expression — the natural language output.
 
 The properties of this equation:
 
 ```
-π_v(K) ⊊ K           — the projection is strictly less than the whole
-K \ π_v(K) = lost      — what is not on the vector is gone
+π_v(𝒦_p) ⊊ 𝒦_p           — the projection is strictly less than the whole
+𝒦_p \ π_v(𝒦_p) = lost      — what is not on the vector is gone
 U⁻¹ ∄                 — the full original cannot be recovered
-K ↪ U(K)              — but K is contained in U(K) as inherited structure
+𝒦_p ↪ U(𝒦_p)              — but 𝒦_p is contained in U(𝒦_p) as inherited structure
 ```
 
-The last line — `K ↪ U(K)` — is the hook symbol from category theory, denoting an embedding. The source is embedded in the expression. Not visible. Not extractable by naive reading. But structurally present, the way the sculptor's intention is structurally present in the finished statue: you cannot see the intention directly, but the form of the statue constrains what the intention could have been.
+The last line — `𝒦_p ↪ U(𝒦_p)` — is the hook symbol from category theory, denoting an embedding. The source is embedded in the expression. Not visible. Not extractable by naive reading. But structurally present, the way the sculptor's intention is structurally present in the finished statue: you cannot see the intention directly, but the form of the statue constrains what the intention could have been.
 
 Everything that follows in this book — the operators, the invariants, the validation experiments, the implications — is a consequence of this equation. If the equation is wrong, the book is wrong. If the equation is right, then the rest follows necessarily.
 
@@ -150,11 +150,11 @@ Everything that follows in this book — the operators, the invariants, the vali
 
 Let us return, one final time, to the four speakers from the prologue.
 
-The physicist expressed K through vector v_physics. What she produced — "No measurement captures the full state" — is π_{v_physics}(K). It is K projected onto the vocabulary, concepts, and framework of quantum measurement theory. It is a true projection: the structural claim is accurate. And it is a lossy projection: the theological, poetic, and logical dimensions of K are absent from her expression.
+The physicist expressed 𝒦_p through vector v_physics. What she produced — "No measurement captures the full state" — is π_{v_physics}(𝒦_p). It is 𝒦_p projected onto the vocabulary, concepts, and framework of quantum measurement theory. It is a true projection: the structural claim is accurate. And it is a lossy projection: the theological, poetic, and logical dimensions of 𝒦_p are absent from her expression.
 
-The Sufi expressed the same K through vector v_theology. What he produced — "The name is not the Named" — is π_{v_theology}(K). Same K. Different v. Different expression. Different loss.
+The Sufi expressed the same 𝒦_p through vector v_theology. What he produced — "The name is not the Named" — is π_{v_theology}(𝒦_p). Same 𝒦_p. Different v. Different expression. Different loss.
 
-The logician expressed the same K through vector v_logic. The Zen master expressed the same K through vector v_demonstration.
+The logician expressed the same 𝒦_p through vector v_logic. The Zen master expressed the same 𝒦_p through vector v_demonstration.
 
 Four projections. One sculpture. Four shadows. One light source.
 

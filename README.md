@@ -53,13 +53,13 @@ Validated through:
 - A discrimination test on 4 expressions that simulate depth — 0 false positives.
 - A documented self-correction case (Ungaretti's *M'illumino d'immenso*), demonstrating the method's capacity to detect and correct projection errors.
 
-Current invariant library: 10 validated invariants (I₁ through I₁₀).
+Current invariant library: 10 validated invariants (ι₁ through ι₁₀).
 
 ## What Is in `PA/`
 
 Proportional Algebra — a formal grammar that:
 
-1. Defines the **Proportional Space `P = (C, R, D, ρ, ≤_κ)`** — the ground in which coherent content, identities, expressions, and their relations live.
+1. Defines the **Proportional Space `𝒫 = (ℭ_h, 𝕀, 𝒟, ρ, ≤_𝓚)`** — the ground in which coherent content, identities, expressions, and their relations live.
 2. Defines three operators: **Collapse (Φ)**, **Strip (S)**, **Resonance (⊗)**, and the **Pulsation generator (τ)** that produces time as an emergent quantity.
 3. Provides the **Extended Round-Trip (ERT)** — a four-step diagnostic that tests not only analytical fidelity (as SA does) but also genetic fidelity of the original collapse.
 4. States six explicit falsification criteria (F1–F6).

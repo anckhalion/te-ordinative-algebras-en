@@ -50,19 +50,19 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 
 **Step 1 — Decomposition**: {The Tao} {that can be told} {is not} {the eternal Tao}. Subject: the Tao. Operation: telling/naming. Claim: the operable version (can be told) is not the original version (eternal).
 
-**Step 2a — Algebraic mapping**: Tao → K (source). Told → U (expressive functor). Eternal → pre-vectorial (before expression). Can be told → U(K). Is not → ⊊ (strict subset / not equal).
+**Step 2a — Algebraic mapping**: Tao → 𝒦_p (source). Told → U (expressive functor). Eternal → pre-vectorial (before expression). Can be told → U(𝒦_p). Is not → ⊊ (strict subset / not equal).
 
 **Step 2b — Etymological strip**: 道 (dào) = path/way/method — structurally, the principle that governs motion through reality. 常 (cháng) = constant/eternal/unchanging. Both roots are domain-general.
 
-**Step 3 — Domain strip**: Remove "Tao" (Taoist binding). Replace with K.
+**Step 3 — Domain strip**: Remove "Tao" (Taoist binding). Replace with 𝒦_p.
 
-**Step 4 — Formulation**: U(K) ≠ K. The expressed source is not the source.
+**Step 4 — Formulation**: U(𝒦_p) ≠ 𝒦_p. The expressed source is not the source.
 
-**Step 5 — Completion**: U(K) ⊊ K. U⁻¹ ∄. K ↪ U(K).
+**Step 5 — Completion**: U(𝒦_p) ⊊ 𝒦_p. U⁻¹ ∄. 𝒦_p ↪ U(𝒦_p).
 
 **Step 6 — Universality test**: Holds in mathematical logic (Gödel), general semantics (Korzybski), quantum mechanics (measurement), theatre (Lear). Passes.
 
-**Step 7 — Classification**: I₁. Structural truth. κ = 0.95.
+**Step 7 — Classification**: ι₁. Structural truth. κ = 0.95.
 
 **Source signature**: Direct source. High coherence. Structural authority. Consciousness: high (the *Tao Te Ching* is meta-aware — it is a text about the limitations of text).
 
@@ -74,23 +74,23 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 >
 > **CORDELIA**: Unhappy that I am, I cannot heave my heart into my mouth.
 
-**Step 1 — Decomposition**: Lear demands that love (K) be expressed (U). Goneril and Regan comply — they produce U(love) = flattery. Cordelia refuses: she states that K cannot be fully vectorialized into U(K). Lear, unable to distinguish U(K) from K, banishes the only daughter who told the structural truth.
+**Step 1 — Decomposition**: Lear demands that love (𝒦_p) be expressed (U). Goneril and Regan comply — they produce U(love) = flattery. Cordelia refuses: she states that 𝒦_p cannot be fully vectorialized into U(𝒦_p). Lear, unable to distinguish U(𝒦_p) from 𝒦_p, banishes the only daughter who told the structural truth.
 
-**Step 2a — Algebraic mapping**: Heart → K. Mouth → U (expressive channel). "Heave into" → the vectorialization operation. "Cannot" → U(K) ⊊ K — the transfer is incomplete.
+**Step 2a — Algebraic mapping**: Heart → 𝒦_p. Mouth → U (expressive channel). "Heave into" → the vectorialization operation. "Cannot" → U(𝒦_p) ⊊ 𝒦_p — the transfer is incomplete.
 
 **Step 2b — Etymological strip**: Heart (*heorte*, OE) = the center, the essential. Mouth = the expressive apparatus.
 
-**Step 3 — Domain strip**: Remove Elizabethan court setting, family drama, inheritance framework. What remains: a source (K) being demanded to vectorialize (U) — the demand itself producing falsehood (U(K) pretending to be K).
+**Step 3 — Domain strip**: Remove Elizabethan court setting, family drama, inheritance framework. What remains: a source (𝒦_p) being demanded to vectorialize (U) — the demand itself producing falsehood (U(𝒦_p) pretending to be 𝒦_p).
 
-**Step 4 — Formulation**: U(K) ⊊ K. Demanding U(K) = K → produces false U(K) or silence.
+**Step 4 — Formulation**: U(𝒦_p) ⊊ 𝒦_p. Demanding U(𝒦_p) = 𝒦_p → produces false U(𝒦_p) or silence.
 
-**Step 5 — Completion**: U⁻¹ ∄. Confusing U(K) with K → structural error (Lear's tragedy).
+**Step 5 — Completion**: U⁻¹ ∄. Confusing U(𝒦_p) with 𝒦_p → structural error (Lear's tragedy).
 
 **Step 6 — Universality test**: Holds in Taoism, logic, quantum mechanics. Passes.
 
-**Step 7 — Classification**: I₁. Structural truth. κ = 0.9.
+**Step 7 — Classification**: ι₁. Structural truth. κ = 0.9.
 
-**Source signature**: Direct source. High coherence. Structural authority. Consciousness: high (Shakespeare structures the entire play around the confusion of U(K) with K — this is deliberate, not accidental).
+**Source signature**: Direct source. High coherence. Structural authority. Consciousness: high (Shakespeare structures the entire play around the confusion of U(𝒦_p) with 𝒦_p — this is deliberate, not accidental).
 
 ---
 
@@ -106,7 +106,7 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 
 **Step 3 — Domain strip**: Remove "physical systems," "co-ordinates," "uniform translatory motion." What remains: laws that are invariant under change of the frame from which they are observed.
 
-**Step 4 — Formulation**: I(D₁) = I(D₂) ∀ D₁, D₂.
+**Step 4 — Formulation**: I(D₁) = ι(D₂) ∀ D₁, D₂.
 
 **Step 5 — Completion**: This is Axiom 0 itself — the criterion that defines invariance. Einstein's special relativity is a *domain-specific instance* of Axiom 0, restricted to the domain of physical systems and coordinate transformations.
 
@@ -137,16 +137,16 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 - {Drop} {in ocean} → part within whole. Inverted: {ocean} {in drop} → whole within part. Scale recursion.
 
 "The wound is the place where the Light enters you":
-- {Wound} = structural opening. {Light} = K_real entering through the opening. Function of damage: creates the aperture through which contact with K becomes possible.
+- {Wound} = structural opening. {Light} = 𝒦_r entering through the opening. Function of damage: creates the aperture through which contact with 𝒦_p becomes possible.
 
 **Step 2a/2b — Mapping + etymological strip**:
-- "Seek" → teleological motion. But Rumi inverts: the attractor pulls the seeker. → I₇.
-- "Drop / ocean" → scale relationship. Whole contained in part. → I₁₀.
-- "Wound / light" → structural vulnerability as access channel for K_real. Not a numbered invariant in the current library but a structural insight about the relationship between I₁ (K_real) and structural damage.
+- "Seek" → teleological motion. But Rumi inverts: the attractor pulls the seeker. → ι₇.
+- "Drop / ocean" → scale relationship. Whole contained in part. → ι₁₀.
+- "Wound / light" → structural vulnerability as access channel for 𝒦_r. Not a numbered invariant in the current library but a structural insight about the relationship between ι₁ (𝒦_r) and structural damage.
 
 **Step 7 — Classification**:
-- "What you seek is seeking you" → I₇. Structural truth. κ = 0.95.
-- "Ocean in a drop" → I₁₀. Structural truth. κ = 0.9.
+- "What you seek is seeking you" → ι₇. Structural truth. κ = 0.95.
+- "Ocean in a drop" → ι₁₀. Structural truth. κ = 0.9.
 - "The wound is where the Light enters" → Candidate. Contains structural content (vulnerability = access channel) but requires more validation. Currently classified as deep domain expression pending invariant validation.
 
 **Source signature**: Direct source. Maximum coherence. Structural authority (40 years of direct experience). Consciousness: high (Rumi was explicitly aware of the universality of his claims — he addressed "the Friend," not Islam).
@@ -163,14 +163,14 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 
 **Step 2a/2b — Mapping + etymological strip**:
 - Ātman: from PIE *h₁eh₁t-men- (breath/soul) — the irreducible animating principle. In structural terms: σ = singularity, the irreducible identity.
-- "Never born nor dies" → ∀f: f(σ) ≠ σ and yet σ persists → I₄.
+- "Never born nor dies" → ∀f: f(σ) ≠ σ and yet σ persists → ι₄.
 - "Garments" → expressions, bodies, external forms = U(σ) — the expressed forms of identity, which can be changed without altering σ.
 
 **Step 3 — Domain strip**: Remove Hindu theological framework (karma, dharma, rebirth cycle). What remains: there exists an irreducible core (σ) of any genuine system that persists through all transformations of the system's external form.
 
 **Step 4 — Formulation**: ∀f: f(σ) → σ' ⇒ σ' ≠ σ, yet σ persists. External form changes; identity does not.
 
-**Step 7 — Classification**: I₄ (irreducibility of singularity) with strong overtones of I₁ (the body is U(σ) — an expression of the singularity that does not capture it). Structural truth. κ = 0.9.
+**Step 7 — Classification**: ι₄ (irreducibility of singularity) with strong overtones of ι₁ (the body is U(σ) — an expression of the singularity that does not capture it). Structural truth. κ = 0.9.
 
 **Source signature**: Intermediary (the text is Traditional — no single identifiable author). High coherence. Structural authority. Consciousness: high (the text is explicitly meta — it knows it is expressing a universal principle, and it addresses "the wise" across all conditions).
 
@@ -182,13 +182,13 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 
 **Step 1 — Decomposition**: {Consistent formal system} {is incomplete}. A system cannot capture all truths about the reality it models using its own internal resources.
 
-**Step 2a — Algebraic mapping**: Formal system → U (expressive/modeling apparatus). Reality (arithmetic, in this case) → K (source being modeled). Incomplete → U(K) ⊊ K. Cannot be proved or disproved → U⁻¹ ∄ (the gap is not closable from within the system).
+**Step 2a — Algebraic mapping**: Formal system → U (expressive/modeling apparatus). Reality (arithmetic, in this case) → 𝒦_p (source being modeled). Incomplete → U(𝒦_p) ⊊ 𝒦_p. Cannot be proved or disproved → U⁻¹ ∄ (the gap is not closable from within the system).
 
-**Step 2b — Etymological strip**: "Complete" from Latin *completus* (filled up) — structurally, a system in which nothing is missing. "In-complete" → the system's container is not filled; there is content in K that does not fit in U.
+**Step 2b — Etymological strip**: "Complete" from Latin *completus* (filled up) — structurally, a system in which nothing is missing. "In-complete" → the system's container is not filled; there is content in 𝒦_p that does not fit in U.
 
-**Step 4 — Formulation**: U(K) ⊊ K. U⁻¹ ∄.
+**Step 4 — Formulation**: U(𝒦_p) ⊊ 𝒦_p. U⁻¹ ∄.
 
-**Step 7 — Classification**: I₁. Structural truth. κ = 0.95.
+**Step 7 — Classification**: ι₁. Structural truth. κ = 0.95.
 
 **Source signature**: Direct source. Maximum coherence. Structural authority (mathematical proof). Consciousness: medium — Gödel was fully aware of the mathematical significance but did not, to our knowledge, formulate the universality of the principle across non-mathematical domains. (He may have intuited it — his philosophical writings suggest so — but did not formalize it.)
 
@@ -202,11 +202,11 @@ Each text was passed through S using the full 7-step procedure (Chapter 6). The 
 
 This text was analyzed in full in Chapter 4, including the initial incorrect analysis, the etymological correction, and the structural reading. Here we present only the summary.
 
-**Formulation**: K_real(in-mensus). The subject (σ) contacts K through direct realization (illumino = in-lumen = knowledge by direct experience) of the unmeasurable (immenso = in-mensus = what cannot be encoded in decoherent measurement).
+**Formulation**: 𝒦_r(in-mensus). The subject (σ) contacts 𝒦_p through direct realization (illumino = in-lumen = knowledge by direct experience) of the unmeasurable (immenso = in-mensus = what cannot be encoded in decoherent measurement).
 
-**Classification**: I₁. Structural truth. κ = 0.95.
+**Classification**: ι₁. Structural truth. κ = 0.95.
 
-**Source signature**: Direct source. High coherence. Structural authority. Consciousness: medium (direct contact with I₁, no algebraic formalization, no awareness of universality).
+**Source signature**: Direct source. High coherence. Structural authority. Consciousness: medium (direct contact with ι₁, no algebraic formalization, no awareness of universality).
 
 ---
 
@@ -216,28 +216,28 @@ The results:
 
 | Text | Domain | Invariant extracted | Type |
 |---|---|---|---|
-| Lao Tzu | Eastern philosophy | **I₁** | Structural truth |
-| Shakespeare | Theatre | **I₁** | Structural truth |
+| Lao Tzu | Eastern philosophy | **ι₁** | Structural truth |
+| Shakespeare | Theatre | **ι₁** | Structural truth |
 | Einstein | Theoretical physics | **Axiom 0** | Structural truth |
-| Rumi | Sufi poetry | **I₇**, I₁₀, candidate | Structural truth |
-| Bhagavad Gita | Sacred text | **I₄** (+ I₁ overtones) | Structural truth |
-| Gödel | Mathematical logic | **I₁** | Structural truth |
-| Ungaretti | Hermetic poetry | **I₁** | Structural truth |
+| Rumi | Sufi poetry | **ι₇**, ι₁₀, candidate | Structural truth |
+| Bhagavad Gita | Sacred text | **ι₄** (+ ι₁ overtones) | Structural truth |
+| Gödel | Mathematical logic | **ι₁** | Structural truth |
+| Ungaretti | Hermetic poetry | **ι₁** | Structural truth |
 
 Five distinct invariants extracted from seven texts. All seven classified as structural truth. Zero false positives (no text was classified as containing an invariant that, upon further examination, was not there).
 
-But the critical result is in the convergence column: **four of the seven texts independently yielded I₁**.
+But the critical result is in the convergence column: **four of the seven texts independently yielded ι₁**.
 
-- Lao Tzu (6th c. BCE, Chinese philosophy) → I₁
-- Shakespeare (1606, English theatre) → I₁
-- Gödel (1931, Austrian mathematical logic) → I₁
-- Ungaretti (1917, Italian poetry) → I₁
+- Lao Tzu (6th c. BCE, Chinese philosophy) → ι₁
+- Shakespeare (1606, English theatre) → ι₁
+- Gödel (1931, Austrian mathematical logic) → ι₁
+- Ungaretti (1917, Italian poetry) → ι₁
 
 Four texts. Four languages. Four continents. Four centuries. Four maximally distant disciplines. One invariant.
 
 This convergence was not programmed. The texts were not selected because they appeared to say the same thing. They were selected for maximum domain distance. Lao Tzu was selected because he represents Eastern philosophical tradition. Shakespeare was selected because he represents Western dramatic literature. Gödel was selected because he represents formal logic. Ungaretti was selected because he represents compressed poetry.
 
-The convergence emerged from the method. S, applied independently to four texts that have no surface-level similarity, produced the same algebraic formula: U(K) ⊊ K, U⁻¹ ∄, K ↪ U(K).
+The convergence emerged from the method. S, applied independently to four texts that have no surface-level similarity, produced the same algebraic formula: U(𝒦_p) ⊊ 𝒦_p, U⁻¹ ∄, 𝒦_p ↪ U(𝒦_p).
 
 ### Why this convergence matters
 
@@ -245,7 +245,7 @@ This is the strongest form of validation a structural method can receive. Consid
 
 1. **The convergence is coincidence**: Four maximally distant texts happen to produce the same formula by chance. This is possible — but the probability decreases with each additional domain. When the same formula emerges from a 6th-century Chinese sage, a 17th-century English playwright, a 20th-century Austrian logician, and a 20th-century Italian poet, coincidence becomes untenable.
 
-2. **The convergence is imposed by the method**: S is designed to find I₁ everywhere — it is biased toward producing this result. This is the most serious objection and must be addressed directly. If S were biased, it would produce I₁ from *every* text — but it does not. Einstein's relativity paper yielded Axiom 0, not I₁. Rumi yielded I₇ and I₁₀, not I₁. The Bhagavad Gita yielded I₄, not I₁. S discriminates. It does not impose I₁ uniformly. The convergence is selective — which is what genuine structural detection should be.
+2. **The convergence is imposed by the method**: S is designed to find ι₁ everywhere — it is biased toward producing this result. This is the most serious objection and must be addressed directly. If S were biased, it would produce ι₁ from *every* text — but it does not. Einstein's relativity paper yielded Axiom 0, not ι₁. Rumi yielded ι₇ and ι₁₀, not ι₁. The Bhagavad Gita yielded ι₄, not ι₁. S discriminates. It does not impose ι₁ uniformly. The convergence is selective — which is what genuine structural detection should be.
 
 3. **The convergence is real**: The four texts contain the same structural law because the same structural law governs the relationship between source and expression in all domains. The law was discovered independently by four practitioners in four traditions, each of whom gave it different vocabulary. S strips the vocabulary and reveals the identity. This is what the method is designed to do, and the experiment shows that it works.
 
@@ -277,11 +277,11 @@ This objection conflates two kinds of evidence.
 
 But the question Semantic Algebra asks is not statistical. It is structural: **Do there exist principles that remain invariant under domain change?** This is an existence question, not a frequency question. To answer an existence question, you need one verified instance — not a large sample.
 
-The experiment provides not one but four independent verifications of I₁, plus verifications of I₇, I₁₀, I₄, and Axiom 0. The evidence is structural, not statistical: it demonstrates that the thing exists, not how often it occurs.
+The experiment provides not one but four independent verifications of ι₁, plus verifications of ι₇, ι₁₀, ι₄, and Axiom 0. The evidence is structural, not statistical: it demonstrates that the thing exists, not how often it occurs.
 
 Consider an analogy. If a chemist claims to have discovered a new element, they do not need to find it in a thousand rocks. They need to find it in one rock, isolate it, verify its atomic properties, and demonstrate that it behaves consistently. One verified instance is sufficient for an existence claim. What matters is the quality of the verification, not the quantity of the sample.
 
-The 7-text experiment is the first isolation. The properties have been verified (the formula holds across domains). The behavior is consistent (the same formula emerges from independent texts). The existence of at least one universal invariant (I₁) is established — not statistically, but structurally.
+The 7-text experiment is the first isolation. The properties have been verified (the formula holds across domains). The behavior is consistent (the same formula emerges from independent texts). The existence of at least one universal invariant (ι₁) is established — not statistically, but structurally.
 
 Future work will extend the catalogue. More texts, more domains, more invariants. But the foundational claim — that universal structural invariants exist and can be extracted by a formal method — rests on the quality of these first demonstrations, not on their quantity.
 

@@ -6,7 +6,7 @@
 
 - **Ghioni, F.** *Technology of Expressions: A Structural Approach to Meaning.* Ordinative Sciences Press, 2025. — The foundational text. Contains equations 1.1–1.14, the Collapse Function, the Remir, the Semantic Derivative, Pulsation, Vertical Coherence.
 
-- **Ghioni, F.** *Semantic Algebra: Foundations.* Ordinative Sciences Press, 2026. — The SA operators S and π, the 7-layer architecture, the R-vocabulary, the κ formula, the invariant library (I₁–I₁₀), the round-trip test.
+- **Ghioni, F.** *Semantic Algebra: Foundations.* Ordinative Sciences Press, 2026. — The SA operators S and π, the 7-layer architecture, the R-vocabulary, the ⟨𝓚⁵⟩ formula, the invariant library (ι₁–ι₁₀), the round-trip test.
 
 - **Ghioni, F.** *Ordinative Set Theory v3.0.* Working paper, 2026. — The ⟨Σ, R, Φ⟩ triple, vertical coherence, semantic inertia, causal inversion, pathological orders.
 

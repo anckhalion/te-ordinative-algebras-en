@@ -10,7 +10,7 @@ The easiest path for understanding Semantic Algebra in this repository.
 4. Read `SA_BOOK/01_the_lossy_channel.md` (the foundational claim about natural language).
 5. Read `SA_BOOK/02_domain_binding.md` and `SA_BOOK/03_the_projection_problem.md` (the two structural mechanisms that occlude invariants).
 6. Read `SA_BOOK/04_the_axiom_and_the_invariant.md` (the formal axiom).
-7. Read `SA_BOOK/05_the_library_of_invariants.md` (the catalogue: I₁ through I₁₀).
+7. Read `SA_BOOK/05_the_library_of_invariants.md` (the catalogue: ι₁ through ι₁₀).
 8. Read `SA_BOOK/06_the_strip_operator.md` (S — the analytical operator).
 9. Read `SA_BOOK/07_the_recontextualization_operator.md` (π — the synthetic operator).
 10. Read `SA_BOOK/08_the_seven_text_experiment.md` (positive validation).
@@ -22,7 +22,7 @@ The easiest path for understanding Semantic Algebra in this repository.
 
 1. SA gives you two operators (S and π) and a library of 10 invariants.
 2. S extracts structural content from natural language. π re-projects that content into any target domain.
-3. The round-trip `S(π(I, D)) = I` is the integrity test.
+3. The round-trip `S(π(ι, 𝔻)) = ι` is the integrity test.
 4. The method is procedural, replicable, and falsifiable.
 5. Most expressions, when stripped, contain no invariant — the rarity of invariants is what makes the method operationally useful.
 

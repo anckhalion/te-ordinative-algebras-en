@@ -29,9 +29,9 @@ The procedure that removes the field-specific vocabulary from an expression and 
 
 The procedure that takes a structural pattern and re-expresses it in a chosen target field.
 
-## Coherence (κ)
+## Coherence (𝓚⁵, aggregate ⟨𝓚⁵⟩)
 
-A measure between 0 and 1 of how well an expression carries its underlying content. High κ = expression faithful and rich. Low κ = expression shallow or distorted.
+A measure between 0 and 1 of how well an expression carries its underlying content, computed as the aggregate ⟨𝓚⁵⟩ of five coherence components. High ⟨𝓚⁵⟩ = expression faithful and rich. Low ⟨𝓚⁵⟩ = expression shallow or distorted. (In Semantic Algebra, the per-expression coherence index retains the symbol κ within SA scope.)
 
 ## Resonance (ρ)
 

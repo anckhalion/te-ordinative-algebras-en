@@ -75,40 +75,40 @@ The formula is the residue after domain strip. It contains no domain-specific vo
 
 This is a testable claim. It can be verified. It can be falsified. And it has been, in both directions: some candidate expressions turned out to contain invariants (the positive validation of Chapter 8), and some turned out to contain nothing (the negative validation of Chapter 9).
 
-## 4.3 I₁ — The Master Invariant
+## 4.3 ι₁ — The Master Invariant
 
-The first invariant — and the one that governs the method itself — is I₁: the non-expressibility of the source.
+The first invariant — and the one that governs the method itself — is ι₁: the non-expressibility of the source.
 
 In Chapter 1, we established the equation:
 
 ```
-U(K) = π_v(K) ⊊ K
+U(𝒦_p) = π_v(𝒦_p) ⊊ 𝒦_p
 ```
 
 In Chapter 2, we showed that this equation holds across Lao Tzu, Gödel, Korzybski, and Shakespeare — four maximally distant domains producing the same structural formula.
 
 Now we name it formally:
 
-> **I₁ (Non-expressibility of the source)**: To express is to project. To project is to lose. The expression is strictly less than the source. What is lost cannot be recovered from the expression. Yet the source is contained in the expression as inherited structure.
+> **ι₁ (Non-expressibility of the source)**: To express is to project. To project is to lose. The expression is strictly less than the source. What is lost cannot be recovered from the expression. Yet the source is contained in the expression as inherited structure.
 
 ```
 Formally:
-  U(K) = π_v(K)           — expressing is projecting onto vector v
-  π_v(K) ⊊ K               — the projection is strictly less than the whole
-  K \ π_v(K) = forgotten    — what is not on the vector is lost
+  U(𝒦_p) = π_v(𝒦_p)           — expressing is projecting onto vector v
+  π_v(𝒦_p) ⊊ 𝒦_p               — the projection is strictly less than the whole
+  𝒦_p \ π_v(𝒦_p) = forgotten    — what is not on the vector is lost
   U⁻¹ ∄                    — the lost cannot be reconstructed
-  K ↪ U(K)                 — the source is embedded in the expression
+  𝒦_p ↪ U(𝒦_p)                 — the source is embedded in the expression
 ```
 
-I₁ is the master invariant because it governs the method itself. Semantic Algebra is an operation performed on expressions — and every expression is governed by I₁. The method operates within the constraint that I₁ describes: it cannot reconstruct K from U(K) (that is impossible), but it can strip the domain binding from U(K) to reveal whatever structural content K imprinted on U(K) through the embedding K ↪ U(K).
+ι₁ is the master invariant because it governs the method itself. Semantic Algebra is an operation performed on expressions — and every expression is governed by ι₁. The method operates within the constraint that ι₁ describes: it cannot reconstruct 𝒦_p from U(𝒦_p) (that is impossible), but it can strip the domain binding from U(𝒦_p) to reveal whatever structural content 𝒦_p imprinted on U(𝒦_p) through the embedding 𝒦_p ↪ U(𝒦_p).
 
-The method is I₁-aware. It does not claim to recover the full insight. It claims to recover the *structural fingerprint* of the insight — the invariant — which is the part of K that survived the projection.
+The method is ι₁-aware. It does not claim to recover the full insight. It claims to recover the *structural fingerprint* of the insight — the invariant — which is the part of 𝒦_p that survived the projection.
 
 ### Verified instances
 
-I₁ has been verified in the following domains (among others):
+ι₁ has been verified in the following domains (among others):
 
-| Domain | Expression | How I₁ manifests |
+| Domain | Expression | How ι₁ manifests |
 |---|---|---|
 | Taoism | "The Tao that can be told is not the eternal Tao" | The Named is not the Nameable |
 | Mathematical logic | Gödel's Incompleteness Theorems | The system is less than the reality it models |
@@ -123,11 +123,11 @@ Eight domains. One formula. Zero modification of structural content between doma
 
 ## 4.4 The Reformulation — Korzybski and the Etymological Discovery
 
-I₁ did not arrive in its current formulation at the first attempt. Its evolution through successive refinements is itself instructive, because it demonstrates a principle that will become central to the method: **the etymological strip as a guard against projection**.
+ι₁ did not arrive in its current formulation at the first attempt. Its evolution through successive refinements is itself instructive, because it demonstrates a principle that will become central to the method: **the etymological strip as a guard against projection**.
 
 ### The initial formulation
 
-The earliest formulation of I₁ was descriptive: *what is expressed is not the source*. This is correct but weak — it states the fact without revealing the mechanism.
+The earliest formulation of ι₁ was descriptive: *what is expressed is not the source*. This is correct but weak — it states the fact without revealing the mechanism.
 
 ### The Korzybski contribution
 
@@ -165,43 +165,43 @@ Instead of mapping by cultural association, the analyst descended to the etymolo
 
 - **illuminare**: from Latin *in-lumen* — "into light." The Proto-Indo-European root is *lewk-* (light, seeing). Across traditions: Bodhi (Sanskrit, "awakening" — from *budh-*, to wake/perceive), Satori (Japanese, "understanding"), Gnosis (Greek, "knowing"), Aufklärung (German, "clearing/enlightening"). In every tradition, "illumination" structurally means **knowledge realized through direct experience** — not analysis, not deduction, not resonance, but *direct contact*.
 
-- **immensus**: from Latin *in-mensus* — "not measured," from *metiri* (to measure). This is crucially different from *infinitus* (without end). Infinite means without limit — it extends forever. Immense means **beyond the capacity to measure** — it cannot be encoded in a metric, cannot be captured in a decoherent term. In algebraic terms: that which is *in-mensus* is precisely K before π_v — the source before vectorialization, which is unsayable not because it is mystically vast but because it has more dimensions than any measurement can capture.
+- **immensus**: from Latin *in-mensus* — "not measured," from *metiri* (to measure). This is crucially different from *infinitus* (without end). Infinite means without limit — it extends forever. Immense means **beyond the capacity to measure** — it cannot be encoded in a metric, cannot be captured in a decoherent term. In algebraic terms: that which is *in-mensus* is precisely 𝒦_p before π_v — the source before vectorialization, which is unsayable not because it is mystically vast but because it has more dimensions than any measurement can capture.
 
 The corrected reading:
 
 ```
 "M'illumino d'immenso"
-= I have realized knowledge (illumino = K_real, direct contact)
-  of the unmeasurable (immenso = in-mensus = K before vectorialization)
-= σ contacts K before π_v
+= I have realized knowledge (illumino = 𝒦_r, direct contact)
+  of the unmeasurable (immenso = in-mensus = 𝒦_p before vectorialization)
+= σ contacts 𝒦_p before π_v
 = the subject knows the source directly, before expression
 ```
 
-The correction changed the analysis fundamentally. The initial mapping (illumino = resonance) placed the experience *after* expression — a receiver vibrating in response to a signal. The etymological mapping (illumino = K_real) places the experience *before* expression — a direct contact with the source, prior to any vectorialization.
+The correction changed the analysis fundamentally. The initial mapping (illumino = resonance) placed the experience *after* expression — a receiver vibrating in response to a signal. The etymological mapping (illumino = 𝒦_r) places the experience *before* expression — a direct contact with the source, prior to any vectorialization.
 
 This self-correction is not an embarrassment. It is a feature. The method detected its own bias — the projection of framework vocabulary onto the expression — and corrected it through a procedure (the etymological strip) that can be replicated by anyone. A method that cannot self-correct is a dogma. A method that can is a science.
 
 ## 4.5 The Completion — Realized Knowledge vs. Expressed Knowledge
 
-The Ungaretti analysis revealed a structural distinction that I₁ alone does not capture: the distinction between **realized knowledge** (K_real) and **expressed knowledge** (U(K)).
+The Ungaretti analysis revealed a structural distinction that ι₁ alone does not capture: the distinction between **realized knowledge** (𝒦_r) and **expressed knowledge** (U(𝒦_p)).
 
 ```
-K_real(K) = K            — direct realization preserves wholeness
-K_real ≠ U               — realization is a different channel from expression
-U(K_real) ⊊ K_real       — but TELLING about the realization loses it again
+𝒦_r(𝒦_p) = 𝒦_p            — direct realization preserves wholeness
+𝒦_r ≠ U               — realization is a different channel from expression
+U(𝒦_r) ⊊ 𝒦_r       — but TELLING about the realization loses it again
 ```
 
 This completion states:
 
-1. There exists a mode of knowing — direct realization — that does not vectorialize. In this mode, K is contacted as-is, without projection onto a vector. Nothing is lost.
+1. There exists a mode of knowing — direct realization — that does not vectorialize. In this mode, 𝒦_p is contacted as-is, without projection onto a vector. Nothing is lost.
 
-2. This mode is not expression. Expression (U) always vectorializes. Realization (K_real) does not. They are different operations, producing different results.
+2. This mode is not expression. Expression (U) always vectorializes. Realization (𝒦_r) does not. They are different operations, producing different results.
 
-3. The moment the realized person attempts to express what they have realized, the loss recurs. U(K_real) ⊊ K_real — telling about the realization is less than the realization. The wholeness that was preserved in direct knowing is immediately lost when the knowing enters the expressive channel.
+3. The moment the realized person attempts to express what they have realized, the loss recurs. U(𝒦_r) ⊊ 𝒦_r — telling about the realization is less than the realization. The wholeness that was preserved in direct knowing is immediately lost when the knowing enters the expressive channel.
 
-This completion explains a structural phenomenon that has been observed across contemplative traditions for millennia: the realized master who falls silent. The silence is not theatrical. It is structurally necessary. The master has realized K directly (K_real(K) = K). They know that expressing K will lose it (U(K) ⊊ K). They know that no expression, however skillful, will transmit the realization — only an approximation. And so they choose poverty of expression over wealth of expression, because less vector means less forgetting.
+This completion explains a structural phenomenon that has been observed across contemplative traditions for millennia: the realized master who falls silent. The silence is not theatrical. It is structurally necessary. The master has realized 𝒦_p directly (𝒦_r(𝒦_p) = 𝒦_p). They know that expressing 𝒦_p will lose it (U(𝒦_p) ⊊ 𝒦_p). They know that no expression, however skillful, will transmit the realization — only an approximation. And so they choose poverty of expression over wealth of expression, because less vector means less forgetting.
 
-The Zen master's silence in the Prologue is now structurally explicit: he has realized K. He knows the others are vectorializing. He drinks tea — a minimum-vector gesture — and says "before you spoke, the room was full." This is an expression (it has words), but it is the minimum expression: it points at the pre-verbal state (the full room) and identifies the vectorialization (the speaking) as the source of loss (the emptiness).
+The Zen master's silence in the Prologue is now structurally explicit: he has realized 𝒦_p. He knows the others are vectorializing. He drinks tea — a minimum-vector gesture — and says "before you spoke, the room was full." This is an expression (it has words), but it is the minimum expression: it points at the pre-verbal state (the full room) and identifies the vectorialization (the speaking) as the source of loss (the emptiness).
 
 ## 4.6 Why the Most Powerful Expressions Are the Shortest
 
@@ -209,23 +209,23 @@ The completion suggests a law about the relationship between expressive power an
 
 > **The power of an expression pointing at the unsayable is inversely proportional to its length.**
 
-This is not poetry. It is a structural consequence of I₁.
+This is not poetry. It is a structural consequence of ι₁.
 
 Here is the argument:
 
 1. Every word in an expression is a vectorialization — a selection of one direction, a forgetting of the rest.
-2. More words = more selections = more forgettings = greater departure from K.
-3. Fewer words = fewer selections = fewer forgettings = lesser departure from K.
-4. The expression that departs least from K is the one with the fewest words — the minimum vector.
+2. More words = more selections = more forgettings = greater departure from 𝒦_p.
+3. Fewer words = fewer selections = fewer forgettings = lesser departure from 𝒦_p.
+4. The expression that departs least from 𝒦_p is the one with the fewest words — the minimum vector.
 5. The limit is silence — which is zero vector, zero forgetting, but also zero communication.
 
 The optimal expression, then, is the minimum vector that is still sufficient to trigger invariant recognition (ρ ≥ θ) in the receiver.
 
-This explains the structural superiority of Ungaretti's three words over any philosophical treatise on the same subject. A 300-page treatise on the unsayable would use 100,000 vectors — each one adding a dimension of domain binding, each one forgetting something, each one pulling the reader further from the pre-vectorial source. Ungaretti uses three words — three vectors — and they point directly at K.
+This explains the structural superiority of Ungaretti's three words over any philosophical treatise on the same subject. A 300-page treatise on the unsayable would use 100,000 vectors — each one adding a dimension of domain binding, each one forgetting something, each one pulling the reader further from the pre-vectorial source. Ungaretti uses three words — three vectors — and they point directly at 𝒦_p.
 
 It explains the power of Lao Tzu's opening line. It explains the Zen koan: a minimal, often paradoxical expression designed to short-circuit the receiver's discursive mind and trigger direct recognition. It explains the aphorism: Pascal's observation that "I would have written a shorter letter, but I did not have the time" is, in algebraic terms, the acknowledgment that compression toward the minimum vector is more difficult — and more powerful — than expansion along a comfortable vector.
 
-It does not mean that all short expressions are powerful. "Nice weather" is three words and contains no invariant. The inverse proportionality holds only for expressions that are pointing at K — that is, expressions that contain an invariant. For expressions with no invariant, length is irrelevant: they are structurally empty at any length.
+It does not mean that all short expressions are powerful. "Nice weather" is three words and contains no invariant. The inverse proportionality holds only for expressions that are pointing at 𝒦_p — that is, expressions that contain an invariant. For expressions with no invariant, length is irrelevant: they are structurally empty at any length.
 
 ---
 
@@ -233,16 +233,16 @@ It does not mean that all short expressions are powerful. "Nice weather" is thre
 
 There is a paradox in the Ungaretti analysis that must be acknowledged, because it touches the core of the method.
 
-Ungaretti uses a vector — three words — to point at what is pre-vector. He says the unsayable. This appears to violate I₁: if K cannot be expressed, how can an expression point at K?
+Ungaretti uses a vector — three words — to point at what is pre-vector. He says the unsayable. This appears to violate ι₁: if 𝒦_p cannot be expressed, how can an expression point at 𝒦_p?
 
-The answer is that pointing is not expressing. To *express* K would be to produce U(K) = K — which is impossible (U(K) ⊊ K). To *point at* K is different: it is to produce an expression that is so minimal, so stripped of domain binding, that the receiver's attention is directed not at the expression but past it — toward the pre-verbal source.
+The answer is that pointing is not expressing. To *express* 𝒦_p would be to produce U(𝒦_p) = 𝒦_p — which is impossible (U(𝒦_p) ⊊ 𝒦_p). To *point at* 𝒦_p is different: it is to produce an expression that is so minimal, so stripped of domain binding, that the receiver's attention is directed not at the expression but past it — toward the pre-verbal source.
 
 This is what great art does. Not only poetry: a painting by Rothko, a late Beethoven quartet, a Noh theatre performance — each uses minimum vector to direct attention past the vector, toward the source. The expression is not the destination. The expression is the finger. The destination is the moon.
 
 But the finger is necessary. Without it, the direction is not indicated. Without some vectorialization, the receiver has no entry point. Pure silence communicates nothing (to most receivers). The optimal expression is not zero vector — it is the minimum vector that still indicates the direction.
 
-This paradox — that the unsayable can be pointed at but not said, and that the best pointing uses the fewest words — is itself an expression of I₁. The method is I₁-aware: it knows that its own formalization of I₁ is U(I₁), not I₁ itself. The formalization points. The invariant is the moon.
+This paradox — that the unsayable can be pointed at but not said, and that the best pointing uses the fewest words — is itself an expression of ι₁. The method is ι₁-aware: it knows that its own formalization of ι₁ is U(ι₁), not ι₁ itself. The formalization points. The invariant is the moon.
 
 ---
 
-We have now established the foundation: Axiom 0 defines the criterion, and I₁ is the first principle that meets it. In the next chapter, we present the remaining nine invariants — each validated across multiple domains, each carrying its own structural law.
+We have now established the foundation: Axiom 0 defines the criterion, and ι₁ is the first principle that meets it. In the next chapter, we present the remaining nine invariants — each validated across multiple domains, each carrying its own structural law.

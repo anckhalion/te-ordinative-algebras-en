@@ -18,8 +18,8 @@ The PA provides the formal language to describe this structure — without reduc
 
 | PA Entity | Emotional Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of affective potential — the totality of emotional states available to an identity |
-| ℛ (identity) | The Remir of the experiencing subject — their emotional vectors, their attachment history, their capacity for affect |
+| ℭ_h (coherent field) | The field of affective potential — the totality of emotional states available to an identity |
+| 𝕀 (identity) | The Remir of the experiencing subject — their emotional vectors, their attachment history, their capacity for affect |
 | K (context) | The relational and situational context: who is present, what has just happened, what is at stake |
 | E (expression) | The emotional experience as it manifests — the specific felt quality, the physiological signature, the behavioural expression |
 | ρ (resonance) | The compatibility between the affective potential and the identity's capacity to hold it |
@@ -52,9 +52,9 @@ The dynamic of grief follows a characteristic trajectory through 𝒫:
 
 $$E_{acute} = \Phi(C_{loss}, I_{pre-loss}, K_{impact})$$
 
-The coherent content C_loss (the structural reality of the loss — the removal of a singularity from the identity's relational field) collides with the pre-loss identity I_pre-loss in the context of the impact. The collapse is violent: high ρ_v (the loss is maximally aligned with the identity's attachment vectors), high intensity, low κ_4 (the state is structurally unstable — the identity cannot maintain it).
+The coherent content C_loss (the structural reality of the loss — the removal of a singularity from the identity's relational field) collides with the pre-loss identity I_pre-loss in the context of the impact. The collapse is violent: high ρ_v (the loss is maximally aligned with the identity's attachment vectors), high intensity, low 𝓚_4 (the state is structurally unstable — the identity cannot maintain it).
 
-κ_acute ≈ 0.3 — the collapse is intense but poorly integrated. The identity cannot hold the full proportional structure of the loss.
+⟨𝓚⁵⟩_acute ≈ 0.3 — the collapse is intense but poorly integrated. The identity cannot hold the full proportional structure of the loss.
 
 **Phase 2 — Oscillation (t₁ ... tₙ)**
 
@@ -70,32 +70,32 @@ The pulsation frequency varies: rapid in the acute phase (τ is small — many c
 
 Two outcomes:
 
-*Integration (dΦ/dτ > 0):* The Remir successfully restructures. The loss is integrated as a new vector — not the presence of the lost person, but the *structural impact* of the loss, which becomes part of the identity's proportional structure. κ rises over time. The identity is changed but coherent. In PA terms: the identity has evolved.
+*Integration (dΦ/dτ > 0):* The Remir successfully restructures. The loss is integrated as a new vector — not the presence of the lost person, but the *structural impact* of the loss, which becomes part of the identity's proportional structure. ⟨𝓚⁵⟩ rises over time. The identity is changed but coherent. In PA terms: the identity has evolved.
 
-$$\kappa_{integrated} \geq 0.7, \quad \bar{b}(I_{post-loss}) \text{ stable}$$
+$$\langle\mathcal{K}^5\rangle_{integrated} \geq 0.7, \quad \bar{b}(I_{post-loss}) \text{ stable}$$
 
-*Freezing (dΦ/dτ = 0):* The Remir cannot restructure. The identity repeats the same emotional collapse without integration — the grief does not evolve, the Remir does not change, κ remains low. In PA terms: semantic inertia. In clinical terms: complicated grief, frozen mourning.
+*Freezing (dΦ/dτ = 0):* The Remir cannot restructure. The identity repeats the same emotional collapse without integration — the grief does not evolve, the Remir does not change, ⟨𝓚⁵⟩ remains low. In PA terms: semantic inertia. In clinical terms: complicated grief, frozen mourning.
 
-$$\kappa_{frozen} \approx 0.3, \quad \frac{d\Phi}{d\tau} = 0$$
+$$\langle\mathcal{K}^5\rangle_{frozen} \approx 0.3, \quad \frac{d\Phi}{d\tau} = 0$$
 
 **Phase transition isomorphism:** This dynamic is structurally isomorphic to the cooling of water from liquid to solid (Chapter 2, Demonstration 3). The extended round-trip confirms:
 
-S(grief trajectory) = I₅: *phase transition through oscillation to a new stable state*
-π(I₅, Physics) = water-to-ice transition
+S(grief trajectory) = ι₅: *phase transition through oscillation to a new stable state*
+π(ι₅, Physics) = water-to-ice transition
 δ = 0.75 — the proportional structure is preserved across domains.
 
 ---
 
 ## 15.4 Emotional Pathologies in PA Terms
 
-| Pathology | PA Diagnosis | ρ/κ Profile |
+| Pathology | PA Diagnosis | ρ/⟨𝓚⁵⟩ Profile |
 |---|---|---|
-| **Repression** | ρ < θ — the emotion cannot collapse. The content exists in 𝒞 but the identity blocks access. | ρ artificially suppressed by rigid B_I |
-| **Dissociation** | Collapse occurs but S(E) ≈ ∅ — the identity does not integrate the experience. The expression is "felt" but not "owned." | κ_2 ≈ 0 (no source alignment) |
+| **Repression** | ρ < θ — the emotion cannot collapse. The content exists in ℭ_h but the identity blocks access. | ρ artificially suppressed by rigid B_I |
+| **Dissociation** | Collapse occurs but S(E) ≈ ∅ — the identity does not integrate the experience. The expression is "felt" but not "owned." | 𝓚_2 ≈ 0 (no source alignment) |
 | **Alexithymia** | The identity lacks the semantic vectors for emotional content. ρ_v ≈ 0 not because of resistance but because of absence of vectorial alignment. | ρ_v ≈ 0, ρ_d low |
 | **Emotional flooding** | ρ ≫ θ but the identity's plasticity is insufficient. Too much content collapses too fast — the Remir cannot restructure in time. | τ → 0 (pulsation overwhelm) |
-| **Performative emotion** | The expression E exists but S(E) = ∅ or S(E) = I_foreign. The identity produces the behavioural form without the structural content. | κ high on surface, ρ_R = 0 (performative) |
-| **Frozen grief** | Semantic inertia: dΦ/dτ = 0. The identity repeats the collapse without integration. | κ stable but low, no evolution |
+| **Performative emotion** | The expression E exists but S(E) = ∅ or S(E) = I_foreign. The identity produces the behavioural form without the structural content. | ⟨𝓚⁵⟩ high on surface, ρ_R = 0 (performative) |
+| **Frozen grief** | Semantic inertia: dΦ/dτ = 0. The identity repeats the collapse without integration. | ⟨𝓚⁵⟩ stable but low, no evolution |
 
 ---
 
@@ -105,7 +105,7 @@ The ⊗ operator (Chapter 10) has its most vivid instantiation in emotional reso
 
 When two identities share emotional vectors (both have active grief vectors, or joy vectors, or creative vectors), the resonance operator generates a shared emotional field:
 
-$$\mathcal{C}_{emotional\text{-}shared} = I_1 \otimes I_2$$
+$$\mathfrak{C}_{emotional\text{-}shared} = I_1 \otimes I_2$$
 
 From this shared field, a **dialogic emotional collapse** can occur — an emotional experience that neither identity could have alone. The experience of "being understood" in grief is precisely this: the other identity's grief vector resonates with one's own, generating a shared field from which a new emotional expression collapses — one that is not one's grief alone, nor the other's, but a co-created emotional state.
 

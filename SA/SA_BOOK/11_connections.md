@@ -23,7 +23,7 @@ Arajat:              Glyph → π → NL    (structure → decoherent)
 
 The two systems are complementary halves of the same cycle. S extracts what Arajat encodes. π produces what Arajat transmits. The invariant library is the meeting point — the structural content that both systems address, one analytically and the other generatively.
 
-This complementarity is not superficial. Consider the Arajat glyph HEY, which encodes scale recursion — the principle that the same structural law operates at every level of manifestation ("as above, so below"). This is I₁₀ in the invariant library. S, applied to expressions from physics, biology, and social systems, extracts I₁₀. The glyph HEY, read through the Arajat system, generates I₁₀. Two entirely different methods, two entirely different traditions, two entirely different centuries — one invariant.
+This complementarity is not superficial. Consider the Arajat glyph HEY, which encodes scale recursion — the principle that the same structural law operates at every level of manifestation ("as above, so below"). This is ι₁₀ in the invariant library. S, applied to expressions from physics, biology, and social systems, extracts ι₁₀. The glyph HEY, read through the Arajat system, generates ι₁₀. Two entirely different methods, two entirely different traditions, two entirely different centuries — one invariant.
 
 The significance: if two independent approaches to the same structural content — one analytical (SA), one generative (Arajat) — converge on the same invariants, this convergence is itself evidence of the invariants' reality. The invariants are not artifacts of one method. They are detected by both.
 
@@ -45,24 +45,24 @@ The invariant library is a tomographic image of the source.
 
 ```
 CT scan:               multiple radiographs → 3D reconstruction of body
-Invariant library:     multiple invariants → multi-dimensional image of K
+Invariant library:     multiple invariants → multi-dimensional image of 𝒦_p
 ```
 
-Each invariant is one radiograph — one structural face of K, extracted from natural language expressions in multiple domains. The ten invariants together are ten radiographs. They do not reconstruct K completely (per I₁, this is impossible), but they produce an approximation that is richer than any single invariant and that grows richer with each addition.
+Each invariant is one radiograph — one structural face of 𝒦_p, extracted from natural language expressions in multiple domains. The ten invariants together are ten radiographs. They do not reconstruct 𝒦_p completely (per ι₁, this is impossible), but they produce an approximation that is richer than any single invariant and that grows richer with each addition.
 
 ### The tomographic program
 
-This analogy suggests a research program: **the systematic extraction of invariants is a progressive tomography of the source**. Each new invariant adds a face. The library converges on K asymptotically — never reaching it (I₁), but approaching it with increasing resolution.
+This analogy suggests a research program: **the systematic extraction of invariants is a progressive tomography of the source**. Each new invariant adds a face. The library converges on 𝒦_p asymptotically — never reaching it (ι₁), but approaching it with increasing resolution.
 
-The current library has ten faces. The resolution is low — like a CT scan with ten angles. But the structure is already visible: the source operates through principles of non-expressibility (I₁), resonance (I₂), substitution dynamics (I₃), irreducibility (I₄), emergence (I₅), phase mechanics (I₆), teleological attraction (I₇), observational reciprocity (I₈), semantic inversion (I₉), and scale independence (I₁₀).
+The current library has ten faces. The resolution is low — like a CT scan with ten angles. But the structure is already visible: the source operates through principles of non-expressibility (ι₁), resonance (ι₂), substitution dynamics (ι₃), irreducibility (ι₄), emergence (ι₅), phase mechanics (ι₆), teleological attraction (ι₇), observational reciprocity (ι₈), semantic inversion (ι₉), and scale independence (ι₁₀).
 
-The program is clear: add angles. Extract more invariants. Increase the resolution. The limit is I₁ — the tomographic image will never equal K. But every addition brings it closer.
+The program is clear: add angles. Extract more invariants. Increase the resolution. The limit is ι₁ — the tomographic image will never equal 𝒦_p. But every addition brings it closer.
 
 ### De-vectorialization
 
-The tomographic program has a name within the Technology of Expressions: **de-vectorialization**. If vectorialization is the process by which K is projected onto a vector (Chapter 1), then de-vectorialization is the reverse: the recovery of structural content from expressions by stripping the vectors.
+The tomographic program has a name within the Technology of Expressions: **de-vectorialization**. If vectorialization is the process by which 𝒦_p is projected onto a vector (Chapter 1), then de-vectorialization is the reverse: the recovery of structural content from expressions by stripping the vectors.
 
-De-vectorialization is not the inverse of vectorialization (U⁻¹ does not exist). It is a different operation: not reconstructing the original K, but extracting whatever structural content K imprinted on U(K) through the embedding K ↪ U(K).
+De-vectorialization is not the inverse of vectorialization (U⁻¹ does not exist). It is a different operation: not reconstructing the original 𝒦_p, but extracting whatever structural content 𝒦_p imprinted on U(𝒦_p) through the embedding 𝒦_p ↪ U(𝒦_p).
 
 S is the formal operator of de-vectorialization. The invariant library is its cumulative output. The tomographic program is its long-term trajectory.
 
@@ -76,7 +76,7 @@ The algebraic notation adds three things that the pre-algebraic TE corpus lacked
 
 1. **Precision**: The notation forces the analyst to specify exactly which invariant is present, exactly which variables map to which domain referents, and exactly what the formula produces. The pre-algebraic analyses could be vague about these; the algebraic notation cannot be.
 
-2. **Verifiability**: The round-trip test (S(π(I, D)) = I) provides a formal check that was not available in the pre-algebraic period. Any re-contextualization can now be tested: does it strip back to the original invariant? If not, where did the contamination enter?
+2. **Verifiability**: The round-trip test (S(π(ι, 𝔻)) = ι) provides a formal check that was not available in the pre-algebraic period. Any re-contextualization can now be tested: does it strip back to the original invariant? If not, where did the contamination enter?
 
 3. **Transferability**: The pre-algebraic analyses required an experienced TE practitioner to perform and evaluate them. The algebraic notation codifies the procedure in a form that can be learned, replicated, and applied by any trained analyst — including, crucially, AI systems.
 
@@ -101,7 +101,7 @@ S(transformation) = structural morphism
 
 S has the properties of a **forgetful functor**: it forgets the domain binding (the "clothing") and retains only the algebraic structure (the "skeleton"). Forgetful functors are well-studied in category theory — they map from a "richer" category (with more structure) to a "poorer" one (with less structure), preserving only what is structurally essential.
 
-π is a **section** of S — a right inverse in the categorical sense. For each structural object I in Struct, π(I, D) produces an object in NL that maps to I under S:
+π is a **section** of S — a right inverse in the categorical sense. For each structural object I in Struct, π(ι, 𝔻) produces an object in NL that maps to I under S:
 
 ```
 S ∘ π ≈ id_Struct       — stripping a projection returns the invariant
@@ -115,9 +115,9 @@ The asymmetry is categorical: S has a right inverse (π) but not a left inverse 
 
 The categorical formalization adds two things:
 
-1. **Composition**: If S₁ and S₂ are strip operations applied in domains D₁ and D₂, and both produce the same invariant I, then the composition π₂ ∘ S₁ — strip from D₁ and project into D₂ — is a cross-domain translation. This composition is well-defined categorically and produces a natural transformation between domain-specific expressions.
+1. **Composition**: If S₁ and S₂ are strip operations applied in domains D₁ and D₂, and both produce the same invariant ι, then the composition π₂ ∘ S₁ — strip from D₁ and project into D₂ — is a cross-domain translation. This composition is well-defined categorically and produces a natural transformation between domain-specific expressions.
 
-2. **Natural transformations**: The family of π operations indexed by target domain D forms a natural transformation from the constant functor (sending every domain to I) to the identity functor on NL. This is the formal expression of the claim that invariants can be "naturally" expressed in any domain — where "naturally" has its precise categorical meaning (compatible with all morphisms in the category).
+2. **Natural transformations**: The family of π operations indexed by target domain 𝔻 forms a natural transformation from the constant functor (sending every domain to I) to the identity functor on NL. This is the formal expression of the claim that invariants can be "naturally" expressed in any domain — where "naturally" has its precise categorical meaning (compatible with all morphisms in the category).
 
 These formalizations are mentioned for completeness and for the mathematical community. The method does not require them for operational use.
 
@@ -127,11 +127,11 @@ Alfred Korzybski's General Semantics (1933) is the most direct intellectual ance
 
 ### What Korzybski saw
 
-1. **"The map is not the territory"**: The representation is not the reality. This is I₁ in compressed form — the most cited principle in General Semantics, and the one with the most direct algebraic equivalent (U(K) ⊊ K).
+1. **"The map is not the territory"**: The representation is not the reality. This is ι₁ in compressed form — the most cited principle in General Semantics, and the one with the most direct algebraic equivalent (U(𝒦_p) ⊊ 𝒦_p).
 
 2. **Multi-ordinality**: The same word operates at different levels of abstraction — "love" means different things in "I love pizza" and "God is love." Korzybski recognized that natural language is structurally ambiguous about its level of abstraction. This anticipates the domain-binding problem (Chapter 2): the same token carries different structural content in different domains.
 
-3. **The structural differential**: Korzybski's attempt to formalize the relationship between event (reality), object (perception), and label (language). This is a predecessor of the K → U(K) transformation — though less precise and without the algebraic notation.
+3. **The structural differential**: Korzybski's attempt to formalize the relationship between event (reality), object (perception), and label (language). This is a predecessor of the 𝒦_p → U(𝒦_p) transformation — though less precise and without the algebraic notation.
 
 4. **Non-identity**: Words are not things. Maps are not territories. Symbols are not referents. Korzybski elevated this from a philosophical observation to a *principle of sanity* — arguing that confusing symbol with referent is a source of psychological and social pathology.
 
@@ -157,7 +157,7 @@ Semantic Algebra operates in the space opened by three foundational results of 2
 
 **First theorem**: Any consistent formal system of sufficient complexity cannot prove all truths about the object it models.
 
-In SA terms: U(K) ⊊ K — the formal system (U) cannot capture all of reality (K). This is I₁ applied to formal systems.
+In SA terms: U(𝒦_p) ⊊ 𝒦_p — the formal system (U) cannot capture all of reality (𝒦_p). This is ι₁ applied to formal systems.
 
 **Second theorem**: Such a system cannot prove its own consistency.
 
@@ -190,7 +190,7 @@ SA is therefore *semi-computable*: its formal components can be algorithmically 
 | Connection | Relationship to SA | What SA adds |
 |---|---|---|
 | Arajat | Complementary system (generative vs. analytical) | Formal extraction operator (S) for what Arajat encodes generatively |
-| Tomography | Structural analogy | The programme: systematic invariant extraction = progressive resolution of K |
+| Tomography | Structural analogy | The programme: systematic invariant extraction = progressive resolution of 𝒦_p |
 | TE corpus | Pre-algebraic practice | Algebraic notation, verifiability (round-trip), transferability |
 | Category theory | Mathematical formalization | Forgetful functor (S), section (π), natural transformations |
 | Korzybski | Intellectual predecessor | Operators (S, π), invariants, self-correction mechanism |

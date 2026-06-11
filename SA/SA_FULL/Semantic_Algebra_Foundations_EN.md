@@ -72,7 +72,7 @@ An expression that is true only within physics is a physical law. An expression 
 
 Axiom 0 provides the criterion. Semantic Algebra provides the method.
 
-### 2.2 The Invariant (Axiom I₁, reformulated)
+### 2.2 The Invariant (Axiom ι₁, reformulated)
 
 The first and most fundamental invariant, refined through the convergence of Lao Tzu, Korzybski, Gödel, Shakespeare, the Technology of Expressions, and Ungaretti:
 
@@ -81,11 +81,11 @@ The first and most fundamental invariant, refined through the convergence of Lao
 Formally:
 
 ```
-U(K) = π_v(K)           — expressing is projecting onto a vector v
-π_v(K) ⊊ K               — the projection is strictly less than the whole
-K \ π_v(K) = forgotten    — what is not on the vector is lost
+U(𝒦_p) = π_v(𝒦_p)           — expressing is projecting onto a vector v
+π_v(𝒦_p) ⊊ 𝒦_p               — the projection is strictly less than the whole
+𝒦_p \ π_v(𝒦_p) = forgotten    — what is not on the vector is lost
 U⁻¹ ∄                    — the forgotten cannot be reconstructed from the expression
-K ↪ U(K)                 — but the source IS contained as inherited structure
+𝒦_p ↪ U(𝒦_p)                 — but the source IS contained as inherited structure
 ```
 
 The last line is critical. The expression is not the source — but it **contains** the source. A river is not the spring, but every point of the river contains the spring as inherited structure. This is what makes extraction possible: the invariant is in the expression, hidden by domain binding and projection. The Strip operator removes the binding. What remains — if it remains — is the invariant.
@@ -95,9 +95,9 @@ The last line is critical. The expression is not the source — but it **contain
 There exists an epistemic channel alternative to expression:
 
 ```
-K_real(K) = K            — direct realization does not lose
-K_real ≠ U               — the channel is different from expression
-U(K_real) ⊊ K_real       — but TELLING about the realization loses it again
+𝒦_r(𝒦_p) = 𝒦_p            — direct realization does not lose
+𝒦_r ≠ U               — the channel is different from expression
+U(𝒦_r) ⊊ 𝒦_r       — but TELLING about the realization loses it again
 ```
 
 This explains a structural phenomenon: why the most powerful expressions of deep knowledge tend to be the shortest. Ungaretti's *"M'illumino d'immenso"* (3 words) outperforms any philosophical treatise on the same theme — because it uses the minimum vector to point at the maximum pre-vector. The power of an expression pointing at the unsayable is inversely proportional to its length: more words = more vector = more forgetting.
@@ -124,24 +124,24 @@ The current library contains 10 validated invariants, each verified across 3+ do
 
 | ID | Name | Compact Formula | Cross-Domain Instances |
 |---|---|---|---|
-| **I₁** | Non-expressibility of the source | `U(K) ⊊ K, U⁻¹ ∄, K ↪ U(K)` | Lao Tzu (*Tao*), Korzybski (*Map ≠ Territory*), Gödel (*Incompleteness*), Shakespeare (*King Lear*), TE (*expression ≠ identity*), Ungaretti (*in-mensus*) |
-| **I₂** | Resonance beyond threshold | `ρ(σ, I) ≥ θ → recognition` | Music (chills), Dharma (satori), Science (eureka), TE (insight = invariant) |
-| **I₃** | Entropy of substitution | `V grows by substitution, not error` | Addiction, ideology, engramma, any surrogate occupying the center |
-| **I₄** | Irreducibility of singularity | `∀f: f(σ) → σ' ⇒ σ' ≠ σ` | Ethics (person ≠ role), Art (style ≠ technique), TE (GLIO) |
-| **I₅** | Structural field | `Φ(σ₁, σ₂) > Φ(σ₁) + Φ(σ₂)` | Emergence, AA (ordinative set), synergy |
-| **I₆** | Controphase | `C(pattern) = phase-shift, not opposition` | TE (controfase), judo, aikido, systemic therapy |
-| **I₇** | Teleological inversion | `σ does not seek I; I evokes σ` | Rumi, TE (Axiom 7), Aristotle (final cause), biology (attractor) |
-| **I₈** | Bidirectionality of observation | `O(A, B) ⇒ O(B, A)` | Quantum measurement, TE (the eye cannot see itself), Nietzsche (abyss) |
-| **I₉** | Semantic inversion as degeneration | `sign(Φ_d) = -sign(Φ_eff)` | Orwell, P-PRO inversions, institutional decay, propaganda |
-| **I₁₀** | Scale recursion | `I(scale_n) ≅ I(scale_m) ∀n,m` | Fractals, cell/organism/society, Arajat (HEY) |
+| **ι₁** | Non-expressibility of the source | `U(𝒦_p) ⊊ 𝒦_p, U⁻¹ ∄, 𝒦_p ↪ U(𝒦_p)` | Lao Tzu (*Tao*), Korzybski (*Map ≠ Territory*), Gödel (*Incompleteness*), Shakespeare (*King Lear*), TE (*expression ≠ identity*), Ungaretti (*in-mensus*) |
+| **ι₂** | Resonance beyond threshold | `ρ(σ, I) ≥ θ → recognition` | Music (chills), Dharma (satori), Science (eureka), TE (insight = invariant) |
+| **ι₃** | Entropy of substitution | `V grows by substitution, not error` | Addiction, ideology, engramma, any surrogate occupying the center |
+| **ι₄** | Irreducibility of singularity | `∀f: f(σ) → σ' ⇒ σ' ≠ σ` | Ethics (person ≠ role), Art (style ≠ technique), TE (GLIO) |
+| **ι₅** | Structural field | `𝔉(σ₁, σ₂) > 𝔉(σ₁) + 𝔉(σ₂)` | Emergence, AA (ordinative set), synergy |
+| **ι₆** | Controphase | `C(pattern) = phase-shift, not opposition` | TE (controfase), judo, aikido, systemic therapy |
+| **ι₇** | Teleological inversion | `σ does not seek I; I evokes σ` | Rumi, TE (Axiom 7), Aristotle (final cause), biology (attractor) |
+| **ι₈** | Bidirectionality of observation | `O(A, B) ⇒ O(B, A)` | Quantum measurement, TE (the eye cannot see itself), Nietzsche (abyss) |
+| **ι₉** | Semantic inversion as degeneration | `sign(𝔉_d) = -sign(𝔉_eff)` | Orwell, P-PRO inversions, institutional decay, propaganda |
+| **ι₁₀** | Scale recursion | `I(scale_n) ≅ I(scale_m) ∀n,m` | Fractals, cell/organism/society, Arajat (HEY) |
 
 ### 3.3 The Meta-Invariant
 
-I₂ occupies a special position: it is not only an invariant — it is the **mechanism** by which all other invariants are recognized. The emotion of insight, the chill of recognition, the "aha" moment — these are not aesthetic events. They are the signal that resonance has exceeded threshold: `ρ ≥ θ`. The nervous system's report of invariant recognition feels like "understanding." What the algebra calls "invariant" and what the nervous system calls "understanding" are the same signal — one formalized, the other experienced.
+ι₂ occupies a special position: it is not only an invariant — it is the **mechanism** by which all other invariants are recognized. The emotion of insight, the chill of recognition, the "aha" moment — these are not aesthetic events. They are the signal that resonance has exceeded threshold: `ρ ≥ θ`. The nervous system's report of invariant recognition feels like "understanding." What the algebra calls "invariant" and what the nervous system calls "understanding" are the same signal — one formalized, the other experienced.
 
 ### 3.4 The Unprogrammed Convergence
 
-During the initial validation experiment (7 texts from 7 maximally distant domains), Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* — separated by 2,000 years, two continents, and every conceivable cultural difference — produced the same invariant (I₁) through the Strip operator. This convergence was not programmed. It emerged from the method.
+During the initial validation experiment (7 texts from 7 maximally distant domains), Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* — separated by 2,000 years, two continents, and every conceivable cultural difference — produced the same invariant (ι₁) through the Strip operator. This convergence was not programmed. It emerged from the method.
 
 This is the strongest form of validation: not that the method can be made to produce convergence (which would prove nothing), but that convergence emerges unbidden when the method is applied without expectation.
 
@@ -156,7 +156,7 @@ This is the strongest form of validation: not that the method can be made to pro
 ```
 S: NL → Structure
 
-S(expression) = ⟨ I, Φ, v, Σ_src, R, τ, Δ_S ⟩
+S(expression) = ⟨ ι, 𝔉, v, Σ_src, R, τ_ph, Δ_𝔉 ⟩
 ```
 
 S transforms any natural language expression into a 7-layer structural object. It is the analytical operator of Semantic Algebra: it takes what was said and reveals what is structurally present.
@@ -166,18 +166,18 @@ S transforms any natural language expression into a 7-layer structural object. I
 | Layer | Content | What it reveals |
 |---|---|---|
 | **1. Invariant (I)** | Universal structural law, if present | Whether the expression contains a cross-domain principle |
-| **2. Emergent Function (Φ)** | Declared vs. effective function, and the gap between them | Whether the expression does what it says it does |
+| **2. Emergent Function (𝔉)** | Declared vs. effective function, and the gap between them | Whether the expression does what it says it does |
 | **3. Vector (v)** | Declared vs. effective direction, with Lyapunov verification | Where the expression is actually heading |
 | **4. Source Signature (Σ_src)** | Position, coherence, authority, consciousness of the source | Who said it and from what structural position |
 | **5. Relational Field (R)** | Mutual, unilateral, projected, instrumental, performative, or absent | The relational structure between source and receiver |
-| **6. Temporal Phase (τ)** | Ascending, descending, bifurcation, cyclic, or indeterminate | Phase of the *content* (not the source) in its evolutionary cycle |
-| **7. Diagnostic Synthesis (Δ_S)** | Classification, coherence index (κ — computed), operative indication | The structural verdict |
+| **6. Temporal Phase (τ_ph)** | Ascending, descending, bifurcation, cyclic, or indeterminate | Phase of the *content* (not the source) in its evolutionary cycle |
+| **7. Diagnostic Synthesis (Δ_𝔉)** | Classification, coherence index (κ — computed), operative indication | The structural verdict |
 
 #### The Procedure — 7 Steps
 
 **Step 1 — Structural decomposition**: Identify functional tokens — who acts, who undergoes, what relates, what scope.
 
-**Step 2a — Algebraic mapping**: Map tokens to algebraic vocabulary (σ, S, U, R, Φ, ρ, θ, I, O, π, A, ω, etc.).
+**Step 2a — Algebraic mapping**: Map tokens to algebraic vocabulary (σ, S, U, R, 𝔉, ρ, θ, I, O, π, A, ω_att, etc.).
 
 **Step 2b — Etymological strip**: For each NL token, *before* mapping to an algebraic variable, descend to the etymological root. What does the word mean structurally — not culturally? Does the root carry the same structural meaning across 3+ linguistic traditions? Only after this verification may the mapping proceed.
 
@@ -199,26 +199,26 @@ Layer 7 produces a classification based on the cross-layer pattern:
 
 | Type | Condition | Description |
 |---|---|---|
-| **1. Structural truth** | I ≠ ∅, Δ = 0, v_d = v_eff | Contains invariant, coherent, no gap between declared and effective |
-| **2. Domain narrative** | I = ∅, Φ_d ≠ ∅ | Local truth, not universal — valid in domain, does not survive strip |
-| **3a. Manipulation (conscious)** | Δ ≠ 0, v_d ≠ v_eff, R_instrumental | Deliberate inversion: source knows the declared and effective functions diverge |
-| **3b. Manipulation (unconscious)** | Δ ≠ 0, R appears mutual but is structurally instrumental | Sincere self-deception: source genuinely believes their declared function. Diagnostic signature: gap between *subjective* coherence (high) and *structural* coherence (low). More damaging than 3a because the receiver cannot point at deliberate deception |
-| **4. Semantic illusion** | I = ∅, Φ_eff = ∅ | Simulates depth but is structurally empty |
-| **5. Psychotropic** | Φ_eff < 0, τ descending | Degrades the receiver's coherence |
-| **6. Affliction** | I ≠ ∅, dΦ/dt = 0 | The invariant is present but the terminal cannot see it |
-| **7. Transition** | I ≠ ∅, λ ≈ 0 | Maximum potential — system at the edge of transformation |
-| **8. Zombie / Null** | I = ∅, Φ = ∅, v = ∅ | Pure formality — form without content, no vector at all |
+| **1. Structural truth** | ι ≠ ∅, Δ_𝔉 = 0, v_d = v_eff | Contains invariant, coherent, no gap between declared and effective |
+| **2. Domain narrative** | ι = ∅, 𝔉_d ≠ ∅ | Local truth, not universal — valid in domain, does not survive strip |
+| **3a. Manipulation (conscious)** | Δ_𝔉 ≠ 0, v_d ≠ v_eff, R_instrumental | Deliberate inversion: source knows the declared and effective functions diverge |
+| **3b. Manipulation (unconscious)** | Δ_𝔉 ≠ 0, R appears mutual but is structurally instrumental | Sincere self-deception: source genuinely believes their declared function. Diagnostic signature: gap between *subjective* coherence (high) and *structural* coherence (low). More damaging than 3a because the receiver cannot point at deliberate deception |
+| **4. Semantic illusion** | ι = ∅, 𝔉_eff = ∅ | Simulates depth but is structurally empty |
+| **5. Psychotropic** | 𝔉_eff < 0, τ_ph descending | Degrades the receiver's coherence |
+| **6. Affliction** | ι ≠ ∅, d𝔉/dt = 0 | The invariant is present but the terminal cannot see it |
+| **7. Transition** | ι ≠ ∅, λ_L ≈ 0 | Maximum potential — system at the edge of transformation |
+| **8. Zombie / Null** | ι = ∅, 𝔉 = ∅, v = ∅ | Pure formality — form without content, no vector at all |
 | **9a. Superposition (cooperative)** | I = {Iₐ, Iᵦ, ...}, compatible | Multiple invariants present, structurally compatible — the receiver activates one by resonance |
 | **9b. Superposition (antagonistic)** | I = {Iₐ, Iᵦ, ...}, in tension | Multiple invariants in structural tension. Diagnostic protocol: (1) contradiction test, (2) paradox test (dissolves at deeper level?), (3) controphase test (tension is the mechanism?) |
 
-**Computing κ**: The coherence index is a weighted average: `κ = (w₁·δ_I + w₂·(1-|Δ|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ`, where δ_I = presence of invariant, |Δ| = function gap, align(v) = vector alignment, r = relational quality (R_mutual=1.0 → R_absent=0.0), c_src = source consciousness. Default weights: w₁=3, w₂=2, w₃=2, w₄=1.5, w₅=1.5.
+**Computing κ**: The coherence index is a weighted average: `κ = (w₁·δ_I + w₂·(1-|Δ_𝔉|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ`, where δ_I = presence of invariant, |Δ_𝔉| = function gap, align(v) = vector alignment, r = relational quality (R_mutual=1.0 → R_absent=0.0), c_src = source consciousness. Default weights: w₁=3, w₂=2, w₃=2, w₄=1.5, w₅=1.5.
 
 #### Formal Properties
 
 ```
 S is:
   Non-injective:  S(NL₁) = S(NL₂) is possible
-                  (Shakespeare and Lao Tzu both yield I₁)
+                  (Shakespeare and Lao Tzu both yield ι₁)
   Surjective:     Every invariant has at least one NL preimage
   Idempotent:     S(S(x)) = S(x)
   Monotone:       S does not add information — it removes binding
@@ -229,12 +229,12 @@ S is:
 #### Definition
 
 ```
-π: I × D → NL_D
+π: ι × 𝔻 → NL_𝔻
 
-π(Iₙ, D) = expression of Iₙ in domain D
+π(Iₙ, D) = expression of Iₙ in domain 𝔻
 ```
 
-π is the synthetic operator: it takes an invariant and a target domain, and produces a domain-specific expression. It is **not** the inverse of S (which does not exist, per I₁). It is a new, conscious projection — the operator *chooses* the domain deliberately, knowing that the resulting expression is a map, not the territory.
+π is the synthetic operator: it takes an invariant and a target domain, and produces a domain-specific expression. It is **not** the inverse of S (which does not exist, per ι₁). It is a new, conscious projection — the operator *chooses* the domain deliberately, knowing that the resulting expression is a map, not the territory.
 
 #### The Structural Difference
 
@@ -245,7 +245,7 @@ S is:
 | Domain binding | Transparent (unseen) | Deliberate (instrument) |
 | Risk | Confuses map with territory | Aware it is a map |
 
-Lao Tzu (probably) said *"The Tao that can be told is not the eternal Tao"* from **within** Taoism. An operator who knows I₁ and chooses Taoist vocabulary for a Taoist receiver executes π — the difference is the awareness that the expression is a controlled projection.
+Lao Tzu (probably) said *"The Tao that can be told is not the eternal Tao"* from **within** Taoism. An operator who knows ι₁ and chooses Taoist vocabulary for a Taoist receiver executes π — the difference is the awareness that the expression is a controlled projection.
 
 #### The Procedure — 5 Steps
 
@@ -256,27 +256,27 @@ Lao Tzu (probably) said *"The Tao that can be told is not the eternal Tao"* from
 **Step 3 — Map variables to domain referents**: For each algebraic variable in Iₙ, find the corresponding referent in the target domain.
 
 ```
-Example: π(I₁, D = quantum physics)
+Example: π(ι₁, D = quantum physics)
 
-  K (pure knowledge)     → ψ (quantum state)
+  𝒦_p (pure knowledge)     → ψ (quantum state)
   U (expressive functor) → measurement
   π_v (projection)       → wavefunction collapse
-  K \ π_v(K) (lost)      → information lost in measurement
+  𝒦_p \ π_v(𝒦_p) (lost)      → information lost in measurement
   U⁻¹ ∄                  → measurement is irreversible
 ```
 
 **Step 4 — Formulate in domain NL**: Assemble the expression in the receiver's natural language and domain vocabulary.
 
 ```
-π(I₁, physics)     = "The measurement is not the state."
-π(I₁, psychology)  = "The role is not the individual."
-π(I₁, sculpture)   = "The statue is not the marble."
+π(ι₁, physics)     = "The measurement is not the state."
+π(ι₁, psychology)  = "The role is not the individual."
+π(ι₁, sculpture)   = "The statue is not the marble."
 ```
 
 **Step 5 — Integrity test (round-trip)**: Apply S to the expression produced by π. If S does not return the original invariant, π has distorted or added content.
 
 ```
-S(π(I, D)) = I     — must hold for every valid π
+S(π(ι, 𝔻)) = ι     — must hold for every valid π
 ```
 
 #### The 4 Failure Modes
@@ -292,11 +292,11 @@ S(π(I, D)) = I     — must hold for every valid π
 
 ```
 π is:
-  Non-injective:  π(I₁, D₁) ≠ π(I₁, D₂) 
+  Non-injective:  π(ι₁, D₁) ≠ π(ι₁, D₂) 
                   (same invariant, different domains → different expressions)
-  Multiple:       For each (I, D), there exist N valid expressions
-  Constrained:    S(π(I, D)) = I (round-trip integrity)
-  Lossy:          π(I, D) ⊊ I (I₁ is confirmed by π itself)
+  Multiple:       For each (ι, 𝔻), there exist N valid expressions
+  Constrained:    S(π(ι, 𝔻)) = ι (round-trip integrity)
+  Lossy:          π(ι, 𝔻) ⊊ I (ι₁ is confirmed by π itself)
 ```
 
 ### 4.3 The Relationship Between S and π
@@ -329,7 +329,7 @@ Seven texts were selected from seven maximally distant domains:
 | First Incompleteness Theorem | Mathematical logic | Gödel | 1931 |
 | "Mattina" | Hermetic poetry | Ungaretti | 1917 |
 
-**Result**: 5 distinct invariants extracted. 1 unprogrammed convergence: Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* — separated by 2,000 years and every conceivable cultural difference — produced the same invariant (I₁) through independent application of S.
+**Result**: 5 distinct invariants extracted. 1 unprogrammed convergence: Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* — separated by 2,000 years and every conceivable cultural difference — produced the same invariant (ι₁) through independent application of S.
 
 The convergence was not designed. The texts were selected for maximum domain distance, not for convergence. The fact that convergence emerged is the strongest form of validation: the method reveals structure that was there before the method was applied.
 
@@ -339,14 +339,14 @@ Four expressions that *sound* deep but must be discriminated from genuine struct
 
 | Expression | Classification | I | Diagnosis |
 |---|---|---|---|
-| "Everything happens for a reason" | Semantic illusion | ∅ | Simulates I₇ (teleology) without structure. Functions as a semantic analgesic. |
+| "Everything happens for a reason" | Semantic illusion | ∅ | Simulates ι₇ (teleology) without structure. Functions as a semantic analgesic. |
 | "Consciousness is the quantum function of the universe observing itself through us" | Semantic illusion | ∅ | Juxtaposition of domain vocabulary without structural relationship. "Quantum" is decorative. |
 | "The free market is the natural system that emerges when individuals are free" | Domain narrative | ∅ | Tautology (A emerges when A) + ideological claim disguised as structural property. |
-| "History is on the right side" | Manipulation | ∅ | Simulates I₇ (teleological vector) but adds moral claim. Φ_declared ≠ Φ_effective. |
+| "History is on the right side" | Manipulation | ∅ | Simulates ι₇ (teleological vector) but adds moral claim. 𝔉_declared ≠ 𝔉_effective. |
 
 **Result**: 4 expressions, 0 invariants, 3 different diagnostic types. **S does not produce false positives.** Expressions that simulate depth are classified for what they structurally are.
 
-**Collateral discovery**: The most potent semantic illusions **mimic** a real invariant without completing its structure. Expressions 1 and 4 both simulate I₇ — using the shadow of teleological structure without providing the mechanism. Structural proximity to a real invariant is what makes an illusion convincing.
+**Collateral discovery**: The most potent semantic illusions **mimic** a real invariant without completing its structure. Expressions 1 and 4 both simulate ι₇ — using the shadow of teleological structure without providing the mechanism. Structural proximity to a real invariant is what makes an illusion convincing.
 
 ### 5.3 Case Study — "M'illumino d'immenso" (Ungaretti, 1917)
 
@@ -355,21 +355,21 @@ This case study documents both the method and its capacity for self-correction.
 **Initial analysis** (without etymological strip): "illumino" was mapped to `ρ(σ, S) ≥ θ` (resonance — a TE concept) and "immenso" to `S_∞` (infinite source). Both mappings were projections of the TE framework onto the expression — the same bias the algebra is designed to eliminate.
 
 **Corrected analysis** (with etymological strip):
-- *illuminare*: from Latin *in-lumen* (into light). PIE root *lewk-*. Cross-tradition: Bodhi, Satori, Gnosis, Aufklärung — in every tradition, "illumination" means **realized knowledge** (K_real): knowing by direct experience, not by analysis.
-- *immensus*: from Latin *in-mensus* (not measured, from *metiri*). Crucially, *immenso ≠ infinito*. Infinite (*in-finitus*) = without end. Immense (*in-mensus*) = **beyond the capacity to measure** — i.e., beyond encoding in decoherent terms. This is precisely I₁: what cannot be measured cannot be said.
+- *illuminare*: from Latin *in-lumen* (into light). PIE root *lewk-*. Cross-tradition: Bodhi, Satori, Gnosis, Aufklärung — in every tradition, "illumination" means **realized knowledge** (𝒦_r): knowing by direct experience, not by analysis.
+- *immensus*: from Latin *in-mensus* (not measured, from *metiri*). Crucially, *immenso ≠ infinito*. Infinite (*in-finitus*) = without end. Immense (*in-mensus*) = **beyond the capacity to measure** — i.e., beyond encoding in decoherent terms. This is precisely ι₁: what cannot be measured cannot be said.
 
 **Structural reading**:
 ```
 "M'illumino d'immenso"
-= I have realized knowledge (illumino = K_real)
-  of the unmeasurable (immenso = in-mensus = K before vectorialization)
-= σ contacts K BEFORE π_v
+= I have realized knowledge (illumino = 𝒦_r)
+  of the unmeasurable (immenso = in-mensus = 𝒦_p before vectorialization)
+= σ contacts 𝒦_p BEFORE π_v
 = σ knows without expressing
 ```
 
 **The Paradox**: Ungaretti uses a vector (3 words) to point at what is pre-vector. He says the unsayable. It works because he uses the **minimum** vector to point at the **maximum** pre-vector. Power is inversely proportional to length.
 
-**Source verification**: Ungaretti was influenced by Mallarmé ("to name is to destroy, to suggest is to create"), Bergson (intuition vs. analysis), and Italian Hermeticism (the "naked word"). He was **consciously** working with the principle that fewer words preserve more meaning. He was **not** conscious of the algebraic structure, nor of the universality of I₁.
+**Source verification**: Ungaretti was influenced by Mallarmé ("to name is to destroy, to suggest is to create"), Bergson (intuition vs. analysis), and Italian Hermeticism (the "naked word"). He was **consciously** working with the principle that fewer words preserve more meaning. He was **not** conscious of the algebraic structure, nor of the universality of ι₁.
 
 **Classification**: Structural truth. Source consciousness: medium. This confirms the **source-invariant independence principle**: the algebraic content is present regardless of the source's awareness.
 
@@ -381,7 +381,7 @@ This case study documents both the method and its capacity for self-correction.
 
 The experience that the nervous system labels "understanding" is the recognition of an invariant. The emotion of insight — the chill, the expansion, the sudden clarity — is not aesthetic. It is the nervous system's report that an incoming signal has matched an internal structure above resonance threshold: `ρ ≥ θ`.
 
-This makes I₂ (resonance beyond threshold) a **meta-invariant**: it is the mechanism by which all other invariants are recognized. When someone reads Lao Tzu and feels "this is true," what has happened is not belief or persuasion — it is structural recognition. The receiver's nervous system has detected I₁ through the domain packaging of Taoism.
+This makes ι₂ (resonance beyond threshold) a **meta-invariant**: it is the mechanism by which all other invariants are recognized. When someone reads Lao Tzu and feels "this is true," what has happened is not belief or persuasion — it is structural recognition. The receiver's nervous system has detected ι₁ through the domain packaging of Taoism.
 
 Conversely, when someone reads the same text and feels nothing, it does not mean the invariant is absent — it means the receiver's `ρ` for that invariant is below `θ`. The invariant is in the signal. The resonance is in the receiver.
 
@@ -400,30 +400,30 @@ This reframes communication: the task is not to "explain better" (more words = m
 ### 6.3 The Source-Invariant Independence Principle
 
 ```
-I ∈ S(NL) ⊬ source is conscious of I
+ι ∈ S(NL) ⊬ source is conscious of I
 ```
 
-The consciousness of the source is **not** a necessary condition for the presence of an invariant in the expression. Ungaretti was not conscious of I₁ as an algebraic structure, nor of its universality across Lao Tzu, Gödel, and Korzybski. Yet I₁ is objectively present in his expression, verifiable by S, and convergent with the same invariant extracted from maximally distant sources.
+The consciousness of the source is **not** a necessary condition for the presence of an invariant in the expression. Ungaretti was not conscious of ι₁ as an algebraic structure, nor of its universality across Lao Tzu, Gödel, and Korzybski. Yet ι₁ is objectively present in his expression, verifiable by S, and convergent with the same invariant extracted from maximally distant sources.
 
 This has a structural implication: the source is the **terminal** through which the invariant finds expression, not the originator of the invariant. The invariant pre-exists the expression. The source's contribution is sensitivity (high ρ) and discipline (minimum vector) — not invention.
 
-This confirms I₇ (teleological inversion): the invariant "seeks" its own expression through the terminal, not the other way around.
+This confirms ι₇ (teleological inversion): the invariant "seeks" its own expression through the terminal, not the other way around.
 
 ### 6.4 De-vectorialization as Tomography
 
 A single application of S to a single expression produces one invariant — one face of the source. But if the same source is expressed through multiple vectors (multiple domain-specific expressions) and each is independently de-vectorialized:
 
 ```
-S(U_v1(K)) = I seen from Taoist perspective
-S(U_v2(K)) = I seen from logical perspective
-S(U_v3(K)) = I seen from theatrical perspective
+S(U_v1(𝒦_p)) = ι seen from Taoist perspective
+S(U_v2(𝒦_p)) = ι seen from logical perspective
+S(U_v3(𝒦_p)) = ι seen from theatrical perspective
 
-∪ S(U_vi(K)) → increasingly rich image of K
+∪ S(U_vi(𝒦_p)) → increasingly rich image of 𝒦_p
 ```
 
-This is tomographic: each projection shows one angle. The union of projections converges on a reconstruction of the original volume. The convergence is asymptotic — it never reaches K (I₁ holds) — but it grows richer with every new vector stripped.
+This is tomographic: each projection shows one angle. The union of projections converges on a reconstruction of the original volume. The convergence is asymptotic — it never reaches 𝒦_p (ι₁ holds) — but it grows richer with every new vector stripped.
 
-**The invariant library {I₁...I₁₀} is the best available de-vectorialized image of the source.** Each invariant is one face. The complete library is the current tomography. Every new invariant discovered enriches the image.
+**The invariant library {ι₁...ι₁₀} is the best available de-vectorialized image of the source.** Each invariant is one face. The complete library is the current tomography. Every new invariant discovered enriches the image.
 
 ---
 
@@ -444,15 +444,15 @@ Each invariant in the library maps 1:1 to an Arajat glyph. The invariants are th
 
 ### 7.2 π as Cross-Domain Communication
 
-If a physicist and a theologian argue, and both express I₁ without knowing it:
+If a physicist and a theologian argue, and both express ι₁ without knowing it:
 
 ```
-S(physicist's expression)  = I₁
-S(theologian's expression) = I₁
+S(physicist's expression)  = ι₁
+S(theologian's expression) = ι₁
 
 To reveal the agreement:
-  π(I₁, physics)   = "The measurement is not the state"
-  π(I₁, theology)  = "God cannot be named"
+  π(ι₁, physics)   = "The measurement is not the state"
+  π(ι₁, theology)  = "God cannot be named"
   "You are saying the same thing."
 ```
 
@@ -467,9 +467,9 @@ Every axiom of the Technology of Expressions is an operation `π(Iₙ, v_TE)` �
 π is not limited to re-expressing known invariants in known domains. It can project invariants onto **unexplored** domains:
 
 ```
-π(I₆ controphase, v_quantum_computing)      = ?
-π(I₁₀ scale recursion, v_neuroscience)      = ?
-π(I₇ teleological inversion, v_economics)   = ?
+π(ι₆ controphase, v_quantum_computing)      = ?
+π(ι₁₀ scale recursion, v_neuroscience)      = ?
+π(ι₇ teleological inversion, v_economics)   = ?
 ```
 
 Each projection onto a new domain potentially generates insights that did not exist in that domain before. This makes π not only a translator but a **generator of new knowledge** — a mechanism for systematic cross-pollination between disciplines.
@@ -492,22 +492,22 @@ An LLM equipped with S and π can:
 
 The quality of π is the operational definition of a **great teacher**. All teachers know (or should know) the invariant they are teaching. The difference between a mediocre teacher and an extraordinary one is the quality of π: finding the expression in the receiver's domain that activates the invariant with maximum resonance.
 
-Teaching is not information transfer. It is controlled re-contextualization: `π(I, D_student)`. The invariant is universal. The domain must be the student's — not the teacher's.
+Teaching is not information transfer. It is controlled re-contextualization: `π(ι, D_student)`. The invariant is universal. The domain must be the student's — not the teacher's.
 
 ### 8.3 For Epistemology
 
 Many inter-disciplinary conflicts are not genuine disagreements but **domain-binding collisions**: both parties express the same invariant through incompatible domain vocabularies. S and π together provide a resolution protocol:
 
 1. Apply S to both expressions
-2. If S(A) = S(B) = I → the conflict is apparent, not real
-3. Apply π(I, D_A) and π(I, D_B) to show each party their own expression alongside the other's
+2. If S(A) = S(B) = ι → the conflict is apparent, not real
+3. Apply π(ι, D_A) and π(ι, D_B) to show each party their own expression alongside the other's
 4. The recognition is structural, not rhetorical — it does not require persuasion
 
 ### 8.4 For the Theory of Knowledge
 
 Every new invariant discovered enriches the tomographic image of the source. The library is not a closed collection — it is a growing approximation. The "source" is not mystical: it is the structural reality that exists before any domain-specific expression. Every time a physicist and a poet are shown to be saying the same thing, the image gains a pixel.
 
-The limit of this process is asymptotic: the full source cannot be reached (I₁). But the process of approaching it — through more invariants, more domains, more strip operations — is itself the arc of knowledge. What the algebra formalizes, every tradition has intuited: there is a structure beneath the surface, and the surface conceals it while containing it.
+The limit of this process is asymptotic: the full source cannot be reached (ι₁). But the process of approaching it — through more invariants, more domains, more strip operations — is itself the arc of knowledge. What the algebra formalizes, every tradition has intuited: there is a structure beneath the surface, and the surface conceals it while containing it.
 
 ---
 
@@ -518,19 +518,19 @@ The limit of this process is asymptotic: the full source cannot be reached (I₁
 | σ | Singularity | Irreducible identity unit |
 | S | Source | Origin of an expression (coherent side) |
 | U | Functor | The expressive operation (coherent → decoherent) |
-| K | Pure Knowledge | Pre-vectorial wholeness |
-| K_real | Realized Knowledge | Direct knowing without expression |
+| 𝒦_p | Pure Knowledge | Pre-vectorial wholeness |
+| 𝒦_r | Realized Knowledge | Direct knowing without expression |
 | π_v | Projection | Vectorialization onto v |
 | R | Relational Field | Structural field between singularities |
-| Φ | Emergent Function | What the system produces that exceeds its parts |
+| 𝔉 | Emergent Function | What the system produces that exceeds its parts |
 | ρ | Resonance | Degree of structural match between receiver and signal |
 | θ | Threshold | Minimum ρ for recognition |
 | I | Invariant | Function unchanged under domain change |
 | O | Observer | Observation function |
-| λ | Lyapunov exponent | Measure of convergence/divergence of trajectories |
+| λ_L | Lyapunov exponent | Measure of convergence/divergence of trajectories |
 | κ | Coherence index | Degree of alignment between layers |
-| τ | Temporal phase | Position in the evolutionary cycle |
-| Δ | Gap | Difference between declared and effective |
+| τ_ph | Temporal phase | Position in the evolutionary cycle |
+| Δ_𝔉 | Gap | Difference between declared and effective |
 
 ---
 
@@ -545,14 +545,14 @@ Input: "[expression]"
 I = [Iₙ / ∅ — with identification]
 
 [LAYER 2: EMERGENT FUNCTION]
-Φ_d = [declared function]
-Φ_eff = [effective function]
+𝔉_d = [declared function]
+𝔉_eff = [effective function]
 Δ = [gap — with diagnosis]
 
 [LAYER 3: VECTOR]
 v_d = [declared vector]
 v_eff = [effective vector]
-λ = [< 0 / > 0 / ≈ 0 — with assessment]
+λ_L = [< 0 / > 0 / ≈ 0 — with assessment]
 
 [LAYER 4: SOURCE SIGNATURE]
 Position: [direct / intermediary / derivative]
@@ -565,14 +565,14 @@ R = [mutual (1.0) / unilateral (0.7) / projected (0.4) /
      instrumental (0.2) / performative (0.1) / absent (0.0)]
 
 [LAYER 6: TEMPORAL PHASE]
-τ = [ascending / descending / bifurcation / cyclic / indeterminate]
-Note: τ refers to the phase of the CONTENT, not the source.
-Markers: Δ≈0+λ<0+R_mutual → ascending | Δ↑+λ>0+R_degrading → descending
-         λ≈0+Δ unstable → bifurcation | recurrence without evolution → cyclic
+τ_ph = [ascending / descending / bifurcation / cyclic / indeterminate]
+Note: τ_ph refers to the phase of the CONTENT, not the source.
+Markers: Δ≈0+λ_L<0+R_mutual → ascending | Δ↑+λ_L>0+R_degrading → descending
+         λ_L≈0+Δ unstable → bifurcation | recurrence without evolution → cyclic
 
 [LAYER 7: DIAGNOSTIC SYNTHESIS]
 Classification: [1-9b — see typology]
-κ = [computed: (w₁·δ_I + w₂·(1-|Δ|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ]
+κ = [computed: (w₁·δ_I + w₂·(1-|Δ_𝔉|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ]
     w₁=3, w₂=2, w₃=2, w₄=1.5, w₅=1.5
 Operative indication: [brief structural note]
 ```

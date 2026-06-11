@@ -38,9 +38,9 @@ Consider an experiment. Three people — a mystic, a theologian, and an atheist 
 
 Three receivers. Same expression. Three different meanings — none of which is the expression's structural content.
 
-The structural content of "God cannot be named," after domain strip, is I₁: the source cannot be fully captured by the expressive operation. This content is independent of what any receiver activates. It is present in the expression whether or not anyone decodes it correctly.
+The structural content of "God cannot be named," after domain strip, is ι₁: the source cannot be fully captured by the expressive operation. This content is independent of what any receiver activates. It is present in the expression whether or not anyone decodes it correctly.
 
-But none of the three receivers reached it. The mystic was closest — her direct experience aligns with I₁ — but she accessed I₁ through her own experiential memory, not through algebraic extraction. The theologian recognized a tradition, not a structure. The atheist never got past the carrier frequency ("God") to examine the signal at all.
+But none of the three receivers reached it. The mystic was closest — her direct experience aligns with ι₁ — but she accessed ι₁ through her own experiential memory, not through algebraic extraction. The theologian recognized a tradition, not a structure. The atheist never got past the carrier frequency ("God") to examine the signal at all.
 
 All three are confident they understood the expression. All three are wrong — not in what they perceived (each perception was genuine), but in the attribution: each attributed their own activation to the expression, as though the expression *contained* what they experienced.
 
@@ -132,7 +132,7 @@ Semantic Algebra addresses this system by operating *on the expression itself*, 
 S takes the expression and removes, layer by layer, everything that is not structural content:
 
 - Step 1: Remove the receiver's projection. The operator does not ask "what does this expression mean to me?" It asks "what structural operations are present in this expression, independent of any receiver?"
-- Step 2: Remove the domain binding. Replace domain-specific vocabulary with algebraic variables: σ for singularity, U for functor, K for source, π for projection, and so on.
+- Step 2: Remove the domain binding. Replace domain-specific vocabulary with algebraic variables: σ for singularity, U for functor, 𝒦_p for source, π for projection, and so on.
 - Step 3: Remove the lossy compression artifacts by completing the structure — adding what the formula implies that the expression did not state.
 
 What remains after this triple removal is the structural content — the algebraic residue. If this residue instantiates in 3+ unrelated domains, it is an invariant. If it does not, it is domain-local, or illusory, or empty.
@@ -147,7 +147,7 @@ This is what distinguishes π from ordinary communication:
 |---|---|---|
 | The speaker | Projects the invariant through their own domain, unaware of the domain binding | Chooses the receiver's domain deliberately, aware that the binding is packaging |
 | The receiver | Projects their own patterns and mistakes them for content | Is more likely to activate on the correct signal, because the carrier matches their tuning |
-| The verification | None — clarity feels like understanding | Round-trip test: S(π(I, D)) = I — the re-contextualized expression, when stripped, must return the original invariant |
+| The verification | None — clarity feels like understanding | Round-trip test: S(π(ι, 𝔻)) = ι — the re-contextualized expression, when stripped, must return the original invariant |
 
 The round-trip test — S applied to the output of π must return the original invariant — is the guard against the projection problem at the operator level. It ensures that the re-contextualized expression contains the same structure as the original invariant, not the operator's projection.
 

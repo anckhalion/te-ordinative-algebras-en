@@ -87,7 +87,7 @@ This is not a metaphor. It is the precise algebraic statement that the dominant 
 The dominant vector determines:
 - **What the identity is most likely to collapse** — it collapses content aligned with $\vec{v}_\lambda$
 - **How the identity appears to others** — the dominant vector is the identity's "signature," its most visible orientation
-- **Where the trajectory tends** — the identity's path through 𝒫 is biased toward regions of 𝒞 aligned with $\vec{v}_\lambda$
+- **Where the trajectory tends** — the identity's path through 𝒫 is biased toward regions of ℭ_h aligned with $\vec{v}_\lambda$
 
 ---
 
@@ -133,19 +133,19 @@ This corresponds to the OST's *restructuring*: the relational field R changes, w
 
 Two identities relate through their Remirs. The PA defines three fundamental inter-identity relations:
 
-### 7.5.1 Compatibility (κ_inter)
+### 7.5.1 Compatibility (⟨𝓚⁵⟩_inter)
 
 Two identities are compatible if their Remirs can generate a shared coherent field (the ⊗ operation):
 
-$$\kappa_{inter}(I_1, I_2) = \frac{|V_{I_1} \cdot V_{I_2}|}{\max(|V_{I_1}|, |V_{I_2}|)}$$
+$$\langle\mathcal{K}^5\rangle_{inter}(I_1, I_2) = \frac{|V_{I_1} \cdot V_{I_2}|}{\max(|V_{I_1}|, |V_{I_2}|)}$$
 
-where $V_{I_1} \cdot V_{I_2}$ denotes the set of vectors in I₁ that have positive resonance with at least one vector in I₂. High κ_inter means the identities share structural orientations. Low κ_inter means they are oriented in different directions.
+where $V_{I_1} \cdot V_{I_2}$ denotes the set of vectors in I₁ that have positive resonance with at least one vector in I₂. High ⟨𝓚⁵⟩_inter means the identities share structural orientations. Low ⟨𝓚⁵⟩_inter means they are oriented in different directions.
 
 ### 7.5.2 Complementarity
 
-Two identities are complementary if their Remirs cover different regions of 𝒞 with minimal overlap:
+Two identities are complementary if their Remirs cover different regions of ℭ_h with minimal overlap:
 
-$$\text{Complementarity}(I_1, I_2) = 1 - \kappa_{inter}(I_1, I_2)$$
+$$\text{Complementarity}(I_1, I_2) = 1 - \langle\mathcal{K}^5\rangle_{inter}(I_1, I_2)$$
 
 Complementary identities do not share vectors but do not conflict. They can collaborate because their coverages are additive.
 
@@ -165,7 +165,7 @@ This connects to the OST's pathology of *Antagonist Order* (§6): a singularity 
 
 We can now state what an identity is, algebraically:
 
-> **Theorem 7.1 (The Remir Algebra).** The set of all Remirs ℛ, equipped with:
+> **Theorem 7.1 (The Remir Algebra).** The set of all Remirs 𝕀, equipped with:
 >
 > - the internal product B_I (resonance matrix)
 > - the update operator 𝒰_R (evolution under collapse)
@@ -189,9 +189,9 @@ Part II has built the Proportional Space:
 
 | Chapter | Built | Symbol | Status |
 |---|---|---|---|
-| 4 | The space itself | 𝒫 = (𝒞, ℛ, 𝒟, ρ, ≤_κ) | ✅ Defined |
-| 5 | The resonance metric | ρ: 𝒞 × ℛ → [0,1] | ✅ 5 components, composite formula |
-| 6 | The coherence order | ≤_κ on 𝒟 | ✅ Partial order, lattice structure |
+| 4 | The space itself | 𝒫 = (ℭ_h, 𝕀, 𝒟, ρ, ≤_𝓚) | ✅ Defined |
+| 5 | The resonance metric | ρ: ℭ_h × 𝕀 → [0,1] | ✅ 5 components, composite formula |
+| 6 | The coherence order | ≤_𝓚 on 𝒟 | ✅ Partial order, lattice structure |
 | 7 | The identity structure | ℛ(I) = (V_I, B_I) | ✅ Non-commutative algebra |
 
 The space is defined, metrised, ordered, and its central objects — identities — are characterised as algebraic structures.

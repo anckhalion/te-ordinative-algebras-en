@@ -18,21 +18,21 @@ The upgrade matters. A description says: "an expression is generated from conten
 
 > **Definition 8.1 (Collapse Operator).** The collapse is a mapping:
 >
-> $$\Phi: \mathcal{C} \times \mathcal{R} \times K \to \mathcal{D}$$
+> $$\Phi: \mathfrak{C}_h \times \mathbb{I} \times K \to \mathcal{D}$$
 >
-> that takes a coherent content C ∈ 𝒞, a Remir ℛ(I) ∈ ℛ, and a context K, and produces an expression E ∈ 𝒟.
+> that takes a coherent content C ∈ ℭ_h, a Remir ℛ(I) ∈ 𝕀, and a context K, and produces an expression E ∈ 𝒟.
 >
 > The collapse is defined only when the compatibility condition is met:
 >
 > $$\Phi(C, I, K) = E \quad \text{iff} \quad \rho(C, I, K) \geq \theta(C)$$
 >
-> If ρ < θ, the collapse does not occur. The content remains in 𝒞 — un-expressed, potential, coherent.
+> If ρ < θ, the collapse does not occur. The content remains in ℭ_h — un-expressed, potential, coherent.
 
 ### 8.2.1 What Φ Does
 
 The collapse performs three simultaneous acts:
 
-**1. Selection.** The coherent field 𝒞 contains a superposition of proportional configurations. The identity I, through its Remir, *selects* those configurations that are aligned with its dominant vector λ(I). Configurations not aligned with I are filtered out. This is the first loss: the expression E contains only the part of C that I can access.
+**1. Selection.** The coherent field ℭ_h contains a superposition of proportional configurations. The identity I, through its Remir, *selects* those configurations that are aligned with its dominant vector λ(I). Configurations not aligned with I are filtered out. This is the first loss: the expression E contains only the part of C that I can access.
 
 **2. Projection.** The selected content is multi-dimensional (it lives in the coherent field, which has more dimensions than any single expression can carry). The context K constrains the available "channels" — the dimensions along which the expression can exist. The content is *projected* from the high-dimensional coherent field onto the lower-dimensional decoherent space. This is the second loss: dimensional reduction.
 
@@ -75,7 +75,7 @@ There is no "null identity" I₀ such that:
 
 $$\Phi(C, I_0, K) = C \quad \forall C, K$$
 
-because Φ always produces an element of 𝒟 (the decoherent space), and C lives in 𝒞 (the coherent field). A collapse always produces a *decoherent* expression. There is no way to collapse without collapsing — no way to express without losing the superposition of the un-expressed.
+because Φ always produces an element of 𝒟 (the decoherent space), and C lives in ℭ_h (the coherent field). A collapse always produces a *decoherent* expression. There is no way to collapse without collapsing — no way to express without losing the superposition of the un-expressed.
 
 ### 8.3.4 Φ Has No Strict Inverse
 
@@ -96,11 +96,11 @@ However: Φ has a **partial inverse** — the Strip operator S (Chapter 9). S ca
 The collapse can be visualised as a diagram in 𝒫:
 
 ```
-        𝒞 (Coherent Field)
+        ℭ_h (Coherent Field)
         │
         │ ρ(C, I, K) ≥ θ ?
         │
-    YES │                    NO → content remains in 𝒞
+    YES │                    NO → content remains in ℭ_h
         │
         ▼
    ┌─────────┐
@@ -131,31 +131,31 @@ At each stage, information is lost. The expression E is a *compressed* version o
 
 Not all collapses are equal. The PA distinguishes four types, based on the relationship between the loss and the fidelity:
 
-### Type Α — Coherent Collapse
+### Type A — Coherent Collapse
 
-$$\kappa(E) \geq 0.7 \quad \text{and} \quad \rho(C, S(E)) \geq \theta$$
+$$\langle\mathcal{K}^5\rangle(E) \geq 0.7 \quad \text{and} \quad \rho(C, S(E)) \geq \theta$$
 
 The expression faithfully carries the coherent content. The losses are minimal: the identity was well-aligned, the context was supportive, and the depth was sufficient. The extended round-trip (Chapter 11) succeeds.
 
 Examples: a masterful translation, a successful chemical synthesis, a moment of genuine emotional expression.
 
-### Type Β — Partial Collapse
+### Type B — Partial Collapse
 
-$$0.3 \leq \kappa(E) < 0.7$$
+$$0.3 \leq \langle\mathcal{K}^5\rangle(E) < 0.7$$
 
 The expression carries some of the content but has lost significant proportional structure. Some relations survived; others did not. The identity was partially aligned, or the context was restrictive, or the depth was insufficient.
 
 Examples: a mediocre translation, a side-reaction in chemistry, a partially articulated emotion.
 
-### Type Γ — Distorted Collapse
+### Type C — Distorted Collapse
 
-$$\kappa(E) < 0.3 \quad \text{and} \quad S(E) \neq \emptyset$$
+$$\langle\mathcal{K}^5\rangle(E) < 0.3 \quad \text{and} \quad S(E) \neq \emptyset$$
 
 The expression contains structural content, but the content has been significantly distorted — the proportional relations are altered, inverted, or contaminated with foreign structure. The identity imposed its own proportional structure *over* the content's, rather than channelling the content faithfully.
 
 Examples: propaganda (content distorted by ideological identity), a misfolded protein (correct components, wrong proportional structure), a manipulative emotional display (genuine emotion distorted by performative intent).
 
-### Type Δ — Failed Collapse
+### Type D — Failed Collapse
 
 $$S(E) = \emptyset \quad \text{or} \quad \rho(C, I, K) < \theta$$
 
@@ -180,8 +180,8 @@ $$I_n \xrightarrow{\Phi} E_n \xrightarrow{\mathcal{U}} I_{n+1} \xrightarrow{\Phi
 This loop is the **trajectory** T(I). The trajectory is not a path through physical space — it is a path through 𝒫, a sequence of collapses that progressively modifies the identity.
 
 The loop can be:
-- **Convergent** — each collapse increases κ, bringing the identity closer to the coherent content. The trajectory spirals inward toward greater coherence.
-- **Divergent** — each collapse decreases κ, driving the identity further from the content. The trajectory spirals outward toward degeneration.
+- **Convergent** — each collapse increases ⟨𝓚⁵⟩, bringing the identity closer to the coherent content. The trajectory spirals inward toward greater coherence.
+- **Divergent** — each collapse decreases ⟨𝓚⁵⟩, driving the identity further from the content. The trajectory spirals outward toward degeneration.
 - **Oscillatory** — the identity alternates between higher and lower coherence, without convergence. The trajectory pulsates (Chapter 12).
 
 ---
@@ -194,7 +194,7 @@ The loop can be:
 | Associative | No | The order of successive collapses matters |
 | Identity element | None | There is no "null collapse" |
 | Inverse | Partial (S) | The Strip extracts surviving structure, but cannot reconstruct C |
-| Domain | 𝒞 × ℛ × K | Input: coherent content, identity, context |
+| Domain | ℭ_h × 𝕀 × K | Input: coherent content, identity, context |
 | Codomain | 𝒟 | Output: decoherent expression |
 | Condition | ρ ≥ θ | Collapse occurs only above the resonance threshold |
 | Feedback | I_{n+1} = 𝒰(I_n, E_n) | Every collapse modifies the identity |

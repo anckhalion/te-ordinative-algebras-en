@@ -6,13 +6,13 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₁ — Non-Expressibility of the Source
+## ι₁ — Non-Expressibility of the Source
 
-**Formula**: `U(K) = π_v(K) ⊊ K, U⁻¹ ∄, K ↪ U(K)`
+**Formula**: `U(𝒦_p) = π_v(𝒦_p) ⊊ 𝒦_p, U⁻¹ ∄, 𝒦_p ↪ U(𝒦_p)`
 
 **In words**: To express is to project. The projection is less than the source. What is lost cannot be recovered. Yet the source is contained in the expression as inherited structure.
 
-**Completion**: K_real(K) = K (direct realization preserves wholeness). U(K_real) ⊊ K_real (telling about it loses it again).
+**Completion**: 𝒦_r(𝒦_p) = 𝒦_p (direct realization preserves wholeness). U(𝒦_r) ⊊ 𝒦_r (telling about it loses it again).
 
 **Cross-domain instances**:
 - Taoism: "The Tao that can be told is not the eternal Tao"
@@ -23,19 +23,19 @@ One page per invariant. Designed for operational use — the field reference for
 - Poetry: "M'illumino d'immenso" (Ungaretti)
 - Zen: "The finger pointing at the moon is not the moon"
 
-**Diagnostic**: Is the expression claiming that something cannot be fully captured by its representation? Does the strip yield U(K) ⊊ K?
+**Diagnostic**: Is the expression claiming that something cannot be fully captured by its representation? Does the strip yield U(𝒦_p) ⊊ 𝒦_p?
 
 **Mimicry risk**: Expressions that claim "the truth is beyond words" as a rhetorical device (to avoid scrutiny) without structural justification.
 
 ---
 
-## I₂ — Resonance Beyond Threshold
+## ι₂ — Resonance Beyond Threshold
 
 **Formula**: `ρ(σ, I) ≥ θ → recognition`
 
 **In words**: When structural match between receiver and invariant exceeds threshold, recognition occurs — experienced as insight, understanding, or "truth."
 
-**Properties**: Meta-invariant (mechanism of recognition for all other invariants). Self-validating (recognizing I₂ is an instance of I₂). θ varies by receiver.
+**Properties**: Meta-invariant (mechanism of recognition for all other invariants). Self-validating (recognizing ι₂ is an instance of ι₂). θ varies by receiver.
 
 **Cross-domain instances**:
 - Music: Frisson at unexpected harmonic resolution
@@ -50,7 +50,7 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₃ — Entropy of Substitution
+## ι₃ — Entropy of Substitution
 
 **Formula**: `V(system) grows by substitution, not by error`
 
@@ -67,17 +67,17 @@ One page per invariant. Designed for operational use — the field reference for
 
 **Diagnostic**: Is there a gap between metric health and structural health? Has a surrogate replaced the original while preserving the original's signal?
 
-**Mimicry risk**: Low — I₃ is diagnostic, not aspirational. Rarely mimicked.
+**Mimicry risk**: Low — ι₃ is diagnostic, not aspirational. Rarely mimicked.
 
 ---
 
-## I₄ — Irreducibility of Singularity
+## ι₄ — Irreducibility of Singularity
 
 **Formula**: `∀f: f(σ) → σ' ⇒ σ' ≠ σ`
 
 **In words**: Any operation on a singularity produces something that is not that singularity. Identity is irreducible to any functional description.
 
-**Relationship**: Specialization of I₁ applied to identity. I₁: expression ≠ source. I₄: no operation ≠ singularity.
+**Relationship**: Specialization of ι₁ applied to identity. ι₁: expression ≠ source. ι₄: no operation ≠ singularity.
 
 **Cross-domain instances**:
 - Ethics: A person ≠ their role
@@ -90,9 +90,9 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₅ — Structural Field (Emergence)
+## ι₅ — Structural Field (Emergence)
 
-**Formula**: `Φ(σ₁, σ₂) > Φ(σ₁) + Φ(σ₂)`
+**Formula**: `𝔉(σ₁, σ₂) > 𝔉(σ₁) + 𝔉(σ₂)`
 
 **In words**: Genuine relationship produces emergent function exceeding the sum of individual functions.
 
@@ -109,7 +109,7 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₆ — Controphase
+## ι₆ — Controphase
 
 **Formula**: `C(pattern) = phase-shift, not opposition`
 
@@ -128,7 +128,7 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₇ — Teleological Inversion
+## ι₇ — Teleological Inversion
 
 **Formula**: `σ does not seek I; I evokes σ`
 
@@ -146,11 +146,11 @@ One page per invariant. Designed for operational use — the field reference for
 
 **Diagnostic**: Does the expression describe discovery as reception rather than invention? Is the source's awareness independent of the invariant's presence (source-invariant independence)?
 
-**Mimicry risk**: HIGH. "Everything happens for a reason" mimics I₇ without providing mechanism.
+**Mimicry risk**: HIGH. "Everything happens for a reason" mimics ι₇ without providing mechanism.
 
 ---
 
-## I₈ — Bidirectionality of Observation
+## ι₈ — Bidirectionality of Observation
 
 **Formula**: `O(A, B) ⇒ O(B, A)`
 
@@ -167,9 +167,9 @@ One page per invariant. Designed for operational use — the field reference for
 
 ---
 
-## I₉ — Semantic Inversion as Degeneration
+## ι₉ — Semantic Inversion as Degeneration
 
-**Formula**: `sign(Φ_d) = -sign(Φ_eff)`
+**Formula**: `sign(𝔉_d) = -sign(𝔉_eff)`
 
 **In words**: When declared function has opposite sign of effective function, the system has undergone semantic inversion — structural degeneration.
 
@@ -182,11 +182,11 @@ One page per invariant. Designed for operational use — the field reference for
 - Politics: "National security" → expansion of state power
 - Self-help: "Self-empowerment" → perpetual dependency
 
-**Diagnostic**: Compare Φ_d with Φ_eff. If signs are opposite → I₉. Testable without subjective judgment.
+**Diagnostic**: Compare 𝔉_d with 𝔉_eff. If signs are opposite → ι₉. Testable without subjective judgment.
 
 ---
 
-## I₁₀ — Scale Recursion
+## ι₁₀ — Scale Recursion
 
 **Formula**: `I(scale_n) ≅ I(scale_m) ∀n,m`
 

@@ -59,7 +59,7 @@ Three domains. Three sets of materials. One operation. The collapse is the same.
 
 ### Step 3: Therefore, the structural grammar is one
 
-If the collapse operation is the same and only the materials differ, then any structural law that governs the collapse *as such* — independent of the specific materials — will hold in every domain. Such laws are called **structural invariants**. The Semantic Algebra has identified ten of them (I₁ through I₁₀). The Proportional Algebra will show that these invariants, and others, are consequences of the geometry of the Proportional Space itself.
+If the collapse operation is the same and only the materials differ, then any structural law that governs the collapse *as such* — independent of the specific materials — will hold in every domain. Such laws are called **structural invariants**. The Semantic Algebra has identified ten of them (ι₁ through ι₁₀). The Proportional Algebra will show that these invariants, and others, are consequences of the geometry of the Proportional Space itself.
 
 The conclusion:
 
@@ -80,11 +80,11 @@ More formally. Let:
 $$E_1 = \Phi(C_1, I_1, K_1) \quad \text{in domain } D_1$$
 $$E_2 = \Phi(C_2, I_2, K_2) \quad \text{in domain } D_2$$
 
-Then E₁ and E₂ are structurally isomorphic if there exists a map μ: D₁ → D₂ such that:
+Then E₁ and E₂ are structurally isomorphic if there exists a map μ: 𝔻₁ → 𝔻₂ such that:
 
 1. μ preserves the resonance: ρ(C₁, I₁) = ρ(μ(C₁), μ(I₁))
-2. μ preserves the threshold: the collapse condition ρ ≥ θ holds in D₁ if and only if it holds in D₂
-3. μ preserves the coherence order: if E₁ ≤_κ E₁' in D₁, then μ(E₁) ≤_κ μ(E₁') in D₂
+2. μ preserves the threshold: the collapse condition ρ ≥ θ holds in 𝔻₁ if and only if it holds in 𝔻₂
+3. μ preserves the coherence order: if E₁ ≤_𝓚 E₁' in 𝔻₁, then μ(E₁) ≤_𝓚 μ(E₁') in 𝔻₂
 
 When these three conditions hold, the two collapses are *proportionally identical* — they are the same event, expressed through different materials.
 

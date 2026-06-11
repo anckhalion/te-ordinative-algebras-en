@@ -4,6 +4,16 @@ All notable changes to this repository should be documented in this file.
 
 The format is inspired by Keep a Changelog and semantic versioning principles for documentation releases.
 
+## [Unreleased — v2.0.0-dev] - 2026-06-11
+
+### Changed — Canonical notation consolidation (Symbol Canon v1.0)
+
+Programme-wide symbol renames per the **Symbol Canon for the Ordinative Sciences Programme** (ratified by the author 2026-06-11). Notation only — no semantic changes.
+
+- **PA**: 𝒞 → ℭ_h (with ℭ_shared, ℭ_K); Identity Space ℛ → 𝕀 (the Remir ℛ(I) unchanged); coherence family κ/κ_1…κ_5/≤_κ → 𝓚⁵/⟨𝓚⁵⟩/𝓚_1…𝓚_5/≤_𝓚 (extends OST's 𝓚); invariants I_k → ι_k; collapse types Α/Β/Γ/Δ → A/B/C/D (state taxonomy shared with OCT); domains D₁/D₂/D_target → 𝔻₁/𝔻₂/𝔻_target. LaTeX macro layer updated (\mathfrak{C}_h, \mathbb{I}, \mathcal{K}).
+- **SA**: Φ/Φ_d/Φ_eff → 𝔉/𝔉_d/𝔉_eff; gap Δ/Δ_S → Δ_𝔉; K → 𝒦_p; K_real → 𝒦_r; invariants I/I₁–I₁₀ → ι/ι₁–ι₁₀; Controphase C → C_φ; Domain D → 𝔻; τ → τ_ph; λ → λ_L; ω → ω_att. Unchanged: S, π, σ, R, ρ, θ, Σ_src, U, κ (SA scope, canon-declared). The TE collapse equation E = Φ(C, I, K) is quoted in TE notation by design.
+- Canon Alignment Notes added to both symbol registers (PA Appendix A, SA Appendix A); SA↔PA equivalences appendix updated on both sides; engine notation note added (`PA/pa_engine/CANON_NOTATION_NOTE.md`).
+
 ## [1.0.1] - 2026-05-06
 
 ### Notes

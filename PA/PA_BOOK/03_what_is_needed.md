@@ -50,7 +50,7 @@ Three operations are required:
 
 ### Operation 1: Collapse (Φ)
 
-$$\Phi: \mathcal{C} \times \mathcal{R} \times K \to D$$
+$$\Phi: \mathfrak{C}_h \times \mathbb{I} \times K \to D$$
 
 The collapse operation takes a coherent content, an identity (specified by its Remir), and a context, and produces an expression. This is the TE's equation (1.1), now treated as an *algebraic operation* — an arrow in the Proportional Space that maps from the coherent region to the decoherent region.
 
@@ -66,7 +66,7 @@ These are not philosophical questions. They are algebraic questions with definit
 
 $$S: D \to \mathcal{I} \times [0,1]$$
 
-The strip operation takes an expression (in the decoherent space D) and extracts whatever structural content it contains — an invariant I with a coherence measure κ. This is the SA's operator, now formalised within the Proportional Space.
+The strip operation takes an expression (in the decoherent space D) and extracts whatever structural content it contains — an invariant ι with a coherence measure ⟨𝓚⁵⟩. This is the SA's operator, now formalised within the Proportional Space.
 
 S is the *partial inverse* of Φ. It does not reconstruct C from E (this is impossible — equation (1.1) is non-invertible). It extracts from E the structural content that survived the projection. S is therefore a *compression* — it maps from a high-dimensional expression to a low-dimensional invariant, discarding domain-specific vocabulary and preserving only what is universal.
 
@@ -77,16 +77,16 @@ As an algebraic operation, S must satisfy:
 
 ### Operation 3: Resonance (⊗)
 
-$$\otimes: \mathcal{R} \times \mathcal{R} \to \mathcal{C}_{shared}$$
+$$\otimes: \mathbb{I} \times \mathbb{I} \to \mathfrak{C}_{shared}$$
 
 The resonance operation takes two identities (Remirs) and produces the *shared coherent field* — the portion of coherent content that both identities can access. This is the formal description of what happens when two consciousnesses resonate: they do not merge, but they generate a shared space of collapsible content that neither could access alone.
 
-This operation is new. It does not appear explicitly in the SA (which operates on single expressions). It appears implicitly in the TE, in the notion of collective fields (equation 1.14: 𝒞 = f({I₁...Iₙ})). The Proportional Algebra makes it explicit and formal.
+This operation is new. It does not appear explicitly in the SA (which operates on single expressions). It appears implicitly in the TE, in the notion of collective fields (equation 1.14: ℭ_h = f({I₁...Iₙ})). The Proportional Algebra makes it explicit and formal.
 
 As an algebraic operation, ⊗ must satisfy:
 - **Symmetry**: I₁ ⊗ I₂ = I₂ ⊗ I₁ — the shared field does not depend on who "goes first"
 - **Monotonicity**: if ρ(C, I₁) increases, then I₁ ⊗ I₂ ≥ I₁_old ⊗ I₂ — deeper resonance produces a larger shared field
-- **Ground case**: I ⊗ I = 𝒞(I) — the resonance of an identity with itself is its own accessible field
+- **Ground case**: I ⊗ I = ℭ_h(I) — the resonance of an identity with itself is its own accessible field
 
 Chapter 8 (Collapse), Chapter 9 (Strip), and Chapter 10 (Resonance) develop each operation formally.
 
@@ -96,15 +96,15 @@ Chapter 8 (Collapse), Chapter 9 (Strip), and Chapter 10 (Resonance) develop each
 
 An algebra without relations is a toolkit without instructions. The Proportional Algebra needs three relations that tell us *how* the objects in 𝒫 are compared, equated, and tested.
 
-### Relation 1: The Coherence Order (≤_κ)
+### Relation 1: The Coherence Order (≤_𝓚)
 
 Not all expressions are equally coherent. A poem by Rilke and a greeting card both express "love," but one is structurally richer than the other. A scientific paper and a conspiracy theory both claim to describe reality, but one has a higher coherence measure than the other.
 
-The coherence order ≤_κ ranks expressions by their structural coherence — the degree to which the proportional relations among their components are internally consistent and aligned with the coherent field. Formally:
+The coherence order ≤_𝓚 ranks expressions by their structural coherence — the degree to which the proportional relations among their components are internally consistent and aligned with the coherent field. Formally:
 
-$$E_1 \leq_\kappa E_2 \iff \kappa(E_1) \leq \kappa(E_2)$$
+$$E_1 \leq_{\mathcal{K}} E_2 \iff \langle\mathcal{K}^5\rangle(E_1) \leq \langle\mathcal{K}^5\rangle(E_2)$$
 
-where κ is the coherence function already developed in the SA (the 5-component weighted formula). The ordering is partial — not all expressions are comparable — which means 𝒫 is a *partially ordered set*, not a totally ordered one. This is structurally correct: it would be meaningless to ask whether a symphony is "more coherent" than a chemical bond. They are incomparable in the ordering. But within a domain, or between expressions that share an invariant, the ordering is well-defined and diagnostic.
+where ⟨𝓚⁵⟩ is the coherence function already developed in the SA (the 5-component weighted formula). The ordering is partial — not all expressions are comparable — which means 𝒫 is a *partially ordered set*, not a totally ordered one. This is structurally correct: it would be meaningless to ask whether a symphony is "more coherent" than a chemical bond. They are incomparable in the ordering. But within a domain, or between expressions that share an invariant, the ordering is well-defined and diagnostic.
 
 ### Relation 2: Structural Equivalence (≡_S)
 
@@ -114,7 +114,7 @@ $$E_1 \equiv_S E_2 \iff S(E_1) = S(E_2)$$
 
 This is the formal definition of what the SA calls "the same structural law in different domain vocabularies." Structural equivalence is an *equivalence relation* — it is reflexive, symmetric, and transitive — which means it partitions the space of expressions into *equivalence classes*. Each class contains all the expressions — across all domains — that carry the same structural law.
 
-The equivalence classes are the **invariant classes** of 𝒫. The invariant library (I₁ through I₁₀ in the SA, plus any future invariants) is a catalogue of these classes.
+The equivalence classes are the **invariant classes** of 𝒫. The invariant library (ι₁ through ι₁₀ in the SA, plus any future invariants) is a catalogue of these classes.
 
 ### Relation 3: Compatibility (∼_ρ)
 
@@ -134,7 +134,7 @@ The Semantic Algebra established a round-trip test:
 
 $$S(\pi(I, D)) = I$$
 
-This test verifies that an invariant I, re-projected into domain D by the operator π, and then stripped again, returns the same invariant. If it does, the re-projection was faithful. If it does not, the re-projection introduced distortion.
+This test verifies that an invariant ι, re-projected into domain 𝔻 by the operator π, and then stripped again, returns the same invariant. If it does, the re-projection was faithful. If it does not, the re-projection introduced distortion.
 
 The Proportional Algebra extends this test to include the *original collapse*:
 
@@ -163,7 +163,7 @@ Six conditions would falsify the PA:
 
 **F4 — Universal collapse**: Every expression, when stripped, yields the same invariant — including expressions independently diagnosed as structurally empty. (This would show that S is a projection, not an extraction.)
 
-**F5 — Order reversal**: An expression independently judged as more coherent than another receives a lower κ score. (This would falsify the coherence order.)
+**F5 — Order reversal**: An expression independently judged as more coherent than another receives a lower ⟨𝓚⁵⟩ score. (This would falsify the coherence order.)
 
 **F6 — Resonance non-symmetry**: I₁ ⊗ I₂ ≠ I₂ ⊗ I₁ in a case where the asymmetry cannot be attributed to contextual factors. (This would falsify the symmetry axiom of ⊗.)
 
@@ -177,7 +177,7 @@ None of these conditions have been observed. All are testable. The grammar is fa
 |---|---|---|---|
 | 1 | A space (𝒫) | The ground on which everything lives | Ch. 4-7 |
 | 2 | Three operations (Φ, S, ⊗) | The transformations that act on 𝒫 | Ch. 8-10 |
-| 3 | Three relations (≤_κ, ≡_S, ∼_ρ) | The comparisons that structure 𝒫 | Ch. 6-7 |
+| 3 | Three relations (≤_𝓚, ≡_S, ∼_ρ) | The comparisons that structure 𝒫 | Ch. 6-7 |
 | 4 | The extended round-trip | The integrity test | Ch. 11 |
 | 5 | Falsification criteria | The exit condition | Ch. 18 |
 
@@ -198,7 +198,7 @@ The Proportional Space 𝒫 answers this question: **𝒫 is R made measurable.*
 More precisely:
 
 - **Σ → the objects in 𝒫**: singularities become the elements of the space — contents, identities, expressions
-- **R → the metric and order of 𝒫**: the relational field becomes the resonance metric ρ and the coherence order ≤_κ
+- **R → the metric and order of 𝒫**: the relational field becomes the resonance metric ρ and the coherence order ≤_𝓚
 - **Φ → the operations on 𝒫**: the emergent function becomes what the operations (Collapse, Strip, Resonance) produce
 
 The OST also provides a principle that the PA must preserve: **vertical coherence**.
@@ -227,7 +227,7 @@ Level 1:  σ*, σ'*, ..., σ"*     (new singularities — each a Φ from Level 0
                ▼  ... and so recursively
 ```
 
-At every level: ρ measures the proportions between singularities. ≤_κ orders configurations by coherence. Φ generates something that was not in the parts. And R_{n+1} does not contradict R_n.
+At every level: ρ measures the proportions between singularities. ≤_𝓚 orders configurations by coherence. Φ generates something that was not in the parts. And R_{n+1} does not contradict R_n.
 
 This bridge is not a metaphor. It is the structural reason why Part II can define 𝒫 as it does: because the space already exists in the OST, unnamed and unmetrised. Part II gives it a name and a metric.
 

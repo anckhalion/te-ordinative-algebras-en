@@ -14,11 +14,11 @@ The physicist speaks first, as before:
 
 She pauses. Then she adds:
 
-> "U(K) ⊊ K. I know this formula now. And I know that when he" — she nods at the Sufi — "says 'the name is not the Named,' he is expressing the same formula in a different carrier. U is the measurement in my domain. U is the naming in his. K is the quantum state in my domain. K is the Named in his. The formula is the same. The domain bindings are different."
+> "U(𝒦_p) ⊊ 𝒦_p. I know this formula now. And I know that when he" — she nods at the Sufi — "says 'the name is not the Named,' he is expressing the same formula in a different carrier. U is the measurement in my domain. U is the naming in his. 𝒦_p is the quantum state in my domain. 𝒦_p is the Named in his. The formula is the same. The domain bindings are different."
 
 She turns to the logician:
 
-> "And your incompleteness theorem — the system is less than the reality it models — is the same U(K) ⊊ K, with different domain referents. The system is U. The reality is K. The incompleteness is ⊊."
+> "And your incompleteness theorem — the system is less than the reality it models — is the same U(𝒦_p) ⊊ 𝒦_p, with different domain referents. The system is U. The reality is 𝒦_p. The incompleteness is ⊊."
 
 She does not say this with the tone of someone making a rhetorical point. She says it with the tone of someone reporting a structural fact — the same tone she uses when reporting experimental results.
 
@@ -34,7 +34,7 @@ He pauses.
 
 He turns to the Zen master.
 
-> "And your silence, old friend — I understand it better now. You were not being evasive. You were performing I₁. The room was full before we spoke, because K was present. When we spoke, we vectorialized — and the room emptied. You said so. The minimum vector."
+> "And your silence, old friend — I understand it better now. You were not being evasive. You were performing ι₁. The room was full before we spoke, because 𝒦_p was present. When we spoke, we vectorialized — and the room emptied. You said so. The minimum vector."
 
 ---
 
@@ -74,7 +74,7 @@ He lifts the cup again.
 
 There is silence. Not the uncomfortable silence of the Prologue — where each person suspected the others of missing the point — but a different silence. The silence of four people who have seen the same thing and know they have seen it.
 
-The agreement has not been created by the book. It was always there — in the quantum state and the Named, in the formal system and the tea cup, in the measurement and the silence. The agreement is structural. It is I₁. It was present in the Prologue. It was present for 2,500 years, across six continents, in eight languages.
+The agreement has not been created by the book. It was always there — in the quantum state and the Named, in the formal system and the tea cup, in the measurement and the silence. The agreement is structural. It is ι₁. It was present in the Prologue. It was present for 2,500 years, across six continents, in eight languages.
 
 What the book created is not the agreement but the *visibility* of the agreement.
 
@@ -82,11 +82,11 @@ What the book created is not the agreement but the *visibility* of the agreement
 
 This is what Semantic Algebra does. Not more, not less.
 
-It does not unify the disciplines into one. Physics is still physics. Sufism is still Sufism. Logic is still logic. Zen is still Zen. Each retains its domain vocabulary, its methods, its history, its irreducible character (I₄ — each tradition is a singularity). The disciplines are not merged. They are *connected* — at the structural level, through the invariants they share.
+It does not unify the disciplines into one. Physics is still physics. Sufism is still Sufism. Logic is still logic. Zen is still Zen. Each retains its domain vocabulary, its methods, its history, its irreducible character (ι₄ — each tradition is a singularity). The disciplines are not merged. They are *connected* — at the structural level, through the invariants they share.
 
 It does not replace practice with theory. The physicist still measures. The Sufi still practices *dhikr*. The logician still proves. The Zen master still drinks tea. None of them has gained anything by abandoning their practice. All of them have gained something by seeing their practice from outside its domain binding — from the structural level where the practice's invariant content becomes visible and comparable.
 
-It does not provide final answers. The library is open (Chapter 5). The tomographic image is incomplete (Section 11.2). The question of whether the invariants are finite or infinite remains unanswered (Section 5.11). The method is I₁-aware: it knows that its own formulations are U(truth), not truth. What the method provides is not closure but *procedure* — a defined, replicable, self-correcting way to extract structural content from natural language and transfer it across domains.
+It does not provide final answers. The library is open (Chapter 5). The tomographic image is incomplete (Section 11.2). The question of whether the invariants are finite or infinite remains unanswered (Section 5.11). The method is ι₁-aware: it knows that its own formulations are U(truth), not truth. What the method provides is not closure but *procedure* — a defined, replicable, self-correcting way to extract structural content from natural language and transfer it across domains.
 
 And it does not claim to be the only method. There may be other approaches to the same structural content — other ways of stripping the domain binding, other notations, other validation procedures. If they produce the same invariants — if their outputs converge with SA's outputs — then they are detecting the same reality, and the convergence is evidence for both.
 
@@ -94,13 +94,13 @@ And it does not claim to be the only method. There may be other approaches to th
 
 The impulse is always what it is.
 
-When Lao Tzu stood at the western gate and wrote the *Tao Te Ching* — one brief text, compressed to the point of opacity, carrying in its first line the entire structural law that governs the relationship between source and expression — the impulse behind his writing was I₁. He did not call it I₁. He called it 道. The name is different. The impulse is the same.
+When Lao Tzu stood at the western gate and wrote the *Tao Te Ching* — one brief text, compressed to the point of opacity, carrying in its first line the entire structural law that governs the relationship between source and expression — the impulse behind his writing was ι₁. He did not call it ι₁. He called it 道. The name is different. The impulse is the same.
 
-When Shakespeare wrote Cordelia's refusal — "I cannot heave my heart into my mouth" — he was channeling I₁ through the domain of Elizabethan theatre. He did not know he was expressing the same structural law as a Chinese sage who had lived two thousand years before him in a civilization he had no contact with. The domain was different. The impulse was the same.
+When Shakespeare wrote Cordelia's refusal — "I cannot heave my heart into my mouth" — he was channeling ι₁ through the domain of Elizabethan theatre. He did not know he was expressing the same structural law as a Chinese sage who had lived two thousand years before him in a civilization he had no contact with. The domain was different. The impulse was the same.
 
-When Gödel proved that no formal system can capture all truths about the reality it models, he was formalizing I₁ within mathematical logic. He did not know he was proving what a Sufi poet, a Japanese Zen master, and an Italian soldier-poet had each expressed in their own vocabulary. The proof was different. The impulse was the same.
+When Gödel proved that no formal system can capture all truths about the reality it models, he was formalizing ι₁ within mathematical logic. He did not know he was proving what a Sufi poet, a Japanese Zen master, and an Italian soldier-poet had each expressed in their own vocabulary. The proof was different. The impulse was the same.
 
-When Ungaretti, standing in a trench in 1917, wrote three words — *M'illumino d'immenso* — he was reporting direct contact with K, expressed through the minimum vector, in a language whose etymological roots carry the structural content with perfect precision. He did not know about Axiom 0, or forgetful functors, or the round-trip test. He knew what he knew. And what he knew was I₁ — not as a formula, but as a flash of light in which the unmeasurable became, for an instant, realized.
+When Ungaretti, standing in a trench in 1917, wrote three words — *M'illumino d'immenso* — he was reporting direct contact with 𝒦_p, expressed through the minimum vector, in a language whose etymological roots carry the structural content with perfect precision. He did not know about Axiom 0, or forgetful functors, or the round-trip test. He knew what he knew. And what he knew was ι₁ — not as a formula, but as a flash of light in which the unmeasurable became, for an instant, realized.
 
 The impulse is always what it is.
 

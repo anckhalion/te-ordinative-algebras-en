@@ -16,38 +16,38 @@ This is not a metaphor. The claim is formal and testable: the PA provides the gr
 
 | PA Entity | Medical Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of possible biological configurations — the genotype's full potential, the body's homeostatic landscape |
-| ℛ (identity) | The organism's biological identity: genome, epigenome, microbiome, developmental history — the biological Remir |
+| ℭ_h (coherent field) | The field of possible biological configurations — the genotype's full potential, the body's homeostatic landscape |
+| 𝕀 (identity) | The organism's biological identity: genome, epigenome, microbiome, developmental history — the biological Remir |
 | K (context) | The environment: nutrition, toxins, pathogens, stress, social context, medical interventions |
 | E (expression) | The phenotype at time t — the current state of the organism, including symptoms |
 | ρ (resonance) | The compatibility between the organism's potential and its current conditions |
 | θ (threshold) | The minimum compatibility below which the organism cannot maintain homeostasis |
 
-### 16.2.2 Health as High-κ State
+### 16.2.2 Health as High-⟨𝓚⁵⟩ State
 
 Health, in PA terms, is a state where:
 
-$$\kappa(E_{organism}) \geq 0.7$$
+$$\langle\mathcal{K}^5\rangle(E_{organism}) \geq 0.7$$
 
-with all five components of κ contributing:
+with all five components of ⟨𝓚⁵⟩ contributing:
 
-- κ_1 (internal consistency): all physiological systems are proportionally coordinated — no system contradicts another
-- κ_2 (source alignment): the phenotype faithfully expresses the genotype's potential
-- κ_3 (depth preserved): the organism's complexity is fully operational — all hierarchical levels (molecular, cellular, tissue, organ, systemic) are functioning
-- κ_4 (stability): the organism maintains homeostasis under normal perturbation
-- κ_5 (generative capacity): the organism can reproduce, heal, adapt, learn
+- 𝓚_1 (internal consistency): all physiological systems are proportionally coordinated — no system contradicts another
+- 𝓚_2 (source alignment): the phenotype faithfully expresses the genotype's potential
+- 𝓚_3 (depth preserved): the organism's complexity is fully operational — all hierarchical levels (molecular, cellular, tissue, organ, systemic) are functioning
+- 𝓚_4 (stability): the organism maintains homeostasis under normal perturbation
+- 𝓚_5 (generative capacity): the organism can reproduce, heal, adapt, learn
 
-### 16.2.3 Disease as κ Degradation
+### 16.2.3 Disease as ⟨𝓚⁵⟩ Degradation
 
-Disease is a sustained decrease in κ. Different diseases correspond to degradation in different κ components:
+Disease is a sustained decrease in ⟨𝓚⁵⟩. Different diseases correspond to degradation in different ⟨𝓚⁵⟩ components:
 
-| Disease Type | Primary κ Component Affected | PA Interpretation |
+| Disease Type | Primary ⟨𝓚⁵⟩ Component Affected | PA Interpretation |
 |---|---|---|
-| **Autoimmune** (lupus, MS) | κ_1 (internal consistency) | The system attacks its own components — the internal proportional relations are contradicted. OST: Antagonist Order (φ_ant ⊥ Φ_global). |
-| **Genetic** (cystic fibrosis) | κ_2 (source alignment) | The phenotype cannot faithfully express the genotype's potential — a structural error in the collapse. |
-| **Degenerative** (Alzheimer's) | κ_3 (depth preserved) | Hierarchical levels are lost — neural complexity degrades. The organism loses proportional depth. |
-| **Acute** (infection, trauma) | κ_4 (stability) | External perturbation exceeds the system's resilience. OST: ε > τ_critical → fracture zone. |
-| **Infertility, immunodeficiency** | κ_5 (generative capacity) | The system cannot reproduce or generate new structures — its generative proportion is disrupted. |
+| **Autoimmune** (lupus, MS) | 𝓚_1 (internal consistency) | The system attacks its own components — the internal proportional relations are contradicted. OST: Antagonist Order (φ_ant ⊥ Φ_global). |
+| **Genetic** (cystic fibrosis) | 𝓚_2 (source alignment) | The phenotype cannot faithfully express the genotype's potential — a structural error in the collapse. |
+| **Degenerative** (Alzheimer's) | 𝓚_3 (depth preserved) | Hierarchical levels are lost — neural complexity degrades. The organism loses proportional depth. |
+| **Acute** (infection, trauma) | 𝓚_4 (stability) | External perturbation exceeds the system's resilience. OST: ε > τ_critical → fracture zone. |
+| **Infertility, immunodeficiency** | 𝓚_5 (generative capacity) | The system cannot reproduce or generate new structures — its generative proportion is disrupted. |
 
 ---
 
@@ -79,7 +79,7 @@ If no: the disease pattern is *foreign* — introduced from outside the organism
 
 ## 16.4 Therapy as Re-Coherence Operation
 
-If disease is κ degradation, therapy is **κ restoration** — a re-coherence operation on the Proportional Space.
+If disease is ⟨𝓚⁵⟩ degradation, therapy is **⟨𝓚⁵⟩ restoration** — a re-coherence operation on the Proportional Space.
 
 ### 16.4.1 Pharmacological Therapy
 
@@ -95,7 +95,7 @@ Side effects are distorted collapses: ρ is raised for unintended configurations
 
 ### 16.4.2 Surgical Therapy
 
-Surgery is a direct modification of the decoherent expression: E → E'. It changes the physical configuration of the organism without addressing the coherent field or the identity. In PA terms, surgery is an operation on 𝒟 that bypasses 𝒞 and ℛ.
+Surgery is a direct modification of the decoherent expression: E → E'. It changes the physical configuration of the organism without addressing the coherent field or the identity. In PA terms, surgery is an operation on 𝒟 that bypasses ℭ_h and 𝕀.
 
 This is why surgery is effective for structural problems (a broken bone, a tumour) but limited for systemic problems (an autoimmune disease, a metabolic disorder): it modifies the expression without modifying the identity or the field.
 
@@ -104,9 +104,9 @@ This is why surgery is effective for structural problems (a broken bone, a tumou
 Psychotherapy is the only medical intervention that operates directly on the Remir: ℛ(I) → ℛ(I').
 
 It restructures the identity's internal resonance matrix B_I — changing the proportional relations between the identity's vectors. A successful therapy:
-1. Identifies the distorted vector (the one causing κ_1 degradation)
+1. Identifies the distorted vector (the one causing 𝓚_1 degradation)
 2. Restructures B_I to re-align the distorted vector
-3. Verifies via the ERT that the new Remir produces higher-κ collapses
+3. Verifies via the ERT that the new Remir produces higher-⟨𝓚⁵⟩ collapses
 
 This is why psychotherapy is slow (it modifies the Remir, which requires multiple pulsation cycles to restructure) and why pharmacology is fast (it modifies K, which changes the collapse immediately without restructuring the identity).
 
@@ -114,11 +114,11 @@ This is why psychotherapy is slow (it modifies the Remir, which requires multipl
 
 The therapeutic relationship is a specific instance of ⊗:
 
-$$\mathcal{C}_{therapeutic} = I_{healer} \otimes I_{patient}$$
+$$\mathfrak{C}_{therapeutic} = I_{healer} \otimes I_{patient}$$
 
 The shared field generated by the resonance between healer and patient contains content that neither could access alone. This is the PA's formal description of the "therapeutic alliance" — the well-documented finding that the quality of the healer-patient relationship is the strongest predictor of therapeutic outcome, regardless of the specific technique used.
 
-In PA terms: the technique modifies K (context). The relationship generates 𝒞_shared (new accessible content). The relationship is more important because accessing new content is structurally deeper than modifying conditions.
+In PA terms: the technique modifies K (context). The relationship generates ℭ_shared (new accessible content). The relationship is more important because accessing new content is structurally deeper than modifying conditions.
 
 ---
 

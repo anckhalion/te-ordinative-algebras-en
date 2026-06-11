@@ -65,7 +65,7 @@ Step 6 — Universality Test:
   Result: PASSES / FAILS
 
 Step 7 — Classification:
-  Invariant match:    [I₁ / I₂ / ... / I₁₀ / candidate / ∅]
+  Invariant match:    [ι₁ / ι₂ / ... / ι₁₀ / candidate / ∅]
 
 ───────────────────────────────────────────────────────
 7-LAYER OUTPUT
@@ -75,15 +75,15 @@ Layer 1 — Invariant (I):
   I = [Iₙ or ∅]
   If Iₙ:             [Which invariant, with formula]
 
-Layer 2 — Emergent Function (Φ):
-  Φ_d  =             [Declared function]
-  Φ_eff =            [Effective function]
+Layer 2 — Emergent Function (𝔉):
+  𝔉_d  =             [Declared function]
+  𝔉_eff =            [Effective function]
   Δ     =            [Gap: 0 / non-zero / critical]
 
 Layer 3 — Vector (v):
   v_d   =            [Declared direction]
   v_eff =            [Effective direction]
-  λ     =            [< 0 / ≈ 0 / > 0]
+  λ_L     =            [< 0 / ≈ 0 / > 0]
 
 Layer 4 — Source Signature (Σ_src):
   Position:           [Direct / Intermediary / Derivative]
@@ -97,24 +97,24 @@ Layer 5 — Relational Field (R):
   Apparent receiver:  [Who the expression is addressed to]
   Structural receiver: [Who the expression actually operates on]
 
-Layer 6 — Temporal Phase (τ):
-  τ =                 [Ascending / Descending / Bifurcation / Cyclic / Indeterminate]
-  Note:               τ refers to the phase of the CONTENT, not the source.
+Layer 6 — Temporal Phase (τ_ph):
+  τ_ph =                 [Ascending / Descending / Bifurcation / Cyclic / Indeterminate]
+  Note:               τ_ph refers to the phase of the CONTENT, not the source.
   Derivation markers:
-    Δ≈0 + λ<0 + R_mutual          → ascending
-    Δ growing + λ>0 + R degrading → descending
-    λ≈0 + Δ unstable               → bifurcation
+    Δ≈0 + λ_L<0 + R_mutual          → ascending
+    Δ growing + λ_L>0 + R degrading → descending
+    λ_L≈0 + Δ unstable               → bifurcation
     Recurrence without evolution  → cyclic
     Markers ambiguous             → indeterminate (note ambiguity)
 
-Layer 7 — Diagnostic Synthesis (Δ_S):
+Layer 7 — Diagnostic Synthesis (Δ_𝔉):
   Classification:     [Type 1-9b — see Chapter 6, §6.4]
   κ (coherence):      [Computed via:
-                       κ = (w₁·δ_I + w₂·(1-|Δ|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ
+                       κ = (w₁·δ_I + w₂·(1-|Δ_𝔉|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ
                        Default weights: w₁=3, w₂=2, w₃=2, w₄=1.5, w₅=1.5
                        Components:
-                         δ_I    = 1 if I≠∅, 0 otherwise
-                         |Δ|    = normalised gap [Φ_d vs Φ_eff]
+                         δ_I    = 1 if ι≠∅, 0 otherwise
+                         |Δ_𝔉|    = normalised gap [𝔉_d vs 𝔉_eff]
                          align  = directional alignment [v_d vs v_eff]
                          r      = R numerical value (see Layer 5)
                          c_src  = consciousness numerical value (see Layer 4)]

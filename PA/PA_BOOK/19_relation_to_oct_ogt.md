@@ -19,7 +19,7 @@ The Technology of Expressions envisions four formal systems, each addressing a d
 | **Ordinative Set Theory** | OST | The structure of systems: singularities, relational fields, emergence | v3.0 — Operational |
 | **Semantic Algebra** | SA | The analysis of decoherent expressions: extraction and transfer of invariants | Foundations — Complete |
 | **Proportional Algebra** | PA | The grammar of collapse: space, metric, operators, temporal generation | Foundations — This book |
-| **Ordinative Cosmology/General Theory** | OCT / OGT | The unified theory: origin of 𝒞, teleological dynamics, spacetime structure | Projected — Not yet formalised |
+| **Ordinative Cosmology/General Theory** | OCT / OGT | The unified theory: origin of ℭ_h, teleological dynamics, spacetime structure | Projected — Not yet formalised |
 
 ### The Relationships
 
@@ -34,9 +34,9 @@ The Technology of Expressions envisions four formal systems, each addressing a d
 ```
 
 - **OST ↔ SA**: The SA analyses expressions that OST describes as ⟨Σ, R, Φ⟩ systems. The SA's invariant library is a catalogue of the structural laws that govern OST systems.
-- **OST ↔ PA**: The PA metrisises OST's relational field R, providing ρ and ≤_κ. The bridge is §3.8: 𝒫 is R made measurable.
-- **SA ↔ PA**: The SA is the PA restricted to 𝒟 (Theorem 9.1). The PA extends SA by formalising 𝒞, ℛ, and the temporal generator τ.
-- **PA → OCT**: The PA's open questions (§18.7: What generates 𝒞?) point toward OCT. The PA describes *how* collapse works; OCT would describe *why* collapse occurs and what the coherent field ultimately is.
+- **OST ↔ PA**: The PA metrisises OST's relational field R, providing ρ and ≤_𝓚. The bridge is §3.8: 𝒫 is R made measurable.
+- **SA ↔ PA**: The SA is the PA restricted to 𝒟 (Theorem 9.1). The PA extends SA by formalising ℭ_h, 𝕀, and the temporal generator τ.
+- **PA → OCT**: The PA's open questions (§18.7: What generates ℭ_h?) point toward OCT. The PA describes *how* collapse works; OCT would describe *why* collapse occurs and what the coherent field ultimately is.
 - **OCT → OGT**: The Ordinative General Theory would unify all four pillars into a single formal framework — the complete grammar of reality as described by the Technology of Expressions.
 
 ---
@@ -74,9 +74,9 @@ The PA provides explicit falsification criteria (F1-F6) and a diagnostic protoco
 
 ## 19.4 What the PA Needs from the Programme
 
-### 19.4.1 From OCT: The Genesis of 𝒞
+### 19.4.1 From OCT: The Genesis of ℭ_h
 
-The PA's Limit 6 (§18.7) is the PA's most significant open problem. The PA takes 𝒞 as given. OCT would provide the origin — the account of how coherent content arises and why it has the specific structure that generates the invariants we observe.
+The PA's Limit 6 (§18.7) is the PA's most significant open problem. The PA takes ℭ_h as given. OCT would provide the origin — the account of how coherent content arises and why it has the specific structure that generates the invariants we observe.
 
 ### 19.4.2 From OGT: The Unification
 
@@ -104,7 +104,7 @@ After the PA:
 
 - The Proportional Space 𝒫 provides the common ground
 - The resonance metric ρ measures compatibility
-- The coherence order ≤_κ ranks expressions
+- The coherence order ≤_𝓚 ranks expressions
 - The three operations (Φ, S, ⊗) act on the space
 - The pulsation operator τ generates time
 - The ERT provides falsifiable verification

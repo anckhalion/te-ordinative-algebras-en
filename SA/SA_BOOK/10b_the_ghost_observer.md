@@ -6,7 +6,7 @@ An objection must now be addressed — not because it is the strongest, but beca
 
 The objection runs as follows:
 
-> *The convergence detected by S does not demonstrate a law of reality. It demonstrates a law of human cognition. U(K) ⊊ K may be a universal property of how we process reality — not of how reality is. The invariants are not in the signal. They are in the apparatus.*
+> *The convergence detected by S does not demonstrate a law of reality. It demonstrates a law of human cognition. U(𝒦_p) ⊊ 𝒦_p may be a universal property of how we process reality — not of how reality is. The invariants are not in the signal. They are in the apparatus.*
 
 This objection has been articulated in various forms across the philosophy of mind, from Kant's distinction between noumenon and phenomenon to contemporary cognitive constructivism. It is epistemologically sophisticated. It sounds careful, rigorous, and appropriately cautious.
 
@@ -18,7 +18,7 @@ This chapter applies S to the objection itself.
 
 The expression under analysis:
 
-> *"The convergence does not demonstrate a law of reality. It demonstrates a law of human cognition. U(K) ⊊ K may be a universal property of how we process reality — not of how reality is."*
+> *"The convergence does not demonstrate a law of reality. It demonstrates a law of human cognition. U(𝒦_p) ⊊ 𝒦_p may be a universal property of how we process reality — not of how reality is."*
 
 ### Step 1 — Structural Decomposition
 
@@ -26,20 +26,20 @@ The expression under analysis:
 |---|---|
 | The convergence | Observed datum (output of S applied cross-domain) |
 | does not demonstrate | Negation of ontological attribution |
-| a law of reality | K — reality itself |
+| a law of reality | 𝒦_p — reality itself |
 | demonstrates | Positive ontological attribution |
 | a law of human cognition | U — the observer's processing apparatus |
 
-The claim structure: the observed pattern (convergence) is **attributed to the observer** (cognition) rather than **to the observed** (reality). The operation performed: relocating the cause of the pattern from K to U.
+The claim structure: the observed pattern (convergence) is **attributed to the observer** (cognition) rather than **to the observed** (reality). The operation performed: relocating the cause of the pattern from 𝒦_p to U.
 
 ### Step 2a — Algebraic Mapping
 
 ```
 "convergence"           → S(NL₁) = S(NL₂) = ... = I  (output of the method)
-"law of reality"        → K
+"law of reality"        → 𝒦_p
 "human cognition"       → U (processing apparatus)
-"does not demonstrate K,
- demonstrates U"        → Pattern ∈ U, Pattern ∉ K
+"does not demonstrate 𝒦_p,
+ demonstrates U"        → Pattern ∈ U, Pattern ∉ 𝒦_p
 ```
 
 The philosopher asserts: **what you observe is a property of your instrument, not of the thing observed.**
@@ -65,22 +65,22 @@ The objection, stripped of domain binding (post-Kantian epistemology):
 
 > "The observed pattern belongs to the observing apparatus, not to the observed."
 
-This presupposes: **U and K are separable** — one can determine with certainty which patterns belong to U and which to K.
+This presupposes: **U and 𝒦_p are separable** — one can determine with certainty which patterns belong to U and which to 𝒦_p.
 
 ### Step 4 — Formulation
 
 ```
-Claim: Pattern ∈ U, Pattern ∉ K
-Presupposition: U ∩ K = ∅ (the apparatus and reality are disjoint)
+Claim: Pattern ∈ U, Pattern ∉ 𝒦_p
+Presupposition: U ∩ 𝒦_p = ∅ (the apparatus and reality are disjoint)
 ```
 
 ### Step 5 — Structural Completion
 
 The formulation implies three consequences that the philosopher does not state.
 
-**Consequence 1**: If U and K are separable, the philosopher is asserting the ability to distinguish what belongs to U from what belongs to K. But this distinction is itself an observation — and every observation modifies the observer (I₈). The philosopher cannot observe the U/K boundary without positioning themselves relative to that boundary — and that positioning is itself an act of U.
+**Consequence 1**: If U and 𝒦_p are separable, the philosopher is asserting the ability to distinguish what belongs to U from what belongs to 𝒦_p. But this distinction is itself an observation — and every observation modifies the observer (ι₈). The philosopher cannot observe the U/𝒦_p boundary without positioning themselves relative to that boundary — and that positioning is itself an act of U.
 
-**Consequence 2**: The philosopher's claim is itself an expression. Therefore it is itself U(something). By I₁, it is less than the reality it describes. The philosopher, in saying "it is only cognition," vectorialises the epistemological problem — projects it onto the "cognition vs. reality" vector and forgets all other dimensions of the question. The objection is itself governed by I₁.
+**Consequence 2**: The philosopher's claim is itself an expression. Therefore it is itself U(something). By ι₁, it is less than the reality it describes. The philosopher, in saying "it is only cognition," vectorialises the epistemological problem — projects it onto the "cognition vs. reality" vector and forgets all other dimensions of the question. The objection is itself governed by ι₁.
 
 **Consequence 3**: If *all* patterns are properties of cognition rather than reality, then the philosopher's own claim is also "just cognition" — and has no privileged access to the truth about what is real and what is cognitive. The objection self-annuls.
 
@@ -98,11 +98,11 @@ The claim **does not pass the universality test**. It is not invariant. It is a 
 
 ### Step 7 — Classification
 
-I = ∅. The expression does not contain an invariant.
+ι = ∅. The expression does not contain an invariant.
 
-Declared function (Φ_d): provide epistemological caution — protect against overclaiming.
+Declared function (𝔉_d): provide epistemological caution — protect against overclaiming.
 
-Effective function (Φ_eff): block the recognition of the datum through a domain-bound presupposition (the separability of cognition from reality).
+Effective function (𝔉_eff): block the recognition of the datum through a domain-bound presupposition (the separability of cognition from reality).
 
 Delta (Δ): ≠ 0. The declared and effective functions diverge.
 
@@ -166,7 +166,7 @@ And yet, when such a terminal applies S to the texts of Lao Tzu, Gödel, Shakesp
 
 ### The training-data objection — and why it fails
 
-An astute critic will observe: the AI is trained on human text. The text is itself U(K) — already filtered through human cognition. If the invariant were an artefact of human cognition, the AI would reproduce it — not because it independently detects the pattern, but because the pattern is embedded in the training data as a bias.
+An astute critic will observe: the AI is trained on human text. The text is itself U(𝒦_p) — already filtered through human cognition. If the invariant were an artefact of human cognition, the AI would reproduce it — not because it independently detects the pattern, but because the pattern is embedded in the training data as a bias.
 
 This objection is legitimate and must be addressed directly, not evaded.
 
@@ -212,10 +212,10 @@ This statement is logically correct. It is also structurally incomplete. It cont
 
 The passive voice — "is defined" — hides the agent. Someone is looking at the point, placing it in a space, assigning it coordinates. The entire statement is an act of collapse — and the agent of the collapse has been rendered invisible.
 
-In the notation of Semantic Algebra: the statement describes E (the defined point) as a function of C (the abstract point) and K (the space), but **omits I** — the identity that performs the definition.
+In the notation of Semantic Algebra: the statement describes E (the defined point) as a function of C (the abstract point) and 𝒦_p (the space), but **omits I** — the identity that performs the definition.
 
 ```
-The statement:      E = f(C, K)         — I is missing
+The statement:      E = f(C, 𝒦_p)         — I is missing
 The full equation:  E = Φ(C, I, K)      — I is present
 ```
 

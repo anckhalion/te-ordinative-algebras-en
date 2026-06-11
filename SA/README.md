@@ -18,7 +18,7 @@ Semantic Algebra operates on natural-language expressions through two operators:
 - **S (Strip)**: extracts whatever structural content is present in an expression — or certifies its absence — by removing field-specific vocabulary.
 - **π (Re-contextualization)**: takes a structural pattern and re-expresses it deliberately in a chosen target domain.
 
-The objects produced by S are called **invariants** — structural patterns that do not change under change of domain. The current invariant library contains 10 validated invariants (`I₁` through `I₁₀`).
+The objects produced by S are called **invariants** — structural patterns that do not change under change of domain. The current invariant library contains 10 validated invariants (`ι₁` through `ι₁₀`).
 
 ## What SA Is Not
 
@@ -41,7 +41,7 @@ PA Theorem 9.1 establishes that SA is mathematically a restriction of PA to the 
 
 ## Validation
 
-- **Positive validation** (`SA_BOOK/08_the_seven_text_experiment.md`): 7 texts from 7 maximally distant domains. Result: 5 distinct invariants, 1 unprogrammed convergence (Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* both yielding I₁).
+- **Positive validation** (`SA_BOOK/08_the_seven_text_experiment.md`): 7 texts from 7 maximally distant domains. Result: 5 distinct invariants, 1 unprogrammed convergence (Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* both yielding ι₁).
 - **Negative validation** (`SA_BOOK/09_the_discrimination_test.md`): 4 expressions that simulate depth. Result: 0 false positives, 3 different diagnostic types correctly identified.
 - **Self-correction case study** (`SA_BOOK/10_the_self_correction.md`): documented procedural correction of an initial projection error in the analysis of Ungaretti's *M'illumino d'immenso*.
 

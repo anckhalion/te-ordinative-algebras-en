@@ -73,7 +73,7 @@ The central claim: natural language is not the primary medium of thought. The ne
 - 1.2 The serialization problem (from N dimensions to 1 sequence)
 - 1.3 The vectorialization thesis: to say is to select one vector and forget the rest
 - 1.4 Why this is not a defect of language but a structural consequence of the coherent→decoherent transformation
-- 1.5 The equation: `U(K) = π_v(K) ⊊ K`
+- 1.5 The equation: `U(𝒦_p) = π_v(𝒦_p) ⊊ 𝒦_p`
 
 **Examples**: The sculptor and the marble. The musician who "hears" the entire piece before playing the first note. The mathematician who "sees" the proof before writing it down.
 
@@ -112,14 +112,14 @@ The third corruption: receivers confuse their own pattern activation with proper
 #### Chapter 4 — The Axiom and the Invariant
 *~7,000 words*
 
-The foundation: Axiom 0 (invariance under domain change as criterion of reality) and the first invariant I₁ (the unsayable).
+The foundation: Axiom 0 (invariance under domain change as criterion of reality) and the first invariant ι₁ (the unsayable).
 
 **Sections**:
 - 4.1 Axiom 0: what makes a principle "real" vs. "local"
 - 4.2 The invariant defined: a function that does not change under change of domain
-- 4.3 I₁ — the master invariant: saying = vectorializing = forgetting
+- 4.3 ι₁ — the master invariant: saying = vectorializing = forgetting
 - 4.4 The reformulation (Korzybski + the etymological discovery)
-- 4.5 The completion: K_real vs. U — realized knowledge vs. expressed knowledge
+- 4.5 The completion: 𝒦_r vs. U — realized knowledge vs. expressed knowledge
 - 4.6 Why the most powerful expressions are the shortest
 
 **Extended case study**: "M'illumino d'immenso" — full etymological strip, comparison with the initial (incorrect) analysis, the self-correction as method demonstration.
@@ -130,16 +130,16 @@ The foundation: Axiom 0 (invariance under domain change as criterion of reality)
 All 10 invariants, each given full treatment: formula, etymology, cross-domain instances, working examples.
 
 **Sections**:
-- 5.1 I₁ — Non-expressibility of the source (extended, with Ungaretti case)
-- 5.2 I₂ — Resonance beyond threshold (the meta-invariant, the mechanism of insight)
-- 5.3 I₃ — Entropy of substitution
-- 5.4 I₄ — Irreducibility of singularity
-- 5.5 I₅ — Structural field (emergence)
-- 5.6 I₆ — Controphase (phase-shift, not opposition)
-- 5.7 I₇ — Teleological inversion (the attractor seeks the terminal)
-- 5.8 I₈ — Bidirectionality of observation
-- 5.9 I₉ — Semantic inversion as degeneration
-- 5.10 I₁₀ — Scale recursion
+- 5.1 ι₁ — Non-expressibility of the source (extended, with Ungaretti case)
+- 5.2 ι₂ — Resonance beyond threshold (the meta-invariant, the mechanism of insight)
+- 5.3 ι₃ — Entropy of substitution
+- 5.4 ι₄ — Irreducibility of singularity
+- 5.5 ι₅ — Structural field (emergence)
+- 5.6 ι₆ — Controphase (phase-shift, not opposition)
+- 5.7 ι₇ — Teleological inversion (the attractor seeks the terminal)
+- 5.8 ι₈ — Bidirectionality of observation
+- 5.9 ι₉ — Semantic inversion as degeneration
+- 5.10 ι₁₀ — Scale recursion
 - 5.11 The library as open system: how to discover and validate new invariants
 
 Each invariant: formal definition, etymological basis, 3+ cross-domain instances, at least one worked S analysis.
@@ -175,13 +175,13 @@ The synthetic operator: how to re-project invariants into specific domains.
 - 7.1 Definition: π as controlled projection
 - 7.2 The difference between naïve expression and expression via π
 - 7.3 The procedure: 5 steps
-- 7.4 The round-trip integrity test: S(π(I, D)) = I
+- 7.4 The round-trip integrity test: S(π(ι, 𝔻)) = ι
 - 7.5 The 4 failure modes (with worked example for each)
 - 7.6 π as cross-domain communication operator
 - 7.7 π as knowledge generator (projecting onto unexplored domains)
 - 7.8 The quality of π as definition of a great teacher
 
-**Worked examples**: π(I₁) projected onto physics, psychology, sculpture, music, software engineering, biology, economics — at least 7 domains. Plus: one "failed π" for each failure mode.
+**Worked examples**: π(ι₁) projected onto physics, psychology, sculpture, music, software engineering, biology, economics — at least 7 domains. Plus: one "failed π" for each failure mode.
 
 ---
 
@@ -195,7 +195,7 @@ Full account of the original validation experiment.
 **Sections**:
 - 8.1 Experimental design: selection criteria, maximum domain distance
 - 8.2 Text-by-text analysis: each text through S (condensed but complete)
-- 8.3 The unprogrammed convergence: Shakespeare = Lao Tzu = I₁
+- 8.3 The unprogrammed convergence: Shakespeare = Lao Tzu = ι₁
 - 8.4 What the convergence means (and what it does not mean)
 - 8.5 Statistical vs. structural evidence
 

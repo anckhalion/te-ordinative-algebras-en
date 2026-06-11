@@ -12,9 +12,9 @@ The easiest path for understanding Proportional Algebra in this repository.
 
 ### Part II — The Proportional Space (formal foundations)
 
-4. `PA_BOOK/04_the_proportional_space.md` — the space `P = (C, R, D, ρ, ≤_κ)`.
+4. `PA_BOOK/04_the_proportional_space.md` — the space `P = (C, R, D, ρ, ≤_𝓚)`.
 5. `PA_BOOK/05_the_resonance_metric.md` — the 5-component metric ρ.
-6. `PA_BOOK/06_the_coherence_order.md` — the partial order ≤_κ on expressions.
+6. `PA_BOOK/06_the_coherence_order.md` — the partial order ≤_𝓚 on expressions.
 7. `PA_BOOK/07_semantic_vectors_and_remir.md` — identity as algebraic structure.
 
 ### Part III — The Operators (the working machinery)
@@ -30,7 +30,7 @@ The easiest path for understanding Proportional Algebra in this repository.
 13. `PA_BOOK/13_chemistry.md` — bonds as proportional collapses.
 14. `PA_BOOK/14_language.md` — syntax as vector geometry.
 15. `PA_BOOK/15_emotion.md` — emotion as phase transition in `P`.
-16. `PA_BOOK/16_medicine.md` — disease as κ degradation.
+16. `PA_BOOK/16_medicine.md` — disease as ⟨𝓚⁵⟩ degradation.
 17. `PA_BOOK/17_artificial_intelligence.md` — specification for a PA-aligned AI.
 
 ### Part V — Completion

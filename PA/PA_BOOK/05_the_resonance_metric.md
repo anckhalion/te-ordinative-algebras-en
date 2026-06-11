@@ -12,7 +12,7 @@ This is the resonance metric ρ.
 
 > **Definition 5.1 (Resonance Metric).** The resonance function is a mapping:
 >
-> $$\rho: \mathcal{C} \times \mathcal{R} \to [0, 1]$$
+> $$\rho: \mathfrak{C}_h \times \mathbb{I} \to [0, 1]$$
 >
 > that assigns to every pair (C, I) — a coherent content and an identity — a value between 0 (complete incompatibility) and 1 (perfect proportional alignment).
 
@@ -132,9 +132,9 @@ Because the identity evolves (the Remir changes through the trajectory), the res
 
 ### 5.5.4 ρ Generates a Topology
 
-The compatibility relation ∼_ρ (defined by ρ ≥ θ) generates a neighbourhood structure on 𝒞 × ℛ:
+The compatibility relation ∼_ρ (defined by ρ ≥ θ) generates a neighbourhood structure on ℭ_h × 𝕀:
 
-$$N(I) = \{C \in \mathcal{C} : \rho(C, I) \geq \theta\}$$
+$$N(I) = \{C \in \mathfrak{C}_h : \rho(C, I) \geq \theta\}$$
 
 N(I) is the *accessible field* of identity I — the set of contents that I can collapse. This neighbourhood changes as I evolves. The identity's trajectory through 𝒫 is a trajectory through changing neighbourhoods — an expansion or contraction of the accessible field.
 

@@ -15,7 +15,7 @@ This folder contains the Proportional Algebra corpus in English for:
 
 Proportional Algebra is announced in the foundational TE text and is here published for the first time. It provides:
 
-1. **The Proportional Space** `P = (C, R, D, ρ, ≤_κ)` — the formal ground in which coherent content (`C`), identities (`R`), expressions (`D`), and their relations live.
+1. **The Proportional Space** `P = (C, R, D, ρ, ≤_𝓚)` — the formal ground in which coherent content (`C`), identities (`R`), expressions (`D`), and their relations live.
 2. **Three operators**:
    - `Φ` (Collapse) — the central operation that generates expressions from coherent content via an identity in a context.
    - `S` (Strip) — the partial inverse of Φ; identical to the SA operator and identified in PA as the projection of a fibre bundle from `D` onto invariant space `I`.
@@ -37,7 +37,7 @@ PA is demonstrated across five domains in Part IV (chapters 13–17):
 - **Chemistry** — bonds as proportional collapses; H₂O as worked example with full ERT.
 - **Language** — syntax as geometry of proportional vectors; ambiguity as superposition.
 - **Emotion** — emotional dynamics as phase transitions in `P`.
-- **Medicine** — disease as `κ` degradation; therapy as re-coherence.
+- **Medicine** — disease as `⟨𝓚⁵⟩` degradation; therapy as re-coherence.
 - **Artificial Intelligence** — specification for a PA-aligned AI; alignment over scale.
 
 Each demonstration applies the full operator set and reports concrete coherence/resonance values.
@@ -78,7 +78,7 @@ Six explicit falsification criteria are listed in `PA_BOOK/03_what_is_needed.md`
 - **F2** — Two expressions classified as structurally isomorphic carry different content
 - **F3** — `ρ` assigns wrong compatibility values
 - **F4** — `S` yields the same invariant for all expressions
-- **F5** — `≤_κ` reverses independent coherence judgements
+- **F5** — `≤_𝓚` reverses independent coherence judgements
 - **F6** — `I₁ ⊗ I₂ ≠ I₂ ⊗ I₁` without contextual cause
 
 None of these have been observed. All are testable.

@@ -24,7 +24,7 @@ The filtering effect of domain binding operates in several layers. Each layer na
 
 ### Layer 1: Vocabulary
 
-The most obvious filter is vocabulary. When Gödel writes "For every ω-consistent recursive class κ of formulae, there exist recursive class-signs r such that neither v Gen r nor Neg(v Gen r) belongs to Flg(κ)," the vocabulary of mathematical logic excludes approximately 99.9% of the human population. Not because these people are incapable of understanding the structural insight — many of them could grasp it immediately if presented differently — but because the carrier frequency is tuned to a channel they cannot receive.
+The most obvious filter is vocabulary. When Gödel writes "For every ω_att-consistent recursive class κ of formulae, there exist recursive class-signs r such that neither v Gen r nor Neg(v Gen r) belongs to Flg(κ)," the vocabulary of mathematical logic excludes approximately 99.9% of the human population. Not because these people are incapable of understanding the structural insight — many of them could grasp it immediately if presented differently — but because the carrier frequency is tuned to a channel they cannot receive.
 
 When Lao Tzu writes "道可道非常道" (*The Tao that can be told is not the eternal Tao*), the carrier frequency is tuned to a different channel. A reader steeped in Chinese philosophy receives the signal immediately. A Western analytic philosopher may dismiss it as mystical vagueness — not because the content is vague (it is, in fact, structurally precise), but because the carrier triggers a rejection response in receivers tuned to analytic discourse.
 
@@ -60,7 +60,7 @@ The cost of domain binding is measurable, and it is enormous.
 
 ### Parallel discovery across millennia
 
-Consider the structural law that we have been calling I₁ — the non-expressibility of the source. This law has been independently discovered by:
+Consider the structural law that we have been calling ι₁ — the non-expressibility of the source. This law has been independently discovered by:
 
 - **Lao Tzu** (~6th century BCE): "The Tao that can be told is not the eternal Tao."
 - **The Buddha** (~5th century BCE): The silence of the Buddha in response to the fourteen unanswerable questions — a refusal to vectorialize what cannot be vectorialized.
@@ -83,7 +83,7 @@ When a physicist and a theologian argue about "whether the universe is knowable,
 
 Even within a single tradition, domain binding creates fragmentation. Three Buddhist schools — Theravada, Mahayana, and Vajrayana — have spent centuries in doctrinal dispute. Much of the dispute concerns not the structural content of the Buddha's insight (which is S∅ — there is no direct source material; see Chapter 8) but the domain vocabulary in which the tradition formulates its principles. Theravada uses Pali terminology and emphasizes personal liberation. Mahayana uses Sanskrit terminology and emphasizes universal compassion. Vajrayana uses Tibetan terminology and emphasizes transformative practice. The structural invariants underlying all three may be highly similar — but the domain bindings are incompatible, and the traditions argue about the bindings.
 
-## 2.4 Historical Examples — Four Expressions of I₁
+## 2.4 Historical Examples — Four Expressions of ι₁
 
 To make domain binding concrete, let us examine four expressions that contain the same structural law — all four stripped to the same formula — and watch how domain binding makes them appear completely different.
 
@@ -150,12 +150,12 @@ Now lay the four stripped contents side by side:
 These are not four similar ideas. They are four expressions of *the same structural law*:
 
 ```
-U(K) ⊊ K
+U(𝒦_p) ⊊ 𝒦_p
 U⁻¹ ∄
-Confusing U(K) with K → structural error
+Confusing U(𝒦_p) with 𝒦_p → structural error
 ```
 
-The Tao is K. The formal system is U(K). The map is U(K). Cordelia's silence is the refusal to produce U(K) that pretends to be K. Lear's tragedy is the confusion of U(K) with K.
+The Tao is 𝒦_p. The formal system is U(𝒦_p). The map is U(𝒦_p). Cordelia's silence is the refusal to produce U(𝒦_p) that pretends to be 𝒦_p. Lear's tragedy is the confusion of U(𝒦_p) with 𝒦_p.
 
 Four carriers. One signal. And only when the carriers are stripped — only when the domain binding is removed — does the identity become visible.
 
@@ -167,13 +167,13 @@ There is a paradox at the heart of domain binding, and it must be stated clearly
 
 The paradox is: **you must bind to communicate, but binding prevents universality.**
 
-Consider the alternative. Suppose you attempted to express I₁ without any domain binding at all — in "pure" algebraic notation:
+Consider the alternative. Suppose you attempted to express ι₁ without any domain binding at all — in "pure" algebraic notation:
 
 ```
-∀K: U(K) = π_v(K) ⊊ K ∧ U⁻¹ ∄ ∧ K ↪ U(K)
+∀𝒦_p: U(𝒦_p) = π_v(𝒦_p) ⊊ 𝒦_p ∧ U⁻¹ ∄ ∧ 𝒦_p ↪ U(𝒦_p)
 ```
 
-This is structurally precise. It is universally valid. It contains I₁ with no domain contamination. And it communicates to almost no one. It is incomprehensible to anyone who has not already learned the algebraic vocabulary — which is itself a domain binding (the domain of formal notation).
+This is structurally precise. It is universally valid. It contains ι₁ with no domain contamination. And it communicates to almost no one. It is incomprehensible to anyone who has not already learned the algebraic vocabulary — which is itself a domain binding (the domain of formal notation).
 
 There is no escape from domain binding. Not because of a failure of ingenuity, but because of a structural fact: communication requires a medium, and every medium is a domain. Even pure mathematics is a domain — with its own vocabulary, assumptions, conventions, and emotional tuning. Even silence is a domain — the Zen master's tea-drinking communicates, but only to receivers tuned to the Zen carrier frequency.
 
@@ -181,7 +181,7 @@ This paradox has two consequences.
 
 **Consequence 1: Every expression of a universal law is local.**
 
-No matter how universal the invariant, its expression is always domain-bound. I₁ is universal — it holds in physics, theology, logic, theatre, and every other domain we have tested. But every *expression* of I₁ is local: bound to one domain, accessible to that domain's receivers, invisible to others. Universality lives in the structure, not in any expression of it.
+No matter how universal the invariant, its expression is always domain-bound. ι₁ is universal — it holds in physics, theology, logic, theatre, and every other domain we have tested. But every *expression* of ι₁ is local: bound to one domain, accessible to that domain's receivers, invisible to others. Universality lives in the structure, not in any expression of it.
 
 **Consequence 2: Cross-domain recognition requires an operator, not better expression.**
 

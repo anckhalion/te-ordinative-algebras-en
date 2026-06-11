@@ -25,13 +25,13 @@ The DNA molecule contains, in its double-stranded structure, all the genetic inf
 In SA terms:
 
 ```
-DNA         = K (the full genetic "insight" — the complete set of instructions)
+DNA         = 𝒦_p (the full genetic "insight" — the complete set of instructions)
 Transcription = π_v (projection onto a specific vector — which genes to express)
-mRNA        = U(K) = π_v(K) — the expressed subset, one-dimensional sequence
-K \ π_v(K)  = silenced genes — information present but not expressed
+mRNA        = U(𝒦_p) = π_v(𝒦_p) — the expressed subset, one-dimensional sequence
+𝒦_p \ π_v(𝒦_p)  = silenced genes — information present but not expressed
 ```
 
-The cell does not express everything it knows. It vectorializes — selecting one direction (one set of genes) and silencing the rest. This is I₁ operating at the molecular level: the expression is less than the source. The silenced genes are not lost (they remain in the DNA) but they are not expressed. The mRNA is a projection, not the genome.
+The cell does not express everything it knows. It vectorializes — selecting one direction (one set of genes) and silencing the rest. This is ι₁ operating at the molecular level: the expression is less than the source. The silenced genes are not lost (they remain in the DNA) but they are not expressed. The mRNA is a projection, not the genome.
 
 ### mRNA → Protein (Translation)
 
@@ -54,17 +54,17 @@ Four different "expressions" (codons) → one structural content (Alanine). This
 
 The polypeptide chain (1-dimensional sequence of amino acids) folds into a 3-dimensional structure. The function of the protein is determined not by the sequence alone but by the folded shape — which determines what the protein can bind to, catalyze, or regulate.
 
-This is the most dramatic instance of I₁ in molecular biology:
+This is the most dramatic instance of ι₁ in molecular biology:
 
 ```
-Amino acid sequence = U(K) — 1-dimensional projection
-Folded protein      = closer to K — 3-dimensional structure with function
+Amino acid sequence = U(𝒦_p) — 1-dimensional projection
+Folded protein      = closer to 𝒦_p — 3-dimensional structure with function
 Sequence → Structure = the "protein folding problem"
 ```
 
-The protein folding problem — predicting the 3D structure from the 1D sequence — is literally the problem of reconstructing K from U(K). It has been one of the hardest problems in biology precisely because U⁻¹ is extremely difficult to compute. The sequence does not contain enough information to uniquely determine the fold (multiple sequences can produce similar folds; similar sequences can produce different folds in different environments). The mapping is lossy, non-injective, and environment-dependent.
+The protein folding problem — predicting the 3D structure from the 1D sequence — is literally the problem of reconstructing 𝒦_p from U(𝒦_p). It has been one of the hardest problems in biology precisely because U⁻¹ is extremely difficult to compute. The sequence does not contain enough information to uniquely determine the fold (multiple sequences can produce similar folds; similar sequences can produce different folds in different environments). The mapping is lossy, non-injective, and environment-dependent.
 
-The recent success of AlphaFold (DeepMind, 2020) in predicting protein structures from sequences is, in SA terms, an AI system that has learned to approximate U⁻¹ for a specific class of proteins — not by inverting the algebra but by training on thousands of known sequence-structure pairs to detect the statistical regularities in the embedding K ↪ U(K).
+The recent success of AlphaFold (DeepMind, 2020) in predicting protein structures from sequences is, in SA terms, an AI system that has learned to approximate U⁻¹ for a specific class of proteins — not by inverting the algebra but by training on thousands of known sequence-structure pairs to detect the statistical regularities in the embedding 𝒦_p ↪ U(𝒦_p).
 
 ---
 
@@ -72,55 +72,55 @@ The recent success of AlphaFold (DeepMind, 2020) in predicting protein structure
 
 Epigenetics provides perhaps the most elegant natural demonstration of the projection problem (Chapter 3).
 
-Every cell in a human body contains the same DNA — the same "text." Yet a liver cell, a neuron, and a skin cell express radically different sets of genes and perform radically different functions. Same K. Different v. Different U(K).
+Every cell in a human body contains the same DNA — the same "text." Yet a liver cell, a neuron, and a skin cell express radically different sets of genes and perform radically different functions. Same 𝒦_p. Different v. Different U(𝒦_p).
 
 The mechanism: **epigenetic markers** — chemical modifications (methylation, acetylation) that attach to DNA or to the histone proteins around which DNA is wound. These markers determine which genes are accessible for transcription and which are silenced. The markers are not in the DNA sequence itself — they are modifications *on* the DNA, added by the cellular environment.
 
 In SA terms:
 
 ```
-DNA           = K (the text — identical in all cells)
+DNA           = 𝒦_p (the text — identical in all cells)
 Epigenetic markers = v (the angle of projection — determined by cellular context)
-Expression pattern = U(K) = π_v(K) — what the cell "says" from the same "source"
+Expression pattern = U(𝒦_p) = π_v(𝒦_p) — what the cell "says" from the same "source"
 ```
 
 Two cells with identical DNA can produce opposite protein profiles — because they read the same text from different angles. This is the domain-binding problem (Chapter 2) in molecular form: the same underlying content, expressed through different carriers, producing different functional outputs for different receivers (different tissues).
 
-Identical twins share the same DNA but diverge over time — in gene expression, in disease risk, in physical appearance — because their epigenetic markers diverge in response to different environments. Same K. Diverging v. Increasingly different U(K). The source is the same. The projections diverge.
+Identical twins share the same DNA but diverge over time — in gene expression, in disease risk, in physical appearance — because their epigenetic markers diverge in response to different environments. Same 𝒦_p. Diverging v. Increasingly different U(𝒦_p). The source is the same. The projections diverge.
 
 ---
 
 ## D.3 Chemistry — Emergence and Chirality
 
-### Emergence (I₅)
+### Emergence (ι₅)
 
 The most cited example of emergence in the natural sciences is chemical bonding. Hydrogen is a flammable gas. Oxygen is a gas that supports combustion. Water — H₂O — is a liquid that extinguishes fire.
 
 ```
-Φ(H₂) = flammable gas
-Φ(O) = combustion supporter
-Φ(H₂O) = fire-extinguishing liquid, universal solvent, essential for life
+𝔉(H₂) = flammable gas
+𝔉(O) = combustion supporter
+𝔉(H₂O) = fire-extinguishing liquid, universal solvent, essential for life
 
-Φ(H₂O) > Φ(H₂) + Φ(O) — by any measure
+𝔉(H₂O) > 𝔉(H₂) + 𝔉(O) — by any measure
 ```
 
 The properties of water — its liquidity at room temperature, its solvent capacity, its surface tension, its anomalous expansion when freezing, its role as the medium of life — are not present in either hydrogen or oxygen alone. They are not predictable from the properties of the components (this required quantum mechanical calculation to understand). They are emergent: they arise from the relationship (the covalent bond) between the components, not from the components themselves.
 
-This is I₅ at the atomic level. The structural field between σ₁ (hydrogen) and σ₂ (oxygen) produces a function that exceeds the sum of their individual functions. The field is the bond. The emergence is the water.
+This is ι₅ at the atomic level. The structural field between σ₁ (hydrogen) and σ₂ (oxygen) produces a function that exceeds the sum of their individual functions. The field is the bond. The emergence is the water.
 
-### Chirality — Same U(K), Different K
+### Chirality — Same U(𝒦_p), Different 𝒦_p
 
-Organic chemistry provides a striking demonstration that U(K) can be identical for different K.
+Organic chemistry provides a striking demonstration that U(𝒦_p) can be identical for different 𝒦_p.
 
-Chiral molecules are mirror images of each other — like left and right hands. They have the same chemical formula, the same bonds, the same molecular weight. Their U(K) — the standard chemical description — is identical. Yet they can have dramatically different biological activity:
+Chiral molecules are mirror images of each other — like left and right hands. They have the same chemical formula, the same bonds, the same molecular weight. Their U(𝒦_p) — the standard chemical description — is identical. Yet they can have dramatically different biological activity:
 
 - **Thalidomide**: One enantiomer (R) is a safe sedative. The mirror image (S) causes severe birth defects. Same formula. Same bonds. Different spatial arrangement. Catastrophically different biological function.
-- **Limonene**: One enantiomer smells like oranges. The mirror image smells like lemons. Same chemical formula. Different K.
+- **Limonene**: One enantiomer smells like oranges. The mirror image smells like lemons. Same chemical formula. Different 𝒦_p.
 - **Ibuprofen**: One enantiomer is the active anti-inflammatory. The mirror image is biologically inert.
 
-In SA terms: U(K₁) = U(K₂) but K₁ ≠ K₂. The chemical formula (the expression) is the same for both enantiomers. But the sources (the 3D spatial arrangements) are different, and the difference matters — sometimes lethally. The expression does not distinguish between the sources. Only a higher-dimensional analysis (the 3D structure) reveals the difference.
+In SA terms: U(𝒦_p₁) = U(𝒦_p₂) but 𝒦_p₁ ≠ 𝒦_p₂. The chemical formula (the expression) is the same for both enantiomers. But the sources (the 3D spatial arrangements) are different, and the difference matters — sometimes lethally. The expression does not distinguish between the sources. Only a higher-dimensional analysis (the 3D structure) reveals the difference.
 
-This is I₁ operating in chemistry: the map (chemical formula) is not the territory (3D molecule). And the consequences of confusing them can be fatal.
+This is ι₁ operating in chemistry: the map (chemical formula) is not the territory (3D molecule). And the consequences of confusing them can be fatal.
 
 ---
 
@@ -147,22 +147,22 @@ Structural isomorphism:    domain change ≅ coordinate transformation
 
 Physics discovered Axiom 0 within its own domain in 1918. Semantic Algebra generalizes it to all domains in 2026. The structural content is the same. The domain binding differs.
 
-### Quantum Measurement — I₁ in the Laboratory
+### Quantum Measurement — ι₁ in the Laboratory
 
-The quantum measurement problem is the most precise physical instantiation of I₁.
+The quantum measurement problem is the most precise physical instantiation of ι₁.
 
-Before measurement, a quantum system exists in superposition — all possible states simultaneously present, coherently. Measurement selects one state and collapses the rest. The information in the collapsed states is not merely hidden — it is destroyed. The measurement result (U(K)) is strictly less than the pre-measurement state (K). And the pre-measurement state cannot be reconstructed from the result (U⁻¹ ∄).
+Before measurement, a quantum system exists in superposition — all possible states simultaneously present, coherently. Measurement selects one state and collapses the rest. The information in the collapsed states is not merely hidden — it is destroyed. The measurement result (U(𝒦_p)) is strictly less than the pre-measurement state (𝒦_p). And the pre-measurement state cannot be reconstructed from the result (U⁻¹ ∄).
 
 ```
-|ψ⟩ = α|0⟩ + β|1⟩       — K: superposition, all states present
-Measurement → |0⟩          — U(K): one state selected
-|β|² information lost       — K \ π_v(K): the other state, destroyed
+|ψ⟩ = α|0⟩ + β|1⟩       — 𝒦_p: superposition, all states present
+Measurement → |0⟩          — U(𝒦_p): one state selected
+|β|² information lost       — 𝒦_p \ π_v(𝒦_p): the other state, destroyed
 Cannot reconstruct |ψ⟩ from |0⟩  — U⁻¹ ∄
 ```
 
-The coherent → decoherent transformation that Chapter 1 uses as a structural analogy for expression is, in quantum mechanics, a *literal physical process*. The analogy is not casual — it is structural. The law is the same in the laboratory and in the poem. The domain differs. The invariant (I₁) does not.
+The coherent → decoherent transformation that Chapter 1 uses as a structural analogy for expression is, in quantum mechanics, a *literal physical process*. The analogy is not casual — it is structural. The law is the same in the laboratory and in the poem. The domain differs. The invariant (ι₁) does not.
 
-### Thermodynamics — I₁ as Physical Law
+### Thermodynamics — ι₁ as Physical Law
 
 The second law of thermodynamics states that the entropy of a closed system never decreases. In information-theoretic terms: every physical transformation loses information. No physical process preserves all the information of the initial state.
 
@@ -171,10 +171,10 @@ S(final) ≥ S(initial)           — entropy never decreases
 Information(final) ≤ Information(initial)  — information never increases
 
 In SA terms:
-U(K) ⊊ K for every physical process
+U(𝒦_p) ⊊ 𝒦_p for every physical process
 ```
 
-The second law is I₁ formulated as a law of physics. Every physical transformation — every expression of one state as another — loses information. The loss is irreversible. The original state cannot be reconstructed. This is not a limitation of technology. It is a structural consequence of the transformation itself — exactly as Chapter 1 argued for natural language.
+The second law is ι₁ formulated as a law of physics. Every physical transformation — every expression of one state as another — loses information. The loss is irreversible. The original state cannot be reconstructed. This is not a limitation of technology. It is a structural consequence of the transformation itself — exactly as Chapter 1 argued for natural language.
 
 ---
 
@@ -182,16 +182,16 @@ The second law is I₁ formulated as a law of physics. Every physical transforma
 
 | Domain | Mechanism | SA Invariant |
 |---|---|---|
-| Molecular biology | DNA → mRNA → Protein: lossy chain of vectorialization | I₁ |
+| Molecular biology | DNA → mRNA → Protein: lossy chain of vectorialization | ι₁ |
 | Molecular biology | Codon degeneracy: multiple expressions → same content | Non-injectivity of S |
 | Molecular biology | Silent mutations: carrier changes, function preserved | Invariance under carrier change |
-| Molecular biology | Protein folding: reconstructing K from U(K) | I₁ (U⁻¹ problem) |
+| Molecular biology | Protein folding: reconstructing 𝒦_p from U(𝒦_p) | ι₁ (U⁻¹ problem) |
 | Epigenetics | Same DNA, different expression by different cells | Projection problem (Chapter 3) |
-| Chemistry | H₂ + O → H₂O: emergent properties | I₅ |
-| Organic chemistry | Chirality: same formula, different 3D structure | I₁ (map ≠ territory, fatally) |
+| Chemistry | H₂ + O → H₂O: emergent properties | ι₅ |
+| Organic chemistry | Chirality: same formula, different 3D structure | ι₁ (map ≠ territory, fatally) |
 | Physics | Noether's theorem: symmetry → conservation | Axiom 0 |
-| Physics | Quantum measurement: superposition → collapse | I₁ (literal physical instantiation) |
-| Physics | Second law of thermodynamics: entropy increases | I₁ (information loss in every transformation) |
+| Physics | Quantum measurement: superposition → collapse | ι₁ (literal physical instantiation) |
+| Physics | Second law of thermodynamics: entropy increases | ι₁ (information loss in every transformation) |
 
 The invariants are not a product of human language. They are structural laws that operate at every level of reality — from quantum states to molecular biology to human expression. Human language is one domain in which they manifest. The genetic code is another. Quantum mechanics is another. Chemistry is another.
 

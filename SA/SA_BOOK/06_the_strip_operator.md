@@ -11,7 +11,7 @@ S is the core operation of the method. Everything else — the library, the re-c
 ```
 S: NL → Structure
 
-S(expression) = ⟨ I, Φ, v, Σ_src, R, τ, Δ_S ⟩
+S(expression) = ⟨ ι, 𝔉, v, Σ_src, R, τ_ph, Δ_𝔉 ⟩
 ```
 
 S takes any natural language expression as input and produces a 7-layer structural object as output. The output describes what is structurally present in the expression — independently of what the speaker intended, what the receiver projects, and what the domain vocabulary suggests.
@@ -29,22 +29,22 @@ Each layer of the S output captures a different structural dimension of the expr
 The central question: does this expression contain a structural law that survives domain change?
 
 ```
-I ∈ {I₁, I₂, ..., I₁₀, I_new, ∅}
+ι ∈ {ι₁, ι₂, ..., ι₁₀, ι_new, ∅}
 ```
 
-If I = ∅, the expression does not contain a universal invariant. This does not mean the expression is worthless — it may contain a valid domain-specific truth, a useful narrative, or a genuine insight that simply does not generalize. But it is not an invariant.
+If ι = ∅, the expression does not contain a universal invariant. This does not mean the expression is worthless — it may contain a valid domain-specific truth, a useful narrative, or a genuine insight that simply does not generalize. But it is not an invariant.
 
-If I ≠ ∅, the expression contains a recognized invariant from the library, or a candidate for a new invariant pending validation.
+If ι ≠ ∅, the expression contains a recognized invariant from the library, or a candidate for a new invariant pending validation.
 
-### Layer 2 — Emergent Function (Φ)
+### Layer 2 — Emergent Function (𝔉)
 
 What does the expression *do* — not what does it *say*?
 
 ```
-Φ = ⟨Φ_d, Φ_eff, Δ⟩
+𝔉 = ⟨𝔉_d, 𝔉_eff, Δ⟩
 
-Φ_d   = declared function (what the expression claims to do)
-Φ_eff = effective function (what the expression actually does)
+𝔉_d   = declared function (what the expression claims to do)
+𝔉_eff = effective function (what the expression actually does)
 Δ     = gap between declared and effective
 ```
 
@@ -52,29 +52,29 @@ The diagnostic table:
 
 | Condition | Diagnosis |
 |---|---|
-| Δ = 0 | **Coherent** — the expression does what it says |
-| Δ ≠ 0, Φ_eff ≠ ∅ | **Inversion** — manipulation, self-deception, or propaganda. The expression does something, but not what it declares |
-| Φ_eff = ∅, Φ_d ≠ ∅ | **Semantic illusion** — the expression claims to do something but structurally does nothing |
-| Φ_eff < 0 | **Psychotropic** — the expression degrades the receiver's coherence |
-| Φ_eff = potential, dΦ/dt = 0 | **Affliction** — the invariant is present but the receiver cannot activate it |
+| Δ_𝔉 = 0 | **Coherent** — the expression does what it says |
+| Δ_𝔉 ≠ 0, 𝔉_eff ≠ ∅ | **Inversion** — manipulation, self-deception, or propaganda. The expression does something, but not what it declares |
+| 𝔉_eff = ∅, 𝔉_d ≠ ∅ | **Semantic illusion** — the expression claims to do something but structurally does nothing |
+| 𝔉_eff < 0 | **Psychotropic** — the expression degrades the receiver's coherence |
+| 𝔉_eff = potential, d𝔉/dt = 0 | **Affliction** — the invariant is present but the receiver cannot activate it |
 
 ### Layer 3 — Vector (v)
 
 Where is the expression going — and is its declared direction the same as its effective direction?
 
 ```
-v = ⟨v_d, v_eff, λ⟩
+v = ⟨v_d, v_eff, λ_L⟩
 
 v_d   = declared vector (where the expression says it is going)
 v_eff = effective vector (where the expression actually takes the receiver)
-λ     = Lyapunov exponent (convergence/divergence measure)
+λ_L     = Lyapunov exponent (convergence/divergence measure)
 ```
 
-| λ value | Meaning |
+| λ_L value | Meaning |
 |---|---|
-| λ < 0 | Converges toward v_eff (stable attractor) — the expression has a clear destination |
-| λ > 0 | Diverges — fragmentation, no stable direction |
-| λ ≈ 0 | Edge of chaos — maximum potential, phase transition, the point of highest leverage |
+| λ_L < 0 | Converges toward v_eff (stable attractor) — the expression has a clear destination |
+| λ_L > 0 | Diverges — fragmentation, no stable direction |
+| λ_L ≈ 0 | Edge of chaos — maximum potential, phase transition, the point of highest leverage |
 
 ### Layer 4 — Source Signature (Σ_src)
 
@@ -110,35 +110,35 @@ R ∈ { mutual, unilateral, projected, instrumental, performative, absent }
 
 The diagnostic power of R lies in the gap between the *apparent* receiver and the *structural* receiver. When the apparent receiver is "you" but the structural receiver is the audience (R_performative), the expression's effective function is performance, not communication — regardless of what the source declares.
 
-### Layer 6 — Temporal Phase (τ)
+### Layer 6 — Temporal Phase (τ_ph)
 
 Where does the expression sit in the evolutionary cycle of its content?
 
 ```
-τ = ascending / descending / bifurcation / cyclic
+τ_ph = ascending / descending / bifurcation / cyclic
 ```
 
-**Clarification**: τ refers to the phase of the *content* — the system or phenomenon that the expression addresses — not the phase of the source. An expression about democracy can be ascending (the system is gaining coherence) even if the speaker is personally in crisis.
+**Clarification**: τ_ph refers to the phase of the *content* — the system or phenomenon that the expression addresses — not the phase of the source. An expression about democracy can be ascending (the system is gaining coherence) even if the speaker is personally in crisis.
 
 An expression produced during an ascending phase carries different implications than the same words produced during a descending phase. "We must change" during ascent means "we are ready." During descent, it means "we are desperate."
 
-**Operational markers**: τ is partially derivable from other layers. These markers are guides, not algorithms:
+**Operational markers**: τ_ph is partially derivable from other layers. These markers are guides, not algorithms:
 
-| Marker pattern | Suggested τ |
+| Marker pattern | Suggested τ_ph |
 |---|---|
-| Δ ≈ 0, λ < 0, R_mutual, I ≠ ∅ | **ascending** — coherent, converging, structurally sound |
-| Δ growing, λ > 0, R_instrumental or R_absent | **descending** — incoherence increasing, diverging, relational field degrading |
-| λ ≈ 0, Δ unstable, content addresses transformation | **bifurcation** — critical point, maximum sensitivity to perturbation |
+| Δ ≈ 0, λ_L < 0, R_mutual, ι ≠ ∅ | **ascending** — coherent, converging, structurally sound |
+| Δ growing, λ_L > 0, R_instrumental or R_absent | **descending** — incoherence increasing, diverging, relational field degrading |
+| λ_L ≈ 0, Δ unstable, content addresses transformation | **bifurcation** — critical point, maximum sensitivity to perturbation |
 | Expression recurs across contexts without structural evolution | **cyclic** — repeating pattern, not a single phase but a loop |
 
-When the markers are ambiguous, the analyst declares τ = indeterminate and notes the ambiguity. This is preferable to guessing.
+When the markers are ambiguous, the analyst declares τ_ph = indeterminate and notes the ambiguity. This is preferable to guessing.
 
-### Layer 7 — Diagnostic Synthesis (Δ_S)
+### Layer 7 — Diagnostic Synthesis (Δ_𝔉)
 
 The structural verdict: classification, coherence index, and operative indication.
 
 ```
-Δ_S = ⟨classification, κ, indication⟩
+Δ_𝔉 = ⟨classification, κ, indication⟩
 
 classification = one of 9 types (see Section 6.4)
 κ             = coherence index [0, 1] — degree of alignment across all layers
@@ -148,20 +148,20 @@ indication    = brief structural recommendation
 **Computing κ**: The coherence index is a weighted average of alignment across the layers. This formula provides a replicable baseline — analysts may refine the weights as the method matures, but the structure ensures inter-analyst comparability.
 
 ```
-κ = (w₁·δ_I + w₂·(1 - |Δ|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ
+κ = (w₁·δ_I + w₂·(1 - |Δ_𝔉|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ
 ```
 
 | Component | Definition | Range |
 |---|---|---|
-| δ_I | 1 if I ≠ ∅, 0 otherwise | {0, 1} |
-| \|Δ\| | Normalised gap between Φ_d and Φ_eff | [0, 1] |
+| δ_I | 1 if ι ≠ ∅, 0 otherwise | {0, 1} |
+| \|Δ\| | Normalised gap between 𝔉_d and 𝔉_eff | [0, 1] |
 | align(v) | Cosine-like alignment between v_d and v_eff: 1 = same direction, 0 = orthogonal, -1 = opposed | [-1, 1], mapped to [0, 1] |
 | r | Relational quality: R_mutual = 1.0, R_unilateral = 0.7, R_projected = 0.4, R_instrumental = 0.2, R_performative = 0.1, R_absent = 0.0 | [0, 1] |
 | c_src | Source consciousness: high = 1.0, medium = 0.7, low = 0.3, zero = 0.0 | [0, 1] |
 
 Default weights: w₁ = 3, w₂ = 2, w₃ = 2, w₄ = 1.5, w₅ = 1.5. The invariant layer (w₁) is weighted highest because it is the primary structural datum. The gap (w₂) and vector alignment (w₃) carry equal weight as measures of internal coherence. The relational and consciousness components carry slightly less weight because they are more context-dependent.
 
-**Example**: Ungaretti's "M'illumino d'immenso" — δ_I = 1, |Δ| ≈ 0 → (1-|Δ|) = 1, align(v) = 1, r = 1.0 (addresses reader directly), c_src = 0.7 (medium consciousness). κ = (3·1 + 2·1 + 2·1 + 1.5·1 + 1.5·0.7) / 10.5 = 9.55/10.5 ≈ 0.91. Close to the 0.95 assigned intuitively — the formula tracks judgement without replacing it.
+**Example**: Ungaretti's "M'illumino d'immenso" — δ_I = 1, |Δ_𝔉| ≈ 0 → (1-|Δ_𝔉|) = 1, align(v) = 1, r = 1.0 (addresses reader directly), c_src = 0.7 (medium consciousness). κ = (3·1 + 2·1 + 2·1 + 1.5·1 + 1.5·0.7) / 10.5 = 9.55/10.5 ≈ 0.91. Close to the 0.95 assigned intuitively — the formula tracks judgement without replacing it.
 
 ## 6.3 The Procedure — 7 Steps
 
@@ -181,14 +181,14 @@ Map the tokens to the algebraic vocabulary:
 | Source / origin | S (source) |
 | Expressive operation | U (functor) |
 | Relationship | R (relational field) |
-| Emergent function | Φ |
+| Emergent function | 𝔉 |
 | Structural match | ρ (resonance) |
 | Threshold | θ |
 | Invariant / principle | I |
 | Observer | O |
 | Projection | π |
 | Direction | v (vector) |
-| Attractor | ω |
+| Attractor | ω_att |
 
 ### Step 2b — Etymological Strip (Critical)
 
@@ -222,7 +222,7 @@ Assemble the algebraic expression. At this point, the expression has been decomp
 
 Add what the formula implies that the NL expression did not state. Every algebraic formula has consequences — relationships, constraints, implications — that were implicit in the expression but not explicitly said. Identify and state them.
 
-For example, if the formula is U(K) ⊊ K, the completion includes: U⁻¹ ∄ (the original cannot be reconstructed), K ↪ U(K) (the source is contained as inherited structure), and K_real ≠ U (there exists a non-lossy channel). These were not said in the original NL expression — they are structural consequences of the formula.
+For example, if the formula is U(𝒦_p) ⊊ 𝒦_p, the completion includes: U⁻¹ ∄ (the original cannot be reconstructed), 𝒦_p ↪ U(𝒦_p) (the source is contained as inherited structure), and 𝒦_r ≠ U (there exists a non-lossy channel). These were not said in the original NL expression — they are structural consequences of the formula.
 
 ### Step 6 — Universality Test
 
@@ -239,7 +239,7 @@ Compare the formula against the invariant library (Chapter 5).
 
 - **Match**: The expression contains a known invariant. Classify and proceed.
 - **New candidate**: The formula does not match any known invariant but passes the universality test. Flag for deeper validation.
-- **No invariant**: I = ∅. Proceed to type classification (Section 6.4).
+- **No invariant**: ι = ∅. Proceed to type classification (Section 6.4).
 
 ## 6.4 The Classification Typology — 9 Types with Worked Examples
 
@@ -249,19 +249,19 @@ Every expression, after passing through S, receives a classification. There are 
 
 ### Type 1: Structural Truth
 
-**Condition**: I ≠ ∅, Δ = 0, v_d = v_eff, R present.
+**Condition**: ι ≠ ∅, Δ_𝔉 = 0, v_d = v_eff, R present.
 
 The expression contains an invariant, it does what it says, its declared and effective vectors align, and it operates in genuine relationship.
 
 **Worked example**: *"M'illumino d'immenso"* (Ungaretti)
 
 ```
-I = I₁ (non-expressibility of the source)
-Φ_d = point at K_real / Φ_eff = point at K_real / Δ = 0
-v_d = toward in-mensus / v_eff = toward in-mensus / λ < 0
+I = ι₁ (non-expressibility of the source)
+𝔉_d = point at 𝒦_r / 𝔉_eff = point at 𝒦_r / Δ_𝔉 = 0
+v_d = toward in-mensus / v_eff = toward in-mensus / λ_L < 0
 Σ_src = direct, high coherence, structural authority, consciousness medium
 R = R_mutual (σ addresses reader directly)
-τ = ascending (instant of realization)
+τ_ph = ascending (instant of realization)
 Classification: STRUCTURAL TRUTH / κ = 0.95
 ```
 
@@ -269,17 +269,17 @@ Classification: STRUCTURAL TRUTH / κ = 0.95
 
 ### Type 2: Domain Narrative
 
-**Condition**: I = ∅, Φ_d ≠ ∅, R may be present. Valid locally, not universally.
+**Condition**: ι = ∅, 𝔉_d ≠ ∅, R may be present. Valid locally, not universally.
 
 **Worked example**: *"The free market is the natural system that emerges when individuals are free to choose"*
 
 ```
-I = ∅
-Φ_d = establish universal principle / Φ_eff = promote specific economic model / Δ ≠ 0
-v_d = toward universal truth / v_eff = toward ideological commitment / λ < 0
+ι = ∅
+𝔉_d = establish universal principle / 𝔉_eff = promote specific economic model / Δ_𝔉 ≠ 0
+v_d = toward universal truth / v_eff = toward ideological commitment / λ_L < 0
 Σ_src = derivative (transmits doctrine), role-based authority
 R = R_absent (addresses no specific receiver — broadcast)
-τ = cyclic (recurring ideological claim)
+τ_ph = cyclic (recurring ideological claim)
 Classification: DOMAIN NARRATIVE / κ = 0.3
 Note: "natural" is the domain binding — projecting a contingent
       social arrangement onto nature to claim universality. 
@@ -290,7 +290,7 @@ Note: "natural" is the domain binding — projecting a contingent
 
 ### Type 3: Manipulation
 
-**Condition**: Δ ≠ 0, v_d ≠ v_eff, R_instrumental or R_performative, Σ_src incoherent.
+**Condition**: Δ_𝔉 ≠ 0, v_d ≠ v_eff, R_instrumental or R_performative, Σ_src incoherent.
 
 The expression declares one intention but structurally produces another. The relationship with the receiver is instrumentalized.
 
@@ -301,14 +301,14 @@ Type 3 has two subtypes, distinguished by the source's awareness of the inversio
 **Worked example**: *"War is Peace"* (Orwell, *1984*)
 
 ```
-I = ∅ (but instrumentalizes I₉)
-Φ_d = declare truth / Φ_eff = enforce obedience through semantic destruction / Δ maximum
-v_d = toward peace / v_eff = toward perpetual war / λ > 0
+ι = ∅ (but instrumentalizes ι₉)
+𝔉_d = declare truth / 𝔉_eff = enforce obedience through semantic destruction / Δ maximum
+v_d = toward peace / v_eff = toward perpetual war / λ_L > 0
 Σ_src = state apparatus, zero coherence (conscious inversion), role-based authority
 R = R_instrumental (receiver is target, not interlocutor)
-τ = descending (semantic degeneration)
+τ_ph = descending (semantic degeneration)
 Classification: MANIPULATION (3a — conscious) / κ = 0.0
-Note: Orwell formalized I₉ as literary device. The expression is
+Note: Orwell formalized ι₉ as literary device. The expression is
       an engineered instance of semantic inversion.
 ```
 
@@ -317,39 +317,39 @@ Note: Orwell formalized I₉ as literary device. The expression is
 **Worked example**: *"I'm criticizing you because I love you"*
 
 ```
-I = ∅ (but invokes I₅ / I₄ as justification)
-Φ_d = express care through honest feedback / Φ_eff = assert dominance through disguised aggression / Δ significant
-v_d = toward the receiver's growth / v_eff = toward the source's control / λ < 0
+ι = ∅ (but invokes ι₅ / ι₄ as justification)
+𝔉_d = express care through honest feedback / 𝔉_eff = assert dominance through disguised aggression / Δ significant
+v_d = toward the receiver's growth / v_eff = toward the source's control / λ_L < 0
 Σ_src = direct, high *subjective* coherence but low *structural* coherence, structural authority absent
 R = R_mutual (from source's perspective) but R_instrumental (structurally)
-τ = cyclic (pattern repeats)
+τ_ph = cyclic (pattern repeats)
 Classification: MANIPULATION (3b — unconscious) / κ = 0.15
 Note: The gap between subjective and structural coherence is the 
       diagnostic signature. The source is sincere — which makes the
       inversion more damaging than 3a, because the receiver cannot
       point at deliberate deception. The damage is real; the intent
-      is genuine. This is I₉ operating without the source's awareness.
+      is genuine. This is ι₉ operating without the source's awareness.
 ```
 
-The distinction between 3a and 3b is diagnostically critical. In 3a, confronting the source with the inversion may produce acknowledgment (the manipulator knew). In 3b, confronting the source produces defensive escalation (the source *genuinely believes* their declared function). The operative response differs: 3a requires exposure; 3b requires I₆ (controphase) — not opposition, but a shift of axis that makes the inversion visible to the source without triggering the defense.
+The distinction between 3a and 3b is diagnostically critical. In 3a, confronting the source with the inversion may produce acknowledgment (the manipulator knew). In 3b, confronting the source produces defensive escalation (the source *genuinely believes* their declared function). The operative response differs: 3a requires exposure; 3b requires ι₆ (controphase) — not opposition, but a shift of axis that makes the inversion visible to the source without triggering the defense.
 
 ---
 
 ### Type 4: Semantic Illusion
 
-**Condition**: I = ∅, Φ_d ≠ ∅, Φ_eff = ∅. Seems deep, is structurally empty.
+**Condition**: ι = ∅, 𝔉_d ≠ ∅, 𝔉_eff = ∅. Seems deep, is structurally empty.
 
 **Worked example**: *"Everything happens for a reason"*
 
 ```
-I = ∅ (simulates I₇ without structure)
-Φ_d = provide meaning/consolation / Φ_eff = ∅ / Δ: declared function is absent
-v_d = toward teleological meaning / v_eff = null / λ undefined
+ι = ∅ (simulates ι₇ without structure)
+𝔉_d = provide meaning/consolation / 𝔉_eff = ∅ / Δ: declared function is absent
+v_d = toward teleological meaning / v_eff = null / λ_L undefined
 Σ_src = derivative, low consciousness (repeats without contact)
 R = R_unilateral (consolation offered, but structural help absent from receiver's side)
-τ = cyclic (repeats in every cultural context)
+τ_ph = cyclic (repeats in every cultural context)
 Classification: SEMANTIC ILLUSION / κ = 0.1
-Note: The expression mimics I₇ (teleological inversion) by 
+Note: The expression mimics ι₇ (teleological inversion) by 
       using teleological vocabulary ("for a reason") without 
       providing the structural mechanism. "A reason" is 
       unspecified — and must remain so, because specifying it 
@@ -361,20 +361,20 @@ Note: The expression mimics I₇ (teleological inversion) by
 
 ### Type 5: Psychotropic
 
-**Condition**: Φ_eff < 0, τ descending. Degrades the receiver's coherence.
+**Condition**: 𝔉_eff < 0, τ_ph descending. Degrades the receiver's coherence.
 
 **Worked example**: *"You are nothing without me"*
 
 ```
-I = ∅
-Φ_d = express intimate truth / Φ_eff = destroy receiver's autonomy / Δ critical
-v_d = toward intimacy / v_eff = toward dependency / λ < 0 (stable toward degradation)
+ι = ∅
+𝔉_d = express intimate truth / 𝔉_eff = destroy receiver's autonomy / Δ critical
+v_d = toward intimacy / v_eff = toward dependency / λ_L < 0 (stable toward degradation)
 Σ_src = direct, low coherence (confused about own position), no structural authority
 R = R_instrumental (receiver instrumentalized as extension of source's need)
-τ = descending
+τ_ph = descending
 Classification: PSYCHOTROPIC / κ = 0.05
 Note: The expression is structurally toxic — it degrades the 
-      receiver's I₄ (singularity) by defining the receiver's 
+      receiver's ι₄ (singularity) by defining the receiver's 
       identity through the source. Stable attractor toward 
       increasing dependency.
 ```
@@ -383,23 +383,23 @@ Note: The expression is structurally toxic — it degrades the
 
 ### Type 6: Affliction
 
-**Condition**: I ≠ ∅, Φ_eff = potential, dΦ/dt = 0. The invariant is present but the terminal cannot see it.
+**Condition**: ι ≠ ∅, 𝔉_eff = potential, d𝔉/dt = 0. The invariant is present but the terminal cannot see it.
 
 **Worked example**: *"I know I should change, but I can't"*
 
 ```
-I = I₁ applied reflexively (the speaker knows their expression 
+I = ι₁ applied reflexively (the speaker knows their expression 
     of themselves is not their identity — but cannot break through)
-Φ_d = express helplessness / Φ_eff = potential (the invariant IS present) / Δ: temporal
-v_d = toward stasis / v_eff = toward stasis / λ ≈ 0 (edge — one perturbation from shift)
+𝔉_d = express helplessness / 𝔉_eff = potential (the invariant IS present) / Δ: temporal
+v_d = toward stasis / v_eff = toward stasis / λ_L ≈ 0 (edge — one perturbation from shift)
 Σ_src = direct, medium coherence, structural authority (direct experience of the affliction)
 R = R_mutual (genuine vulnerability)
-τ = bifurcation point (the statement itself marks the edge)
+τ_ph = bifurcation point (the statement itself marks the edge)
 Classification: AFFLICTION / κ = 0.5
 Note: The expression contains genuine structural content — the 
       speaker HAS the invariant (self-knowledge). The problem is 
-      temporal, not structural: Φ_eff = potential, dΦ/dt = 0. 
-      The operative indication is controphase (I₆): not pushing 
+      temporal, not structural: 𝔉_eff = potential, d𝔉/dt = 0. 
+      The operative indication is controphase (ι₆): not pushing 
       toward change, but shifting the axis on which "change" is 
       being conceived.
 ```
@@ -408,20 +408,20 @@ Note: The expression contains genuine structural content — the
 
 ### Type 7: Transition
 
-**Condition**: I ≠ ∅, λ ≈ 0, τ = bifurcation. Maximum potential — the system is at the edge.
+**Condition**: ι ≠ ∅, λ_L ≈ 0, τ_ph = bifurcation. Maximum potential — the system is at the edge.
 
 **Worked example**: *"I don't know what I'm becoming"*
 
 ```
-I = I₄ (singularity in transformation — identity is irreducible 
+I = ι₄ (singularity in transformation — identity is irreducible 
     but the current expression of identity is dissolving)
-Φ_d = express confusion / Φ_eff = announce transformation / Δ ≈ 0
-v_d = undefined / v_eff = undefined / λ ≈ 0 (critical point)
+𝔉_d = express confusion / 𝔉_eff = announce transformation / Δ ≈ 0
+v_d = undefined / v_eff = undefined / λ_L ≈ 0 (critical point)
 Σ_src = direct, high coherence (the statement IS the transition), structural authority
 R = R_mutual (vulnerable self-report)
-τ = bifurcation
+τ_ph = bifurcation
 Classification: TRANSITION / κ = 0.7
-Note: This is the highest-potential state. λ ≈ 0 means maximum 
+Note: This is the highest-potential state. λ_L ≈ 0 means maximum 
       sensitivity to perturbation. The system can go in any 
       direction. The operative indication: do NOT push a direction. 
       Provide structural containment (R) and let the bifurcation 
@@ -432,17 +432,17 @@ Note: This is the highest-potential state. λ ≈ 0 means maximum
 
 ### Type 8: Zombie / Null
 
-**Condition**: I = ∅, Φ = ∅, v = ∅, R = ∅ or purely procedural. Form without content.
+**Condition**: ι = ∅, 𝔉 = ∅, v = ∅, R = ∅ or purely procedural. Form without content.
 
 **Worked example**: *"Please be advised that the aforementioned policy has been updated in accordance with applicable regulations"*
 
 ```
-I = ∅
-Φ_d = ∅ (no declared function beyond procedural compliance) / Φ_eff = ∅
-v_d = ∅ / v_eff = ∅ / λ undefined
+ι = ∅
+𝔉_d = ∅ (no declared function beyond procedural compliance) / 𝔉_eff = ∅
+v_d = ∅ / v_eff = ∅ / λ_L undefined
 Σ_src = derivative, zero coherence (no person behind the expression), role-based authority
 R = R_absent (no receiver — addressed to "whom it may concern")
-τ = cyclic (repeating institutional pattern)
+τ_ph = cyclic (repeating institutional pattern)
 Classification: ZOMBIE / κ = 0.0
 Note: Pure form. No structural content, no vector, no relationship. 
       The expression exists to satisfy a procedural requirement, not 
@@ -464,21 +464,21 @@ Type 9 has two subtypes, distinguished by the relationship between the co-presen
 **Worked example**: *"The Tao that can be told is not the eternal Tao"* (Lao Tzu)
 
 ```
-I = {I₁, I₄, I₈}
-  I₁: The expression is not the source
-  I₄: The Tao as irreducible singularity
-  I₈: The act of telling changes both teller and told
+I = {ι₁, ι₄, ι₈}
+  ι₁: The expression is not the source
+  ι₄: The Tao as irreducible singularity
+  ι₈: The act of telling changes both teller and told
 
-Φ_d = transmit foundational principle / Φ_eff = transmit foundational principle / Δ = 0
-v_d = toward K / v_eff = toward K / λ < 0
+𝔉_d = transmit foundational principle / 𝔉_eff = transmit foundational principle / Δ_𝔉 = 0
+v_d = toward 𝒦_p / v_eff = toward 𝒦_p / λ_L < 0
 Σ_src = direct, high coherence, structural authority, consciousness high
 R = R_mutual (addresses the practitioner / reader directly)
-τ = ascending (foundational)
+τ_ph = ascending (foundational)
 Classification: SUPERPOSITION (9a — cooperative) / κ = 0.95
 Note: The expression contains multiple invariants in superposition. 
       Which invariant a receiver activates depends on their own 
-      resonance profile (I₂). A logician activates I₁. A mystic 
-      activates I₄. A physicist activates I₈. Each activation is 
+      resonance profile (ι₂). A logician activates ι₁. A mystic 
+      activates ι₄. A physicist activates ι₈. Each activation is 
       valid. The expression is richer than any single reading.
 ```
 
@@ -487,26 +487,26 @@ Note: The expression contains multiple invariants in superposition.
 **Worked example**: *"To be free, you must obey the law"*
 
 ```
-I = {I₄, I₁₀} — in tension
-  I₄: Freedom as irreducibility of singularity (the free person cannot be reduced)
-  I₁₀: Scale recursion — the law as structural invariant operating at every scale
+I = {ι₄, ι₁₀} — in tension
+  ι₄: Freedom as irreducibility of singularity (the free person cannot be reduced)
+  ι₁₀: Scale recursion — the law as structural invariant operating at every scale
 
-  Tension: I₄ says σ is irreducible; the expression says σ must submit to the law.
+  Tension: ι₄ says σ is irreducible; the expression says σ must submit to the law.
   Is this a contradiction, a paradox, or a controphase?
 
 Diagnostic protocol:
   1. Contradiction test: Do the invariants *formally* contradict?
-     I₄ says: ∀f: f(σ) → σ' ⇒ σ' ≠ σ. The law is a function f.
+     ι₄ says: ∀f: f(σ) → σ' ⇒ σ' ≠ σ. The law is a function f.
      Therefore: obeying the law produces σ' ≠ σ. → Formal tension: yes.
 
   2. Paradox test: Does the tension dissolve at a deeper level?
-     If the law IS I₄ (i.e., the law that one must respect is the
+     If the law IS ι₄ (i.e., the law that one must respect is the
      irreducibility of singularity), then the expression becomes:
      "To be free, respect irreducibility" — no contradiction.
      The tension resolves IF the law is itself structural, not imposed.
 
   3. Controphase test: Is the expression using the tension deliberately
-     to produce a phase-shift in the receiver? (I₆ mechanism)
+     to produce a phase-shift in the receiver? (ι₆ mechanism)
      If yes: the expression is operating as a koan.
 
 Classification: SUPERPOSITION (9b — antagonistic) / κ = 0.50
@@ -532,12 +532,12 @@ S has four formal properties that constrain how it operates:
 S(NL₁) = S(NL₂) is possible
 ```
 
-Two different natural language expressions can produce the same structural output. Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* both yield I₁ through S. The expressions are entirely different. The structural content is identical. Non-injectivity is not a weakness — it is the mechanism by which cross-domain convergence is detected.
+Two different natural language expressions can produce the same structural output. Shakespeare's *King Lear* and Lao Tzu's *Tao Te Ching* both yield ι₁ through S. The expressions are entirely different. The structural content is identical. Non-injectivity is not a weakness — it is the mechanism by which cross-domain convergence is detected.
 
 ### Surjective (on the invariant library)
 
 ```
-∀I ∈ Library: ∃ NL such that S(NL) = I
+∀ι ∈ Library: ∃ NL such that S(NL) = ι
 ```
 
 Every invariant in the library has at least one natural language source from which it was extracted. No invariant exists without a preimage — the library is built from expressions, not from abstract postulation.
@@ -564,9 +564,9 @@ Layer 4 (Σ_src) includes a parameter that is unusual in formal methods: the con
 
 The evidence:
 
-- **Ungaretti** expressed I₁ with structural precision in three words. His consciousness of I₁ as an algebraic structure was zero. His consciousness of the experiential reality (K_real) was high. Classification: consciousness **medium**.
-- **Lao Tzu** expressed I₁ with structural precision in the opening line of the *Tao Te Ching*. His consciousness of universality appears to have been high (the *Tao Te Ching* is explicitly addressed to "the sage," not to Taoists). Classification: consciousness **high**.
-- **A bureaucrat** who writes "please be advised" has zero consciousness of any structural content, zero contact with K, and zero awareness that the expression is empty. Classification: consciousness **zero**.
+- **Ungaretti** expressed ι₁ with structural precision in three words. His consciousness of ι₁ as an algebraic structure was zero. His consciousness of the experiential reality (𝒦_r) was high. Classification: consciousness **medium**.
+- **Lao Tzu** expressed ι₁ with structural precision in the opening line of the *Tao Te Ching*. His consciousness of universality appears to have been high (the *Tao Te Ching* is explicitly addressed to "the sage," not to Taoists). Classification: consciousness **high**.
+- **A bureaucrat** who writes "please be advised" has zero consciousness of any structural content, zero contact with 𝒦_p, and zero awareness that the expression is empty. Classification: consciousness **zero**.
 
 The consciousness parameter does not affect whether an invariant is present — that is determined by the expression's structure, not by the source's awareness. But it affects the *completeness* of the analysis: knowing that a source has high consciousness suggests the expression may contain deliberate structural depth; knowing that a source has zero consciousness suggests the expression is formulaic.
 
@@ -577,16 +577,16 @@ The consciousness parameter leads to a principle that is central to the method:
 > **The algebraic content of an expression is independent of the source's awareness of that content.**
 
 ```
-I ∈ S(NL) ⊬ source is conscious of I
+ι ∈ S(NL) ⊬ source is conscious of I
 ```
 
-Ungaretti did not know he was expressing I₁. Kekulé did not know that his dream of the benzene ring was an instance of I₂ (resonance beyond threshold). A jazz musician who plays a transcendent solo does not know they are demonstrating I₅ (structural field) in real time. The invariant is in the expression. The consciousness is in the source. These are independent variables.
+Ungaretti did not know he was expressing ι₁. Kekulé did not know that his dream of the benzene ring was an instance of ι₂ (resonance beyond threshold). A jazz musician who plays a transcendent solo does not know they are demonstrating ι₅ (structural field) in real time. The invariant is in the expression. The consciousness is in the source. These are independent variables.
 
 This principle has two implications:
 
 **Implication 1 — For analysis**: Do not judge an expression by the source's credentials. A child can express an invariant. A Nobel laureate can express nothing. The method examines the expression, not the resume.
 
-**Implication 2 — For I₇**: The source-invariant independence principle *is itself* evidence for I₇ (teleological inversion). If the source does not need to be conscious of the invariant for the invariant to be present in the expression, then the invariant is not produced by the source — it is *expressed through* the source. The terminal does not generate the signal. The signal finds the terminal. I₇ operates on the very act of expression itself.
+**Implication 2 — For ι₇**: The source-invariant independence principle *is itself* evidence for ι₇ (teleological inversion). If the source does not need to be conscious of the invariant for the invariant to be present in the expression, then the invariant is not produced by the source — it is *expressed through* the source. The terminal does not generate the signal. The signal finds the terminal. ι₇ operates on the very act of expression itself.
 
 ---
 

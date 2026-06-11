@@ -16,8 +16,8 @@ This chapter returns to language with the full apparatus of the PA. The result i
 
 | PA Entity | Linguistic Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of expressible meanings — the simultaneous, non-sequential totality of what could be said |
-| ℛ (identity) | The speaker's Remir: linguistic competence, vocabulary depth, syntactic mastery, semantic sensitivity, intention |
+| ℭ_h (coherent field) | The field of expressible meanings — the simultaneous, non-sequential totality of what could be said |
+| 𝕀 (identity) | The speaker's Remir: linguistic competence, vocabulary depth, syntactic mastery, semantic sensitivity, intention |
 | K (context) | The communicative situation: audience, medium, genre, occasion, social constraints |
 | E (expression) | The utterance — the specific sequence of words, in the specific order, with the specific prosody |
 | ρ (resonance) | The compatibility between what the speaker means and what the speaker can say — the "fit" between intention and competence |
@@ -88,7 +88,7 @@ Translation failure occurs when one of these conditions is violated:
 |---|---|---|
 | **Untranslatability** | No μ exists that preserves ρ | "Saudade" (Portuguese) has no English equivalent because the resonance structure of the concept requires a Remir that English does not support |
 | **Distortion** | μ preserves surface but not depth | Machine translation that converts words correctly but destroys the proportional structure (the rhythm, the ambiguity, the semantic layering) |
-| **Flattening** | μ preserves ρ but not κ_3 (depth) | A competent but uninspired translation that carries the content without the proportional depth |
+| **Flattening** | μ preserves ρ but not 𝓚_3 (depth) | A competent but uninspired translation that carries the content without the proportional depth |
 | **Enrichment** | μ introduces proportional structure not in the source | A translation that is *better* than the original — the target language's Remir adds depth that the source lacked |
 
 Enrichment is real and diagnostic: it shows that the target identity had higher ρ_d (proportional depth) than the source identity for this particular content. The content found a more compatible operator.
@@ -101,25 +101,25 @@ Linguistic ambiguity — the phenomenon where a single expression carries multip
 
 An ambiguous sentence sits at a point in 𝒟 where multiple fibres intersect — it can be projected to multiple base points (multiple invariants). The sentence "Time flies like an arrow" can be stripped to at least three invariants:
 
-1. I₅ (temporal irreversibility) — time moves in one direction, as an arrow does
+1. ι₅ (temporal irreversibility) — time moves in one direction, as an arrow does
 2. A trivial reading — certain insects called "time flies" are attracted to arrows
 3. An imperative — measure the speed of flies in the manner that you would measure an arrow
 
-The Strip operator S, applied to the ambiguous sentence, does not produce a single invariant — it produces a *superposition* of invariants, each with a different κ value. The context K resolves the ambiguity by selecting the reading with the highest ρ given the context.
+The Strip operator S, applied to the ambiguous sentence, does not produce a single invariant — it produces a *superposition* of invariants, each with a different ⟨𝓚⁵⟩ value. The context K resolves the ambiguity by selecting the reading with the highest ρ given the context.
 
 This is structurally isomorphic to quantum measurement: the wave function (the ambiguous expression) is a superposition of eigenstates (the possible invariants), and the measurement (the contextual interpretation) collapses it to a definite state (the selected reading).
 
 ---
 
-## 14.6 Poetry as High-κ Collapse
+## 14.6 Poetry as High-⟨𝓚⁵⟩ Collapse
 
-Poetry is the linguistic domain where the PA's coherence order ≤_κ is most visible. A great poem is a collapse with:
+Poetry is the linguistic domain where the PA's coherence order ≤_𝓚 is most visible. A great poem is a collapse with:
 
-- **High κ_1** (internal consistency): every word, every sound, every rhythm is proportionally related to every other — nothing is arbitrary
-- **High κ_2** (source alignment): the poem faithfully carries its coherent content — no distortion, no manipulation
-- **High κ_3** (depth preserved): the poem carries multiple levels of proportional structure simultaneously (sonic, semantic, structural, meta-structural)
-- **High κ_4** (stability under perturbation): change a single word and the poem breaks — it is at a proportional optimum
-- **High κ_5** (generative capacity): the poem generates further collapses — interpretations, translations, responses, new poems
+- **High 𝓚_1** (internal consistency): every word, every sound, every rhythm is proportionally related to every other — nothing is arbitrary
+- **High 𝓚_2** (source alignment): the poem faithfully carries its coherent content — no distortion, no manipulation
+- **High 𝓚_3** (depth preserved): the poem carries multiple levels of proportional structure simultaneously (sonic, semantic, structural, meta-structural)
+- **High 𝓚_4** (stability under perturbation): change a single word and the poem breaks — it is at a proportional optimum
+- **High 𝓚_5** (generative capacity): the poem generates further collapses — interpretations, translations, responses, new poems
 
 A great poem, in PA terms, is an expression at the supremum of its invariant class — the most coherent collapse of a particular structural law.
 

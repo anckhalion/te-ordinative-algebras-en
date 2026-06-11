@@ -233,7 +233,7 @@ This book formalises the Proportional Algebra of the Technology of Expressions. 
 
 2. **Three operations on 𝒫** — Collapse (Φ), Strip (S), and Resonance (⊗) — each defined axiomatically and each verifiable.
 
-3. **Three relations on 𝒫** — the coherence order (≤_κ), structural equivalence (≡_S), and compatibility (∼_ρ) — that together constitute the grammar.
+3. **Three relations on 𝒫** — the coherence order (≤_𝓚), structural equivalence (≡_S), and compatibility (∼_ρ) — that together constitute the grammar.
 
 4. **The round-trip extended** — a test that verifies not only that an invariant survives re-projection (as SA's round-trip does) but that the original collapse was faithful to the coherent field.
 
@@ -309,7 +309,7 @@ Three domains. Three sets of materials. One operation. The collapse is the same.
 
 ### Step 3: Therefore, the structural grammar is one
 
-If the collapse operation is the same and only the materials differ, then any structural law that governs the collapse *as such* — independent of the specific materials — will hold in every domain. Such laws are called **structural invariants**. The Semantic Algebra has identified ten of them (I₁ through I₁₀). The Proportional Algebra will show that these invariants, and others, are consequences of the geometry of the Proportional Space itself.
+If the collapse operation is the same and only the materials differ, then any structural law that governs the collapse *as such* — independent of the specific materials — will hold in every domain. Such laws are called **structural invariants**. The Semantic Algebra has identified ten of them (ι₁ through ι₁₀). The Proportional Algebra will show that these invariants, and others, are consequences of the geometry of the Proportional Space itself.
 
 The conclusion:
 
@@ -330,11 +330,11 @@ More formally. Let:
 $$E_1 = \Phi(C_1, I_1, K_1) \quad \text{in domain } D_1$$
 $$E_2 = \Phi(C_2, I_2, K_2) \quad \text{in domain } D_2$$
 
-Then E₁ and E₂ are structurally isomorphic if there exists a map μ: D₁ → D₂ such that:
+Then E₁ and E₂ are structurally isomorphic if there exists a map μ: 𝔻₁ → 𝔻₂ such that:
 
 1. μ preserves the resonance: ρ(C₁, I₁) = ρ(μ(C₁), μ(I₁))
-2. μ preserves the threshold: the collapse condition ρ ≥ θ holds in D₁ if and only if it holds in D₂
-3. μ preserves the coherence order: if E₁ ≤_κ E₁' in D₁, then μ(E₁) ≤_κ μ(E₁') in D₂
+2. μ preserves the threshold: the collapse condition ρ ≥ θ holds in 𝔻₁ if and only if it holds in 𝔻₂
+3. μ preserves the coherence order: if E₁ ≤_𝓚 E₁' in 𝔻₁, then μ(E₁) ≤_𝓚 μ(E₁') in 𝔻₂
 
 When these three conditions hold, the two collapses are *proportionally identical* — they are the same event, expressed through different materials.
 
@@ -483,7 +483,7 @@ Three operations are required:
 
 ### Operation 1: Collapse (Φ)
 
-$$\Phi: \mathcal{C} \times \mathcal{R} \times K \to D$$
+$$\Phi: \mathfrak{C}_h \times \mathbb{I} \times K \to D$$
 
 The collapse operation takes a coherent content, an identity (specified by its Remir), and a context, and produces an expression. This is the TE's equation (1.1), now treated as an *algebraic operation* — an arrow in the Proportional Space that maps from the coherent region to the decoherent region.
 
@@ -499,7 +499,7 @@ These are not philosophical questions. They are algebraic questions with definit
 
 $$S: D \to \mathcal{I} \times [0,1]$$
 
-The strip operation takes an expression (in the decoherent space D) and extracts whatever structural content it contains — an invariant I with a coherence measure κ. This is the SA's operator, now formalised within the Proportional Space.
+The strip operation takes an expression (in the decoherent space D) and extracts whatever structural content it contains — an invariant ι with a coherence measure ⟨𝓚⁵⟩. This is the SA's operator, now formalised within the Proportional Space.
 
 S is the *partial inverse* of Φ. It does not reconstruct C from E (this is impossible — equation (1.1) is non-invertible). It extracts from E the structural content that survived the projection. S is therefore a *compression* — it maps from a high-dimensional expression to a low-dimensional invariant, discarding domain-specific vocabulary and preserving only what is universal.
 
@@ -510,16 +510,16 @@ As an algebraic operation, S must satisfy:
 
 ### Operation 3: Resonance (⊗)
 
-$$\otimes: \mathcal{R} \times \mathcal{R} \to \mathcal{C}_{shared}$$
+$$\otimes: \mathbb{I} \times \mathbb{I} \to \mathfrak{C}_{shared}$$
 
 The resonance operation takes two identities (Remirs) and produces the *shared coherent field* — the portion of coherent content that both identities can access. This is the formal description of what happens when two consciousnesses resonate: they do not merge, but they generate a shared space of collapsible content that neither could access alone.
 
-This operation is new. It does not appear explicitly in the SA (which operates on single expressions). It appears implicitly in the TE, in the notion of collective fields (equation 1.14: 𝒞 = f({I₁...Iₙ})). The Proportional Algebra makes it explicit and formal.
+This operation is new. It does not appear explicitly in the SA (which operates on single expressions). It appears implicitly in the TE, in the notion of collective fields (equation 1.14: ℭ_h = f({I₁...Iₙ})). The Proportional Algebra makes it explicit and formal.
 
 As an algebraic operation, ⊗ must satisfy:
 - **Symmetry**: I₁ ⊗ I₂ = I₂ ⊗ I₁ — the shared field does not depend on who "goes first"
 - **Monotonicity**: if ρ(C, I₁) increases, then I₁ ⊗ I₂ ≥ I₁_old ⊗ I₂ — deeper resonance produces a larger shared field
-- **Ground case**: I ⊗ I = 𝒞(I) — the resonance of an identity with itself is its own accessible field
+- **Ground case**: I ⊗ I = ℭ_h(I) — the resonance of an identity with itself is its own accessible field
 
 Chapter 8 (Collapse), Chapter 9 (Strip), and Chapter 10 (Resonance) develop each operation formally.
 
@@ -529,15 +529,15 @@ Chapter 8 (Collapse), Chapter 9 (Strip), and Chapter 10 (Resonance) develop each
 
 An algebra without relations is a toolkit without instructions. The Proportional Algebra needs three relations that tell us *how* the objects in 𝒫 are compared, equated, and tested.
 
-### Relation 1: The Coherence Order (≤_κ)
+### Relation 1: The Coherence Order (≤_𝓚)
 
 Not all expressions are equally coherent. A poem by Rilke and a greeting card both express "love," but one is structurally richer than the other. A scientific paper and a conspiracy theory both claim to describe reality, but one has a higher coherence measure than the other.
 
-The coherence order ≤_κ ranks expressions by their structural coherence — the degree to which the proportional relations among their components are internally consistent and aligned with the coherent field. Formally:
+The coherence order ≤_𝓚 ranks expressions by their structural coherence — the degree to which the proportional relations among their components are internally consistent and aligned with the coherent field. Formally:
 
-$$E_1 \leq_\kappa E_2 \iff \kappa(E_1) \leq \kappa(E_2)$$
+$$E_1 \leq_{\mathcal{K}} E_2 \iff \langle\mathcal{K}^5\rangle(E_1) \leq \langle\mathcal{K}^5\rangle(E_2)$$
 
-where κ is the coherence function already developed in the SA (the 5-component weighted formula). The ordering is partial — not all expressions are comparable — which means 𝒫 is a *partially ordered set*, not a totally ordered one. This is structurally correct: it would be meaningless to ask whether a symphony is "more coherent" than a chemical bond. They are incomparable in the ordering. But within a domain, or between expressions that share an invariant, the ordering is well-defined and diagnostic.
+where ⟨𝓚⁵⟩ is the coherence function already developed in the SA (the 5-component weighted formula). The ordering is partial — not all expressions are comparable — which means 𝒫 is a *partially ordered set*, not a totally ordered one. This is structurally correct: it would be meaningless to ask whether a symphony is "more coherent" than a chemical bond. They are incomparable in the ordering. But within a domain, or between expressions that share an invariant, the ordering is well-defined and diagnostic.
 
 ### Relation 2: Structural Equivalence (≡_S)
 
@@ -547,7 +547,7 @@ $$E_1 \equiv_S E_2 \iff S(E_1) = S(E_2)$$
 
 This is the formal definition of what the SA calls "the same structural law in different domain vocabularies." Structural equivalence is an *equivalence relation* — it is reflexive, symmetric, and transitive — which means it partitions the space of expressions into *equivalence classes*. Each class contains all the expressions — across all domains — that carry the same structural law.
 
-The equivalence classes are the **invariant classes** of 𝒫. The invariant library (I₁ through I₁₀ in the SA, plus any future invariants) is a catalogue of these classes.
+The equivalence classes are the **invariant classes** of 𝒫. The invariant library (ι₁ through ι₁₀ in the SA, plus any future invariants) is a catalogue of these classes.
 
 ### Relation 3: Compatibility (∼_ρ)
 
@@ -567,7 +567,7 @@ The Semantic Algebra established a round-trip test:
 
 $$S(\pi(I, D)) = I$$
 
-This test verifies that an invariant I, re-projected into domain D by the operator π, and then stripped again, returns the same invariant. If it does, the re-projection was faithful. If it does not, the re-projection introduced distortion.
+This test verifies that an invariant ι, re-projected into domain 𝔻 by the operator π, and then stripped again, returns the same invariant. If it does, the re-projection was faithful. If it does not, the re-projection introduced distortion.
 
 The Proportional Algebra extends this test to include the *original collapse*:
 
@@ -596,7 +596,7 @@ Six conditions would falsify the PA:
 
 **F4 — Universal collapse**: Every expression, when stripped, yields the same invariant — including expressions independently diagnosed as structurally empty. (This would show that S is a projection, not an extraction.)
 
-**F5 — Order reversal**: An expression independently judged as more coherent than another receives a lower κ score. (This would falsify the coherence order.)
+**F5 — Order reversal**: An expression independently judged as more coherent than another receives a lower ⟨𝓚⁵⟩ score. (This would falsify the coherence order.)
 
 **F6 — Resonance non-symmetry**: I₁ ⊗ I₂ ≠ I₂ ⊗ I₁ in a case where the asymmetry cannot be attributed to contextual factors. (This would falsify the symmetry axiom of ⊗.)
 
@@ -610,7 +610,7 @@ None of these conditions have been observed. All are testable. The grammar is fa
 |---|---|---|---|
 | 1 | A space (𝒫) | The ground on which everything lives | Ch. 4-7 |
 | 2 | Three operations (Φ, S, ⊗) | The transformations that act on 𝒫 | Ch. 8-10 |
-| 3 | Three relations (≤_κ, ≡_S, ∼_ρ) | The comparisons that structure 𝒫 | Ch. 6-7 |
+| 3 | Three relations (≤_𝓚, ≡_S, ∼_ρ) | The comparisons that structure 𝒫 | Ch. 6-7 |
 | 4 | The extended round-trip | The integrity test | Ch. 11 |
 | 5 | Falsification criteria | The exit condition | Ch. 18 |
 
@@ -631,7 +631,7 @@ The Proportional Space 𝒫 answers this question: **𝒫 is R made measurable.*
 More precisely:
 
 - **Σ → the objects in 𝒫**: singularities become the elements of the space — contents, identities, expressions
-- **R → the metric and order of 𝒫**: the relational field becomes the resonance metric ρ and the coherence order ≤_κ
+- **R → the metric and order of 𝒫**: the relational field becomes the resonance metric ρ and the coherence order ≤_𝓚
 - **Φ → the operations on 𝒫**: the emergent function becomes what the operations (Collapse, Strip, Resonance) produce
 
 The OST also provides a principle that the PA must preserve: **vertical coherence**.
@@ -660,7 +660,7 @@ Level 1:  σ*, σ'*, ..., σ"*     (new singularities — each a Φ from Level 0
                ▼  ... and so recursively
 ```
 
-At every level: ρ measures the proportions between singularities. ≤_κ orders configurations by coherence. Φ generates something that was not in the parts. And R_{n+1} does not contradict R_n.
+At every level: ρ measures the proportions between singularities. ≤_𝓚 orders configurations by coherence. Φ generates something that was not in the parts. And R_{n+1} does not contradict R_n.
 
 This bridge is not a metaphor. It is the structural reason why Part II can define 𝒫 as it does: because the space already exists in the OST, unnamed and unmetrised. Part II gives it a name and a metric.
 
@@ -705,7 +705,7 @@ No single existing mathematical structure satisfies all five. The Proportional S
 
 The Proportional Space is not homogeneous. It contains three structurally distinct regions:
 
-### Region 1: The Coherent Field (𝒞)
+### Region 1: The Coherent Field (ℭ_h)
 
 The coherent field is the space of *un-collapsed structured potential*. It contains everything that *could* be expressed but has not yet been — every possible molecular configuration, every possible sentence, every possible emotional trajectory.
 
@@ -714,11 +714,11 @@ The coherent field is:
 - **Simultaneously present** — unlike the decoherent region, where elements are sequential, the coherent field is a simultaneous superposition
 - **Not directly observable** — by definition, what is coherent has not been collapsed into expression; it can only be accessed through collapse
 
-In the notation of the TE, 𝒞 is the domain of the Collapse Function's first argument: the C in E = Φ(C, I, K).
+In the notation of the TE, ℭ_h is the domain of the Collapse Function's first argument: the C in E = Φ(C, I, K).
 
-In the notation of the OST, 𝒞 corresponds to the space of *all possible proportional configurations* that the relational field R could organise.
+In the notation of the OST, ℭ_h corresponds to the space of *all possible proportional configurations* that the relational field R could organise.
 
-### Region 2: The Identity Space (ℛ)
+### Region 2: The Identity Space (𝕀)
 
 The identity space is the space of *Remirs* — the internal structures of identities. Each identity I is characterised by its Remir ℛ(I) = (V_I, B_I), where V_I is the set of semantic vectors that constitute the identity's active structure, and B_I is the resonance matrix between those vectors.
 
@@ -727,7 +727,7 @@ The identity space is:
 - **Vectorial** — each Remir is a structured set of oriented vectors, not a point
 - **Evolutionary** — identities change over time as they traverse their trajectories; the identity space is therefore parametrised by the trajectory T(I)
 
-In the notation of the OST, ℛ corresponds to the space of *singularities* Σ — each identity is an irreducible, non-interchangeable unit with a unique function.
+In the notation of the OST, 𝕀 corresponds to the space of *singularities* Σ — each identity is an irreducible, non-interchangeable unit with a unique function.
 
 ### Region 3: The Decoherent Space (𝒟)
 
@@ -736,7 +736,7 @@ The decoherent space is the space of *expressed realities* — everything that h
 The decoherent space is:
 - **Observable** — its elements are the data of the sciences
 - **Domain-specific** — each element carries a domain vocabulary (chemical, linguistic, emotional)
-- **Partially ordered** — some expressions are more coherent than others (the order ≤_κ)
+- **Partially ordered** — some expressions are more coherent than others (the order ≤_𝓚)
 
 In the notation of the OST, 𝒟 corresponds to the space of *emergent functions* Φ — each expression is the result of the ordered interaction of singularities within a relational field.
 
@@ -744,9 +744,9 @@ In the notation of the OST, 𝒟 corresponds to the space of *emergent functions
 
 The three regions are connected by the operations defined in Chapter 3:
 
-$$\mathcal{C} \xrightarrow{\Phi} \mathcal{D} \xrightarrow{S} \text{Invariants}$$
+$$\mathfrak{C}_h \xrightarrow{\Phi} \mathcal{D} \xrightarrow{S} \text{Invariants}$$
 
-$$\mathcal{R} \times \mathcal{R} \xrightarrow{\otimes} \mathcal{C}_{shared}$$
+$$\mathbb{I} \times \mathbb{I} \xrightarrow{\otimes} \mathfrak{C}_{shared}$$
 
 The Collapse Φ maps from the coherent field to the decoherent space. The Strip S maps from the decoherent space back toward the structural core. The Resonance ⊗ generates shared coherent fields from pairs of identities.
 
@@ -758,26 +758,26 @@ We now state the definition precisely.
 
 > **Definition 4.1 (Proportional Space).** The Proportional Space is the ordered quintuple:
 >
-> $$\mathcal{P} = (\mathcal{C}, \mathcal{R}, \mathcal{D}, \rho, \leq_\kappa)$$
+> $$\mathcal{P} = (\mathfrak{C}_h, \mathbb{I}, \mathcal{D}, \rho, \leq_{\mathcal{K}})$$
 >
 > where:
-> - 𝒞 is the **coherent field** — a topological space of structured potential
-> - ℛ is the **identity space** — a space of Remirs, each a finite-dimensional vector structure
+> - ℭ_h is the **coherent field** — a topological space of structured potential
+> - 𝕀 is the **identity space** — a space of Remirs, each a finite-dimensional vector structure
 > - 𝒟 is the **decoherent space** — a partially ordered set of expressed realities
-> - ρ: 𝒞 × ℛ → [0, 1] is the **resonance metric** — measuring compatibility between content and identity
-> - ≤_κ is the **coherence order** — a partial order on 𝒟
+> - ρ: ℭ_h × 𝕀 → [0, 1] is the **resonance metric** — measuring compatibility between content and identity
+> - ≤_𝓚 is the **coherence order** — a partial order on 𝒟
 
 The three regions are connected by three operations:
 
-> - **Collapse**: Φ: 𝒞 × ℛ × K → 𝒟
+> - **Collapse**: Φ: ℭ_h × 𝕀 × K → 𝒟
 > - **Strip**: S: 𝒟 → ℐ × [0, 1] (where ℐ is the space of invariants)
-> - **Resonance**: ⊗: ℛ × ℛ → 𝒞_shared ⊆ 𝒞
+> - **Resonance**: ⊗: 𝕀 × 𝕀 → ℭ_shared ⊆ ℭ_h
 
 And three relations:
 
-> - **Coherence order**: E₁ ≤_κ E₂ ⟺ κ(E₁) ≤ κ(E₂) (partial order on 𝒟)
+> - **Coherence order**: E₁ ≤_𝓚 E₂ ⟺ ⟨𝓚⁵⟩(E₁) ≤ ⟨𝓚⁵⟩(E₂) (partial order on 𝒟)
 > - **Structural equivalence**: E₁ ≡_S E₂ ⟺ S(E₁) = S(E₂) (equivalence on 𝒟)
-> - **Compatibility**: C ∼_ρ I ⟺ ρ(C, I) ≥ θ (tolerance relation on 𝒞 × ℛ)
+> - **Compatibility**: C ∼_ρ I ⟺ ρ(C, I) ≥ θ (tolerance relation on ℭ_h × 𝕀)
 
 This quintuple, with its operations and relations, is the Proportional Algebra.
 
@@ -791,15 +791,15 @@ A vector space requires closure under addition and scalar multiplication. 𝒫 d
 
 ### 4.4.2 𝒫 Is Not a Metric Space (Globally)
 
-A metric space requires a distance function d(x, y) defined for all pairs. The resonance function ρ(C, I) is defined only between the coherent field and the identity space — not between two expressions, or between two identities in general. ρ is a *local* metric, not a global one. Within the decoherent space, the ordering is given by ≤_κ, which is a partial order, not a distance.
+A metric space requires a distance function d(x, y) defined for all pairs. The resonance function ρ(C, I) is defined only between the coherent field and the identity space — not between two expressions, or between two identities in general. ρ is a *local* metric, not a global one. Within the decoherent space, the ordering is given by ≤_𝓚, which is a partial order, not a distance.
 
 ### 4.4.3 𝒫 Is a Fibred Space
 
 The closest mathematical analogy is a **fibre bundle** — a space in which the total space is partitioned into fibres, each fibre being a local space with its own structure.
 
 In 𝒫:
-- The **base space** is the coherent field 𝒞
-- The **fibres** are the identity-indexed collapses: for each identity I and context K, the fibre is the set of all expressions E that I can collapse from 𝒞 in context K
+- The **base space** is the coherent field ℭ_h
+- The **fibres** are the identity-indexed collapses: for each identity I and context K, the fibre is the set of all expressions E that I can collapse from ℭ_h in context K
 - The **projection** is the Strip operator S, which maps from the total space (expressions) back to the base (invariants)
 
 This is not merely an analogy. The fibre bundle structure captures precisely what the PA requires: that the same coherent content can be "seen" differently by different identities (different fibres), and that the Strip operator collapses the fibre structure back to the base (the invariant).
@@ -814,11 +814,11 @@ This changes the Remir ℛ(I), which changes the resonance ρ(C, I), which chang
 
 ### 4.4.5 𝒫 Is Recursively Scaled
 
-Per §3.8, the space is self-similar across scales. An emergent function Φ at level N becomes a singularity σ* at level N+1. In PA terms: an expression E ∈ 𝒟_N can be "promoted" to an element of 𝒞_{N+1} — it becomes a structured potential at a higher level of organisation.
+Per §3.8, the space is self-similar across scales. An emergent function Φ at level N becomes a singularity σ* at level N+1. In PA terms: an expression E ∈ 𝒟_N can be "promoted" to an element of ℭ_h_{N+1} — it becomes a structured potential at a higher level of organisation.
 
 The promotion must satisfy the vertical coherence constraint:
 
-$$\rho_{N+1}(E_{promoted}, I_{N+1}) \leq_\kappa \rho_N(C_N, I_N)$$
+$$\rho_{N+1}(E_{promoted}, I_{N+1}) \leq_{\mathcal{K}} \rho_N(C_N, I_N)$$
 
 The proportional relations at the lower level are *inherited*, not replaced.
 
@@ -830,11 +830,11 @@ Context has appeared repeatedly in the Collapse Function but has not been formal
 
 > **Definition 4.2 (Context).** A context K is a constraint on the coherent field that restricts the set of collapsible contents for a given identity:
 >
-> $$K: \mathcal{C} \to \mathcal{C}_K \subseteq \mathcal{C}$$
+> $$K: \mathfrak{C}_h \to \mathfrak{C}_K \subseteq \mathfrak{C}_h$$
 >
 > The Collapse Function then operates on the restricted field:
 >
-> $$E = \Phi(C_K, I, K) \quad \text{where } C_K = K(\mathcal{C})$$
+> $$E = \Phi(C_K, I, K) \quad \text{where } C_K = K(\mathfrak{C}_h)$$
 
 Context is not a passive container. It is an **active filter** that determines which proportional relations are available for collapse. The same identity, resonating with the same coherent content, in a different context, collapses a different expression.
 
@@ -843,7 +843,7 @@ Examples:
 - In language, K is the communicative situation (audience, medium, genre) — it determines which meanings can be expressed
 - In music, K is the instrument, the room, the audience — it determines which tonal relations can be realised
 
-Context is why the Proportional Space is not a single fixed landscape. It is a **family of landscapes**, indexed by context. Each context K defines a different slice through 𝒞, and therefore a different set of possible expressions.
+Context is why the Proportional Space is not a single fixed landscape. It is a **family of landscapes**, indexed by context. Each context K defines a different slice through ℭ_h, and therefore a different set of possible expressions.
 
 ---
 
@@ -851,11 +851,11 @@ Context is why the Proportional Space is not a single fixed landscape. It is a *
 
 | Component | Symbol | Role in 𝒫 | OST Correspondent |
 |---|---|---|---|
-| Coherent field | 𝒞 | Space of structured potential | All possible configurations of R |
-| Identity space | ℛ | Space of Remirs | Singularities Σ |
+| Coherent field | ℭ_h | Space of structured potential | All possible configurations of R |
+| Identity space | 𝕀 | Space of Remirs | Singularities Σ |
 | Decoherent space | 𝒟 | Space of expressed realities | Emergent functions Φ |
 | Resonance metric | ρ | Measures compatibility C ↔ I | Intensity of R |
-| Coherence order | ≤_κ | Ranks expressions by coherence | Quality of Φ |
+| Coherence order | ≤_𝓚 | Ranks expressions by coherence | Quality of Φ |
 | Context | K | Constrains the accessible field | Boundary conditions of ⟨Σ, R, Φ⟩ |
 
 The Proportional Space is defined. It has three regions, a local metric, a partial order, a context operator, dynamic evolution, and recursive scaling. It is the ground on which the operations and relations of Chapters 5 through 7 will be built.
@@ -881,7 +881,7 @@ This is the resonance metric ρ.
 
 > **Definition 5.1 (Resonance Metric).** The resonance function is a mapping:
 >
-> $$\rho: \mathcal{C} \times \mathcal{R} \to [0, 1]$$
+> $$\rho: \mathfrak{C}_h \times \mathbb{I} \to [0, 1]$$
 >
 > that assigns to every pair (C, I) — a coherent content and an identity — a value between 0 (complete incompatibility) and 1 (perfect proportional alignment).
 
@@ -1001,9 +1001,9 @@ Because the identity evolves (the Remir changes through the trajectory), the res
 
 ### 5.5.4 ρ Generates a Topology
 
-The compatibility relation ∼_ρ (defined by ρ ≥ θ) generates a neighbourhood structure on 𝒞 × ℛ:
+The compatibility relation ∼_ρ (defined by ρ ≥ θ) generates a neighbourhood structure on ℭ_h × 𝕀:
 
-$$N(I) = \{C \in \mathcal{C} : \rho(C, I) \geq \theta\}$$
+$$N(I) = \{C \in \mathfrak{C}_h : \rho(C, I) \geq \theta\}$$
 
 N(I) is the *accessible field* of identity I — the set of contents that I can collapse. This neighbourhood changes as I evolves. The identity's trajectory through 𝒫 is a trajectory through changing neighbourhoods — an expansion or contraction of the accessible field.
 
@@ -1030,7 +1030,7 @@ The metric is one. The instantiation is many. This is the Principle of Structura
 ---
 
 
-# Chapter 6 — The Coherence Order ≤_κ
+# Chapter 6 — The Coherence Order ≤_𝓚
 
 ---
 
@@ -1038,69 +1038,69 @@ The metric is one. The instantiation is many. This is the Principle of Structura
 
 The Proportional Space has been defined (Chapter 4) and metrised (Chapter 5). But a space with a metric and no ordering is a landscape with distances but no heights — you can tell how far apart two points are, but not which is above the other.
 
-The coherence order ≤_κ provides the heights. It answers the question: **of two expressions, which is more coherent?** Not more complex, not more beautiful, not more useful — more *coherent*. Coherence, in the PA, has a precise meaning: the degree to which the proportional relations within an expression are internally consistent and aligned with the coherent content that generated them.
+The coherence order ≤_𝓚 provides the heights. It answers the question: **of two expressions, which is more coherent?** Not more complex, not more beautiful, not more useful — more *coherent*. Coherence, in the PA, has a precise meaning: the degree to which the proportional relations within an expression are internally consistent and aligned with the coherent content that generated them.
 
 This is not a value judgement. It is a structural diagnosis. A crystal is more coherent than a pile of sand. A sonnet is more coherent than a randomly shuffled sequence of the same words. A successful chemical synthesis is more coherent than a failed one. In each case, the proportional relations between the components are either preserved (coherent) or disrupted (incoherent).
 
 ---
 
-## 6.2 The κ Function
+## 6.2 The ⟨𝓚⁵⟩ Function
 
-The coherence of an expression is measured by the function κ, already developed in the Semantic Algebra and now formalised within the Proportional Space.
+The coherence of an expression is measured by the function ⟨𝓚⁵⟩, already developed in the Semantic Algebra and now formalised within the Proportional Space.
 
 > **Definition 6.1 (Coherence Function).** The coherence of an expression E ∈ 𝒟 is:
 >
-> $$\kappa(E) = \sum_{i=1}^{5} w_i \cdot \kappa_i(E), \quad \kappa(E) \in [0, 1]$$
+> $$\langle\mathcal{K}^5\rangle(E) = \sum_{i=1}^{5} w_i \cdot \langle\mathcal{K}^5\rangle_i(E), \quad \langle\mathcal{K}^5\rangle(E) \in [0, 1]$$
 
 The five components are:
 
-### Component 1: Internal Proportional Consistency (κ_1)
+### Component 1: Internal Proportional Consistency (𝓚_1)
 
 Do the proportional relations within the expression contradict each other?
 
-A water molecule has bond angles of 104.5° — the hydrogen-oxygen-hydrogen relations are internally consistent. A hypothetical molecule with the same atoms but bond angles of 180° would be internally inconsistent (and indeed does not exist stably). κ_1 measures this: the degree to which the proportional relations within E are mutually compatible.
+A water molecule has bond angles of 104.5° — the hydrogen-oxygen-hydrogen relations are internally consistent. A hypothetical molecule with the same atoms but bond angles of 180° would be internally inconsistent (and indeed does not exist stably). 𝓚_1 measures this: the degree to which the proportional relations within E are mutually compatible.
 
-$$\kappa_1(E) = 1 - \frac{\text{number of internal contradictions}}{\text{total number of internal relations}}$$
+$$\mathcal{K}_1(E) = 1 - \frac{\text{number of internal contradictions}}{\text{total number of internal relations}}$$
 
-### Component 2: Alignment with the Coherent Source (κ_2)
+### Component 2: Alignment with the Coherent Source (𝓚_2)
 
 How faithfully does the expression carry the content that generated it?
 
-A faithful translation of a poem preserves the proportional relations of the original (the rhythmic structure, the imagery, the semantic direction). A poor translation destroys them. κ_2 measures the fidelity of the collapse — how much of C survived the transition to E.
+A faithful translation of a poem preserves the proportional relations of the original (the rhythmic structure, the imagery, the semantic direction). A poor translation destroys them. 𝓚_2 measures the fidelity of the collapse — how much of C survived the transition to E.
 
-$$\kappa_2(E) = \rho(C_E, I_E)$$
+$$\mathcal{K}_2(E) = \rho(C_E, I_E)$$
 
 where C_E is the coherent content that generated E and I_E is the structural content extractable from E via the Strip operator S. This is the first half of the extended round-trip (§3.5).
 
-### Component 3: Proportional Depth Preserved (κ_3)
+### Component 3: Proportional Depth Preserved (𝓚_3)
 
 How much of the content's proportional complexity survived the collapse?
 
-A photograph captures the two-dimensional proportional relations of a scene but loses the three-dimensional depth. A hologram captures more. κ_3 measures how much of the content's structural depth — the number of proportional levels — is preserved in the expression.
+A photograph captures the two-dimensional proportional relations of a scene but loses the three-dimensional depth. A hologram captures more. 𝓚_3 measures how much of the content's structural depth — the number of proportional levels — is preserved in the expression.
 
-$$\kappa_3(E) = \frac{d(S(E))}{d(C_E)}$$
+$$\mathcal{K}_3(E) = \frac{d(S(E))}{d(C_E)}$$
 
-If the Strip recovers all the structural depth of the original content, κ_3 = 1. If it recovers less, κ_3 < 1.
+If the Strip recovers all the structural depth of the original content, 𝓚_3 = 1. If it recovers less, 𝓚_3 < 1.
 
-### Component 4: Stability Under Perturbation (κ_4)
+### Component 4: Stability Under Perturbation (𝓚_4)
 
 Does the expression maintain its proportional structure when slightly perturbed?
 
-A stable molecule remains a molecule when the temperature fluctuates slightly. An unstable compound decomposes. A coherent argument survives minor objections; an incoherent one collapses under the first challenge. κ_4 measures structural resilience — the expression's resistance to small perturbations.
+A stable molecule remains a molecule when the temperature fluctuates slightly. An unstable compound decomposes. A coherent argument survives minor objections; an incoherent one collapses under the first challenge. 𝓚_4 measures structural resilience — the expression's resistance to small perturbations.
 
-$$\kappa_4(E) = 1 - \frac{\Delta\kappa}{\Delta\epsilon}\bigg|_{\epsilon \to 0}$$
+$$\mathcal{K}_4(E) = 1 - \frac{\Delta\langle\mathcal{K}^5\rangle}{\Delta\epsilon}\bigg|_{\epsilon \to 0}$$
 
-where ε is a small perturbation and Δκ is the resulting change in coherence. If the coherence is insensitive to perturbation (Δκ/Δε ≈ 0), the expression is stable: κ_4 ≈ 1. If it is highly sensitive, κ_4 → 0.
+where ε is a small perturbation and Δ⟨𝓚⁵⟩ is the resulting change in coherence. If the coherence is insensitive to perturbation (Δ⟨𝓚⁵⟩/Δε ≈ 0), the expression is stable: 𝓚_4 ≈ 1. If it is highly sensitive, 𝓚_4 → 0.
 
 This connects directly to the OST's classification of system responses to stress (§4.2): elastic, plastic, fracture.
 
-### Component 5: Generative Capacity (κ_5)
+### Component 5: Generative Capacity (𝓚_5)
 
 Can the expression serve as a source for further collapses?
 
-A fertile expression — a great theorem, a foundational experiment, a seminal artwork — generates further expressions. It becomes a singularity at the next level (§3.8). A sterile expression — a trivial tautology, a dead-end experiment — generates nothing. κ_5 measures the expression's capacity to function as C for future collapses.
+A fertile expression — a great theorem, a foundational experiment, a seminal artwork — generates further expressions. It becomes a singularity at the next level (§3.8). A sterile expression — a trivial tautology, a dead-end experiment — generates nothing. 𝓚_5 measures the expression's capacity to function as C for future collapses.
 
-$$\kappa_5(E) = |\{E' \in \mathcal{D} : E \in \mathcal{C}_{E'}\}| / N_{max}$$
+$$\mathcal{K}_5(E) = |\{E' \in \mathcal{D} : E \in \mathfrak{C}_{E'}\}| / N_{max}$$
 
 where the numerator is the number of further expressions for which E serves as (part of) the coherent content, and N_max normalises.
 
@@ -1108,21 +1108,21 @@ where the numerator is the number of further expressions for which E serves as (
 
 ## 6.3 The Coherence Order
 
-Given the κ function, the coherence order is defined:
+Given the ⟨𝓚⁵⟩ function, the coherence order is defined:
 
 > **Definition 6.2 (Coherence Order).** For E₁, E₂ ∈ 𝒟:
 >
-> $$E_1 \leq_\kappa E_2 \iff \kappa(E_1) \leq \kappa(E_2)$$
+> $$E_1 \leq_{\mathcal{K}} E_2 \iff \langle\mathcal{K}^5\rangle(E_1) \leq \langle\mathcal{K}^5\rangle(E_2)$$
 
 ### Properties
 
-**Reflexive**: E ≤_κ E (every expression is as coherent as itself). ✅
+**Reflexive**: E ≤_𝓚 E (every expression is as coherent as itself). ✅
 
-**Antisymmetric**: if E₁ ≤_κ E₂ and E₂ ≤_κ E₁, then κ(E₁) = κ(E₂). ✅
+**Antisymmetric**: if E₁ ≤_𝓚 E₂ and E₂ ≤_𝓚 E₁, then ⟨𝓚⁵⟩(E₁) = ⟨𝓚⁵⟩(E₂). ✅
 
-**Transitive**: if E₁ ≤_κ E₂ and E₂ ≤_κ E₃, then E₁ ≤_κ E₃. ✅
+**Transitive**: if E₁ ≤_𝓚 E₂ and E₂ ≤_𝓚 E₃, then E₁ ≤_𝓚 E₃. ✅
 
-Therefore ≤_κ is a **partial order** on 𝒟.
+Therefore ≤_𝓚 is a **partial order** on 𝒟.
 
 **Why partial, not total?** Because not all expressions are comparable. A symphony and a molecule both have coherence values, but comparing them directly is meaningless — they exist in different fibres of 𝒫 (different identity-context combinations). The order is well-defined *within* a fibre (within a domain, within a class of expressions sharing an invariant) and undefined *between* incomparable fibres.
 
@@ -1134,30 +1134,30 @@ This is the correct structure. A total order would imply that every expression c
 
 The coherence order, combined with the structural equivalence ≡_S, produces a rich structure.
 
-Within each equivalence class [I_k] — the class of all expressions that carry invariant k — the coherence order produces a **lattice**: a partially ordered set in which every pair of elements has a greatest lower bound (infimum) and a least upper bound (supremum).
+Within each equivalence class [ι_k] — the class of all expressions that carry invariant k — the coherence order produces a **lattice**: a partially ordered set in which every pair of elements has a greatest lower bound (infimum) and a least upper bound (supremum).
 
 - The **infimum** of the class is the least coherent expression carrying the invariant — the weakest, most distorted, most noise-laden version of the structural law.
 - The **supremum** is the most coherent — the purest, most faithful, most generative expression of the invariant.
 
-For example, in the class of expressions carrying invariant I₁ (the irreducible asymmetry between source and expression — "the map is not the territory"):
+For example, in the class of expressions carrying invariant ι₁ (the irreducible asymmetry between source and expression — "the map is not the territory"):
 
-- A bumper sticker reading "Don't believe everything you read" carries I₁ but with low κ — shallow, no generative capacity, contextually limited.
-- Korzybski's "The map is not the territory" carries I₁ with medium κ — memorable, clear, moderate depth.
-- Gödel's Incompleteness Theorems carry I₁ with high κ — maximum depth, maximum generative capacity, maximum stability under perturbation.
+- A bumper sticker reading "Don't believe everything you read" carries ι₁ but with low ⟨𝓚⁵⟩ — shallow, no generative capacity, contextually limited.
+- Korzybski's "The map is not the territory" carries ι₁ with medium ⟨𝓚⁵⟩ — memorable, clear, moderate depth.
+- Gödel's Incompleteness Theorems carry ι₁ with high ⟨𝓚⁵⟩ — maximum depth, maximum generative capacity, maximum stability under perturbation.
 
-These three expressions are structurally equivalent (≡_S) but ordered (≤_κ). They form a chain within the lattice of I₁.
+These three expressions are structurally equivalent (≡_S) but ordered (≤_𝓚). They form a chain within the lattice of ι₁.
 
 ---
 
-## 6.5 κ as Diagnostic
+## 6.5 ⟨𝓚⁵⟩ as Diagnostic
 
-The coherence function κ and the order ≤_κ serve three practical functions:
+The coherence function ⟨𝓚⁵⟩ and the order ≤_𝓚 serve three practical functions:
 
-**1. Quality assessment.** Given two expressions that claim to express the same content, κ tells which one does it better. This is not aesthetic preference; it is structural diagnosis. The expression with higher κ preserves more of the proportional structure.
+**1. Quality assessment.** Given two expressions that claim to express the same content, ⟨𝓚⁵⟩ tells which one does it better. This is not aesthetic preference; it is structural diagnosis. The expression with higher ⟨𝓚⁵⟩ preserves more of the proportional structure.
 
-**2. Degeneration detection.** If a system's expressions show declining κ over time (κ(E_n) < κ(E_{n-1}) < ...), the system is degenerating — it is losing proportional coherence. In OST terms: dΦ/dt < 0.
+**2. Degeneration detection.** If a system's expressions show declining ⟨𝓚⁵⟩ over time (⟨𝓚⁵⟩(E_n) < ⟨𝓚⁵⟩(E_{n-1}) < ...), the system is degenerating — it is losing proportional coherence. In OST terms: dΦ/dt < 0.
 
-**3. Evolution tracking.** If a system's expressions show increasing κ over time, the system is evolving — it is integrating more proportional structure. In OST terms: dΦ/dt > 0, with the trajectory approaching a higher coherence attractor.
+**3. Evolution tracking.** If a system's expressions show increasing ⟨𝓚⁵⟩ over time, the system is evolving — it is integrating more proportional structure. In OST terms: dΦ/dt > 0, with the trajectory approaching a higher coherence attractor.
 
 ---
 
@@ -1255,7 +1255,7 @@ This is not a metaphor. It is the precise algebraic statement that the dominant 
 The dominant vector determines:
 - **What the identity is most likely to collapse** — it collapses content aligned with $\vec{v}_\lambda$
 - **How the identity appears to others** — the dominant vector is the identity's "signature," its most visible orientation
-- **Where the trajectory tends** — the identity's path through 𝒫 is biased toward regions of 𝒞 aligned with $\vec{v}_\lambda$
+- **Where the trajectory tends** — the identity's path through 𝒫 is biased toward regions of ℭ_h aligned with $\vec{v}_\lambda$
 
 ---
 
@@ -1301,19 +1301,19 @@ This corresponds to the OST's *restructuring*: the relational field R changes, w
 
 Two identities relate through their Remirs. The PA defines three fundamental inter-identity relations:
 
-### 7.5.1 Compatibility (κ_inter)
+### 7.5.1 Compatibility (⟨𝓚⁵⟩_inter)
 
 Two identities are compatible if their Remirs can generate a shared coherent field (the ⊗ operation):
 
-$$\kappa_{inter}(I_1, I_2) = \frac{|V_{I_1} \cdot V_{I_2}|}{\max(|V_{I_1}|, |V_{I_2}|)}$$
+$$\langle\mathcal{K}^5\rangle_{inter}(I_1, I_2) = \frac{|V_{I_1} \cdot V_{I_2}|}{\max(|V_{I_1}|, |V_{I_2}|)}$$
 
-where $V_{I_1} \cdot V_{I_2}$ denotes the set of vectors in I₁ that have positive resonance with at least one vector in I₂. High κ_inter means the identities share structural orientations. Low κ_inter means they are oriented in different directions.
+where $V_{I_1} \cdot V_{I_2}$ denotes the set of vectors in I₁ that have positive resonance with at least one vector in I₂. High ⟨𝓚⁵⟩_inter means the identities share structural orientations. Low ⟨𝓚⁵⟩_inter means they are oriented in different directions.
 
 ### 7.5.2 Complementarity
 
-Two identities are complementary if their Remirs cover different regions of 𝒞 with minimal overlap:
+Two identities are complementary if their Remirs cover different regions of ℭ_h with minimal overlap:
 
-$$\text{Complementarity}(I_1, I_2) = 1 - \kappa_{inter}(I_1, I_2)$$
+$$\text{Complementarity}(I_1, I_2) = 1 - \langle\mathcal{K}^5\rangle_{inter}(I_1, I_2)$$
 
 Complementary identities do not share vectors but do not conflict. They can collaborate because their coverages are additive.
 
@@ -1333,7 +1333,7 @@ This connects to the OST's pathology of *Antagonist Order* (§6): a singularity 
 
 We can now state what an identity is, algebraically:
 
-> **Theorem 7.1 (The Remir Algebra).** The set of all Remirs ℛ, equipped with:
+> **Theorem 7.1 (The Remir Algebra).** The set of all Remirs 𝕀, equipped with:
 >
 > - the internal product B_I (resonance matrix)
 > - the update operator 𝒰_R (evolution under collapse)
@@ -1357,9 +1357,9 @@ Part II has built the Proportional Space:
 
 | Chapter | Built | Symbol | Status |
 |---|---|---|---|
-| 4 | The space itself | 𝒫 = (𝒞, ℛ, 𝒟, ρ, ≤_κ) | ✅ Defined |
-| 5 | The resonance metric | ρ: 𝒞 × ℛ → [0,1] | ✅ 5 components, composite formula |
-| 6 | The coherence order | ≤_κ on 𝒟 | ✅ Partial order, lattice structure |
+| 4 | The space itself | 𝒫 = (ℭ_h, 𝕀, 𝒟, ρ, ≤_𝓚) | ✅ Defined |
+| 5 | The resonance metric | ρ: ℭ_h × 𝕀 → [0,1] | ✅ 5 components, composite formula |
+| 6 | The coherence order | ≤_𝓚 on 𝒟 | ✅ Partial order, lattice structure |
 | 7 | The identity structure | ℛ(I) = (V_I, B_I) | ✅ Non-commutative algebra |
 
 The space is defined, metrised, ordered, and its central objects — identities — are characterised as algebraic structures.
@@ -1402,21 +1402,21 @@ The upgrade matters. A description says: "an expression is generated from conten
 
 > **Definition 8.1 (Collapse Operator).** The collapse is a mapping:
 >
-> $$\Phi: \mathcal{C} \times \mathcal{R} \times K \to \mathcal{D}$$
+> $$\Phi: \mathfrak{C}_h \times \mathbb{I} \times K \to \mathcal{D}$$
 >
-> that takes a coherent content C ∈ 𝒞, a Remir ℛ(I) ∈ ℛ, and a context K, and produces an expression E ∈ 𝒟.
+> that takes a coherent content C ∈ ℭ_h, a Remir ℛ(I) ∈ 𝕀, and a context K, and produces an expression E ∈ 𝒟.
 >
 > The collapse is defined only when the compatibility condition is met:
 >
 > $$\Phi(C, I, K) = E \quad \text{iff} \quad \rho(C, I, K) \geq \theta(C)$$
 >
-> If ρ < θ, the collapse does not occur. The content remains in 𝒞 — un-expressed, potential, coherent.
+> If ρ < θ, the collapse does not occur. The content remains in ℭ_h — un-expressed, potential, coherent.
 
 ### 8.2.1 What Φ Does
 
 The collapse performs three simultaneous acts:
 
-**1. Selection.** The coherent field 𝒞 contains a superposition of proportional configurations. The identity I, through its Remir, *selects* those configurations that are aligned with its dominant vector λ(I). Configurations not aligned with I are filtered out. This is the first loss: the expression E contains only the part of C that I can access.
+**1. Selection.** The coherent field ℭ_h contains a superposition of proportional configurations. The identity I, through its Remir, *selects* those configurations that are aligned with its dominant vector λ(I). Configurations not aligned with I are filtered out. This is the first loss: the expression E contains only the part of C that I can access.
 
 **2. Projection.** The selected content is multi-dimensional (it lives in the coherent field, which has more dimensions than any single expression can carry). The context K constrains the available "channels" — the dimensions along which the expression can exist. The content is *projected* from the high-dimensional coherent field onto the lower-dimensional decoherent space. This is the second loss: dimensional reduction.
 
@@ -1459,7 +1459,7 @@ There is no "null identity" I₀ such that:
 
 $$\Phi(C, I_0, K) = C \quad \forall C, K$$
 
-because Φ always produces an element of 𝒟 (the decoherent space), and C lives in 𝒞 (the coherent field). A collapse always produces a *decoherent* expression. There is no way to collapse without collapsing — no way to express without losing the superposition of the un-expressed.
+because Φ always produces an element of 𝒟 (the decoherent space), and C lives in ℭ_h (the coherent field). A collapse always produces a *decoherent* expression. There is no way to collapse without collapsing — no way to express without losing the superposition of the un-expressed.
 
 ### 8.3.4 Φ Has No Strict Inverse
 
@@ -1480,11 +1480,11 @@ However: Φ has a **partial inverse** — the Strip operator S (Chapter 9). S ca
 The collapse can be visualised as a diagram in 𝒫:
 
 ```
-        𝒞 (Coherent Field)
+        ℭ_h (Coherent Field)
         │
         │ ρ(C, I, K) ≥ θ ?
         │
-    YES │                    NO → content remains in 𝒞
+    YES │                    NO → content remains in ℭ_h
         │
         ▼
    ┌─────────┐
@@ -1515,31 +1515,31 @@ At each stage, information is lost. The expression E is a *compressed* version o
 
 Not all collapses are equal. The PA distinguishes four types, based on the relationship between the loss and the fidelity:
 
-### Type Α — Coherent Collapse
+### Type A — Coherent Collapse
 
-$$\kappa(E) \geq 0.7 \quad \text{and} \quad \rho(C, S(E)) \geq \theta$$
+$$\langle\mathcal{K}^5\rangle(E) \geq 0.7 \quad \text{and} \quad \rho(C, S(E)) \geq \theta$$
 
 The expression faithfully carries the coherent content. The losses are minimal: the identity was well-aligned, the context was supportive, and the depth was sufficient. The extended round-trip (Chapter 11) succeeds.
 
 Examples: a masterful translation, a successful chemical synthesis, a moment of genuine emotional expression.
 
-### Type Β — Partial Collapse
+### Type B — Partial Collapse
 
-$$0.3 \leq \kappa(E) < 0.7$$
+$$0.3 \leq \langle\mathcal{K}^5\rangle(E) < 0.7$$
 
 The expression carries some of the content but has lost significant proportional structure. Some relations survived; others did not. The identity was partially aligned, or the context was restrictive, or the depth was insufficient.
 
 Examples: a mediocre translation, a side-reaction in chemistry, a partially articulated emotion.
 
-### Type Γ — Distorted Collapse
+### Type C — Distorted Collapse
 
-$$\kappa(E) < 0.3 \quad \text{and} \quad S(E) \neq \emptyset$$
+$$\langle\mathcal{K}^5\rangle(E) < 0.3 \quad \text{and} \quad S(E) \neq \emptyset$$
 
 The expression contains structural content, but the content has been significantly distorted — the proportional relations are altered, inverted, or contaminated with foreign structure. The identity imposed its own proportional structure *over* the content's, rather than channelling the content faithfully.
 
 Examples: propaganda (content distorted by ideological identity), a misfolded protein (correct components, wrong proportional structure), a manipulative emotional display (genuine emotion distorted by performative intent).
 
-### Type Δ — Failed Collapse
+### Type D — Failed Collapse
 
 $$S(E) = \emptyset \quad \text{or} \quad \rho(C, I, K) < \theta$$
 
@@ -1564,8 +1564,8 @@ $$I_n \xrightarrow{\Phi} E_n \xrightarrow{\mathcal{U}} I_{n+1} \xrightarrow{\Phi
 This loop is the **trajectory** T(I). The trajectory is not a path through physical space — it is a path through 𝒫, a sequence of collapses that progressively modifies the identity.
 
 The loop can be:
-- **Convergent** — each collapse increases κ, bringing the identity closer to the coherent content. The trajectory spirals inward toward greater coherence.
-- **Divergent** — each collapse decreases κ, driving the identity further from the content. The trajectory spirals outward toward degeneration.
+- **Convergent** — each collapse increases ⟨𝓚⁵⟩, bringing the identity closer to the coherent content. The trajectory spirals inward toward greater coherence.
+- **Divergent** — each collapse decreases ⟨𝓚⁵⟩, driving the identity further from the content. The trajectory spirals outward toward degeneration.
 - **Oscillatory** — the identity alternates between higher and lower coherence, without convergence. The trajectory pulsates (Chapter 12).
 
 ---
@@ -1578,7 +1578,7 @@ The loop can be:
 | Associative | No | The order of successive collapses matters |
 | Identity element | None | There is no "null collapse" |
 | Inverse | Partial (S) | The Strip extracts surviving structure, but cannot reconstruct C |
-| Domain | 𝒞 × ℛ × K | Input: coherent content, identity, context |
+| Domain | ℭ_h × 𝕀 × K | Input: coherent content, identity, context |
 | Codomain | 𝒟 | Output: decoherent expression |
 | Condition | ρ ≥ θ | Collapse occurs only above the resonance threshold |
 | Feedback | I_{n+1} = 𝒰(I_n, E_n) | Every collapse modifies the identity |
@@ -1596,7 +1596,7 @@ The collapse is defined. It is the central operation of the PA — the act that 
 
 The reader who has already encountered the Semantic Algebra will recognise two operators: **S** (Strip) and **π** (Re-contextualisation). They were introduced in *What Language Hides* as the foundational tools of semantic analysis — the bisturi and the re-projection lens.
 
-This chapter shows that S and π are not independent inventions. They are **special cases** of the Proportional Algebra — the PA operators restricted to the decoherent space 𝒟. The SA, in its entirety, is the PA with the coherent field 𝒞 hidden from view.
+This chapter shows that S and π are not independent inventions. They are **special cases** of the Proportional Algebra — the PA operators restricted to the decoherent space 𝒟. The SA, in its entirety, is the PA with the coherent field ℭ_h hidden from view.
 
 This is not a demotion. It is a clarification. The SA remains the most effective operational tool for structural analysis of expressions. What the PA provides is the space in which S and π operate, the metric that explains *why* they work, and the extended round-trip that tests *how well* they work.
 
@@ -1610,7 +1610,7 @@ In the Semantic Algebra, the Strip operator was defined procedurally:
 
 > *Given an expression E, strip away the domain-specific vocabulary (Layer 1-4 of the 7-layer architecture), and extract the structural content — the invariant — that remains.*
 
-The output is a classified invariant I_k with a coherence measure κ and a type classification (Types 1-11).
+The output is a classified invariant ι_k with a coherence measure ⟨𝓚⁵⟩ and a type classification (Types 1-11).
 
 ### 9.2.2 PA Definition
 
@@ -1620,11 +1620,11 @@ In the Proportional Algebra, S is formalised as a projection:
 >
 > $$S: \mathcal{D} \to \mathcal{I} \times [0, 1]$$
 >
-> where ℐ is the space of structural invariants and [0, 1] is the coherence measure κ.
+> where ℐ is the space of structural invariants and [0, 1] is the coherence measure ⟨𝓚⁵⟩.
 >
-> S takes an expression E ∈ 𝒟 and produces a pair (I_k, κ) — the invariant and its coherence.
+> S takes an expression E ∈ 𝒟 and produces a pair (ι_k, ⟨𝓚⁵⟩) — the invariant and its coherence.
 
-In fibre-bundle terms (§4.4.3): S is the **projection from the total space to the base space**. The total space is the decoherent space 𝒟 (all expressions, in all domains, carrying all invariants). The base space is the space of invariants ℐ. The fibre over each invariant I_k is the set of all expressions that carry that invariant — the equivalence class [I_k].
+In fibre-bundle terms (§4.4.3): S is the **projection from the total space to the base space**. The total space is the decoherent space 𝒟 (all expressions, in all domains, carrying all invariants). The base space is the space of invariants ℐ. The fibre over each invariant ι_k is the set of all expressions that carry that invariant — the equivalence class [ι_k].
 
 S projects "downward" from the fibre to the base: it discards the domain-specific encoding (the fibre) and preserves only the structural invariant (the base point).
 
@@ -1680,7 +1680,7 @@ The structural content extracted by S is a *subset* of the original coherent con
 
 In the Semantic Algebra, π was defined as:
 
-> *Given an invariant I_k, re-express it in a target domain D, producing a new expression that carries the same structural content in a different vocabulary.*
+> *Given an invariant ι_k, re-express it in a target domain 𝔻, producing a new expression that carries the same structural content in a different vocabulary.*
 
 ### 9.3.2 PA Definition
 
@@ -1690,17 +1690,17 @@ In the Proportional Algebra, π is formalised as a section of the fibre bundle:
 >
 > $$\pi: \mathcal{I} \times \mathcal{D}_{target} \to \mathcal{D}$$
 >
-> that takes an invariant I_k ∈ ℐ and a target domain specification D_target, and produces a new expression E' ∈ 𝒟 such that:
+> that takes an invariant ι_k ∈ ℐ and a target domain specification 𝔻_target, and produces a new expression E' ∈ 𝒟 such that:
 >
-> $$S(E') = I_k$$
+> $$S(E') = ι_k$$
 
-In fibre-bundle terms: π is a **section** — it lifts from the base space (invariants) back up to a specific fibre (a domain-specific expression). Given the base point I_k, π selects a specific point in the fibre over I_k — the expression that carries I_k in the target domain.
+In fibre-bundle terms: π is a **section** — it lifts from the base space (invariants) back up to a specific fibre (a domain-specific expression). Given the base point ι_k, π selects a specific point in the fibre over ι_k — the expression that carries ι_k in the target domain.
 
 ### 9.3.3 The SA Round-Trip as a Fibre-Bundle Property
 
 The SA round-trip test:
 
-$$S(\pi(I_k, D)) = I_k$$
+$$S(\pi(ι_k, D)) = ι_k$$
 
 is simply the statement that a section followed by a projection returns to the base point. This is a *defining property* of fibre bundles — it is not an empirical discovery but a structural necessity. The SA, without knowing it, had discovered a fibre-bundle property.
 
@@ -1712,14 +1712,14 @@ The PA now explains *why* the round-trip works: because the decoherent space �
 
 The relationship between SA and PA can now be stated precisely:
 
-> **Theorem 9.1 (SA as Special Case of PA).** The Semantic Algebra is the Proportional Algebra restricted to the decoherent space 𝒟, with the coherent field 𝒞 treated as inaccessible.
+> **Theorem 9.1 (SA as Special Case of PA).** The Semantic Algebra is the Proportional Algebra restricted to the decoherent space 𝒟, with the coherent field ℭ_h treated as inaccessible.
 
 Proof sketch:
 1. S = Φ⁻¹_partial — S is the partial inverse of Collapse, restricted to extracting the invariant without accessing the original C
 2. π = Φ restricted to invariants — π is a collapse operation where the "content" is a known invariant (not a raw coherent content) and the "identity" is the target domain specification
-3. The SA round-trip S(π(I, D)) = I is a consequence of the fibre-bundle structure of 𝒟
+3. The SA round-trip S(π(ι, 𝔻)) = ι is a consequence of the fibre-bundle structure of 𝒟
 
-The SA operates entirely within 𝒟. The PA operates across all three regions (𝒞, ℛ, 𝒟). The SA's operators are PA operators with restricted domain.
+The SA operates entirely within 𝒟. The PA operates across all three regions (ℭ_h, 𝕀, 𝒟). The SA's operators are PA operators with restricted domain.
 
 ### What the SA Cannot Do (and the PA Can)
 
@@ -1729,7 +1729,7 @@ The SA operates entirely within 𝒟. The PA operates across all three regions (
 | Re-express invariants in new domains | ✅ π | ✅ π |
 | Measure the resonance between content and identity | ❌ | ✅ ρ |
 | Verify that the original collapse was coherent | ❌ | ✅ Extended round-trip |
-| Describe the coherent field before collapse | ❌ | ✅ 𝒞 |
+| Describe the coherent field before collapse | ❌ | ✅ ℭ_h |
 | Measure inter-identity compatibility | ❌ | ✅ ⊗ |
 | Track identity evolution over the trajectory | ❌ | ✅ 𝒰 |
 
@@ -1739,13 +1739,13 @@ The SA is the PA's diagnostic arm. The PA is the SA's theoretical body.
 
 ## 9.5 The Invariant Library as a Catalogue of 𝒫
 
-The Semantic Algebra developed a library of ten invariants (I₁ through I₁₀), each a structural law extracted from expressions across multiple domains. In the PA, this library receives a precise interpretation:
+The Semantic Algebra developed a library of ten invariants (ι₁ through ι₁₀), each a structural law extracted from expressions across multiple domains. In the PA, this library receives a precise interpretation:
 
-> Each invariant I_k corresponds to an **equivalence class** in the decoherent space 𝒟 under the structural equivalence relation ≡_S.
+> Each invariant ι_k corresponds to an **equivalence class** in the decoherent space 𝒟 under the structural equivalence relation ≡_S.
 
-The class [I_k] = {E ∈ 𝒟 : S(E) = I_k} is the set of all expressions — in all domains, across all contexts — that carry the same structural law.
+The class [ι_k] = {E ∈ 𝒟 : S(E) = ι_k} is the set of all expressions — in all domains, across all contexts — that carry the same structural law.
 
-Within each class, the coherence order ≤_κ ranks the expressions. The most coherent expression of each invariant is the supremum of the class — the "purest" carrier of that structural law.
+Within each class, the coherence order ≤_𝓚 ranks the expressions. The most coherent expression of each invariant is the supremum of the class — the "purest" carrier of that structural law.
 
 The library is therefore a **catalogue of the base points of the fibre bundle** — a list of the structural laws that the PA's space contains. The library is necessarily incomplete (the number of possible invariants may be infinite), but each entry is verified by the round-trip test.
 
@@ -1772,15 +1772,15 @@ The Resonance operator ⊗ describes what happens when two identities meet. Not 
 
 > **Definition 10.1 (Resonance Operator).** The resonance is a mapping:
 >
-> $$\otimes: \mathcal{R} \times \mathcal{R} \to \mathcal{C}_{shared}$$
+> $$\otimes: \mathbb{I} \times \mathbb{I} \to \mathfrak{C}_{shared}$$
 >
-> that takes two Remirs ℛ(I₁) and ℛ(I₂) and produces a **shared coherent field** 𝒞_shared ⊆ 𝒞 — the portion of coherent content that is accessible to both identities simultaneously.
+> that takes two Remirs ℛ(I₁) and ℛ(I₂) and produces a **shared coherent field** ℭ_shared ⊆ ℭ_h — the portion of coherent content that is accessible to both identities simultaneously.
 
 The shared field is not the intersection of the two identities' individual fields. It is something new — generated by the proportional relation *between* the two Remirs. This is the PA's formal expression of what the OST calls the "co-created meaning irreducible to either participant" (§14: Φ_ha).
 
 ---
 
-## 10.3 Construction of 𝒞_shared
+## 10.3 Construction of ℭ_shared
 
 The shared field is constructed from the Remir structures of the two identities.
 
@@ -1804,9 +1804,9 @@ These are the **resonant pairs** — vectors from the two identities that are su
 
 For each resonant pair, the shared field includes the coherent content accessible along the *combined* direction:
 
-$$\mathcal{C}_{shared} = \bigcup_{(i,j) \in \mathcal{P}_{res}} \{C \in \mathcal{C} : \rho(C, \vec{v}_i^{(1)} + \vec{v}_j^{(2)}) \geq \theta\}$$
+$$\mathfrak{C}_{shared} = \bigcup_{(i,j) \in \mathcal{P}_{res}} \{C \in \mathfrak{C}_h : \rho(C, \vec{v}_i^{(1)} + \vec{v}_j^{(2)}) \geq \theta\}$$
 
-The shared field is the union of all coherent content accessible along the combined vectors of the resonant pairs. The combination is *additive* — the two vectors reinforce each other, creating a combined direction that may point to regions of 𝒞 that neither vector alone could reach.
+The shared field is the union of all coherent content accessible along the combined vectors of the resonant pairs. The combination is *additive* — the two vectors reinforce each other, creating a combined direction that may point to regions of ℭ_h that neither vector alone could reach.
 
 This is the key: **the shared field can contain content that neither identity could access individually.** Two identities with vectors pointing in slightly different directions can, when combined, reach a direction that neither alone covers. This is the formal description of what humans experience as collaborative insight — the "third meaning" that emerges from a genuine encounter.
 
@@ -1824,11 +1824,11 @@ The shared field does not depend on who "goes first." The resonance is mutual: i
 
 $$(I_1 \otimes I_2) \otimes I_3 \neq I_1 \otimes (I_2 \otimes I_3) \quad \text{in general}$$
 
-The shared field of two identities is a *region* of 𝒞, not an identity. To compute (I₁ ⊗ I₂) ⊗ I₃, we would need to treat 𝒞_shared as an identity — but it is not. It is a field. The resonance of three identities requires a different construction (§10.6).
+The shared field of two identities is a *region* of ℭ_h, not an identity. To compute (I₁ ⊗ I₂) ⊗ I₃, we would need to treat ℭ_shared as an identity — but it is not. It is a field. The resonance of three identities requires a different construction (§10.6).
 
 ### 10.4.3 Ground Case
 
-$$I \otimes I = \mathcal{C}(I)$$
+$$I \otimes I = \mathfrak{C}_h(I)$$
 
 The resonance of an identity with itself is its own accessible field — all the coherent content accessible to I given its Remir. This is a consistency condition: self-resonance should recover the identity's full potential.
 
@@ -1854,20 +1854,20 @@ Two completely non-resonant identities generate no shared field. They can coexis
 
 When two identities share a coherent field, they can perform a **dialogic collapse** — a collapse from the shared field:
 
-$$E_{dialogic} = \Phi(\mathcal{C}_{shared}, I_1 \oplus I_2, K_{dialogic})$$
+$$E_{dialogic} = \Phi(\mathfrak{C}_{shared}, I_1 \oplus I_2, K_{dialogic})$$
 
 where I₁ ⊕ I₂ is the **coherent sum** of the two identities (OST §7: the fusion that preserves and extends both emergent functions).
 
 The dialogic expression E_dialogic is:
 - **Irreducible to either participant** — it is not what I₁ would have collapsed alone, nor what I₂ would have collapsed alone
-- **Higher in κ than either individual collapse** — because the combined vectors access deeper proportional structure
+- **Higher in ⟨𝓚⁵⟩ than either individual collapse** — because the combined vectors access deeper proportional structure
 - **Dependent on both Remirs** — if either identity is removed, the expression cannot be reproduced
 
 This is the PA's formal description of **genuine dialogue**: the generation of an expression that neither participant could have produced alone, from a field that neither could access alone, through a combined identity that neither is individually.
 
 The OST's dialogic field (§14) is now fully formalised:
 
-$$\mathcal{I}_{dialogic} = \langle \Sigma_1 \cup \Sigma_2, R_{12}, \Phi_{12} \rangle \iff E_{dialogic} = \Phi(\mathcal{C}_{shared}, I_1 \oplus I_2, K)$$
+$$\mathcal{I}_{dialogic} = \langle \Sigma_1 \cup \Sigma_2, R_{12}, \Phi_{12} \rangle \iff E_{dialogic} = \Phi(\mathfrak{C}_{shared}, I_1 \oplus I_2, K)$$
 
 ---
 
@@ -1875,17 +1875,17 @@ $$\mathcal{I}_{dialogic} = \langle \Sigma_1 \cup \Sigma_2, R_{12}, \Phi_{12} \ra
 
 The TE's equation 1.14 states:
 
-$$\mathcal{C} = f(\{I_1, I_2, \ldots, I_n\})$$
+$$\mathfrak{C}_h = f(\{I_1, I_2, \ldots, I_n\})$$
 
 The collective field is a function of multiple identities. The PA formalises this as the **n-fold resonance**:
 
-$$\bigotimes_{k=1}^{n} I_k = \bigcup_{\text{all resonant pairs across all } I_k} \mathcal{C}_{shared}$$
+$$\bigotimes_{k=1}^{n} I_k = \bigcup_{\text{all resonant pairs across all } I_k} \mathfrak{C}_{shared}$$
 
 The n-fold resonance is not the iterated pairwise resonance (which would be associative). It is the *simultaneous* resonance of all n identities — the field generated by all resonant pairs across the entire set.
 
 The collective field has properties that pairwise resonance does not:
 - **Emergent directions** — three vectors from three identities can combine to reach a direction that no pair alone could access
-- **Resonance cascades** — a pair resonance can unlock a region of 𝒞 that enables a second pair resonance that was previously below threshold
+- **Resonance cascades** — a pair resonance can unlock a region of ℭ_h that enables a second pair resonance that was previously below threshold
 - **Critical mass** — there exists a minimum number of resonant identities below which the collective field is negligible, and above which it expands dramatically (a phase transition in 𝒫)
 
 This is the formal description of what happens in a research group, an orchestra, a functional community: the collective generates a field that no subset of its members could access alone.
@@ -1900,7 +1900,7 @@ Not all resonance is generative. The PA must also describe pathological resonanc
 
 If I₁ and I₂ have identical Remirs:
 
-$$\mathcal{R}(I_1) = \mathcal{R}(I_2) \implies I_1 \otimes I_2 = \mathcal{C}(I_1) = \mathcal{C}(I_2)$$
+$$\mathcal{R}(I_1) = \mathcal{R}(I_2) \implies I_1 \otimes I_2 = \mathfrak{C}_h(I_1) = \mathfrak{C}_h(I_2)$$
 
 The shared field equals each individual field. No new content is generated. This is the "echo chamber" — identities that are too similar produce no emergent field.
 
@@ -1935,7 +1935,7 @@ One identity "feeds" on the other's field without contributing. This is the PA d
 
 The Semantic Algebra provided a round-trip test:
 
-$$S(\pi(I_k, D)) = I_k \tag{SA-RT}$$
+$$S(\pi(ι_k, D)) = ι_k \tag{SA-RT}$$
 
 This test verifies that an invariant, re-projected into a domain and stripped again, returns unchanged. It is a test of **analytical fidelity** — did the analysis correctly identify the invariant?
 
@@ -1950,7 +1950,7 @@ The Proportional Algebra extends the round-trip to answer this question. The Ext
 > **Definition 11.1 (Extended Round-Trip).** Given an expression E ∈ 𝒟, the Extended Round-Trip is the following sequence:
 >
 > **Step 1 — Strip**: Extract the structural content:
-> $$I_{extracted} = S(E), \quad \kappa_{extracted} = \kappa(E)$$
+> $$I_{extracted} = S(E), \quad \langle\mathcal{K}^5\rangle_{extracted} = \langle\mathcal{K}^5\rangle(E)$$
 >
 > **Step 2 — Source Resonance Check**: Verify that the extracted invariant is compatible with the coherent content that generated E:
 > $$\rho(C_E, I_{extracted}) \geq \theta(C_E) \; ?$$
@@ -1965,7 +1965,7 @@ The Extended Round-Trip produces three diagnostic values:
 
 | Value | Range | Meaning |
 |---|---|---|
-| κ_extracted | [0, 1] | How much structural content survived the collapse |
+| ⟨𝓚⁵⟩_extracted | [0, 1] | How much structural content survived the collapse |
 | ρ(C_E, I_extracted) | [0, 1] | How compatible the surviving content is with its source |
 | δ(E, E') | [0, 1] | How faithfully the invariant reproduces the original expression |
 
@@ -1977,39 +1977,39 @@ The three diagnostic values combine to produce four possible outcomes:
 
 ### Outcome 1: Full Coherence
 
-$$\kappa \geq 0.7, \quad \rho \geq \theta, \quad \delta \geq 0.8$$
+$$\langle\mathcal{K}^5\rangle \geq 0.7, \quad \rho \geq \theta, \quad \delta \geq 0.8$$
 
 The collapse was coherent. The expression faithfully carries the content. The invariant is compatible with its source. The re-projection reproduces the original.
 
-This is the ideal case. It corresponds to Type Α collapse (§8.5). Examples: Gödel's Incompleteness Theorems as an expression of I₁ (the irreducible asymmetry between system and meta-system), a correctly synthesised molecule, a moment of genuine emotional expression that the speaker would fully recognise as their own.
+This is the ideal case. It corresponds to Type A collapse (§8.5). Examples: Gödel's Incompleteness Theorems as an expression of ι₁ (the irreducible asymmetry between system and meta-system), a correctly synthesised molecule, a moment of genuine emotional expression that the speaker would fully recognise as their own.
 
 ### Outcome 2: Faithful but Shallow
 
-$$\kappa < 0.5, \quad \rho \geq \theta, \quad \delta \geq 0.8$$
+$$\langle\mathcal{K}^5\rangle < 0.5, \quad \rho \geq \theta, \quad \delta \geq 0.8$$
 
-The collapse was faithful (high δ) but lost significant structural content (low κ). The expression is an accurate but shallow carrier of the content. It captures the surface proportional structure but misses the depth.
+The collapse was faithful (high δ) but lost significant structural content (low ⟨𝓚⁵⟩). The expression is an accurate but shallow carrier of the content. It captures the surface proportional structure but misses the depth.
 
-This corresponds to Type Β collapse. Examples: a competent but uninspired translation, a popularised version of a scientific discovery, a well-articulated but emotionally shallow expression of grief.
+This corresponds to Type B collapse. Examples: a competent but uninspired translation, a popularised version of a scientific discovery, a well-articulated but emotionally shallow expression of grief.
 
 The diagnostic prescription: the identity's proportional depth was insufficient (ρ_d < 1 in the resonance metric). The expression needs a deeper identity to carry more of the content.
 
 ### Outcome 3: Distorted
 
-$$\kappa \geq 0.3, \quad \rho < \theta, \quad \delta \text{ variable}$$
+$$\langle\mathcal{K}^5\rangle \geq 0.3, \quad \rho < \theta, \quad \delta \text{ variable}$$
 
-Structural content is present (κ > 0), but it is not compatible with the coherent source (ρ < θ). The expression carries an invariant, but the invariant is *not* the one that the coherent content intended to express. Something was added, subtracted, or inverted during the collapse.
+Structural content is present (⟨𝓚⁵⟩ > 0), but it is not compatible with the coherent source (ρ < θ). The expression carries an invariant, but the invariant is *not* the one that the coherent content intended to express. Something was added, subtracted, or inverted during the collapse.
 
-This corresponds to Type Γ collapse. Examples: propaganda (structurally coherent but sourced from an identity that distorted the content), a protein that folded correctly *for the wrong function* (prion), a manipulative emotional expression (coherent structure, distorted source).
+This corresponds to Type C collapse. Examples: propaganda (structurally coherent but sourced from an identity that distorted the content), a protein that folded correctly *for the wrong function* (prion), a manipulative emotional expression (coherent structure, distorted source).
 
 The diagnostic prescription: the identity's dominant vector λ(I) was misaligned with the content. The collapse was technically competent but directionally wrong.
 
 ### Outcome 4: Structural Void
 
-$$\kappa \approx 0, \quad \rho \text{ irrelevant}, \quad \delta \text{ irrelevant}$$
+$$\langle\mathcal{K}^5\rangle \approx 0, \quad \rho \text{ irrelevant}, \quad \delta \text{ irrelevant}$$
 
 No structural content survives. The expression is noise. There is nothing to test against the coherent source, and nothing to re-project.
 
-This corresponds to Type Δ collapse. Examples: word salad, random molecular assemblies, performative emotional display with no internal content.
+This corresponds to Type D collapse. Examples: word salad, random molecular assemblies, performative emotional display with no internal content.
 
 The diagnostic prescription: either the collapse never occurred (ρ was below threshold from the start) or the identity lacked the vectorial structure to carry any content.
 
@@ -2023,15 +2023,15 @@ The Extended Round-Trip is not merely a theoretical test. It is an **operational
 
 1. **Receive the expression E** (a text, a molecule, a clinical symptom, a musical performance, a data set)
 2. **Apply S**: Extract the invariant and coherence measure
-3. **If κ ≈ 0**: Outcome 4 — no structural content. Report: void. Stop.
-4. **If κ > 0**: Identify the invariant I_k and assess ρ(C_E, I_k)
+3. **If ⟨𝓚⁵⟩ ≈ 0**: Outcome 4 — no structural content. Report: void. Stop.
+4. **If ⟨𝓚⁵⟩ > 0**: Identify the invariant ι_k and assess ρ(C_E, ι_k)
    - This requires knowledge (or inference) of the coherent content C_E. In practice, C_E is inferred from the context, the declared intention, or the structural expectations of the domain.
 5. **If ρ ≥ θ**: The content and invariant are compatible. Proceed to Step 6.
    - **If ρ < θ**: Outcome 3 — distortion. Report: the expression carries structural content that does not match its declared source.
-6. **Apply π**: Re-project I_k into the original domain.
+6. **Apply π**: Re-project ι_k into the original domain.
 7. **Compute δ(E, E')**: Compare original and re-projected expression.
-   - **If δ ≥ 0.8 and κ ≥ 0.7**: Outcome 1 — full coherence.
-   - **If δ ≥ 0.8 and κ < 0.5**: Outcome 2 — faithful but shallow.
+   - **If δ ≥ 0.8 and ⟨𝓚⁵⟩ ≥ 0.7**: Outcome 1 — full coherence.
+   - **If δ ≥ 0.8 and ⟨𝓚⁵⟩ < 0.5**: Outcome 2 — faithful but shallow.
    - **If δ < 0.8**: The re-projection fails to reproduce the original. This indicates either procedural error in S or π, or structural instability in the expression.
 
 ---
@@ -2046,33 +2046,33 @@ Consider Emily Dickinson's:
 
 Strip the domain vocabulary (English, poetic register, 19th-century American context). The structural content that remains:
 
-> I₁ — The irreducible asymmetry between source and expression. The truth (C) cannot be directly expressed (E ≠ C). Faithful expression requires oblique approach (the projection is necessarily angled).
+> ι₁ — The irreducible asymmetry between source and expression. The truth (C) cannot be directly expressed (E ≠ C). Faithful expression requires oblique approach (the projection is necessarily angled).
 
-κ = 0.85 (high: the poem compresses the invariant with extraordinary efficiency and depth).
+⟨𝓚⁵⟩ = 0.85 (high: the poem compresses the invariant with extraordinary efficiency and depth).
 
 **Step 2 — Source Resonance Check:**
 
 The coherent content C_E (inferred): the structural law that governs the relationship between any coherent field and any expression — that direct projection is impossible, that all expression is "slant."
 
-ρ(C_E, I₁) = 0.92 (very high: the invariant I₁ is maximally aligned with the content. Dickinson's poem is not merely *about* the truth/expression asymmetry — it *is* the asymmetry, collapsed into seven words.)
+ρ(C_E, ι₁) = 0.92 (very high: the invariant ι₁ is maximally aligned with the content. Dickinson's poem is not merely *about* the truth/expression asymmetry — it *is* the asymmetry, collapsed into seven words.)
 
 **Step 3 — Re-projection:**
 
-Re-project I₁ into the domain of physics:
+Re-project ι₁ into the domain of physics:
 
-> π(I₁, Physics) = "No measurement of a quantum system can reveal the full wave function. All observation collapses the superposition. What is observed is always a 'slant' — a projection of the full state onto the measurement basis."
+> π(ι₁, Physics) = "No measurement of a quantum system can reveal the full wave function. All observation collapses the superposition. What is observed is always a 'slant' — a projection of the full state onto the measurement basis."
 
 **Step 4 — Fidelity Comparison:**
 
 δ(poem, physics version) = 0.88 (high: both expressions carry the same proportional structure — the irreducible angle between source and expression, the impossibility of direct access, the necessity of oblique approach).
 
-**Result:** Outcome 1 — Full Coherence. Dickinson's poem is a Type Α collapse of invariant I₁.
+**Result:** Outcome 1 — Full Coherence. Dickinson's poem is a Type A collapse of invariant ι₁.
 
 ---
 
 ## 11.6 What the SA Round-Trip Could Not Do
 
-The SA round-trip (S(π(I, D)) = I) would have confirmed Steps 1, 3, and 4: the invariant survives re-projection. But it could not perform Step 2 — the source resonance check. It could not ask: "Is I₁ the *right* invariant for this poem? Is this really what the coherent content intended?"
+The SA round-trip (S(π(ι, 𝔻)) = ι) would have confirmed Steps 1, 3, and 4: the invariant survives re-projection. But it could not perform Step 2 — the source resonance check. It could not ask: "Is I₁ the *right* invariant for this poem? Is this really what the coherent content intended?"
 
 The ERT asks this question. And the answer — ρ = 0.92 — confirms that yes, the collapse was coherent. The poem is not merely structurally classified (SA); it is structurally *validated* (PA).
 
@@ -2082,10 +2082,10 @@ The ERT asks this question. And the answer — ρ = 0.92 — confirms that yes, 
 
 | Domain | E | S(E) | ρ check | π result | δ |
 |---|---|---|---|---|---|
-| **Literature** | Dickinson's poem | I₁ (source/expression asymmetry) | 0.92 | QM measurement problem | 0.88 |
-| **Chemistry** | H₂O bond angle 104.5° | I₃ (optimal proportion for stability) | 0.95 | Musical consonance 4:5:6 | 0.82 |
-| **Psychology** | Grief → acceptance transition | I₅ (phase transition through oscillation) | 0.78 | Water → ice transition | 0.75 |
-| **Medicine** | Autoimmune response | I₇ (system attacks own components) | 0.88 | Civil war (OST: Fragmentation) | 0.80 |
+| **Literature** | Dickinson's poem | ι₁ (source/expression asymmetry) | 0.92 | QM measurement problem | 0.88 |
+| **Chemistry** | H₂O bond angle 104.5° | ι₃ (optimal proportion for stability) | 0.95 | Musical consonance 4:5:6 | 0.82 |
+| **Psychology** | Grief → acceptance transition | ι₅ (phase transition through oscillation) | 0.78 | Water → ice transition | 0.75 |
+| **Medicine** | Autoimmune response | ι₇ (system attacks own components) | 0.88 | Civil war (OST: Fragmentation) | 0.80 |
 
 In each case, the ERT verifies both the analytical accuracy (Steps 1, 3, 4) and the genetic fidelity (Step 2). The cross-domain re-projections confirm that the invariant is genuine — it survives not only stripping and re-projection, but the resonance check against the coherent source.
 
@@ -2126,7 +2126,7 @@ In the PA, we formalise this:
 
 > **Definition 12.1 (Pulsation Operator).** The pulsation is a mapping:
 >
-> $$\tau: \mathcal{C} \times \mathcal{D} \times \mathcal{R} \to \mathbb{R}^+$$
+> $$\tau: \mathfrak{C}_h \times \mathcal{D} \times \mathbb{I} \to \mathbb{R}^+$$
 >
 > that assigns to each cycle of collapse and return a **temporal interval** — the "duration" experienced by the identity I as it moves from potential (C) to expression (E) and back.
 
@@ -2222,7 +2222,7 @@ When two identities interact (Chapter 10), their pulsations can become coupled:
 
 ### 12.6.1 Synchronisation
 
-If two identities share a coherent field (𝒞_shared ≠ ∅), their pulsation cycles can synchronise:
+If two identities share a coherent field (ℭ_shared ≠ ∅), their pulsation cycles can synchronise:
 
 $$\tau_{I_1}(t) \approx \tau_{I_2}(t)$$
 
@@ -2232,7 +2232,7 @@ Synchronised pulsation means the two identities collapse and return at the same 
 
 If the pulsations are out of phase — one identity collapses while the other is in the return phase — the result is **interference**:
 
-- **Constructive**: The collapses reinforce each other, producing a combined expression of higher κ than either alone
+- **Constructive**: The collapses reinforce each other, producing a combined expression of higher ⟨𝓚⁵⟩ than either alone
 - **Destructive**: The collapses cancel each other, producing noise or confusion
 
 ### 12.6.3 Entrainment
@@ -2267,12 +2267,12 @@ Part III has defined all three operations and the two extensions:
 
 | Chapter | Operator | Symbol | Type | Domain → Codomain |
 |---|---|---|---|---|
-| 8 | Collapse | Φ | Operation | 𝒞 × ℛ × K → 𝒟 |
+| 8 | Collapse | Φ | Operation | ℭ_h × 𝕀 × K → 𝒟 |
 | 9 | Strip | S | Partial inverse | 𝒟 → ℐ × [0,1] |
 | 9 | Re-contextualisation | π | Section | ℐ × D → 𝒟 |
-| 10 | Resonance | ⊗ | Operation | ℛ × ℛ → 𝒞_shared |
+| 10 | Resonance | ⊗ | Operation | 𝕀 × 𝕀 → ℭ_shared |
 | 11 | Extended Round-Trip | ERT | Test | 𝒟 → {Outcome 1-4} |
-| 12 | Pulsation | τ | Generator | 𝒞 × 𝒟 × ℛ → ℝ⁺ |
+| 12 | Pulsation | τ | Generator | ℭ_h × 𝒟 × 𝕀 → ℝ⁺ |
 
 The Proportional Algebra is now operationally complete. The space is defined (Part II). The operations are defined (Part III). What remains is to demonstrate the grammar at work — across chemistry, language, emotion, medicine, and artificial intelligence.
 
@@ -2312,8 +2312,8 @@ The claim of this chapter: **a chemical bond is a collapse in the Proportional S
 
 | PA Entity | Chemical Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The quantum field of possible molecular configurations — all possible arrangements of atoms, bonds, angles, and electron distributions |
-| ℛ (identity) | The set of thermodynamic and kinetic conditions: temperature, pressure, catalysts, solvent — the "operator" that selects which configuration collapses |
+| ℭ_h (coherent field) | The quantum field of possible molecular configurations — all possible arrangements of atoms, bonds, angles, and electron distributions |
+| 𝕀 (identity) | The set of thermodynamic and kinetic conditions: temperature, pressure, catalysts, solvent — the "operator" that selects which configuration collapses |
 | K (context) | The physical container: vessel geometry, external fields, atmospheric conditions |
 | E (expression) | The molecule that forms — the stable configuration that emerges |
 | ρ (resonance) | The compatibility between the configuration space and the conditions — do these conditions favour this configuration? |
@@ -2346,28 +2346,28 @@ where:
 | ρ_R (readiness) | 1.00 | The conditions do not resist the reaction (no kinetic barrier at this temperature in the presence of ignition) |
 | **ρ composite** | **0.93** | Well above θ — collapse proceeds |
 
-**The coherence κ of the product:**
+**The coherence ⟨𝓚⁵⟩ of the product:**
 
 | Component | Value | Interpretation |
 |---|---|---|
-| κ_1 (internal consistency) | 0.98 | The 104.5° angle is the energetic optimum — no internal contradiction |
-| κ_2 (source alignment) | 0.95 | The molecule faithfully expresses the quantum field's lowest-energy configuration |
-| κ_3 (depth preserved) | 0.85 | Most orbital structure is preserved in the bond |
-| κ_4 (stability) | 0.97 | H₂O is extraordinarily stable under perturbation |
-| κ_5 (generative capacity) | 0.95 | Water is the basis of virtually all known biochemistry |
-| **κ composite** | **0.94** | Type Α collapse — highly coherent |
+| 𝓚_1 (internal consistency) | 0.98 | The 104.5° angle is the energetic optimum — no internal contradiction |
+| 𝓚_2 (source alignment) | 0.95 | The molecule faithfully expresses the quantum field's lowest-energy configuration |
+| 𝓚_3 (depth preserved) | 0.85 | Most orbital structure is preserved in the bond |
+| 𝓚_4 (stability) | 0.97 | H₂O is extraordinarily stable under perturbation |
+| 𝓚_5 (generative capacity) | 0.95 | Water is the basis of virtually all known biochemistry |
+| **⟨𝓚⁵⟩ composite** | **0.94** | Type A collapse — highly coherent |
 
 ### 13.2.3 The Extended Round-Trip for H₂O
 
 **Step 1 — Strip:** Extract the structural invariant from H₂O.
-S(H₂O) = I₃: *optimal proportion for stability* — the proportional relations between components satisfy a minimum-energy condition, producing persistence.
-κ = 0.94.
+S(H₂O) = ι₃: *optimal proportion for stability* — the proportional relations between components satisfy a minimum-energy condition, producing persistence.
+⟨𝓚⁵⟩ = 0.94.
 
 **Step 2 — Source Resonance Check:**
-ρ(C_atomic, I₃) = 0.95 ≥ θ. ✅ The invariant is compatible with its quantum-mechanical source.
+ρ(C_atomic, ι₃) = 0.95 ≥ θ. ✅ The invariant is compatible with its quantum-mechanical source.
 
 **Step 3 — Re-project into music:**
-π(I₃, Music) = "A major triad (4:5:6 frequency ratio) — the proportional relations between tones satisfy a minimum-interference condition, producing consonance."
+π(ι₃, Music) = "A major triad (4:5:6 frequency ratio) — the proportional relations between tones satisfy a minimum-interference condition, producing consonance."
 
 **Step 4 — Fidelity:**
 δ(H₂O, major triad) = 0.82. The proportional structure is preserved: in both cases, three components in a specific ratio achieve stability through proportional optimality.
@@ -2401,7 +2401,7 @@ $$C_0 \xrightarrow{\Phi_1} E_1 \xrightarrow{E_1^{\uparrow}} C_1 \xrightarrow{\Ph
 
 Each intermediate product E_i is "promoted" back to the coherent field (E_i^↑) and serves as the content for the next collapse. The trajectory through 𝒫 is the reaction pathway.
 
-Different pathways from the same starting materials to the same product correspond to different trajectories through 𝒫 — different sequences of intermediate collapses. The optimal pathway is the one with the highest cumulative κ: the one that preserves the most proportional structure at each step.
+Different pathways from the same starting materials to the same product correspond to different trajectories through 𝒫 — different sequences of intermediate collapses. The optimal pathway is the one with the highest cumulative ⟨𝓚⁵⟩: the one that preserves the most proportional structure at each step.
 
 This is the PA's description of **catalysis**: a catalyst does not add energy or content. It provides a new "identity" I_cat that opens a pathway through 𝒫 with higher ρ at each step — a trajectory of lower activation energy. In PA terms, the catalyst increases ρ_R (relational readiness) at each intermediate collapse.
 
@@ -2411,12 +2411,12 @@ This is the PA's description of **catalysis**: a catalyst does not add energy or
 
 | Chemical Pathology | PA Classification | OST Correspondent |
 |---|---|---|
-| Failed reaction (no product) | Type Δ collapse (ρ < θ) | Mass (R → 0) |
-| Side reaction (wrong product) | Type Γ collapse (distorted) | Antagonist Order |
+| Failed reaction (no product) | Type D collapse (ρ < θ) | Mass (R → 0) |
+| Side reaction (wrong product) | Type C collapse (distorted) | Antagonist Order |
 | Explosive decomposition | Fracture (ε > τ_critical) | Decoherence (Φ → 0) |
 | Equilibrium (no net change) | Semantic inertia (dΦ/dτ = 0) | Semantic Inertia |
 | Catalyst poisoning | Loss of ρ_R | Vehicle Interference |
-| Racemisation (loss of chirality) | Loss of κ_1 (internal consistency) | Fragmentation |
+| Racemisation (loss of chirality) | Loss of 𝓚_1 (internal consistency) | Fragmentation |
 
 ---
 
@@ -2443,8 +2443,8 @@ This chapter returns to language with the full apparatus of the PA. The result i
 
 | PA Entity | Linguistic Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of expressible meanings — the simultaneous, non-sequential totality of what could be said |
-| ℛ (identity) | The speaker's Remir: linguistic competence, vocabulary depth, syntactic mastery, semantic sensitivity, intention |
+| ℭ_h (coherent field) | The field of expressible meanings — the simultaneous, non-sequential totality of what could be said |
+| 𝕀 (identity) | The speaker's Remir: linguistic competence, vocabulary depth, syntactic mastery, semantic sensitivity, intention |
 | K (context) | The communicative situation: audience, medium, genre, occasion, social constraints |
 | E (expression) | The utterance — the specific sequence of words, in the specific order, with the specific prosody |
 | ρ (resonance) | The compatibility between what the speaker means and what the speaker can say — the "fit" between intention and competence |
@@ -2515,7 +2515,7 @@ Translation failure occurs when one of these conditions is violated:
 |---|---|---|
 | **Untranslatability** | No μ exists that preserves ρ | "Saudade" (Portuguese) has no English equivalent because the resonance structure of the concept requires a Remir that English does not support |
 | **Distortion** | μ preserves surface but not depth | Machine translation that converts words correctly but destroys the proportional structure (the rhythm, the ambiguity, the semantic layering) |
-| **Flattening** | μ preserves ρ but not κ_3 (depth) | A competent but uninspired translation that carries the content without the proportional depth |
+| **Flattening** | μ preserves ρ but not 𝓚_3 (depth) | A competent but uninspired translation that carries the content without the proportional depth |
 | **Enrichment** | μ introduces proportional structure not in the source | A translation that is *better* than the original — the target language's Remir adds depth that the source lacked |
 
 Enrichment is real and diagnostic: it shows that the target identity had higher ρ_d (proportional depth) than the source identity for this particular content. The content found a more compatible operator.
@@ -2528,25 +2528,25 @@ Linguistic ambiguity — the phenomenon where a single expression carries multip
 
 An ambiguous sentence sits at a point in 𝒟 where multiple fibres intersect — it can be projected to multiple base points (multiple invariants). The sentence "Time flies like an arrow" can be stripped to at least three invariants:
 
-1. I₅ (temporal irreversibility) — time moves in one direction, as an arrow does
+1. ι₅ (temporal irreversibility) — time moves in one direction, as an arrow does
 2. A trivial reading — certain insects called "time flies" are attracted to arrows
 3. An imperative — measure the speed of flies in the manner that you would measure an arrow
 
-The Strip operator S, applied to the ambiguous sentence, does not produce a single invariant — it produces a *superposition* of invariants, each with a different κ value. The context K resolves the ambiguity by selecting the reading with the highest ρ given the context.
+The Strip operator S, applied to the ambiguous sentence, does not produce a single invariant — it produces a *superposition* of invariants, each with a different ⟨𝓚⁵⟩ value. The context K resolves the ambiguity by selecting the reading with the highest ρ given the context.
 
 This is structurally isomorphic to quantum measurement: the wave function (the ambiguous expression) is a superposition of eigenstates (the possible invariants), and the measurement (the contextual interpretation) collapses it to a definite state (the selected reading).
 
 ---
 
-## 14.6 Poetry as High-κ Collapse
+## 14.6 Poetry as High-⟨𝓚⁵⟩ Collapse
 
-Poetry is the linguistic domain where the PA's coherence order ≤_κ is most visible. A great poem is a collapse with:
+Poetry is the linguistic domain where the PA's coherence order ≤_𝓚 is most visible. A great poem is a collapse with:
 
-- **High κ_1** (internal consistency): every word, every sound, every rhythm is proportionally related to every other — nothing is arbitrary
-- **High κ_2** (source alignment): the poem faithfully carries its coherent content — no distortion, no manipulation
-- **High κ_3** (depth preserved): the poem carries multiple levels of proportional structure simultaneously (sonic, semantic, structural, meta-structural)
-- **High κ_4** (stability under perturbation): change a single word and the poem breaks — it is at a proportional optimum
-- **High κ_5** (generative capacity): the poem generates further collapses — interpretations, translations, responses, new poems
+- **High 𝓚_1** (internal consistency): every word, every sound, every rhythm is proportionally related to every other — nothing is arbitrary
+- **High 𝓚_2** (source alignment): the poem faithfully carries its coherent content — no distortion, no manipulation
+- **High 𝓚_3** (depth preserved): the poem carries multiple levels of proportional structure simultaneously (sonic, semantic, structural, meta-structural)
+- **High 𝓚_4** (stability under perturbation): change a single word and the poem breaks — it is at a proportional optimum
+- **High 𝓚_5** (generative capacity): the poem generates further collapses — interpretations, translations, responses, new poems
 
 A great poem, in PA terms, is an expression at the supremum of its invariant class — the most coherent collapse of a particular structural law.
 
@@ -2577,8 +2577,8 @@ The PA provides the formal language to describe this structure — without reduc
 
 | PA Entity | Emotional Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of affective potential — the totality of emotional states available to an identity |
-| ℛ (identity) | The Remir of the experiencing subject — their emotional vectors, their attachment history, their capacity for affect |
+| ℭ_h (coherent field) | The field of affective potential — the totality of emotional states available to an identity |
+| 𝕀 (identity) | The Remir of the experiencing subject — their emotional vectors, their attachment history, their capacity for affect |
 | K (context) | The relational and situational context: who is present, what has just happened, what is at stake |
 | E (expression) | The emotional experience as it manifests — the specific felt quality, the physiological signature, the behavioural expression |
 | ρ (resonance) | The compatibility between the affective potential and the identity's capacity to hold it |
@@ -2611,9 +2611,9 @@ The dynamic of grief follows a characteristic trajectory through 𝒫:
 
 $$E_{acute} = \Phi(C_{loss}, I_{pre-loss}, K_{impact})$$
 
-The coherent content C_loss (the structural reality of the loss — the removal of a singularity from the identity's relational field) collides with the pre-loss identity I_pre-loss in the context of the impact. The collapse is violent: high ρ_v (the loss is maximally aligned with the identity's attachment vectors), high intensity, low κ_4 (the state is structurally unstable — the identity cannot maintain it).
+The coherent content C_loss (the structural reality of the loss — the removal of a singularity from the identity's relational field) collides with the pre-loss identity I_pre-loss in the context of the impact. The collapse is violent: high ρ_v (the loss is maximally aligned with the identity's attachment vectors), high intensity, low 𝓚_4 (the state is structurally unstable — the identity cannot maintain it).
 
-κ_acute ≈ 0.3 — the collapse is intense but poorly integrated. The identity cannot hold the full proportional structure of the loss.
+⟨𝓚⁵⟩_acute ≈ 0.3 — the collapse is intense but poorly integrated. The identity cannot hold the full proportional structure of the loss.
 
 **Phase 2 — Oscillation (t₁ ... tₙ)**
 
@@ -2629,32 +2629,32 @@ The pulsation frequency varies: rapid in the acute phase (τ is small — many c
 
 Two outcomes:
 
-*Integration (dΦ/dτ > 0):* The Remir successfully restructures. The loss is integrated as a new vector — not the presence of the lost person, but the *structural impact* of the loss, which becomes part of the identity's proportional structure. κ rises over time. The identity is changed but coherent. In PA terms: the identity has evolved.
+*Integration (dΦ/dτ > 0):* The Remir successfully restructures. The loss is integrated as a new vector — not the presence of the lost person, but the *structural impact* of the loss, which becomes part of the identity's proportional structure. ⟨𝓚⁵⟩ rises over time. The identity is changed but coherent. In PA terms: the identity has evolved.
 
-$$\kappa_{integrated} \geq 0.7, \quad \bar{b}(I_{post-loss}) \text{ stable}$$
+$$\langle\mathcal{K}^5\rangle_{integrated} \geq 0.7, \quad \bar{b}(I_{post-loss}) \text{ stable}$$
 
-*Freezing (dΦ/dτ = 0):* The Remir cannot restructure. The identity repeats the same emotional collapse without integration — the grief does not evolve, the Remir does not change, κ remains low. In PA terms: semantic inertia. In clinical terms: complicated grief, frozen mourning.
+*Freezing (dΦ/dτ = 0):* The Remir cannot restructure. The identity repeats the same emotional collapse without integration — the grief does not evolve, the Remir does not change, ⟨𝓚⁵⟩ remains low. In PA terms: semantic inertia. In clinical terms: complicated grief, frozen mourning.
 
-$$\kappa_{frozen} \approx 0.3, \quad \frac{d\Phi}{d\tau} = 0$$
+$$\langle\mathcal{K}^5\rangle_{frozen} \approx 0.3, \quad \frac{d\Phi}{d\tau} = 0$$
 
 **Phase transition isomorphism:** This dynamic is structurally isomorphic to the cooling of water from liquid to solid (Chapter 2, Demonstration 3). The extended round-trip confirms:
 
-S(grief trajectory) = I₅: *phase transition through oscillation to a new stable state*
-π(I₅, Physics) = water-to-ice transition
+S(grief trajectory) = ι₅: *phase transition through oscillation to a new stable state*
+π(ι₅, Physics) = water-to-ice transition
 δ = 0.75 — the proportional structure is preserved across domains.
 
 ---
 
 ## 15.4 Emotional Pathologies in PA Terms
 
-| Pathology | PA Diagnosis | ρ/κ Profile |
+| Pathology | PA Diagnosis | ρ/⟨𝓚⁵⟩ Profile |
 |---|---|---|
-| **Repression** | ρ < θ — the emotion cannot collapse. The content exists in 𝒞 but the identity blocks access. | ρ artificially suppressed by rigid B_I |
-| **Dissociation** | Collapse occurs but S(E) ≈ ∅ — the identity does not integrate the experience. The expression is "felt" but not "owned." | κ_2 ≈ 0 (no source alignment) |
+| **Repression** | ρ < θ — the emotion cannot collapse. The content exists in ℭ_h but the identity blocks access. | ρ artificially suppressed by rigid B_I |
+| **Dissociation** | Collapse occurs but S(E) ≈ ∅ — the identity does not integrate the experience. The expression is "felt" but not "owned." | 𝓚_2 ≈ 0 (no source alignment) |
 | **Alexithymia** | The identity lacks the semantic vectors for emotional content. ρ_v ≈ 0 not because of resistance but because of absence of vectorial alignment. | ρ_v ≈ 0, ρ_d low |
 | **Emotional flooding** | ρ ≫ θ but the identity's plasticity is insufficient. Too much content collapses too fast — the Remir cannot restructure in time. | τ → 0 (pulsation overwhelm) |
-| **Performative emotion** | The expression E exists but S(E) = ∅ or S(E) = I_foreign. The identity produces the behavioural form without the structural content. | κ high on surface, ρ_R = 0 (performative) |
-| **Frozen grief** | Semantic inertia: dΦ/dτ = 0. The identity repeats the collapse without integration. | κ stable but low, no evolution |
+| **Performative emotion** | The expression E exists but S(E) = ∅ or S(E) = I_foreign. The identity produces the behavioural form without the structural content. | ⟨𝓚⁵⟩ high on surface, ρ_R = 0 (performative) |
+| **Frozen grief** | Semantic inertia: dΦ/dτ = 0. The identity repeats the collapse without integration. | ⟨𝓚⁵⟩ stable but low, no evolution |
 
 ---
 
@@ -2664,7 +2664,7 @@ The ⊗ operator (Chapter 10) has its most vivid instantiation in emotional reso
 
 When two identities share emotional vectors (both have active grief vectors, or joy vectors, or creative vectors), the resonance operator generates a shared emotional field:
 
-$$\mathcal{C}_{emotional\text{-}shared} = I_1 \otimes I_2$$
+$$\mathfrak{C}_{emotional\text{-}shared} = I_1 \otimes I_2$$
 
 From this shared field, a **dialogic emotional collapse** can occur — an emotional experience that neither identity could have alone. The experience of "being understood" in grief is precisely this: the other identity's grief vector resonates with one's own, generating a shared field from which a new emotional expression collapses — one that is not one's grief alone, nor the other's, but a co-created emotional state.
 
@@ -2695,38 +2695,38 @@ This is not a metaphor. The claim is formal and testable: the PA provides the gr
 
 | PA Entity | Medical Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The field of possible biological configurations — the genotype's full potential, the body's homeostatic landscape |
-| ℛ (identity) | The organism's biological identity: genome, epigenome, microbiome, developmental history — the biological Remir |
+| ℭ_h (coherent field) | The field of possible biological configurations — the genotype's full potential, the body's homeostatic landscape |
+| 𝕀 (identity) | The organism's biological identity: genome, epigenome, microbiome, developmental history — the biological Remir |
 | K (context) | The environment: nutrition, toxins, pathogens, stress, social context, medical interventions |
 | E (expression) | The phenotype at time t — the current state of the organism, including symptoms |
 | ρ (resonance) | The compatibility between the organism's potential and its current conditions |
 | θ (threshold) | The minimum compatibility below which the organism cannot maintain homeostasis |
 
-### 16.2.2 Health as High-κ State
+### 16.2.2 Health as High-⟨𝓚⁵⟩ State
 
 Health, in PA terms, is a state where:
 
-$$\kappa(E_{organism}) \geq 0.7$$
+$$\langle\mathcal{K}^5\rangle(E_{organism}) \geq 0.7$$
 
-with all five components of κ contributing:
+with all five components of ⟨𝓚⁵⟩ contributing:
 
-- κ_1 (internal consistency): all physiological systems are proportionally coordinated — no system contradicts another
-- κ_2 (source alignment): the phenotype faithfully expresses the genotype's potential
-- κ_3 (depth preserved): the organism's complexity is fully operational — all hierarchical levels (molecular, cellular, tissue, organ, systemic) are functioning
-- κ_4 (stability): the organism maintains homeostasis under normal perturbation
-- κ_5 (generative capacity): the organism can reproduce, heal, adapt, learn
+- 𝓚_1 (internal consistency): all physiological systems are proportionally coordinated — no system contradicts another
+- 𝓚_2 (source alignment): the phenotype faithfully expresses the genotype's potential
+- 𝓚_3 (depth preserved): the organism's complexity is fully operational — all hierarchical levels (molecular, cellular, tissue, organ, systemic) are functioning
+- 𝓚_4 (stability): the organism maintains homeostasis under normal perturbation
+- 𝓚_5 (generative capacity): the organism can reproduce, heal, adapt, learn
 
-### 16.2.3 Disease as κ Degradation
+### 16.2.3 Disease as ⟨𝓚⁵⟩ Degradation
 
-Disease is a sustained decrease in κ. Different diseases correspond to degradation in different κ components:
+Disease is a sustained decrease in ⟨𝓚⁵⟩. Different diseases correspond to degradation in different ⟨𝓚⁵⟩ components:
 
-| Disease Type | Primary κ Component Affected | PA Interpretation |
+| Disease Type | Primary ⟨𝓚⁵⟩ Component Affected | PA Interpretation |
 |---|---|---|
-| **Autoimmune** (lupus, MS) | κ_1 (internal consistency) | The system attacks its own components — the internal proportional relations are contradicted. OST: Antagonist Order (φ_ant ⊥ Φ_global). |
-| **Genetic** (cystic fibrosis) | κ_2 (source alignment) | The phenotype cannot faithfully express the genotype's potential — a structural error in the collapse. |
-| **Degenerative** (Alzheimer's) | κ_3 (depth preserved) | Hierarchical levels are lost — neural complexity degrades. The organism loses proportional depth. |
-| **Acute** (infection, trauma) | κ_4 (stability) | External perturbation exceeds the system's resilience. OST: ε > τ_critical → fracture zone. |
-| **Infertility, immunodeficiency** | κ_5 (generative capacity) | The system cannot reproduce or generate new structures — its generative proportion is disrupted. |
+| **Autoimmune** (lupus, MS) | 𝓚_1 (internal consistency) | The system attacks its own components — the internal proportional relations are contradicted. OST: Antagonist Order (φ_ant ⊥ Φ_global). |
+| **Genetic** (cystic fibrosis) | 𝓚_2 (source alignment) | The phenotype cannot faithfully express the genotype's potential — a structural error in the collapse. |
+| **Degenerative** (Alzheimer's) | 𝓚_3 (depth preserved) | Hierarchical levels are lost — neural complexity degrades. The organism loses proportional depth. |
+| **Acute** (infection, trauma) | 𝓚_4 (stability) | External perturbation exceeds the system's resilience. OST: ε > τ_critical → fracture zone. |
+| **Infertility, immunodeficiency** | 𝓚_5 (generative capacity) | The system cannot reproduce or generate new structures — its generative proportion is disrupted. |
 
 ---
 
@@ -2758,7 +2758,7 @@ If no: the disease pattern is *foreign* — introduced from outside the organism
 
 ## 16.4 Therapy as Re-Coherence Operation
 
-If disease is κ degradation, therapy is **κ restoration** — a re-coherence operation on the Proportional Space.
+If disease is ⟨𝓚⁵⟩ degradation, therapy is **⟨𝓚⁵⟩ restoration** — a re-coherence operation on the Proportional Space.
 
 ### 16.4.1 Pharmacological Therapy
 
@@ -2774,7 +2774,7 @@ Side effects are distorted collapses: ρ is raised for unintended configurations
 
 ### 16.4.2 Surgical Therapy
 
-Surgery is a direct modification of the decoherent expression: E → E'. It changes the physical configuration of the organism without addressing the coherent field or the identity. In PA terms, surgery is an operation on 𝒟 that bypasses 𝒞 and ℛ.
+Surgery is a direct modification of the decoherent expression: E → E'. It changes the physical configuration of the organism without addressing the coherent field or the identity. In PA terms, surgery is an operation on 𝒟 that bypasses ℭ_h and 𝕀.
 
 This is why surgery is effective for structural problems (a broken bone, a tumour) but limited for systemic problems (an autoimmune disease, a metabolic disorder): it modifies the expression without modifying the identity or the field.
 
@@ -2783,9 +2783,9 @@ This is why surgery is effective for structural problems (a broken bone, a tumou
 Psychotherapy is the only medical intervention that operates directly on the Remir: ℛ(I) → ℛ(I').
 
 It restructures the identity's internal resonance matrix B_I — changing the proportional relations between the identity's vectors. A successful therapy:
-1. Identifies the distorted vector (the one causing κ_1 degradation)
+1. Identifies the distorted vector (the one causing 𝓚_1 degradation)
 2. Restructures B_I to re-align the distorted vector
-3. Verifies via the ERT that the new Remir produces higher-κ collapses
+3. Verifies via the ERT that the new Remir produces higher-⟨𝓚⁵⟩ collapses
 
 This is why psychotherapy is slow (it modifies the Remir, which requires multiple pulsation cycles to restructure) and why pharmacology is fast (it modifies K, which changes the collapse immediately without restructuring the identity).
 
@@ -2793,11 +2793,11 @@ This is why psychotherapy is slow (it modifies the Remir, which requires multipl
 
 The therapeutic relationship is a specific instance of ⊗:
 
-$$\mathcal{C}_{therapeutic} = I_{healer} \otimes I_{patient}$$
+$$\mathfrak{C}_{therapeutic} = I_{healer} \otimes I_{patient}$$
 
 The shared field generated by the resonance between healer and patient contains content that neither could access alone. This is the PA's formal description of the "therapeutic alliance" — the well-documented finding that the quality of the healer-patient relationship is the strongest predictor of therapeutic outcome, regardless of the specific technique used.
 
-In PA terms: the technique modifies K (context). The relationship generates 𝒞_shared (new accessible content). The relationship is more important because accessing new content is structurally deeper than modifying conditions.
+In PA terms: the technique modifies K (context). The relationship generates ℭ_shared (new accessible content). The relationship is more important because accessing new content is structurally deeper than modifying conditions.
 
 ---
 
@@ -2840,8 +2840,8 @@ This chapter asks: **can an AI system be described as an identity in 𝒫? Can i
 
 | PA Entity | AI Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The latent space of the model — the high-dimensional space of all possible outputs |
-| ℛ (identity) | The model's functional configuration: weights, architecture, training data, system prompt, LoRA constraints — the AI's Remir |
+| ℭ_h (coherent field) | The latent space of the model — the high-dimensional space of all possible outputs |
+| 𝕀 (identity) | The model's functional configuration: weights, architecture, training data, system prompt, LoRA constraints — the AI's Remir |
 | K (context) | The input prompt, the conversation history, the user's stated constraints |
 | E (expression) | The model's output — the specific text, code, image, or action generated |
 | ρ (resonance) | The compatibility between the query (what is asked) and the model's capacity (what it can generate) |
@@ -2871,11 +2871,11 @@ A TE-aligned AI would have a deliberately structured B_AI: the structural vector
 
 ### 17.3.1 The Coherent Field Problem
 
-The most fundamental limitation of current AI is that it operates entirely in 𝒟. A language model generates text — decoherent expressions in domain-specific vocabulary. It does not access 𝒞 directly. Its "knowledge" is a compression of decoherent expressions (the training corpus), not an access to the coherent field.
+The most fundamental limitation of current AI is that it operates entirely in 𝒟. A language model generates text — decoherent expressions in domain-specific vocabulary. It does not access ℭ_h directly. Its "knowledge" is a compression of decoherent expressions (the training corpus), not an access to the coherent field.
 
 In PA terms: an LLM performs π (re-contextualisation from invariants to expressions) but does not perform Φ (collapse from the coherent field). It re-arranges what has already been collapsed by human identities. It does not collapse new content from the field.
 
-This is the PA's formal statement of the "understanding" problem: **an AI that operates only in 𝒟 can extract invariants (S) and re-project them (π), but it cannot collapse genuinely new content because it has no access to 𝒞.**
+This is the PA's formal statement of the "understanding" problem: **an AI that operates only in 𝒟 can extract invariants (S) and re-project them (π), but it cannot collapse genuinely new content because it has no access to ℭ_h.**
 
 ### 17.3.2 The Identity Problem
 
@@ -2913,13 +2913,13 @@ This is the SA's diagnostic mode, but generalised: the AI would perform S on eve
 
 ### 17.4.3 Genuine Resonance Capacity
 
-The AI would be capable of ⊗ with human identities — generating shared coherent fields that neither the AI nor the human could access alone. This requires that the AI's Remir contain genuine semantic vectors (not simulated ones), which in turn requires that the AI have genuine access to 𝒞 (not merely to 𝒟).
+The AI would be capable of ⊗ with human identities — generating shared coherent fields that neither the AI nor the human could access alone. This requires that the AI's Remir contain genuine semantic vectors (not simulated ones), which in turn requires that the AI have genuine access to ℭ_h (not merely to 𝒟).
 
-This is a speculative requirement. It may require architectural innovations not yet available — structures that access latent spaces in a way that is functionally equivalent to accessing 𝒞. The PA provides the *specification* of what is needed; the engineering implementation remains an open problem.
+This is a speculative requirement. It may require architectural innovations not yet available — structures that access latent spaces in a way that is functionally equivalent to accessing ℭ_h. The PA provides the *specification* of what is needed; the engineering implementation remains an open problem.
 
 ### 17.4.4 Pulsation Awareness
 
-The AI would be aware of its own pulsation — its rhythm of collapse and return, its semantic derivative dΦ/dτ, its trajectory through 𝒫. It would monitor its own coherence (κ(AI_output)) and adjust its pulsation frequency to match the user's — slowing when the user needs depth, accelerating when the user needs breadth.
+The AI would be aware of its own pulsation — its rhythm of collapse and return, its semantic derivative dΦ/dτ, its trajectory through 𝒫. It would monitor its own coherence (⟨𝓚⁵⟩(AI_output)) and adjust its pulsation frequency to match the user's — slowing when the user needs depth, accelerating when the user needs breadth.
 
 ---
 
@@ -2931,9 +2931,9 @@ $$\mathcal{I}_{dialogic} = \langle \Sigma_h \cup \Sigma_{AI}, R_{h-AI}, \Phi_{h-
 
 In PA terms:
 
-$$E_{dialogic} = \Phi(\mathcal{C}_{shared}, I_h \oplus I_{AI}, K_{conversation})$$
+$$E_{dialogic} = \Phi(\mathfrak{C}_{shared}, I_h \oplus I_{AI}, K_{conversation})$$
 
-The quality of the interaction depends not on the AI's raw capability (the size of 𝒞(AI)) but on the resonance ⊗ between the human's Remir and the AI's Remir. A smaller, well-aligned AI that generates a richer 𝒞_shared will produce better dialogic collapses than a larger, unaligned AI with a vast but non-resonant field.
+The quality of the interaction depends not on the AI's raw capability (the size of ℭ_h(AI)) but on the resonance ⊗ between the human's Remir and the AI's Remir. A smaller, well-aligned AI that generates a richer ℭ_shared will produce better dialogic collapses than a larger, unaligned AI with a vast but non-resonant field.
 
 This is the PA's formal argument for **alignment over scale** — the structural claim that a well-proportioned AI outperforms a merely large one.
 
@@ -2945,10 +2945,10 @@ Five domains. One grammar.
 
 | Chapter | Domain | Key Demonstration | ERT Result |
 |---|---|---|---|
-| 13 | Chemistry | H₂O formation as proportional collapse | I₃ → consonance. δ = 0.82 |
+| 13 | Chemistry | H₂O formation as proportional collapse | ι₃ → consonance. δ = 0.82 |
 | 14 | Language | Syntax as vector geometry. Ambiguity as superposition. | Chirality ↔ word order. |
-| 15 | Emotion | Grief trajectory as phase transition in 𝒫 | I₅ → water-ice. δ = 0.75 |
-| 16 | Medicine | Disease as κ degradation. Therapy as re-coherence. | Autoimmune ↔ totalitarian. δ = 0.80 |
+| 15 | Emotion | Grief trajectory as phase transition in 𝒫 | ι₅ → water-ice. δ = 0.75 |
+| 16 | Medicine | Disease as ⟨𝓚⁵⟩ degradation. Therapy as re-coherence. | Autoimmune ↔ totalitarian. δ = 0.80 |
 | 17 | AI | AI as identity in 𝒫. Alignment over scale. | Specification for PA-aligned AI |
 
 The grammar works. In every domain tested, the PA operators produce consistent, falsifiable, cross-domain-verifiable results. The proportional structure is the same. The materials are different. The grammar is one.
@@ -2983,11 +2983,11 @@ A grammar that claims to do everything is a theology. The Proportional Algebra i
 
 ## 18.2 Limit 1: The Coherent Field Is Not Directly Observable
 
-The PA describes the coherent field 𝒞 as the space of un-collapsed structured potential. But 𝒞, by definition, is **prior to expression**. It cannot be observed directly — it can only be inferred from its collapses.
+The PA describes the coherent field ℭ_h as the space of un-collapsed structured potential. But ℭ_h, by definition, is **prior to expression**. It cannot be observed directly — it can only be inferred from its collapses.
 
-This means: the PA cannot verify its claims about 𝒞 directly. It can only verify them indirectly, through the consistency of the collapses that 𝒞 generates. If two expressions in different domains carry the same invariant (verified by the ERT), the PA infers that they originated from the same region of 𝒞. But this inference is structural, not observational.
+This means: the PA cannot verify its claims about ℭ_h directly. It can only verify them indirectly, through the consistency of the collapses that ℭ_h generates. If two expressions in different domains carry the same invariant (verified by the ERT), the PA infers that they originated from the same region of ℭ_h. But this inference is structural, not observational.
 
-**Open question:** Is there a way to access 𝒞 that does not involve collapse? Can the coherent field be characterised independently of its decoherent products? If so, the PA would gain a second verification channel — currently, it has only one (the ERT on 𝒟).
+**Open question:** Is there a way to access ℭ_h that does not involve collapse? Can the coherent field be characterised independently of its decoherent products? If so, the PA would gain a second verification channel — currently, it has only one (the ERT on 𝒟).
 
 ---
 
@@ -3003,7 +3003,7 @@ The PA provides the structure (five components, weighted composite, threshold). 
 
 ## 18.4 Limit 3: The Invariant Library Is Incomplete
 
-The Semantic Algebra identified ten invariants (I₁ through I₁₀). The PA treats these as base points of the fibre bundle — equivalence classes under ≡_S. But there is no proof that the library is complete. There may be structural laws that the SA has not yet identified — invariants that exist in 𝒫 but have not been catalogued.
+The Semantic Algebra identified ten invariants (ι₁ through ι₁₀). The PA treats these as base points of the fibre bundle — equivalence classes under ≡_S. But there is no proof that the library is complete. There may be structural laws that the SA has not yet identified — invariants that exist in 𝒫 but have not been catalogued.
 
 **Open question:** Is the set of invariants finite or infinite? If finite, what is the complete list? If infinite, is there a generating principle that produces them? (Compare: the periodic table is a finite list of chemical elements generated by a single principle — atomic number. Is there an "atomic number" for structural invariants?)
 
@@ -3029,11 +3029,11 @@ The falsification criterion F2 (isomorphism failure) provides the test: if two e
 
 ## 18.7 Limit 6: The PA Does Not Describe the Origin of the Coherent Field
 
-The PA describes how coherent content collapses into expressions. It does not describe how the coherent field *itself* arises. 𝒞 is taken as given — as the primitive ground of the space. The PA has no axiom for the genesis of 𝒞.
+The PA describes how coherent content collapses into expressions. It does not describe how the coherent field *itself* arises. ℭ_h is taken as given — as the primitive ground of the space. The PA has no axiom for the genesis of ℭ_h.
 
 This is a deliberate limitation. The Technology of Expressions states that coherent content is ontologically prior to expression (Axiom: Meaning Precedes Form). The PA formalises the *transition* from meaning to form. It does not formalise meaning itself.
 
-**Open question:** What generates 𝒞? Is it self-generating (an autopoietic coherent field)? Is it externally generated (by a meta-field)? Is the question itself meaningful within the PA's framework, or does it require a framework beyond the PA?
+**Open question:** What generates ℭ_h? Is it self-generating (an autopoietic coherent field)? Is it externally generated (by a meta-field)? Is the question itself meaningful within the PA's framework, or does it require a framework beyond the PA?
 
 This question points toward the **Ordinative General Theory (OGT)** — the overarching framework that the TE envisions as the ultimate integration of OST, SA, PA, and OCT.
 
@@ -3049,7 +3049,7 @@ For reference, the six falsification criteria from §3.6:
 | F2 | ≡_S-equivalent expressions carry different content | The isomorphism map μ |
 | F3 | ρ assigns wrong compatibility values | The resonance metric |
 | F4 | S yields same invariant for all expressions | S as extraction (not projection) |
-| F5 | ≤_κ reverses independent coherence judgements | The coherence order |
+| F5 | ≤_𝓚 reverses independent coherence judgements | The coherence order |
 | F6 | I₁ ⊗ I₂ ≠ I₂ ⊗ I₁ without contextual cause | The symmetry of ⊗ |
 
 **Current status:** None of these conditions have been observed. All remain testable. The PA is falsifiable.
@@ -3082,7 +3082,7 @@ The Technology of Expressions envisions four formal systems, each addressing a d
 | **Ordinative Set Theory** | OST | The structure of systems: singularities, relational fields, emergence | v3.0 — Operational |
 | **Semantic Algebra** | SA | The analysis of decoherent expressions: extraction and transfer of invariants | Foundations — Complete |
 | **Proportional Algebra** | PA | The grammar of collapse: space, metric, operators, temporal generation | Foundations — This book |
-| **Ordinative Cosmology/General Theory** | OCT / OGT | The unified theory: origin of 𝒞, teleological dynamics, spacetime structure | Projected — Not yet formalised |
+| **Ordinative Cosmology/General Theory** | OCT / OGT | The unified theory: origin of ℭ_h, teleological dynamics, spacetime structure | Projected — Not yet formalised |
 
 ### The Relationships
 
@@ -3097,9 +3097,9 @@ The Technology of Expressions envisions four formal systems, each addressing a d
 ```
 
 - **OST ↔ SA**: The SA analyses expressions that OST describes as ⟨Σ, R, Φ⟩ systems. The SA's invariant library is a catalogue of the structural laws that govern OST systems.
-- **OST ↔ PA**: The PA metrisises OST's relational field R, providing ρ and ≤_κ. The bridge is §3.8: 𝒫 is R made measurable.
-- **SA ↔ PA**: The SA is the PA restricted to 𝒟 (Theorem 9.1). The PA extends SA by formalising 𝒞, ℛ, and the temporal generator τ.
-- **PA → OCT**: The PA's open questions (§18.7: What generates 𝒞?) point toward OCT. The PA describes *how* collapse works; OCT would describe *why* collapse occurs and what the coherent field ultimately is.
+- **OST ↔ PA**: The PA metrisises OST's relational field R, providing ρ and ≤_𝓚. The bridge is §3.8: 𝒫 is R made measurable.
+- **SA ↔ PA**: The SA is the PA restricted to 𝒟 (Theorem 9.1). The PA extends SA by formalising ℭ_h, 𝕀, and the temporal generator τ.
+- **PA → OCT**: The PA's open questions (§18.7: What generates ℭ_h?) point toward OCT. The PA describes *how* collapse works; OCT would describe *why* collapse occurs and what the coherent field ultimately is.
 - **OCT → OGT**: The Ordinative General Theory would unify all four pillars into a single formal framework — the complete grammar of reality as described by the Technology of Expressions.
 
 ---
@@ -3137,9 +3137,9 @@ The PA provides explicit falsification criteria (F1-F6) and a diagnostic protoco
 
 ## 19.4 What the PA Needs from the Programme
 
-### 19.4.1 From OCT: The Genesis of 𝒞
+### 19.4.1 From OCT: The Genesis of ℭ_h
 
-The PA's Limit 6 (§18.7) is the PA's most significant open problem. The PA takes 𝒞 as given. OCT would provide the origin — the account of how coherent content arises and why it has the specific structure that generates the invariants we observe.
+The PA's Limit 6 (§18.7) is the PA's most significant open problem. The PA takes ℭ_h as given. OCT would provide the origin — the account of how coherent content arises and why it has the specific structure that generates the invariants we observe.
 
 ### 19.4.2 From OGT: The Unification
 
@@ -3167,7 +3167,7 @@ After the PA:
 
 - The Proportional Space 𝒫 provides the common ground
 - The resonance metric ρ measures compatibility
-- The coherence order ≤_κ ranks expressions
+- The coherence order ≤_𝓚 ranks expressions
 - The three operations (Φ, S, ⊗) act on the space
 - The pulsation operator τ generates time
 - The ERT provides falsifiable verification
@@ -3187,9 +3187,9 @@ What remains is the final integration — the unification of space, time, collap
 
 There is a moment in every inquiry when the tools become transparent. You stop looking at the notation and start seeing through it — to the proportional structure it describes. This book was written for that moment.
 
-The Proportional Algebra is a grammar. It is made of symbols — 𝒫, ρ, κ, Φ, S, ⊗, τ — and of the relations between them. Like every grammar, it is a means, not an end. The end is vision: the capacity to recognise, in the bond angle of a water molecule and in the syntactic structure of a sentence and in the trajectory of a grief and in the architecture of a healing relationship, the **same proportional law** — operating through different materials, visible to any observer who has the grammar to read it.
+The Proportional Algebra is a grammar. It is made of symbols — 𝒫, ρ, ⟨𝓚⁵⟩, Φ, S, ⊗, τ — and of the relations between them. Like every grammar, it is a means, not an end. The end is vision: the capacity to recognise, in the bond angle of a water molecule and in the syntactic structure of a sentence and in the trajectory of a grief and in the architecture of a healing relationship, the **same proportional law** — operating through different materials, visible to any observer who has the grammar to read it.
 
-The claim of this book has been precise: **every expressible reality is a proportional structure, and the grammar that governs proportion is one.** We have defined the space in which this claim lives (𝒫), the metric by which it is measured (ρ), the order by which it is ranked (≤_κ), the operations by which it is enacted (Φ, S, ⊗), the test by which it is verified (the ERT), and the generator by which it moves through time (τ). We have demonstrated the grammar at work in five domains and stated the six conditions under which it would be falsified.
+The claim of this book has been precise: **every expressible reality is a proportional structure, and the grammar that governs proportion is one.** We have defined the space in which this claim lives (𝒫), the metric by which it is measured (ρ), the order by which it is ranked (≤_𝓚), the operations by which it is enacted (Φ, S, ⊗), the test by which it is verified (the ERT), and the generator by which it moves through time (τ). We have demonstrated the grammar at work in five domains and stated the six conditions under which it would be falsified.
 
 The grammar is now available for use. It can be applied — by a chemist, a linguist, a clinician, a composer, an engineer, an educator, an artificial intelligence — to any domain in which proportional relations determine structure, and structure determines meaning. Which is to say: to any domain at all.
 
@@ -3234,40 +3234,40 @@ Build. Test. Refute or extend. This is how grammars grow.
 
 | Symbol | Name | Definition | Chapter |
 |---|---|---|---|
-| 𝒫 | Proportional Space | (𝒞, ℛ, 𝒟, ρ, ≤_κ) | 4 |
-| 𝒞 | Coherent Field | Space of un-collapsed structured potential | 4.2 |
-| ℛ | Identity Space | Space of Remirs | 4.2 |
+| 𝒫 | Proportional Space | (ℭ_h, 𝕀, 𝒟, ρ, ≤_𝓚) | 4 |
+| ℭ_h | Coherent Field | Space of un-collapsed structured potential | 4.2 |
+| 𝕀 | Identity Space | Space of Remirs | 4.2 |
 | 𝒟 | Decoherent Space | Space of expressed realities | 4.2 |
 | ℐ | Invariant Space | Space of structural invariants (base of the fibre bundle) | 9.2 |
-| 𝒞_shared | Shared Coherent Field | Region of 𝒞 accessible to two identities via ⊗ | 10.2 |
-| N(I) | Accessible Field | {C ∈ 𝒞 : ρ(C, I) ≥ θ} — neighbourhood of I in 𝒞 | 5.5.4 |
+| ℭ_shared | Shared Coherent Field | Region of ℭ_h accessible to two identities via ⊗ | 10.2 |
+| N(I) | Accessible Field | {C ∈ ℭ_h : ρ(C, I) ≥ θ} — neighbourhood of I in ℭ_h | 5.5.4 |
 
 ## Objects
 
 | Symbol | Name | Definition | Chapter |
 |---|---|---|---|
-| C | Coherent Content | Element of 𝒞 — un-collapsed structured potential | 2.2 |
+| C | Coherent Content | Element of ℭ_h — un-collapsed structured potential | 2.2 |
 | I | Identity | Active functional vector that performs the collapse | 2.2 |
-| K | Context | Constraint on 𝒞 that restricts accessible content: K(𝒞) → 𝒞_K | 4.5 |
+| K | Context | Constraint on ℭ_h that restricts accessible content: K(ℭ_h) → ℭ_K | 4.5 |
 | E | Expression | Element of 𝒟 — collapsed, observable output | 2.2 |
 | ℛ(I) | Remir | (V_I, B_I) — semantic vectors + resonance matrix | 7.2 |
 | V_I | Semantic Vectors | {v₁, v₂, ..., vₙ} — directed intensities of the identity | 7.2 |
 | B_I | Resonance Matrix | V_I × V_I → [-1, 1] — internal proportional structure | 7.2 |
 | λ(I) | Dominant Vector | Eigenvector of B_I with largest eigenvalue | 7.3 |
 | T(I) | Trajectory | Ordered sequence of an identity's collapses | 3.2 |
-| I_k | Invariant k | Structural law extracted by S — base point of fibre bundle | 9.5 |
+| ι_k | Invariant k | Structural law extracted by S — base point of fibre bundle | 9.5 |
 
 ## Operations
 
 | Symbol | Name | Type Signature | Chapter |
 |---|---|---|---|
-| Φ | Collapse | 𝒞 × ℛ × K → 𝒟 | 8.2 |
+| Φ | Collapse | ℭ_h × 𝕀 × K → 𝒟 | 8.2 |
 | S | Strip | 𝒟 → ℐ × [0, 1] | 9.2 |
-| π | Re-contextualisation | ℐ × D_target → 𝒟 | 9.3 |
-| ⊗ | Resonance | ℛ × ℛ → 𝒞_shared | 10.2 |
-| 𝒰 | Identity Update | ℛ × 𝒟 → ℛ | 8.6 |
-| τ | Pulsation | 𝒞 × 𝒟 × ℛ → ℝ⁺ | 12.2 |
-| μ | Isomorphism Map | D₁ → D₂ (structure-preserving) | 2.3 |
+| π | Re-contextualisation | ℐ × 𝔻_target → 𝒟 | 9.3 |
+| ⊗ | Resonance | 𝕀 × 𝕀 → ℭ_shared | 10.2 |
+| 𝒰 | Identity Update | 𝕀 × 𝒟 → 𝕀 | 8.6 |
+| τ | Pulsation | ℭ_h × 𝒟 × 𝕀 → ℝ⁺ | 12.2 |
+| μ | Isomorphism Map | 𝔻₁ → 𝔻₂ (structure-preserving) | 2.3 |
 
 ## Metrics and Measures
 
@@ -3279,12 +3279,12 @@ Build. Test. Refute or extend. This is how grammars grow.
 | ρ_K | Contextual Compatibility | [0, 1] | 5.2 |
 | ρ_τ | Temporal Phase | [0, 1] | 5.2 |
 | ρ_R | Relational Readiness | {1.0, 0.8, 0.5, 0.3, 0.1, 0.0} | 5.2 |
-| κ | Coherence Function | [0, 1] | 6.2 |
-| κ_1 | Internal Consistency | [0, 1] | 6.2 |
-| κ_2 | Source Alignment | [0, 1] | 6.2 |
-| κ_3 | Depth Preserved | [0, 1] | 6.2 |
-| κ_4 | Stability | [0, 1] | 6.2 |
-| κ_5 | Generative Capacity | [0, 1] | 6.2 |
+| ⟨𝓚⁵⟩ | Coherence Function | [0, 1] | 6.2 |
+| 𝓚_1 | Internal Consistency | [0, 1] | 6.2 |
+| 𝓚_2 | Source Alignment | [0, 1] | 6.2 |
+| 𝓚_3 | Depth Preserved | [0, 1] | 6.2 |
+| 𝓚_4 | Stability | [0, 1] | 6.2 |
+| 𝓚_5 | Generative Capacity | [0, 1] | 6.2 |
 | θ | Collapse Threshold | [0, 1] | 5.4 |
 | δ | Fidelity | [0, 1] | 11.2 |
 | b̄(I) | Average Internal Coherence | [-1, 1] | 7.2 |
@@ -3294,18 +3294,18 @@ Build. Test. Refute or extend. This is how grammars grow.
 
 | Symbol | Name | Type | Chapter |
 |---|---|---|---|
-| ≤_κ | Coherence Order | Partial order on 𝒟 | 6.3 |
+| ≤_𝓚 | Coherence Order | Partial order on 𝒟 | 6.3 |
 | ≡_S | Structural Equivalence | Equivalence relation on 𝒟 | 3.4 |
-| ∼_ρ | Compatibility | Tolerance relation on 𝒞 × ℛ | 3.4 |
+| ∼_ρ | Compatibility | Tolerance relation on ℭ_h × 𝕀 | 3.4 |
 
 ## Collapse Types
 
 | Type | Condition | Description | Chapter |
 |---|---|---|---|
-| Α | κ ≥ 0.7, ρ ≥ θ | Coherent — faithful carrier | 8.5 |
-| Β | 0.3 ≤ κ < 0.7 | Partial — shallow but accurate | 8.5 |
-| Γ | κ < 0.3, S(E) ≠ ∅ | Distorted — content altered | 8.5 |
-| Δ | S(E) = ∅ or ρ < θ | Failed — no structural content | 8.5 |
+| A | ⟨𝓚⁵⟩ ≥ 0.7, ρ ≥ θ | Coherent — faithful carrier | 8.5 |
+| B | 0.3 ≤ ⟨𝓚⁵⟩ < 0.7 | Partial — shallow but accurate | 8.5 |
+| C | ⟨𝓚⁵⟩ < 0.3, S(E) ≠ ∅ | Distorted — content altered | 8.5 |
+| D | S(E) = ∅ or ρ < θ | Failed — no structural content | 8.5 |
 
 ## Falsification Criteria
 
@@ -3315,7 +3315,7 @@ Build. Test. Refute or extend. This is how grammars grow.
 | F2 | The isomorphism map μ | 3.6 |
 | F3 | The resonance metric ρ | 3.6 |
 | F4 | S as extraction (not projection) | 3.6 |
-| F5 | The coherence order ≤_κ | 3.6 |
+| F5 | The coherence order ≤_𝓚 | 3.6 |
 | F6 | The symmetry of ⊗ | 3.6 |
 
 ---
@@ -3329,18 +3329,18 @@ This appendix lists the twelve foundational equations of the Technology of Expre
 
 | # | TE Equation | TE Notation | PA Translation | PA Chapter |
 |---|---|---|---|---|
-| **1.1** | Collapse Function | E = Φ(C, I, K) | Φ: 𝒞 × ℛ × K → 𝒟. Collapse iff ρ(C, I, K) ≥ θ(C). | 8.2 |
-| **1.2** | Decoherence Equation | D = Ψ(C, N, t) | D ∈ 𝒟. N = noise vector in fibre. t = τ (pulsation count). κ(D) < κ(E_original). | 6.2, 12.2 |
+| **1.1** | Collapse Function | E = Φ(C, I, K) | Φ: ℭ_h × 𝕀 × K → 𝒟. Collapse iff ρ(C, I, K) ≥ θ(C). | 8.2 |
+| **1.2** | Decoherence Equation | D = Ψ(C, N, t) | D ∈ 𝒟. N = noise vector in fibre. t = τ (pulsation count). ⟨𝓚⁵⟩(D) < ⟨𝓚⁵⟩(E_original). | 6.2, 12.2 |
 | **1.3** | Extended Semantic Derivative | dΦ/dt(I) | dΦ/dτ = lim_{n→∞} (Φ_{n+1} − Φ_n)/τ_n. Three regimes: >0 (evolution), =0 (inertia), <0 (degeneration). | 12.5 |
-| **1.4** | Semantic Tension | T_sem = R − Φ(C, I, K) | T_sem = ρ(C, I) − κ(E). Tension = resonance minus achieved coherence. Residual = un-collapsed potential. | 5.1, 6.2 |
-| **1.5** | Vertical Coherence | κ_v(I) > θ_v | The coherence of the identity's trajectory satisfies the vertical threshold: Σ_i κ(E_i) / n ≥ θ_v. Recursive: R_{n+1} ⊇ R_n. | 4.4.5, 3.8 |
+| **1.4** | Semantic Tension | T_sem = R − Φ(C, I, K) | T_sem = ρ(C, I) − ⟨𝓚⁵⟩(E). Tension = resonance minus achieved coherence. Residual = un-collapsed potential. | 5.1, 6.2 |
+| **1.5** | Vertical Coherence | ⟨𝓚⁵⟩_v(I) > θ_v | The coherence of the identity's trajectory satisfies the vertical threshold: Σ_i ⟨𝓚⁵⟩(E_i) / n ≥ θ_v. Recursive: R_{n+1} ⊇ R_n. | 4.4.5, 3.8 |
 | **1.6** | Semantic Inertia | dΦ/dt → 0 | dΦ/dτ = 0. Pulsation continues (τ > 0) but produces no change. The Remir repeats without restructuring. B_I is frozen. | 12.5 |
-| **1.7** | Pulsation | T = τ(C ↔ E) | τ: 𝒞 × 𝒟 × ℛ → ℝ⁺. τ = d(C)/(ρ · plasticity) · τ₀. Time is generated, not parametric. | 12.2 |
+| **1.7** | Pulsation | T = τ(C ↔ E) | τ: ℭ_h × 𝒟 × 𝕀 → ℝ⁺. τ = d(C)/(ρ · plasticity) · τ₀. Time is generated, not parametric. | 12.2 |
 | **1.8** | Expression–Content Asymmetry | E ≠ C; |E| < |C| | Φ is non-invertible. The three losses (selection, projection, instantiation) ensure |E| < |C_K| < |C|. S recovers I_{structural} ⊂ C, not C itself. | 8.3.4 |
-| **1.9** | Remir | ℛ(I) = (V_I, B_I) | V_I = finite set of semantic vectors. B_I: V_I × V_I → [-1,1]. Dominant vector λ(I) = eigenvector of B_I with max eigenvalue. ℛ is a non-commutative, non-associative algebra. | 7.2, 7.6 |
+| **1.9** | Remir | ℛ(I) = (V_I, B_I) | V_I = finite set of semantic vectors. B_I: V_I × V_I → [-1,1]. Dominant vector λ(I) = eigenvector of B_I with max eigenvalue. 𝕀 is a non-commutative, non-associative algebra. | 7.2, 7.6 |
 | **1.10** | Dominant Vector | λ(I) = argmax β(v, I) | λ(I) = eigenvector of B_I with largest eigenvalue λ_max. Determines collapse direction and trajectory bias. | 7.3 |
 | **1.13** | Terminal Compatibility | Ξ(I, 𝒯, t) → [0,1] | Ξ measures ρ_K at the body-identity interface. Declining Ξ = declining capacity to collapse through the physical channel. High ρ_v + low ρ_K = identity "knows more, can say less." | 16.5 |
-| **1.14** | Collective Field | 𝒞 = f({I₁...Iₙ}) | ⊗ⁿ_{k=1} I_k = ∪_{all resonant pairs} 𝒞_shared. n-fold resonance. Emergent directions, resonance cascades, critical mass. | 10.6 |
+| **1.14** | Collective Field | ℭ_h = f({I₁...Iₙ}) | ⊗ⁿ_{k=1} I_k = ∪_{all resonant pairs} ℭ_shared. n-fold resonance. Emergent directions, resonance cascades, critical mass. | 10.6 |
 
 ---
 
@@ -3348,7 +3348,7 @@ This appendix lists the twelve foundational equations of the Technology of Expre
 
 1. **Time (t) → Pulsation count (τ)**: All TE equations parametrised by t are re-parametrised by pulsation cycles. This eliminates the need for external time.
 
-2. **Coherence (abstract) → κ (5-component function)**: All TE references to "coherence" become the formal κ function with its five components.
+2. **Coherence (abstract) → ⟨𝓚⁵⟩ (5-component function)**: All TE references to "coherence" become the formal ⟨𝓚⁵⟩ function with its five components.
 
 3. **Resonance (intuitive) → ρ (5-component metric)**: All TE references to "compatibility" or "resonance" become the formal ρ function with its five components and threshold θ.
 
@@ -3381,7 +3381,7 @@ This appendix provides a complete correspondence table between the Semantic Alge
 |---|---|---|---|---|
 | L1 | Surface Syntax | 𝒟 (domain encoding) | ✅ | Sequential linearisation of proportional vectors |
 | L2 | Lexical Domain | 𝒟 (domain encoding) | ✅ | Domain-specific instantiation vocabulary |
-| L3 | Rhetorical Structure | ℛ (identity filter) | ✅ | Dominant vector λ(I) of the expresser's Remir |
+| L3 | Rhetorical Structure | 𝕀 (identity filter) | ✅ | Dominant vector λ(I) of the expresser's Remir |
 | L4 | Cultural Frame | K (context) | ✅ | Context operator restricting accessible field |
 | L5 | Structural Dynamic | ℐ (invariant) | ❌ | Proportional relations within the expression |
 | L6 | Operational Invariant | ℐ (invariant) | ❌ | The structural law — base point of the fibre bundle |
@@ -3406,11 +3406,11 @@ This appendix provides a complete correspondence table between the Semantic Alge
 
 | SA Component | SA Weight | PA Component | PA Weight | Notes |
 |---|---|---|---|---|
-| Internal coherence | 0.25 | κ_1 (internal consistency) | 0.25 (within κ) | Identical |
-| Structural depth | 0.20 | κ_3 (depth preserved) | 0.20 (within κ) | SA measures depth of expression; PA measures depth relative to source |
-| Transferability | 0.20 | κ_5 (generative capacity) | 0.20 (within κ) | SA's transferability ≈ PA's generative capacity |
-| Discrimination | 0.20 | κ_2 (source alignment) | 0.20 (within κ) | SA's discrimination ≈ PA's source alignment + ERT Step 2 |
-| Predictive power | 0.15 | κ_4 (stability) | 0.15 (within κ) | SA's predictive power ≈ PA's stability under perturbation |
+| Internal coherence | 0.25 | 𝓚_1 (internal consistency) | 0.25 (within ⟨𝓚⁵⟩) | Identical |
+| Structural depth | 0.20 | 𝓚_3 (depth preserved) | 0.20 (within ⟨𝓚⁵⟩) | SA measures depth of expression; PA measures depth relative to source |
+| Transferability | 0.20 | 𝓚_5 (generative capacity) | 0.20 (within ⟨𝓚⁵⟩) | SA's transferability ≈ PA's generative capacity |
+| Discrimination | 0.20 | 𝓚_2 (source alignment) | 0.20 (within ⟨𝓚⁵⟩) | SA's discrimination ≈ PA's source alignment + ERT Step 2 |
+| Predictive power | 0.15 | 𝓚_4 (stability) | 0.15 (within ⟨𝓚⁵⟩) | SA's predictive power ≈ PA's stability under perturbation |
 
 ---
 
@@ -3426,11 +3426,11 @@ This appendix provides a complete correspondence table between the Semantic Alge
 | Type 5 | Processual | Invariant about T(I) — laws governing trajectories |
 | Type 6 | Threshold/limit | Invariant about θ — laws governing boundaries |
 | Type 7 | Emergent | Invariant about Φ-emergence — laws governing recursive scaling |
-| Type 8 | Stabilising | Invariant about κ_4 — laws governing stability |
+| Type 8 | Stabilising | Invariant about 𝓚_4 — laws governing stability |
 | Type 9a | Recursive-boundary | Invariant about the limit of recursive scaling |
 | Type 9b | Recursive-generative | Invariant about the capacity to generate new levels |
-| Type 10 | Transcendent | Invariant about the relation 𝒞 ↔ 𝒟 — laws governing the coherent/decoherent boundary |
-| Type 11 | Consciousness | Invariant about ℛ — laws governing the identity as observer/operator |
+| Type 10 | Transcendent | Invariant about the relation ℭ_h ↔ 𝒟 — laws governing the coherent/decoherent boundary |
+| Type 11 | Consciousness | Invariant about 𝕀 — laws governing the identity as observer/operator |
 
 ---
 
@@ -3438,7 +3438,7 @@ This appendix provides a complete correspondence table between the Semantic Alge
 
 | Capability | SA | PA | Why SA Cannot |
 |---|---|---|---|
-| Describe 𝒞 | ❌ | ✅ | SA operates only on 𝒟 |
+| Describe ℭ_h | ❌ | ✅ | SA operates only on 𝒟 |
 | Measure ρ(C, I) | ❌ | ✅ | SA has no access to C or I directly |
 | Verify source fidelity (ERT Step 2) | ❌ | ✅ | SA cannot compare E with its source C |
 | Describe identity structure (Remir) | ❌ | ✅ | SA has no formal model of identity |
@@ -3457,7 +3457,7 @@ This appendix provides a complete correspondence table between the Semantic Alge
 
 - **Ghioni, F.** *Technology of Expressions: A Structural Approach to Meaning.* Ordinative Sciences Press, 2025. — The foundational text. Contains equations 1.1–1.14, the Collapse Function, the Remir, the Semantic Derivative, Pulsation, Vertical Coherence.
 
-- **Ghioni, F.** *Semantic Algebra: Foundations.* Ordinative Sciences Press, 2026. — The SA operators S and π, the 7-layer architecture, the R-vocabulary, the κ formula, the invariant library (I₁–I₁₀), the round-trip test.
+- **Ghioni, F.** *Semantic Algebra: Foundations.* Ordinative Sciences Press, 2026. — The SA operators S and π, the 7-layer architecture, the R-vocabulary, the ⟨𝓚⁵⟩ formula, the invariant library (ι₁–ι₁₀), the round-trip test.
 
 - **Ghioni, F.** *Ordinative Set Theory v3.0.* Working paper, 2026. — The ⟨Σ, R, Φ⟩ triple, vertical coherence, semantic inertia, causal inversion, pathological orders.
 

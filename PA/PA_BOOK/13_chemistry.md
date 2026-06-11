@@ -16,8 +16,8 @@ The claim of this chapter: **a chemical bond is a collapse in the Proportional S
 
 | PA Entity | Chemical Instantiation |
 |---|---|
-| 𝒞 (coherent field) | The quantum field of possible molecular configurations — all possible arrangements of atoms, bonds, angles, and electron distributions |
-| ℛ (identity) | The set of thermodynamic and kinetic conditions: temperature, pressure, catalysts, solvent — the "operator" that selects which configuration collapses |
+| ℭ_h (coherent field) | The quantum field of possible molecular configurations — all possible arrangements of atoms, bonds, angles, and electron distributions |
+| 𝕀 (identity) | The set of thermodynamic and kinetic conditions: temperature, pressure, catalysts, solvent — the "operator" that selects which configuration collapses |
 | K (context) | The physical container: vessel geometry, external fields, atmospheric conditions |
 | E (expression) | The molecule that forms — the stable configuration that emerges |
 | ρ (resonance) | The compatibility between the configuration space and the conditions — do these conditions favour this configuration? |
@@ -50,28 +50,28 @@ where:
 | ρ_R (readiness) | 1.00 | The conditions do not resist the reaction (no kinetic barrier at this temperature in the presence of ignition) |
 | **ρ composite** | **0.93** | Well above θ — collapse proceeds |
 
-**The coherence κ of the product:**
+**The coherence ⟨𝓚⁵⟩ of the product:**
 
 | Component | Value | Interpretation |
 |---|---|---|
-| κ_1 (internal consistency) | 0.98 | The 104.5° angle is the energetic optimum — no internal contradiction |
-| κ_2 (source alignment) | 0.95 | The molecule faithfully expresses the quantum field's lowest-energy configuration |
-| κ_3 (depth preserved) | 0.85 | Most orbital structure is preserved in the bond |
-| κ_4 (stability) | 0.97 | H₂O is extraordinarily stable under perturbation |
-| κ_5 (generative capacity) | 0.95 | Water is the basis of virtually all known biochemistry |
-| **κ composite** | **0.94** | Type Α collapse — highly coherent |
+| 𝓚_1 (internal consistency) | 0.98 | The 104.5° angle is the energetic optimum — no internal contradiction |
+| 𝓚_2 (source alignment) | 0.95 | The molecule faithfully expresses the quantum field's lowest-energy configuration |
+| 𝓚_3 (depth preserved) | 0.85 | Most orbital structure is preserved in the bond |
+| 𝓚_4 (stability) | 0.97 | H₂O is extraordinarily stable under perturbation |
+| 𝓚_5 (generative capacity) | 0.95 | Water is the basis of virtually all known biochemistry |
+| **⟨𝓚⁵⟩ composite** | **0.94** | Type A collapse — highly coherent |
 
 ### 13.2.3 The Extended Round-Trip for H₂O
 
 **Step 1 — Strip:** Extract the structural invariant from H₂O.
-S(H₂O) = I₃: *optimal proportion for stability* — the proportional relations between components satisfy a minimum-energy condition, producing persistence.
-κ = 0.94.
+S(H₂O) = ι₃: *optimal proportion for stability* — the proportional relations between components satisfy a minimum-energy condition, producing persistence.
+⟨𝓚⁵⟩ = 0.94.
 
 **Step 2 — Source Resonance Check:**
-ρ(C_atomic, I₃) = 0.95 ≥ θ. ✅ The invariant is compatible with its quantum-mechanical source.
+ρ(C_atomic, ι₃) = 0.95 ≥ θ. ✅ The invariant is compatible with its quantum-mechanical source.
 
 **Step 3 — Re-project into music:**
-π(I₃, Music) = "A major triad (4:5:6 frequency ratio) — the proportional relations between tones satisfy a minimum-interference condition, producing consonance."
+π(ι₃, Music) = "A major triad (4:5:6 frequency ratio) — the proportional relations between tones satisfy a minimum-interference condition, producing consonance."
 
 **Step 4 — Fidelity:**
 δ(H₂O, major triad) = 0.82. The proportional structure is preserved: in both cases, three components in a specific ratio achieve stability through proportional optimality.
@@ -105,7 +105,7 @@ $$C_0 \xrightarrow{\Phi_1} E_1 \xrightarrow{E_1^{\uparrow}} C_1 \xrightarrow{\Ph
 
 Each intermediate product E_i is "promoted" back to the coherent field (E_i^↑) and serves as the content for the next collapse. The trajectory through 𝒫 is the reaction pathway.
 
-Different pathways from the same starting materials to the same product correspond to different trajectories through 𝒫 — different sequences of intermediate collapses. The optimal pathway is the one with the highest cumulative κ: the one that preserves the most proportional structure at each step.
+Different pathways from the same starting materials to the same product correspond to different trajectories through 𝒫 — different sequences of intermediate collapses. The optimal pathway is the one with the highest cumulative ⟨𝓚⁵⟩: the one that preserves the most proportional structure at each step.
 
 This is the PA's description of **catalysis**: a catalyst does not add energy or content. It provides a new "identity" I_cat that opens a pathway through 𝒫 with higher ρ at each step — a trajectory of lower activation energy. In PA terms, the catalyst increases ρ_R (relational readiness) at each intermediate collapse.
 
@@ -115,12 +115,12 @@ This is the PA's description of **catalysis**: a catalyst does not add energy or
 
 | Chemical Pathology | PA Classification | OST Correspondent |
 |---|---|---|
-| Failed reaction (no product) | Type Δ collapse (ρ < θ) | Mass (R → 0) |
-| Side reaction (wrong product) | Type Γ collapse (distorted) | Antagonist Order |
+| Failed reaction (no product) | Type D collapse (ρ < θ) | Mass (R → 0) |
+| Side reaction (wrong product) | Type C collapse (distorted) | Antagonist Order |
 | Explosive decomposition | Fracture (ε > τ_critical) | Decoherence (Φ → 0) |
 | Equilibrium (no net change) | Semantic inertia (dΦ/dτ = 0) | Semantic Inertia |
 | Catalyst poisoning | Loss of ρ_R | Vehicle Interference |
-| Racemisation (loss of chirality) | Loss of κ_1 (internal consistency) | Fragmentation |
+| Racemisation (loss of chirality) | Loss of 𝓚_1 (internal consistency) | Fragmentation |
 
 ---
 

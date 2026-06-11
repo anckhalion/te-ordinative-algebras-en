@@ -22,7 +22,7 @@ This is the most sophisticated objection. It has a dedicated chapter (Chapter 10
 
 ### A2. "You are doing philosophy, not science."
 
-Philosophy does not have a 7-step replicable procedure. Philosophy does not have a round-trip integrity test (S(π(I, D)) = I). Philosophy does not produce negative results (Chapter 9 — the discrimination test). Philosophy does not correct its own projection errors procedurally (Chapter 10 — the Ungaretti self-correction).
+Philosophy does not have a 7-step replicable procedure. Philosophy does not have a round-trip integrity test (S(π(ι, 𝔻)) = ι). Philosophy does not produce negative results (Chapter 9 — the discrimination test). Philosophy does not correct its own projection errors procedurally (Chapter 10 — the Ungaretti self-correction).
 
 Semantic Algebra has all of these. The fact that it addresses questions traditionally claimed by philosophy — what is real? what is universal? — does not make it philosophy. It makes it a method that operates where philosophy only speculates.
 
@@ -62,7 +62,7 @@ Nevertheless: the library is open. The reader is invited to apply S to additiona
 
 This is not merely acknowledged — it is *built into the method*. Step 2b (etymological strip) exists precisely because the analyst's first instinct is to project their own framework onto the tokens. The Ungaretti case (Chapter 10) is the operational demonstration: the analyst's initial reading was wrong, and the method caught and corrected the error.
 
-The round-trip test S(π(I, D)) = I provides a second safeguard: if the analyst has projected content that is not in the source, the round-trip fails.
+The round-trip test S(π(ι, 𝔻)) = ι provides a second safeguard: if the analyst has projected content that is not in the source, the round-trip fails.
 
 No method eliminates observer bias entirely. Semantic Algebra does what honest methodology requires: it makes the observer visible, accountable, and correctable.
 
@@ -86,7 +86,7 @@ Peer review is not a property of a journal. It is a process of independent verif
 
 Korzybski identified the problem. He did not solve it.
 
-"The map is not the territory" is I₁ expressed in the natural language of General Semantics. It names the lossy channel. It does not quantify *how much* is lost. It does not specify *where* the loss occurs. It does not provide a procedure to *detect* the loss in a given expression. It does not offer a method to *recover* the structural content from the lossy expression.
+"The map is not the territory" is ι₁ expressed in the natural language of General Semantics. It names the lossy channel. It does not quantify *how much* is lost. It does not specify *where* the loss occurs. It does not provide a procedure to *detect* the loss in a given expression. It does not offer a method to *recover* the structural content from the lossy expression.
 
 Semantic Algebra does all of these. Korzybski is a predecessor. S is the formalisation of what Korzybski intuited.
 
@@ -94,7 +94,7 @@ Semantic Algebra does all of these. Korzybski is a predecessor. S is the formali
 
 Precisely. And the convergence of thinkers who did not know each other, working in unrelated domains, on the same structural pattern is *confirmation*, not repetition.
 
-Gödel proves I₁ for formal systems (incompleteness). Saussure proves the non-naturalness of the sign (the arbitrary relation between signifier and signified). Peirce's thirdness anticipates the relational field R. Shannon quantifies information loss in transmission channels.
+Gödel proves ι₁ for formal systems (incompleteness). Saussure proves the non-naturalness of the sign (the arbitrary relation between signifier and signified). Peirce's thirdness anticipates the relational field R. Shannon quantifies information loss in transmission channels.
 
 None of them had the operator that *unifies* these results as instances of the same invariant. S is that operator. The predecessors are the data. SA is the method that reads the data.
 

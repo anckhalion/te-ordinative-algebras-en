@@ -173,7 +173,7 @@ This book formalises the Proportional Algebra of the Technology of Expressions. 
 
 2. **Three operations on 𝒫** — Collapse (Φ), Strip (S), and Resonance (⊗) — each defined axiomatically and each verifiable.
 
-3. **Three relations on 𝒫** — the coherence order (≤_κ), structural equivalence (≡_S), and compatibility (∼_ρ) — that together constitute the grammar.
+3. **Three relations on 𝒫** — the coherence order (≤_𝓚), structural equivalence (≡_S), and compatibility (∼_ρ) — that together constitute the grammar.
 
 4. **The round-trip extended** — a test that verifies not only that an invariant survives re-projection (as SA's round-trip does) but that the original collapse was faithful to the coherent field.
 

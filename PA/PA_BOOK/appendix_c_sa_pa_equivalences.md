@@ -11,8 +11,8 @@ This appendix provides a complete correspondence table between the Semantic Alge
 | SA Operator | SA Definition | PA Equivalent | PA Definition | Relationship |
 |---|---|---|---|---|
 | **S** (Strip) | Extracts invariant from expression | **S** (fibre-bundle projection) | 𝒟 → ℐ × [0,1] | Identical operation, now identified as projection of the fibre bundle |
-| **π** (Re-contextualisation) | Re-expresses invariant in target domain | **π** (fibre-bundle section) | ℐ × D → 𝒟 | Identical operation, now identified as section of the fibre bundle |
-| S(π(I,D)) = I (Round-trip) | Analytical verification | ERT Step 1 + Step 3 | S then π component of the 4-step ERT | SA round-trip is embedded in the PA's extended round-trip |
+| **π** (Re-contextualisation) | Re-expresses invariant in target domain | **π** (fibre-bundle section) | ℐ × 𝔻 → 𝒟 | Identical operation, now identified as section of the fibre bundle |
+| S(π(ι,𝔻)) = ι (Round-trip) | Analytical verification | ERT Step 1 + Step 3 | S then π component of the 4-step ERT | SA round-trip is embedded in the PA's extended round-trip |
 
 ---
 
@@ -22,7 +22,7 @@ This appendix provides a complete correspondence table between the Semantic Alge
 |---|---|---|---|---|
 | L1 | Surface Syntax | 𝒟 (domain encoding) | ✅ | Sequential linearisation of proportional vectors |
 | L2 | Lexical Domain | 𝒟 (domain encoding) | ✅ | Domain-specific instantiation vocabulary |
-| L3 | Rhetorical Structure | ℛ (identity filter) | ✅ | Dominant vector λ(I) of the expresser's Remir |
+| L3 | Rhetorical Structure | 𝕀 (identity filter) | ✅ | Dominant vector λ(I) of the expresser's Remir |
 | L4 | Cultural Frame | K (context) | ✅ | Context operator restricting accessible field |
 | L5 | Structural Dynamic | ℐ (invariant) | ❌ | Proportional relations within the expression |
 | L6 | Operational Invariant | ℐ (invariant) | ❌ | The structural law — base point of the fibre bundle |
@@ -47,11 +47,11 @@ This appendix provides a complete correspondence table between the Semantic Alge
 
 | SA Component | SA Weight | PA Component | PA Weight | Notes |
 |---|---|---|---|---|
-| Internal coherence | 0.25 | κ_1 (internal consistency) | 0.25 (within κ) | Identical |
-| Structural depth | 0.20 | κ_3 (depth preserved) | 0.20 (within κ) | SA measures depth of expression; PA measures depth relative to source |
-| Transferability | 0.20 | κ_5 (generative capacity) | 0.20 (within κ) | SA's transferability ≈ PA's generative capacity |
-| Discrimination | 0.20 | κ_2 (source alignment) | 0.20 (within κ) | SA's discrimination ≈ PA's source alignment + ERT Step 2 |
-| Predictive power | 0.15 | κ_4 (stability) | 0.15 (within κ) | SA's predictive power ≈ PA's stability under perturbation |
+| Internal coherence | 0.25 | 𝓚_1 (internal consistency) | 0.25 (within ⟨𝓚⁵⟩) | Identical |
+| Structural depth | 0.20 | 𝓚_3 (depth preserved) | 0.20 (within ⟨𝓚⁵⟩) | SA measures depth of expression; PA measures depth relative to source |
+| Transferability | 0.20 | 𝓚_5 (generative capacity) | 0.20 (within ⟨𝓚⁵⟩) | SA's transferability ≈ PA's generative capacity |
+| Discrimination | 0.20 | 𝓚_2 (source alignment) | 0.20 (within ⟨𝓚⁵⟩) | SA's discrimination ≈ PA's source alignment + ERT Step 2 |
+| Predictive power | 0.15 | 𝓚_4 (stability) | 0.15 (within ⟨𝓚⁵⟩) | SA's predictive power ≈ PA's stability under perturbation |
 
 ---
 
@@ -67,11 +67,11 @@ This appendix provides a complete correspondence table between the Semantic Alge
 | Type 5 | Processual | Invariant about T(I) — laws governing trajectories |
 | Type 6 | Threshold/limit | Invariant about θ — laws governing boundaries |
 | Type 7 | Emergent | Invariant about Φ-emergence — laws governing recursive scaling |
-| Type 8 | Stabilising | Invariant about κ_4 — laws governing stability |
+| Type 8 | Stabilising | Invariant about 𝓚_4 — laws governing stability |
 | Type 9a | Recursive-boundary | Invariant about the limit of recursive scaling |
 | Type 9b | Recursive-generative | Invariant about the capacity to generate new levels |
-| Type 10 | Transcendent | Invariant about the relation 𝒞 ↔ 𝒟 — laws governing the coherent/decoherent boundary |
-| Type 11 | Consciousness | Invariant about ℛ — laws governing the identity as observer/operator |
+| Type 10 | Transcendent | Invariant about the relation ℭ_h ↔ 𝒟 — laws governing the coherent/decoherent boundary |
+| Type 11 | Consciousness | Invariant about 𝕀 — laws governing the identity as observer/operator |
 
 ---
 
@@ -79,7 +79,7 @@ This appendix provides a complete correspondence table between the Semantic Alge
 
 | Capability | SA | PA | Why SA Cannot |
 |---|---|---|---|
-| Describe 𝒞 | ❌ | ✅ | SA operates only on 𝒟 |
+| Describe ℭ_h | ❌ | ✅ | SA operates only on 𝒟 |
 | Measure ρ(C, I) | ❌ | ✅ | SA has no access to C or I directly |
 | Verify source fidelity (ERT Step 2) | ❌ | ✅ | SA cannot compare E with its source C |
 | Describe identity structure (Remir) | ❌ | ✅ | SA has no formal model of identity |
