@@ -2033,7 +2033,42 @@ This principle has two implications:
 
 ---
 
-The Strip operator is now fully specified: 7 layers, 7 procedural steps, 9 classification types, 4 formal properties, and the self-correcting etymological strip. The next chapter presents its complement: the operator that reverses the direction — taking an invariant and projecting it into a specific domain for a specific receiver.
+## 6.8 The Two-Channel Extension — S(E) = ⟨ι, P⟩
+
+The previous section established that the invariant is independent of its source: a structural law remains true whoever utters it. This section establishes the complement. An expression carries more than its structural content, and what it carries *besides* the invariant is not independent of anything — it is aimed, and it is aimed at the receiver.
+
+Every expression transmits on two superposed channels. The first is the structural channel: whatever invariant content survives the Strip. The second is the control channel: whatever the expression is *doing to the receiver* while the structural content is being considered. The single-channel Strip of §6.1–6.3 extracts the first and discards the second as domain binding. The discarded material is not noise. It is a signal with its own grammar.
+
+The extension is written:
+
+```
+S(E) = ⟨ ι, P ⟩
+
+ι ∈ ℐ ∪ {∅}      — the invariant channel (Layers 1–7, unchanged)
+P = κ_c(E)        — the payload channel; P = {} when the expression is clean
+```
+
+The co-operator κ_c is not a new primitive. Every component of its work already exists in the method: the etymological strip of Step 2b, the divergence between declared and effective function in Layer 2, the classification of Layer 7. κ_c is the systematization of these detections into a typed second output. Each payload element is recorded as a triple — the *operation* performed, the *target* in the receiver, and the *marker* in the text:
+
+| Operation | What it does to the receiver |
+|---|---|
+| A_deg | degrades loyalty to an anchor the receiver already holds (a tradition, a source, a person, self-trust) |
+| SR_loop | installs or exploits a stimulus–response cycle (urgency, reward, relief) |
+| I_sem | inverts the working meaning of a term while keeping its surface |
+| shame-gradient | routes compliance through inadequacy |
+| authority-gradient | routes assent through hierarchy rather than structure |
+| unfalsifiable-fortress | configures the claim so that no observation could count against it |
+| ι₉-inversion | deploys the inversion invariant itself as an offensive operation |
+
+**Detection.** The primary detector is Step 2b. When the root of a load-bearing term and its rendering diverge — when *māyā*, from *mā-*, "to measure, to form," arrives as "the great delusion" — the divergence is the payload's fingerprint: the structural content travels on the root, the control content travels on the rendering. The secondary detector is the sign of Δ_𝔉: a declared function pointing one way and an effective function pointing another. The tertiary detector is **ι-scatter**: when an expression's invariant is real but *borrowed*, independent analysts attach it to different points of the library — a natively rooted invariant converges on one ι; a borrowed carrier scatters. Scatter is not analytic failure. It is a signature.
+
+**Formal properties.** κ_c is idempotent on clean text: for the invariant-pure corpus, P = {} — this is not an assumption but a calibrated result (three independent blind runs over a sealed control set produced no false positive). And the two channels behave differently under re-contextualisation: **π transports ι and never transports P.** Re-expressing an invariant in a new domain carries the structure and leaves the original payload behind. The asymmetry is itself diagnostic: what survives π is structural; what does not was control.
+
+**Effect on the coherence index.** A non-empty payload caps κ below the clean band. An expression may carry a genuine invariant and still sit in the device bands — κ ∈ [0.12, 0.45] when the payload extracts (commerce, propaganda: the carrier is spent in the operator's favour), κ ∈ [0.5, 0.85] when the payload restructures (teaching devices: the operation is aimed at the receiver's own engram) — because part of the expression's coherence budget is spent on the receiver rather than on the content. The two bands are calibrated, not theoretical; the boundary between them is the direction of the payload (§9.8).
+
+---
+
+The Strip operator is now fully specified: 7 layers, 7 procedural steps, 9 classification types extended by the Device of the two-channel matrix, 4 formal properties, the self-correcting etymological strip, and the two-channel extension ⟨ι, P⟩. The next chapter presents its complement: the operator that reverses the direction — taking an invariant and projecting it into a specific domain for a specific receiver.
 
 
 ---
@@ -3061,6 +3096,36 @@ These results demonstrate three things that the easy cases could not:
 **2. S separates the invariant from the domain addition.** In Wittgenstein's case, ι₁ is present — but the deontic "must" is not. In Aristotle's case, ι₅ is present — but the mechanism is absent and the scope is overstated. In Chalmers's case, ι₁ is fully present — but the implicit claim that consciousness is *specially* irreducible is a domain emphasis, not a structural fact. In each case, S identifies precisely where the genuine structure ends and the domain-specific addition begins.
 
 **3. S can diagnose a domain's blind spot.** The analysis of Chalmers is perhaps the most significant finding: the "hard problem of consciousness" — which has consumed thousands of pages and careers — is, algebraically, a re-discovery of ι₁. The problem is "hard" because the domain of consciousness studies does not have ι₁ in its vocabulary. The domain experiences the gap between model and reality as a *problem specific to consciousness* rather than as a *universal structural law*. The hardness of the problem is in the domain binding, not in the structure.
+
+---
+
+## 9.8 The Fourth Quadrant — When Truth Carries the Payload
+
+The taxonomy of §9.4 discriminates along one axis: is there an invariant or not? The two-channel extension (§6.8) adds the second axis: is there a payload or not? Crossing them yields four states, and the fourth is the one the single-axis method cannot see.
+
+| | P = {} | P ≠ {} |
+|---|---|---|
+| **ι ≠ ∅** | clean invariant | **device** |
+| **ι = ∅** | zombie | empty manipulation |
+
+Three of the quadrants are already in the taxonomy under other names. The fourth — ι ≠ ∅ ∧ P ≠ {} — is the **Device**: an expression whose structural content is *real* and whose control content rides on it. The truth is the carrier; the control is the modulation. The map of §9.4 must therefore be read matrix-first: when the structure is ⟨ι ≠ ∅, P ≠ {}⟩, the class is Device — not Manipulation, which is the empty quadrant's class — whatever the surface register suggests.
+
+| Class (extended) | Conditions | κ range |
+|---|---|---|
+| **Device — extractive** | ι ≠ ∅, P ≠ {}, payload serves the operator | 0.12 – 0.45 |
+| **Device — pedagogical** | ι ≠ ∅, P ≠ {}, payload aimed at the receiver's own restructuring | 0.5 – 0.85 |
+
+The two bands are empirical, not theoretical. Commercial and political devices cluster low: the carrier is spent on extraction. Teaching devices cluster high: the Socratic "I know that I know nothing" performs a loyalty-degradation on the receiver's false certainty — and the degradation is the gift. The discriminator is not the operation type but its **direction**: the same A_deg that severs a receiver from an anchor for the operator's benefit can sever a receiver from their engram for their own. The matrix detects the payload; the direction classifies the device.
+
+**Why the device outperforms the lie.** Empty manipulation fails against an alert receiver: there is nothing under the surface, and the discrimination test says so. The device passes, because the receiver's verification lands on the invariant — and the invariant *holds*. Verification confirms the carrier and the payload enters with it. In calibration, one independent analysis in three read a borrowed-carrier text as entirely clean: the real invariant shielded the payload from a competent reader applying the full method. That number is the phenomenon, measured. The device is not a stronger lie. It is a truth that has been weaponised, and it defeats precisely the defence that defeats lies.
+
+**Worked example (converged, 3/3).** *"A diamond is forever"* carries a real invariant — permanence as attractor; the incorruptibility of the stone is a fact of carbon — and a payload: the permanence of the mineral is transferred to the purchase, and the purchase to the bond, installing a loop in which love is verified by expenditure. ⟨ι ≠ ∅, P = {SR_loop; A_deg on the receiver's own criterion of permanence}⟩, κ ≈ 0.2: Device, extractive band.
+
+**Operational rules** (calibrated):
+
+1. **Spread rule.** When independent applications of S to the same expression produce a coherence spread greater than 0.15, the analyst does not average: the expression is declared a hard case and both readings are reported (bifurcation). In calibration, clean expressions converged within 0.07; the borrowed-carrier case spread by 0.50. Spread is information.
+2. **Scatter rule.** When the invariant is real but attaches plausibly to more than one library point, flag *borrowed carrier* and treat the expression as a device candidate (§6.8, tertiary detector).
+3. **Annotation rule.** For Semantic Illusions (ι = ∅ mimicking resonance), typing the payload is optional annotation of the mimicry target, not a detection claim: the class itself is the finding.
 
 ---
 
@@ -4111,6 +4176,8 @@ This appendix provides the complete reference table of symbols, operators, and t
 | **S** | Strip | Analytical | S: NL → Structure. Takes any NL expression and extracts its structural content as a 7-layer object. |
 | **π** | Re-contextualization | Synthetic | π: ι × 𝔻 → NL_𝔻. Takes an invariant and a target domain, produces a new NL expression carrying I in domain 𝔻. |
 | **S(π(ι, 𝔻)) = ι** | Round-trip test | Verification | The output of π, when stripped by S, must return the original invariant. Integrity check. |
+| **κ_c** | Connotation co-operator | Analytical | κ_c: 𝒟 → payload sets. Systematization of the Step-2b and Δ_𝔉 detections into the typed control channel; S(E) = ⟨ι, P⟩ (§6.8). |
+| **P** | Payload | Output channel | The control content of an expression: a set of ⟨operation; target; marker⟩ triples. P = {} for clean expressions. |
 
 ---
 
@@ -4171,6 +4238,8 @@ sign(𝔉_d) = -sign(𝔉_eff)         — semantic inversion diagnostic
 | **Structural truth** | ι ≠ ∅, Δ_𝔉 = 0, v_d = v_eff, R present | 0.8–1.0 |
 | **Domain narrative** | ι = ∅, valid locally, universality claim fails | 0.1–0.4 |
 | **Manipulation** | Δ_𝔉 ≠ 0, v_d ≠ v_eff, R distorted | 0.0–0.1 |
+| **Device — extractive** | ι ≠ ∅, P ≠ {}, payload serves the operator (matrix-first class, §9.8) | 0.12–0.45 |
+| **Device — pedagogical** | ι ≠ ∅, P ≠ {}, payload aimed at the receiver's own restructuring | 0.5–0.85 |
 | **Semantic illusion** | ι = ∅, 𝔉_d ≠ ∅, 𝔉_eff = ∅, mimics invariant | 0.0–0.15 |
 | **Psychotropic** | 𝔉_eff < 0, degrades receiver coherence | 0.0–0.1 |
 | **Affliction** | ι ≠ ∅, 𝔉_eff = potential, d𝔉/dt = 0 | 0.3–0.6 |
@@ -4313,6 +4382,13 @@ Layer 7 — Diagnostic Synthesis (Δ_𝔉):
                          r      = R numerical value (see Layer 5)
                          c_src  = consciousness numerical value (see Layer 4)]
   Indication:         [Brief structural recommendation]
+
+P (payload, §6.8):    [{operation; target; marker}, …]
+                       — omitted when P = {}. Operations: A_deg / SR_loop /
+                       I_sem / shame-gradient / authority-gradient /
+                       unfalsifiable-fortress / ι₉-inversion.
+                       Flags: borrowed-carrier (ι-scatter) · bifurcation
+                       (κ-spread > 0.15 across independent runs)
 
 ───────────────────────────────────────────────────────
 NOTES

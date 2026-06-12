@@ -210,6 +210,8 @@ Layer 7 produces a classification based on the cross-layer pattern:
 | **8. Zombie / Null** | ι = ∅, 𝔉 = ∅, v = ∅ | Pure formality — form without content, no vector at all |
 | **9a. Superposition (cooperative)** | I = {Iₐ, Iᵦ, ...}, compatible | Multiple invariants present, structurally compatible — the receiver activates one by resonance |
 | **9b. Superposition (antagonistic)** | I = {Iₐ, Iᵦ, ...}, in tension | Multiple invariants in structural tension. Diagnostic protocol: (1) contradiction test, (2) paradox test (dissolves at deeper level?), (3) controphase test (tension is the mechanism?) |
+| **10. Device — extractive** | ι ≠ ∅, P ≠ {}, payload serves the operator | Real invariant as carrier, control as modulation (two-channel matrix, below). κ band 0.12–0.45 |
+| **10p. Device — pedagogical** | ι ≠ ∅, P ≠ {}, payload aimed at the receiver's own restructuring | Same structure, opposite direction: the operation serves the one operated on. κ band 0.5–0.85 |
 
 **Computing κ**: The coherence index is a weighted average: `κ = (w₁·δ_I + w₂·(1-|Δ_𝔉|) + w₃·align(v) + w₄·r + w₅·c_src) / Σwᵢ`, where δ_I = presence of invariant, |Δ_𝔉| = function gap, align(v) = vector alignment, r = relational quality (R_mutual=1.0 → R_absent=0.0), c_src = source consciousness. Default weights: w₁=3, w₂=2, w₃=2, w₄=1.5, w₅=1.5.
 
@@ -223,6 +225,10 @@ S is:
   Idempotent:     S(S(x)) = S(x)
   Monotone:       S does not add information — it removes binding
 ```
+
+#### The Two-Channel Extension — S(E) = ⟨ι, P⟩
+
+Every expression transmits on two superposed channels: the structural channel (the invariant ι, if any) and the control channel (what the expression is *doing to the receiver* while the content is considered). The extended Strip returns both: `S(E) = ⟨ι, P⟩`, where P is the payload — a set of ⟨operation; target; marker⟩ triples (A_deg, SR_loop, I_sem, shame-gradient, authority-gradient, unfalsifiable-fortress, ι₉-inversion), detected primarily through the etymological strip (root↔rendering divergence), secondarily through the sign of Δ_𝔉, and thirdly through **ι-scatter** (a real but borrowed invariant attaches to different library points across independent analyses). Crossing the two channels yields the four-quadrant matrix: clean invariant ⟨ι≠∅, P={}⟩ · **device** ⟨ι≠∅, P≠{}⟩ · empty manipulation ⟨ι=∅, P≠{}⟩ · zombie ⟨∅, {}⟩. The device — truth as carrier, control as modulation — is the quadrant the single-channel method cannot see, and it defeats precisely the defence that defeats lies: verification lands on the invariant, the invariant holds, and the payload enters with it. Two formal properties: κ_c (the co-operator producing P) is idempotent on clean text — calibrated, zero false positives on sealed controls — and **π transports ι, never P**: what survives re-contextualisation is structure; what does not was control.
 
 ### 4.2 Operator π — Re-contextualization
 

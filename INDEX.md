@@ -44,6 +44,7 @@ For PA-specific entry: `PA/README.md` → `PA/START_HERE_PA.md`.
 - `object_registry.json`
 - `LOAD_PROFILES.md`
 - `PUBLICATION_SCOPE.md`
+- `SYMBOL_CANON.md` — repository edition of the programme Symbol Canon (v1.0, ratified 2026-06-11; documents the v2.0 notation)
 
 ## SA — Semantic Algebra
 
@@ -71,6 +72,7 @@ For PA-specific entry: `PA/README.md` → `PA/START_HERE_PA.md`.
   - `appendix_b_output_format.md`
   - `appendix_c_invariant_library.md`
   - `appendix_d_natural_sciences.md`
+  - `appendix_e_the_atlas.md` — the Atlas: 47 famous texts stripped with the two-channel method (NEW in v2.0)
 - `SA/SA_FULL/` — single-file Markdown manuscripts:
   - `Semantic_Algebra_Foundations_EN.md` — concise foundations
   - `Semantic_Algebra_Complete_Manuscript.md` — extended manuscript

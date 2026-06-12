@@ -14,6 +14,14 @@ Programme-wide symbol renames per the **Symbol Canon for the Ordinative Sciences
 - **SA**: Φ/Φ_d/Φ_eff → 𝔉/𝔉_d/𝔉_eff; gap Δ/Δ_S → Δ_𝔉; K → 𝒦_p; K_real → 𝒦_r; invariants I/I₁–I₁₀ → ι/ι₁–ι₁₀; Controphase C → C_φ; Domain D → 𝔻; τ → τ_ph; λ → λ_L; ω → ω_att. Unchanged: S, π, σ, R, ρ, θ, Σ_src, U, κ (SA scope, canon-declared). The TE collapse equation E = Φ(C, I, K) is quoted in TE notation by design.
 - Canon Alignment Notes added to both symbol registers (PA Appendix A, SA Appendix A); SA↔PA equivalences appendix updated on both sides; engine notation note added (`PA/pa_engine/CANON_NOTATION_NOTE.md`).
 
+### Added — Two-channel extension and the Atlas
+
+- **SA §6.8 The Two-Channel Extension** — S(E) = ⟨ι, P⟩: the connotation co-operator κ_c (systematization, not a new primitive), payload typology, three+one detectors (etymological divergence, Δ_𝔉 sign, PPRO markers, ι-scatter), formal properties (idempotence on clean text; π transports ι, never P).
+- **SA §9.8 The Fourth Quadrant** — the ⟨ι, P⟩ matrix; the **Device** class with dual calibrated band (extractive 0.12–0.45 / pedagogical 0.5–0.85); the truth-shield phenomenon (measured: one blind analysis in three read the borrowed-carrier case clean); three operational rules (spread, scatter, annotation).
+- **SA Appendix E — The Atlas**: 47 famous texts from ten categories stripped with the calibrated two-channel method; full library coverage (ι₁–ι₁₀), all four quadrants; five full-depth exemplars; declared edges with both readings; double index. Validation: 3-run blind calibration with pre-registered falsifiers (0 false positives on sealed clean controls).
+- **`SYMBOL_CANON.md`** at repository root — condensed programme canon documenting the v2.0 notation.
+- Two-channel sections propagated to the SA_FULL manuscripts (Complete 5/5, Unified 5/5, Foundations: compact extension + Device rows).
+
 ## [1.0.1] - 2026-05-06
 
 ### Notes
