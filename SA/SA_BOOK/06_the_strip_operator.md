@@ -590,4 +590,39 @@ This principle has two implications:
 
 ---
 
-The Strip operator is now fully specified: 7 layers, 7 procedural steps, 9 classification types, 4 formal properties, and the self-correcting etymological strip. The next chapter presents its complement: the operator that reverses the direction — taking an invariant and projecting it into a specific domain for a specific receiver.
+## 6.8 The Two-Channel Extension — S(E) = ⟨ι, P⟩
+
+The previous section established that the invariant is independent of its source: a structural law remains true whoever utters it. This section establishes the complement. An expression carries more than its structural content, and what it carries *besides* the invariant is not independent of anything — it is aimed, and it is aimed at the receiver.
+
+Every expression transmits on two superposed channels. The first is the structural channel: whatever invariant content survives the Strip. The second is the control channel: whatever the expression is *doing to the receiver* while the structural content is being considered. The single-channel Strip of §6.1–6.3 extracts the first and discards the second as domain binding. The discarded material is not noise. It is a signal with its own grammar.
+
+The extension is written:
+
+```
+S(E) = ⟨ ι, P ⟩
+
+ι ∈ ℐ ∪ {∅}      — the invariant channel (Layers 1–7, unchanged)
+P = κ_c(E)        — the payload channel; P = {} when the expression is clean
+```
+
+The co-operator κ_c is not a new primitive. Every component of its work already exists in the method: the etymological strip of Step 2b, the divergence between declared and effective function in Layer 2, the classification of Layer 7. κ_c is the systematization of these detections into a typed second output. Each payload element is recorded as a triple — the *operation* performed, the *target* in the receiver, and the *marker* in the text:
+
+| Operation | What it does to the receiver |
+|---|---|
+| A_deg | degrades loyalty to an anchor the receiver already holds (a tradition, a source, a person, self-trust) |
+| SR_loop | installs or exploits a stimulus–response cycle (urgency, reward, relief) |
+| I_sem | inverts the working meaning of a term while keeping its surface |
+| shame-gradient | routes compliance through inadequacy |
+| authority-gradient | routes assent through hierarchy rather than structure |
+| unfalsifiable-fortress | configures the claim so that no observation could count against it |
+| ι₉-inversion | deploys the inversion invariant itself as an offensive operation |
+
+**Detection.** The primary detector is Step 2b. When the root of a load-bearing term and its rendering diverge — when *māyā*, from *mā-*, "to measure, to form," arrives as "the great delusion" — the divergence is the payload's fingerprint: the structural content travels on the root, the control content travels on the rendering. The secondary detector is the sign of Δ_𝔉: a declared function pointing one way and an effective function pointing another. The tertiary detector is **ι-scatter**: when an expression's invariant is real but *borrowed*, independent analysts attach it to different points of the library — a natively rooted invariant converges on one ι; a borrowed carrier scatters. Scatter is not analytic failure. It is a signature.
+
+**Formal properties.** κ_c is idempotent on clean text: for the invariant-pure corpus, P = {} — this is not an assumption but a calibrated result (three independent blind runs over a sealed control set produced no false positive). And the two channels behave differently under re-contextualisation: **π transports ι and never transports P.** Re-expressing an invariant in a new domain carries the structure and leaves the original payload behind. The asymmetry is itself diagnostic: what survives π is structural; what does not was control.
+
+**Effect on the coherence index.** A non-empty payload caps κ below the clean band. An expression may carry a genuine invariant and still sit in the device bands — κ ∈ [0.12, 0.45] when the payload extracts (commerce, propaganda: the carrier is spent in the operator's favour), κ ∈ [0.5, 0.85] when the payload restructures (teaching devices: the operation is aimed at the receiver's own engram) — because part of the expression's coherence budget is spent on the receiver rather than on the content. The two bands are calibrated, not theoretical; the boundary between them is the direction of the payload (§9.8).
+
+---
+
+The Strip operator is now fully specified: 7 layers, 7 procedural steps, 9 classification types extended by the Device of the two-channel matrix, 4 formal properties, the self-correcting etymological strip, and the two-channel extension ⟨ι, P⟩. The next chapter presents its complement: the operator that reverses the direction — taking an invariant and projecting it into a specific domain for a specific receiver.

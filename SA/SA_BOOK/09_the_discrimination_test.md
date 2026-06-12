@@ -378,6 +378,36 @@ These results demonstrate three things that the easy cases could not:
 
 ---
 
+## 9.8 The Fourth Quadrant — When Truth Carries the Payload
+
+The taxonomy of §9.4 discriminates along one axis: is there an invariant or not? The two-channel extension (§6.8) adds the second axis: is there a payload or not? Crossing them yields four states, and the fourth is the one the single-axis method cannot see.
+
+| | P = {} | P ≠ {} |
+|---|---|---|
+| **ι ≠ ∅** | clean invariant | **device** |
+| **ι = ∅** | zombie | empty manipulation |
+
+Three of the quadrants are already in the taxonomy under other names. The fourth — ι ≠ ∅ ∧ P ≠ {} — is the **Device**: an expression whose structural content is *real* and whose control content rides on it. The truth is the carrier; the control is the modulation. The map of §9.4 must therefore be read matrix-first: when the structure is ⟨ι ≠ ∅, P ≠ {}⟩, the class is Device — not Manipulation, which is the empty quadrant's class — whatever the surface register suggests.
+
+| Class (extended) | Conditions | κ range |
+|---|---|---|
+| **Device — extractive** | ι ≠ ∅, P ≠ {}, payload serves the operator | 0.12 – 0.45 |
+| **Device — pedagogical** | ι ≠ ∅, P ≠ {}, payload aimed at the receiver's own restructuring | 0.5 – 0.85 |
+
+The two bands are empirical, not theoretical. Commercial and political devices cluster low: the carrier is spent on extraction. Teaching devices cluster high: the Socratic "I know that I know nothing" performs a loyalty-degradation on the receiver's false certainty — and the degradation is the gift. The discriminator is not the operation type but its **direction**: the same A_deg that severs a receiver from an anchor for the operator's benefit can sever a receiver from their engram for their own. The matrix detects the payload; the direction classifies the device.
+
+**Why the device outperforms the lie.** Empty manipulation fails against an alert receiver: there is nothing under the surface, and the discrimination test says so. The device passes, because the receiver's verification lands on the invariant — and the invariant *holds*. Verification confirms the carrier and the payload enters with it. In calibration, one independent analysis in three read a borrowed-carrier text as entirely clean: the real invariant shielded the payload from a competent reader applying the full method. That number is the phenomenon, measured. The device is not a stronger lie. It is a truth that has been weaponised, and it defeats precisely the defence that defeats lies.
+
+**Worked example (converged, 3/3).** *"A diamond is forever"* carries a real invariant — permanence as attractor; the incorruptibility of the stone is a fact of carbon — and a payload: the permanence of the mineral is transferred to the purchase, and the purchase to the bond, installing a loop in which love is verified by expenditure. ⟨ι ≠ ∅, P = {SR_loop; A_deg on the receiver's own criterion of permanence}⟩, κ ≈ 0.2: Device, extractive band.
+
+**Operational rules** (calibrated):
+
+1. **Spread rule.** When independent applications of S to the same expression produce a coherence spread greater than 0.15, the analyst does not average: the expression is declared a hard case and both readings are reported (bifurcation). In calibration, clean expressions converged within 0.07; the borrowed-carrier case spread by 0.50. Spread is information.
+2. **Scatter rule.** When the invariant is real but attaches plausibly to more than one library point, flag *borrowed carrier* and treat the expression as a device candidate (§6.8, tertiary detector).
+3. **Annotation rule.** For Semantic Illusions (ι = ∅ mimicking resonance), typing the payload is optional annotation of the mimicry target, not a detection claim: the class itself is the finding.
+
+---
+
 ## Summary of Discrimination Results
 
 | Expression | Classification | I | False positive? |

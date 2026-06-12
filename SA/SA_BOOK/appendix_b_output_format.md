@@ -120,6 +120,13 @@ Layer 7 — Diagnostic Synthesis (Δ_𝔉):
                          c_src  = consciousness numerical value (see Layer 4)]
   Indication:         [Brief structural recommendation]
 
+P (payload, §6.8):    [{operation; target; marker}, …]
+                       — omitted when P = {}. Operations: A_deg / SR_loop /
+                       I_sem / shame-gradient / authority-gradient /
+                       unfalsifiable-fortress / ι₉-inversion.
+                       Flags: borrowed-carrier (ι-scatter) · bifurcation
+                       (κ-spread > 0.15 across independent runs)
+
 ───────────────────────────────────────────────────────
 NOTES
 ───────────────────────────────────────────────────────

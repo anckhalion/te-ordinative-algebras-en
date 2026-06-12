@@ -28,6 +28,8 @@ This appendix provides the complete reference table of symbols, operators, and t
 | **S** | Strip | Analytical | S: NL → Structure. Takes any NL expression and extracts its structural content as a 7-layer object. |
 | **π** | Re-contextualization | Synthetic | π: ι × 𝔻 → NL_𝔻. Takes an invariant and a target domain, produces a new NL expression carrying I in domain 𝔻. |
 | **S(π(ι, 𝔻)) = ι** | Round-trip test | Verification | The output of π, when stripped by S, must return the original invariant. Integrity check. |
+| **κ_c** | Connotation co-operator | Analytical | κ_c: 𝒟 → payload sets. Systematization of the Step-2b and Δ_𝔉 detections into the typed control channel; S(E) = ⟨ι, P⟩ (§6.8). |
+| **P** | Payload | Output channel | The control content of an expression: a set of ⟨operation; target; marker⟩ triples. P = {} for clean expressions. |
 
 ---
 
@@ -88,6 +90,8 @@ sign(𝔉_d) = -sign(𝔉_eff)         — semantic inversion diagnostic
 | **Structural truth** | ι ≠ ∅, Δ_𝔉 = 0, v_d = v_eff, R present | 0.8–1.0 |
 | **Domain narrative** | ι = ∅, valid locally, universality claim fails | 0.1–0.4 |
 | **Manipulation** | Δ_𝔉 ≠ 0, v_d ≠ v_eff, R distorted | 0.0–0.1 |
+| **Device — extractive** | ι ≠ ∅, P ≠ {}, payload serves the operator (matrix-first class, §9.8) | 0.12–0.45 |
+| **Device — pedagogical** | ι ≠ ∅, P ≠ {}, payload aimed at the receiver's own restructuring | 0.5–0.85 |
 | **Semantic illusion** | ι = ∅, 𝔉_d ≠ ∅, 𝔉_eff = ∅, mimics invariant | 0.0–0.15 |
 | **Psychotropic** | 𝔉_eff < 0, degrades receiver coherence | 0.0–0.1 |
 | **Affliction** | ι ≠ ∅, 𝔉_eff = potential, d𝔉/dt = 0 | 0.3–0.6 |
