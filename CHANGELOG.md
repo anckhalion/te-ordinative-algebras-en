@@ -4,7 +4,7 @@ All notable changes to this repository should be documented in this file.
 
 The format is inspired by Keep a Changelog and semantic versioning principles for documentation releases.
 
-## [Unreleased — v2.0.0-dev] - 2026-06-11
+## [2.0.0] - 2026-06-21
 
 ### Changed — Canonical notation consolidation (Symbol Canon v1.0)
 
